@@ -1,0 +1,31 @@
+{
+  "address": "0xe7d25fc1ea623402ec44134c5e399b3248cf575e",
+  "contract_name": "MultiSenderXyz",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "ea3841983904cb8c6ff07b427b413f5373af19034f4daaef3d979868eedaee63",
+  "fetched_at": "2026-06-03T11:38:16.162322+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

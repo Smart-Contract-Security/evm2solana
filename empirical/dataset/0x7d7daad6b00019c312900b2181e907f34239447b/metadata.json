@@ -1,0 +1,29 @@
+{
+  "address": "0x7d7daad6b00019c312900b2181e907f34239447b",
+  "contract_name": "Kingdom",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 18,
+  "source_sha256": "89da1da11e37a68e27949bf7a8218e09c0ff519ba1d9d967189d5ae8489f96db",
+  "fetched_at": "2026-06-03T08:07:27.721356+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.4.0/",
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.4.0/",
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.4.0/",
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.4.0/"
+    ]
+  }
+}

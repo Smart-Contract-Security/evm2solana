@@ -1,0 +1,28 @@
+{
+  "address": "0xebc02ea8eb03989d29721bbc431228b301cad387",
+  "contract_name": "MultiSigWallet",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 22,
+  "source_sha256": "41d974ed7b617c2b671f37b89e290650c57d0924a97489f5680174ce0db71a07",
+  "fetched_at": "2026-06-03T12:04:45.130049+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

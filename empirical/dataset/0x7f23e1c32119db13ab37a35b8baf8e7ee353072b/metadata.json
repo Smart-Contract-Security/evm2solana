@@ -1,0 +1,27 @@
+{
+  "address": "0x7f23e1c32119db13ab37a35b8baf8e7ee353072b",
+  "contract_name": "HALO",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "06a794d389996bdaf9b5ed2264a7e11c1b9c4c7fed1182c08da64aac32b2b92a",
+  "fetched_at": "2026-06-03T11:09:20.092153+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "address": "0xbea949021f01040c5f1908fb28b12a2e8771ac31",
+  "contract_name": "DisputeMonitorHelper",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 13,
+  "source_sha256": "d66f00fdb167a1e19c4c40eab803991816dcf9b4d3bb904f43ef9aed8d76207c",
+  "fetched_at": "2026-06-04T05:27:58.470699+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-v5/=lib/openzeppelin-contracts-v5/contracts/",
+      "@rari-capital/solmate/=lib/solmate/",
+      "@lib-keccak/=lib/lib-keccak/contracts/lib/",
+      "@solady/=lib/solady/src/",
+      "@solady-v0.0.245/=lib/solady-v0.0.245/src/",
+      "forge-std/=lib/forge-std/src/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "safe-contracts/=lib/safe-contracts/contracts/",
+      "kontrol-cheatcodes/=lib/kontrol-cheatcodes/src/",
+      "interfaces/=interfaces/",
+      "@solady-test/=lib/lib-keccak/lib/solady/test/",
+      "erc4626-tests/=lib/openzeppelin-contracts-v5/lib/erc4626-tests/",
+      "lib-keccak/=lib/lib-keccak/contracts/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts-v5/=lib/openzeppelin-contracts-v5/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "solady-v0.0.245/=lib/solady-v0.0.245/src/",
+      "solady/=lib/solady/",
+      "solmate/=lib/solmate/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "metadata": {
+      "useLiteralContent": true,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

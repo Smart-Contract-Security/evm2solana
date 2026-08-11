@@ -1,0 +1,30 @@
+{
+  "address": "0x25fe839d739a1f106b3acb5888bad96aa5099d0b",
+  "contract_name": "BridgeVault",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 22,
+  "source_sha256": "376965a7625bd990e2601f888c5e415d126f983e5ac8ca2b079e9b0230b9556f",
+  "fetched_at": "2026-06-03T11:15:51.128595+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

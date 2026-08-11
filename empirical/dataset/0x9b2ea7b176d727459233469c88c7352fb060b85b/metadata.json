@@ -1,0 +1,31 @@
+{
+  "address": "0x9b2ea7b176d727459233469c88c7352fb060b85b",
+  "contract_name": "NormiesSwarmPredicate",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 2,
+  "source_sha256": "15ebbe56dc5debc88058cf43cfd4632acf2ef40cb8e21c0bf9dabe6388474aff",
+  "fetched_at": "2026-06-01T02:52:32.119644+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "runs": 200,
+      "enabled": true
+    },
+    "evmVersion": "paris",
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

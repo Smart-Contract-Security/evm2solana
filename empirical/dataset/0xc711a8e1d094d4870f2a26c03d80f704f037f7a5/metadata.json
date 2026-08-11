@@ -1,0 +1,24 @@
+{
+  "address": "0xc711a8e1d094d4870f2a26c03d80f704f037f7a5",
+  "contract_name": "CryptoPepenks",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 19,
+  "source_sha256": "28e78acf1eb15ce26ddc709ebc55a55f41fbf16eca2bfd4023366f47e579588b",
+  "fetched_at": "2026-06-01T03:13:34.440001+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0xb41da2f2ab6a7c2421265a900f85640e77c5a16c",
+  "contract_name": "SettlementPoolFactory",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 23,
+  "source_sha256": "e980b5ea0e927588dc3b079b6970e6788a92c903e08f435a9f199b4ed826df2b",
+  "fetched_at": "2026-06-03T06:47:24.904769+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true,
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

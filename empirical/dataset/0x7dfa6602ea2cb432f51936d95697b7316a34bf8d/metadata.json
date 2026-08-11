@@ -1,0 +1,28 @@
+{
+  "address": "0x7dfa6602ea2cb432f51936d95697b7316a34bf8d",
+  "contract_name": "wTAOLightningBridge",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 7,
+  "source_sha256": "fe88fe6302785605513e09bf0cd67e0282d2a8186dc105ef129ca10302a696ad",
+  "fetched_at": "2026-06-04T10:49:38.228431+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

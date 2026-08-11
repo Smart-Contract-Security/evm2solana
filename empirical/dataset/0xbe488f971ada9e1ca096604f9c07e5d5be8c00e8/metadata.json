@@ -1,0 +1,41 @@
+{
+  "address": "0xbe488f971ada9e1ca096604f9c07e5d5be8c00e8",
+  "contract_name": "Florin",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 32,
+  "source_sha256": "8701f98c7c48f401fe7c8c4f332e0e136908a0dca12cb2bf26e6fd26dbac70fe",
+  "fetched_at": "2026-06-03T04:18:20.635354+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "solady/=lib/solady/src/",
+      "forge-std/=lib/forge-std/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

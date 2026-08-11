@@ -1,0 +1,26 @@
+{
+  "address": "0x614e37d251d444e2e2e4fa1b58ea80c03853c34a",
+  "contract_name": "CustomPositionLock",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "ce0467c1963981caba2466ddc29564a6b298843124082dbb0626c85142d279f3",
+  "fetched_at": "2026-06-01T10:28:36.544753+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

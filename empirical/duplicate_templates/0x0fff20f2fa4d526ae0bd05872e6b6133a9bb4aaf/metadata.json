@@ -1,0 +1,27 @@
+{
+  "address": "0x0fff20f2fa4d526ae0bd05872e6b6133a9bb4aaf",
+  "contract_name": "VAG",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "6ef203c380fcbba4d39ae96785ebc71b707d29c6ba14c7d38e47dbb9f3913395",
+  "fetched_at": "2026-06-01T03:13:31.025213+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

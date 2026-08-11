@@ -1,0 +1,28 @@
+{
+  "address": "0x458679f285a429c359355ff29050d4c35992a0dc",
+  "contract_name": "REDToken",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 10,
+  "source_sha256": "7972eaad110b5a0f0a72b84c55f6e60aa7f0a09f80851f31dcf4290f3fd28a7f",
+  "fetched_at": "2026-06-04T12:21:16.386772+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

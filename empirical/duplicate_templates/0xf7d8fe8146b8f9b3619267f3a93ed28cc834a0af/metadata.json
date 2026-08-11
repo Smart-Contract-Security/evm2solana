@@ -1,0 +1,46 @@
+{
+  "address": "0xf7d8fe8146b8f9b3619267f3a93ed28cc834a0af",
+  "contract_name": "TransparentUpgradeableProxy",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 12,
+  "source_sha256": "fd0fed49a25eaa460d03c9d532105f318a406e16c7fc5364bd80159af6da4ed2",
+  "fetched_at": "2026-06-02T06:46:00.310682+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "ds-test/=lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "solmate/=lib/solmate/src/",
+      "aave-vault/==lib/aave-vault/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

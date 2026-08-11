@@ -1,0 +1,30 @@
+{
+  "address": "0xfe6c9acb434a687c60aa32870e1b322d70b72994",
+  "contract_name": "MintManager",
+  "compiler_version": "v0.8.10+commit.fc410830",
+  "file_count": 33,
+  "source_sha256": "bb3fa636f9eb303e2fa3f5a091b9fad664e914628c018805d3e6a2f0640fe0bb",
+  "fetched_at": "2026-06-04T10:55:10.147881+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

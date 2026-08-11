@@ -1,0 +1,44 @@
+{
+  "address": "0x88f6b2375377c1fa4330da32d3b17d3ddc51e820",
+  "contract_name": "EthReader",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 19,
+  "source_sha256": "755e196ef34a8586e2683c0c97e69416b91ead8ee38e86d1fd8a3fc8f9ab62b6",
+  "fetched_at": "2026-06-03T07:50:30.220351+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/",
+      "openzeppelin-foundry-upgrades/=lib/openzeppelin-foundry-upgrades/src/",
+      "@openzeppelin/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

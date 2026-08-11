@@ -1,0 +1,8 @@
+{
+  "address": "0x0160ebeed9d35657379d727db3863d746c602c7e",
+  "contract_name": "DexInterface",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "07afd04ec003be1f86891c8434db5cb3e57e098a556ea00870df23efaa9de836",
+  "fetched_at": "2026-06-04T12:07:46.504965+00:00"
+}

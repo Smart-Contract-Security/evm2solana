@@ -1,0 +1,31 @@
+{
+  "address": "0xe5a5b17c01fa72041aa39f25bd092c2eea20f00d",
+  "contract_name": "WorldCupLegends2026",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 25,
+  "source_sha256": "d93d737520170700c65d3a7c92b7831302f3f95af57a64e79fa65cb01972c3e1",
+  "fetched_at": "2026-06-01T15:09:37.517955+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "runs": 200,
+      "enabled": true
+    },
+    "evmVersion": "cancun",
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

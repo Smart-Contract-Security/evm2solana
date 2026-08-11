@@ -1,0 +1,28 @@
+{
+  "address": "0xea35dc1559f987df980394f64945388313c8ea16",
+  "contract_name": "TRUMPBE",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "acbd14c49fbfcb3b3156ec485895d57d4ee4ece9f182a06af15ce50184484649",
+  "fetched_at": "2026-06-04T11:08:12.297666+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

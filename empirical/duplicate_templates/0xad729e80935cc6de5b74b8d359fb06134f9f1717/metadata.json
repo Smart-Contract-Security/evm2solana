@@ -1,0 +1,26 @@
+{
+  "address": "0xad729e80935cc6de5b74b8d359fb06134f9f1717",
+  "contract_name": "jew",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "20b902c8e3f33dab8eb7f4f93dc5198588a056acc9b511f98ea98a4bf52ed0bd",
+  "fetched_at": "2026-06-04T10:38:51.106328+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

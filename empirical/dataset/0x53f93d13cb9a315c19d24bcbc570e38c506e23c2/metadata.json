@@ -1,0 +1,42 @@
+{
+  "address": "0x53f93d13cb9a315c19d24bcbc570e38c506e23c2",
+  "contract_name": "DelegatedWallet",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 9,
+  "source_sha256": "55d252c551785e20fe8e7f55ee426ad59d7f6973e36dff331b3a12fdcd5186de",
+  "fetched_at": "2026-06-04T03:38:22.454184+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "limit-order-protocol/=lib/limit-order-protocol/contracts/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "libraries": {}
+  }
+}

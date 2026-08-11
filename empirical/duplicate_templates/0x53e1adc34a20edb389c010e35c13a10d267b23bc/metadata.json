@@ -1,0 +1,31 @@
+{
+  "address": "0x53e1adc34a20edb389c010e35c13a10d267b23bc",
+  "contract_name": "KyberswapElastic",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "daabcbdf700e6c490698b58099a16e49bd445d2d14f5bef2a165c39f09cf7360",
+  "fetched_at": "2026-06-03T04:13:52.720085+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

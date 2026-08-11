@@ -1,0 +1,40 @@
+{
+  "address": "0xcb53ffe79ac49766dae3e525dd13920c616a12bf",
+  "contract_name": "ClearCoinV1",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 1,
+  "source_sha256": "3c563b447f41196ad56a0a245ef29abf9603772f11434a51dd2f464410365594",
+  "fetched_at": "2026-06-02T08:50:31.460393+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

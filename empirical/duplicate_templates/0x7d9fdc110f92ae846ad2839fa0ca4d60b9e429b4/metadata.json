@@ -1,0 +1,27 @@
+{
+  "address": "0x7d9fdc110f92ae846ad2839fa0ca4d60b9e429b4",
+  "contract_name": "ConsulGains",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "bab1771ca6e180c5465aca1d6ccd9a72a48a50f1d474fd88e3f428bde503a725",
+  "fetched_at": "2026-06-03T08:16:17.723937+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

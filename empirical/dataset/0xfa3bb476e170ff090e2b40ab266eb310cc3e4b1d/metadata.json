@@ -1,0 +1,54 @@
+{
+  "address": "0xfa3bb476e170ff090e2b40ab266eb310cc3e4b1d",
+  "contract_name": "Abnormies",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 38,
+  "source_sha256": "8ebdc96c667bc4b97df0adaab8ffdd435ecd130651bf8a19f196d833d72cacff",
+  "fetched_at": "2026-06-01T10:14:00.670041+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@limitbreak/creator-token-standards/=lib/creator-token-standards/src/",
+      "@limitbreak/permit-c/=lib/creator-token-standards/lib/PermitC/src/",
+      "@opensea/tstorish/=lib/creator-token-standards/lib/tstorish/src/",
+      "@openzeppelin/contracts/=lib/creator-token-standards/lib/openzeppelin-contracts/contracts/",
+      "erc721a/=lib/creator-token-standards/lib/ERC721A/",
+      "murky/=lib/creator-token-standards/lib/murky/src/",
+      "solady/=lib/solady/src/",
+      "forge-std/=lib/forge-std/src/",
+      "@rari-capital/solmate/=lib/creator-token-standards/lib/PermitC/lib/solmate/",
+      "ERC721A/=lib/creator-token-standards/lib/ERC721A/contracts/",
+      "PermitC/=lib/creator-token-standards/lib/PermitC/",
+      "creator-token-standards/=lib/creator-token-standards/",
+      "ds-test/=lib/creator-token-standards/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/creator-token-standards/lib/PermitC/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-metering/=lib/creator-token-standards/lib/PermitC/lib/forge-gas-metering/",
+      "openzeppelin-contracts/=lib/creator-token-standards/lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/creator-token-standards/lib/PermitC/lib/openzeppelin-contracts/contracts/",
+      "solmate/=lib/creator-token-standards/lib/PermitC/lib/solmate/src/",
+      "tstorish/=lib/creator-token-standards/lib/tstorish/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

@@ -1,0 +1,11 @@
+{"file": "01_address_length.sol", "pattern": "1", "compiled": true, "errors": []}
+{"file": "05_compute_unit_model.sol", "pattern": "5", "compiled": true, "errors": []}
+{"file": "07_ecrecover.sol", "pattern": "7", "compiled": true, "errors": []}
+{"file": "11a_error_definitions.sol", "pattern": "11a", "compiled": true, "errors": []}
+{"file": "18_receive.sol", "pattern": "18", "compiled": true, "errors": []}
+{"file": "28_gasleft.sol", "pattern": "28", "compiled": true, "errors": []}
+{"file": "29_msg_sig.sol", "pattern": "29", "compiled": true, "errors": []}
+{"file": "31_tx_gasprice.sol", "pattern": "31", "compiled": true, "errors": []}
+{"file": "32_selfdestruct.sol", "pattern": "32", "compiled": true, "errors": []}
+{"file": "33_blockhash.sol", "pattern": "33", "compiled": true, "errors": []}
+{"file": "36_block_properties.sol", "pattern": "36", "compiled": true, "errors": []}

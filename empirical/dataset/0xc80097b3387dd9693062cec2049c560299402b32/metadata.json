@@ -1,0 +1,28 @@
+{
+  "address": "0xc80097b3387dd9693062cec2049c560299402b32",
+  "contract_name": "rasku",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 27,
+  "source_sha256": "f954a6c8c78d240add9c3c4952484b51edadca11a8a868d3012c82f2b5a577ed",
+  "fetched_at": "2026-06-03T05:08:01.548667+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x526a37a4873bc255f6ea95c5a97c45c8aede1090",
+  "contract_name": "SecureNFTStaking",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 8,
+  "source_sha256": "42d5db0b17fb364d17037f11c2f4315c3f9d32e83f1feace6221f0adf93e83d7",
+  "fetched_at": "2026-06-04T05:00:45.871983+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

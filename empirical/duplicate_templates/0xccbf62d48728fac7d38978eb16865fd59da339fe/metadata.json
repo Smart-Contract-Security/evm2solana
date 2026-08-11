@@ -1,0 +1,27 @@
+{
+  "address": "0xccbf62d48728fac7d38978eb16865fd59da339fe",
+  "contract_name": "GrizzCapital",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "de329f915c5f03db2a621cea2836ab76b3be523fa3371e8330c7b4a1431f248f",
+  "fetched_at": "2026-06-03T07:09:47.020970+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

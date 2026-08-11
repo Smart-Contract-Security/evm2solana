@@ -1,0 +1,27 @@
+{
+  "address": "0x3789bd0fe086c21a4ddb167029b670ffea1e7ff7",
+  "contract_name": "TokenFactory",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 32,
+  "source_sha256": "24c2d5458368990ecbd32d95597d36a4b4ec2eaf4c612182ec39cd1722b4b3cd",
+  "fetched_at": "2026-06-03T12:52:09.965785+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

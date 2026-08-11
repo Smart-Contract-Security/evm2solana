@@ -1,0 +1,32 @@
+{
+  "address": "0xcd163857744148f2f4d0702f3ba467de64c3c406",
+  "contract_name": "SwapRouterFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 60,
+  "source_sha256": "d5848082af113369476e7d2bb885d4dc182c1ca5704e5f7c2141cf6fd09dee64",
+  "fetched_at": "2026-06-03T05:10:34.404494+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "remappings": [],
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

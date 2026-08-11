@@ -1,0 +1,24 @@
+{
+  "address": "0x948d97fe761af4ea46fb76407daaa9bc86e87c77",
+  "contract_name": "Kinu",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 6,
+  "source_sha256": "f015a07c44a7d4028090ecfa8cae4959aceeb0d482e7781732c15efd2c142009",
+  "fetched_at": "2026-06-01T03:22:08.354805+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

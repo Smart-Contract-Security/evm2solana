@@ -1,0 +1,27 @@
+{
+  "address": "0x5646842b6587bedbe18184558fd9c41c3f8dbc6c",
+  "contract_name": "EnvoyFrost",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "8cddff4fbcec5bc164bb0d4527e8095b43662a94b9bc836f110225b564a5c99a",
+  "fetched_at": "2026-06-03T11:37:25.128473+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

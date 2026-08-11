@@ -1,0 +1,41 @@
+{
+  "address": "0xc9d3a4a43b4b2c2980f717e1c6c0494bbf99c310",
+  "contract_name": "SpacePortMigrationLogic",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 8,
+  "source_sha256": "2596fb46c3b2696efcf1f258612c8267bc7f31e58e06eb3abe0c37f31832cf70",
+  "fetched_at": "2026-06-02T09:01:52.762756+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": true
+  }
+}

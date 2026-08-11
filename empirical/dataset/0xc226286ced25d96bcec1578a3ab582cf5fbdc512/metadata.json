@@ -1,0 +1,27 @@
+{
+  "address": "0xc226286ced25d96bcec1578a3ab582cf5fbdc512",
+  "contract_name": "DiamondDrones",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 12,
+  "source_sha256": "7c51f9b0947e6c18655677343a570399c72836d136c633f1cc02a2288cf1881f",
+  "fetched_at": "2026-06-03T03:33:51.065264+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

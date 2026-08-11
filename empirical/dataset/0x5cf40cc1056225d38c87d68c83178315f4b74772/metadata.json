@@ -1,0 +1,45 @@
+{
+  "address": "0x5cf40cc1056225d38c87d68c83178315f4b74772",
+  "contract_name": "KarakDepositor",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 14,
+  "source_sha256": "5bac563fc11758b22759e54b2addcea7b02cd6d6e765039ce9cce1deec091368",
+  "fetched_at": "2026-06-04T10:56:38.577554+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/erc4626-tests/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin-foundry-upgrades/=lib/openzeppelin-foundry-upgrades/src/",
+      "solidity-stringutils/=lib/openzeppelin-foundry-upgrades/lib/solidity-stringutils/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "shanghai",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

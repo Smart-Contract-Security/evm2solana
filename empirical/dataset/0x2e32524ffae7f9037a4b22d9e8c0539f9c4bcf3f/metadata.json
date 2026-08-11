@@ -1,0 +1,37 @@
+{
+  "address": "0x2e32524ffae7f9037a4b22d9e8c0539f9c4bcf3f",
+  "contract_name": "MirrorRendererParts",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 3,
+  "source_sha256": "8a25457cbe3bb82c74d810c3ff97a854c25e7c4fe74c2ff0b469d4070c230bb9",
+  "fetched_at": "2026-06-01T03:09:56.607989+00:00",
+  "solc_settings": {
+    "remappings": [
+      "solady/=lib/solady/src/",
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

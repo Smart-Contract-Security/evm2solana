@@ -1,0 +1,29 @@
+{
+  "address": "0xdec65bbd5828a4145865422f9a909acf957c53e3",
+  "contract_name": "SpriteDataShields",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "00557b1fe4eb9ffe93bd14a5ba2038ad6a4bbf9881720a35b519be2f4ad939b8",
+  "fetched_at": "2026-06-03T11:48:35.765394+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "runs": 200,
+      "enabled": true
+    },
+    "evmVersion": "cancun",
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

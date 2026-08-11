@@ -1,0 +1,51 @@
+{
+  "address": "0x5e316cfa35f44016f4f04fc44e58bfc3273e5d7b",
+  "contract_name": "MLRTWallet",
+  "compiler_version": "v0.8.21+commit.d9974bed",
+  "file_count": 20,
+  "source_sha256": "9669e85b358938036197b2d77fa5d698279a57b4d079cf5cc1192cfb29728cd6",
+  "fetched_at": "2026-06-04T12:01:16.229584+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@arbitrum/=node_modules/@arbitrum/",
+      "@chainlink/=node_modules/@chainlink/",
+      "@eth-optimism/=node_modules/@chainlink/contracts/node_modules/@eth-optimism/",
+      "@offchainlabs/=node_modules/@offchainlabs/",
+      "@scroll-tech/=node_modules/@scroll-tech/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+      "hardhat/=node_modules/hardhat/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "solidity-code-metrics/=node_modules/solidity-code-metrics/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "shanghai",
+    "libraries": {}
+  }
+}

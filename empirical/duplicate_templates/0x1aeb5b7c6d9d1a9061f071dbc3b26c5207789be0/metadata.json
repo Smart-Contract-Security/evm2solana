@@ -1,0 +1,27 @@
+{
+  "address": "0x1aeb5b7c6d9d1a9061f071dbc3b26c5207789be0",
+  "contract_name": "DZEGO",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "f72e00f7a054e335a5573c7e827d0275dd1757c443045555620475e858705489",
+  "fetched_at": "2026-06-03T05:25:29.715429+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

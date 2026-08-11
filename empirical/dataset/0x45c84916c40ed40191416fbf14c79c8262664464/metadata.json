@@ -1,0 +1,30 @@
+{
+  "address": "0x45c84916c40ed40191416fbf14c79c8262664464",
+  "contract_name": "AceJudgmentDiamond",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 4,
+  "source_sha256": "1fc38409b8ab0b7aa077dab803cf9069a7370a5b2674d8acb836c4357094e890",
+  "fetched_at": "2026-06-01T13:06:13.552188+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xbe88938308770913c8252e8d37e725fe5214d3fd",
+  "contract_name": "ETHERIUM",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "92b6a8d17da3adbae2c0e081ee10140b1c2e16eca3f4ed1784c75be513976119",
+  "fetched_at": "2026-06-01T03:15:58.045573+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

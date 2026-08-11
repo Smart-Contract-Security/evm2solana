@@ -1,0 +1,46 @@
+{
+  "address": "0x592179f4db465d602abcaaf61c5947d903ff2843",
+  "contract_name": "BawkPresale",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 21,
+  "source_sha256": "cdb94c261f0176c53ff1104719eee0755210c39bb4938d1f706f510011e98205",
+  "fetched_at": "2026-06-04T10:55:37.566237+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@chainlink/contracts/=node_modules/@chainlink/contracts/",
+      "@chainlink/contracts-ccip/=node_modules/@chainlink/contracts-ccip/",
+      "@eth-optimism/=node_modules/@eth-optimism/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "libraries": {}
+  }
+}

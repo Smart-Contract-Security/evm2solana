@@ -1,0 +1,28 @@
+{
+  "address": "0xfcc4e10269b9209282efd5d2f375aef69b076612",
+  "contract_name": "UnisHookForge",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "e8a7c4aee696d8b491684f17a7e773bd94de836f030fe270251dcbbe475d78ae",
+  "fetched_at": "2026-06-03T05:04:40.386258+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

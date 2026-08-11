@@ -1,0 +1,27 @@
+{
+  "address": "0x2a8f4f27f3544fbd8aecec2680b1b7c1202e3814",
+  "contract_name": "DaemonArt",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "9df2537e1b116dc355639bdf3cf5d2d24af419fc5b4cd98e0e871c7903fb4240",
+  "fetched_at": "2026-06-03T12:16:13.266933+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

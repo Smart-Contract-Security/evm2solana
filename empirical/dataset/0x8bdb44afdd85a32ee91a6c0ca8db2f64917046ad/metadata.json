@@ -1,0 +1,29 @@
+{
+  "address": "0x8bdb44afdd85a32ee91a6c0ca8db2f64917046ad",
+  "contract_name": "MirrorDividend",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 7,
+  "source_sha256": "822036a07b674835840fd0663ce136af05b9c2465d2ec5beb783be7a747d3124",
+  "fetched_at": "2026-06-01T08:39:49.776678+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 500
+    },
+    "metadata": {
+      "bytecodeHash": "bzzr1"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

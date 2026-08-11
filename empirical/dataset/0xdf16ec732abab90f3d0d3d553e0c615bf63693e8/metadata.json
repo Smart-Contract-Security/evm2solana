@@ -1,0 +1,27 @@
+{
+  "address": "0xdf16ec732abab90f3d0d3d553e0c615bf63693e8",
+  "contract_name": "UnisFactory",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 2,
+  "source_sha256": "eee9d5df16e0a161063c597fa7e8ce36df74b77c44326712089ed4320f2bdd1c",
+  "fetched_at": "2026-06-03T05:04:02.840178+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

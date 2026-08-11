@@ -1,0 +1,42 @@
+{
+  "address": "0x6be627e5278dad71aedeb0bd3e12b86463c5ac0e",
+  "contract_name": "CargoDeposit",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 25,
+  "source_sha256": "b28d00ba2ccf63a67747bbe87b23ada863808c81a76b79d443942aa671210a1b",
+  "fetched_at": "2026-06-03T06:47:45.777453+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "chainlink-brownie-contracts/=lib/chainlink-brownie-contracts/contracts/src/v0.6/vendor/@arbitrum/nitro-contracts/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

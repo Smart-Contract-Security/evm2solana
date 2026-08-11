@@ -1,0 +1,31 @@
+{
+  "address": "0x37c1cd9cd5a0c0bbaa8cfe48f3dd886eca12e530",
+  "contract_name": "OpenSeaConduitController",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "740ecaac74158717114cda7212b4b4f1b053f4ab194f9b40fcaf38d87992823f",
+  "fetched_at": "2026-06-03T03:42:55.572259+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

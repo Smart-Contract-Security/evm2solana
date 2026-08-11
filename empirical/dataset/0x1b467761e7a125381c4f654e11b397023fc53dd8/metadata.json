@@ -1,0 +1,49 @@
+{
+  "address": "0x1b467761e7a125381c4f654e11b397023fc53dd8",
+  "contract_name": "NitroEnclaveVerifier",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 15,
+  "source_sha256": "247d2bb614080f3a91d9d2ecf9f1b962aafd2078e07152169c257c2ec6cb52bf",
+  "fetched_at": "2026-06-03T06:41:05.889920+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@risc0/=lib/risc0-ethereum/contracts/src/",
+      "@solady/=lib/solady/src/",
+      "@sp1-contracts/=lib/sp1-contracts/contracts/src/",
+      "@risc0-ethereum/=lib/risc0-ethereum/contracts/src/",
+      "openzeppelin/=lib/openzeppelin-contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "ds-test/=lib/sp1-contracts/contracts/lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "risc0-ethereum/=lib/risc0-ethereum/",
+      "solady/=lib/solady/src/",
+      "sp1-contracts/=lib/sp1-contracts/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

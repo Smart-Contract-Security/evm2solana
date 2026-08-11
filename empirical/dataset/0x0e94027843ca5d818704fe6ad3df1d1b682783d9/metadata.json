@@ -1,0 +1,27 @@
+{
+  "address": "0x0e94027843ca5d818704fe6ad3df1d1b682783d9",
+  "contract_name": "HelloMilitia",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 12,
+  "source_sha256": "9fdec6c029e268b21aa97d1dfab89a20290dc028e8625526911ee7dbd612f62b",
+  "fetched_at": "2026-06-02T08:41:49.274319+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

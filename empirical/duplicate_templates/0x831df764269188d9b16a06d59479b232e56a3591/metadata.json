@@ -1,0 +1,31 @@
+{
+  "address": "0x831df764269188d9b16a06d59479b232e56a3591",
+  "contract_name": "StargatePool",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "81e530d6e08716ab71d1e598f62d1119ce42ef49078b4528aaaa5d9995e16bca",
+  "fetched_at": "2026-06-03T12:10:09.361516+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

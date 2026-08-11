@@ -1,0 +1,27 @@
+{
+  "address": "0x192e8dc4e34a9055d306736c89359b403fcb9931",
+  "contract_name": "MemePerpToken",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "8164c310faacaab082f903b2120a4571351f86d80343f3332945a7e13998e485",
+  "fetched_at": "2026-06-03T12:03:25.213110+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

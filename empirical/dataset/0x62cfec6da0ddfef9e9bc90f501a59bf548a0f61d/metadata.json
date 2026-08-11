@@ -1,0 +1,27 @@
+{
+  "address": "0x62cfec6da0ddfef9e9bc90f501a59bf548a0f61d",
+  "contract_name": "CristianoRonaldo",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "09988f7bf6a74eea271e8863cbfad1c602abb43e535b7e8cff7743b3e44f4764",
+  "fetched_at": "2026-05-30T14:39:31.665033+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

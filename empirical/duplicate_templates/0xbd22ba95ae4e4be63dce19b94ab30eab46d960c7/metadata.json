@@ -1,0 +1,31 @@
+{
+  "address": "0xbd22ba95ae4e4be63dce19b94ab30eab46d960c7",
+  "contract_name": "Phantom_solanaWallet",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "2635ebf8790be045fd00a560ddc2928ee651e30e769966e8d6f8a4c78e3e38af",
+  "fetched_at": "2026-06-03T11:10:38.761090+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0xbfaac57874deb692f524d6824e4efe1e20148b58",
+  "contract_name": "Vault",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 13,
+  "source_sha256": "109284ec1459de034024fc72f36376a3f521ee94473ab2f5f671b7cc5954160c",
+  "fetched_at": "2026-06-01T08:39:28.933824+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

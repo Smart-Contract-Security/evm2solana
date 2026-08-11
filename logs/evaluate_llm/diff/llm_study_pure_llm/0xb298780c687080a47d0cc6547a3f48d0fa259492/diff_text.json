@@ -1,0 +1,22 @@
+[
+  {
+    "file": "src/interfaces/AggregatorV3Interface.sol",
+    "original_lines": 22,
+    "ported_lines": 22,
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "src/oracles/TwoBaseFeeds.sol",
+    "original_lines": 37,
+    "ported_lines": 37,
+    "added": [
+      "    address private feed1;",
+      "    address private feed2;"
+    ],
+    "removed": [
+      "    address immutable feed1;",
+      "    address immutable feed2;"
+    ]
+  }
+]

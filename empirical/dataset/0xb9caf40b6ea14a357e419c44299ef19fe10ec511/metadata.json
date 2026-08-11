@@ -1,0 +1,46 @@
+{
+  "address": "0xb9caf40b6ea14a357e419c44299ef19fe10ec511",
+  "contract_name": "dKZT",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 26,
+  "source_sha256": "f5f06fcf655e10b9982230cb25f04ecf50fbae7828a3f8794b673f447c3e81dc",
+  "fetched_at": "2026-06-02T13:21:48.925580+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/",
+      "safe-contracts/=lib/safe-contracts/",
+      "zodiac-core/=lib/zodiac-core/contracts/",
+      "zodiac-modifier-delay/=lib/zodiac-modifier-delay/contracts/",
+      "@gnosis-guild/zodiac-core/=lib/zodiac-core/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

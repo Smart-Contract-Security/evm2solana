@@ -1,0 +1,28 @@
+{
+  "address": "0x2c443d087a54c396e0a98955829de36304279e42",
+  "contract_name": "Mokoko",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "3490c4665c63116d31cbb75facadd9d336cbad3f0ec1a1463f5c632f3d035f09",
+  "fetched_at": "2026-06-04T03:39:38.364124+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

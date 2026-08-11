@@ -1,0 +1,27 @@
+{
+  "address": "0xd71b30343d7ce8ab0d5ccd69c8473134d8216951",
+  "contract_name": "VestingPeiro",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 11,
+  "source_sha256": "d4085d3b0295f4613a4372b473fddbe6202412658609864bb87e77f86b201865",
+  "fetched_at": "2026-06-04T03:13:14.660927+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

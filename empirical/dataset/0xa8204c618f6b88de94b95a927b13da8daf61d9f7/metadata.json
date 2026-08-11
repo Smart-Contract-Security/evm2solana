@@ -1,0 +1,28 @@
+{
+  "address": "0xa8204c618f6b88de94b95a927b13da8daf61d9f7",
+  "contract_name": "MorphoStrategy",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 14,
+  "source_sha256": "cfc158b257a0e0339f64d72af7553ebe6d320a3862490c089be9c6fa070afa00",
+  "fetched_at": "2026-06-03T04:50:06.505884+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": false,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

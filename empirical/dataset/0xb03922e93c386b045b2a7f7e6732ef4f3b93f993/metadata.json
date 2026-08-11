@@ -1,0 +1,30 @@
+{
+  "address": "0xb03922e93c386b045b2a7f7e6732ef4f3b93f993",
+  "contract_name": "InstaFlashPaybackV2",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 5,
+  "source_sha256": "aa25bf152306177405388ae42d625c8ee0ed41001b5ce780e883af019393ebb7",
+  "fetched_at": "2026-06-04T13:08:09.477134+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

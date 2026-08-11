@@ -1,0 +1,45 @@
+{
+  "address": "0xe507e4d0763851a6287238aadd243948d18ab60a",
+  "contract_name": "BatchManager",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 27,
+  "source_sha256": "d1fd063c361bb6fabf1813feb01a6b8d41517eaa206a3c79e7ea509cf79b4e03",
+  "fetched_at": "2026-06-04T05:06:29.794445+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "lib/openzeppelin-contracts:@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

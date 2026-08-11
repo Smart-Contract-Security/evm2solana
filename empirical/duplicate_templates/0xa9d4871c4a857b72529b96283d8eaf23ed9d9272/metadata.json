@@ -1,0 +1,31 @@
+{
+  "address": "0xa9d4871c4a857b72529b96283d8eaf23ed9d9272",
+  "contract_name": "MarketXYZ",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "4a155767cac00319e6aa5eb2f254d5409838586185c45cc08a8b154995008cde",
+  "fetched_at": "2026-06-03T06:41:08.387514+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

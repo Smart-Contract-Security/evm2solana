@@ -1,0 +1,27 @@
+{
+  "address": "0xf5da92d28872b366925b33390bcf63171eaeace8",
+  "contract_name": "Shit",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "4d6c25fa7a5d2f37a7e67b190578de6de60a4fa4960033ce5cdfd4955d802028",
+  "fetched_at": "2026-06-01T04:56:05.207967+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

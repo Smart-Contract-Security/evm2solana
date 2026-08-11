@@ -1,0 +1,107 @@
+{
+  "original": {
+    "files": 1192,
+    "total_lines": 192160,
+    "code": 90507,
+    "comment": 79900,
+    "blank": 21753
+  },
+  "strategies": {
+    "llm_study_pure_llm": {
+      "projects": 100,
+      "files": 1192,
+      "removed_breakdown": {
+        "code": {
+          "lines": 6862,
+          "pct_of_original": 7.6
+        },
+        "comment": {
+          "lines": 52562,
+          "pct_of_original": 65.8
+        },
+        "blank": {
+          "lines": 3628,
+          "pct_of_original": 16.7
+        }
+      },
+      "added_breakdown": {
+        "code": {
+          "lines": 8497,
+          "pct_of_original": 9.4
+        },
+        "comment": {
+          "lines": 700,
+          "pct_of_original": 0.9
+        },
+        "blank": {
+          "lines": 1113,
+          "pct_of_original": 5.1
+        }
+      }
+    },
+    "llm_study_feedback": {
+      "projects": 100,
+      "files": 1192,
+      "removed_breakdown": {
+        "code": {
+          "lines": 18968,
+          "pct_of_original": 21.0
+        },
+        "comment": {
+          "lines": 51703,
+          "pct_of_original": 64.7
+        },
+        "blank": {
+          "lines": 4610,
+          "pct_of_original": 21.2
+        }
+      },
+      "added_breakdown": {
+        "code": {
+          "lines": 27589,
+          "pct_of_original": 30.5
+        },
+        "comment": {
+          "lines": 9723,
+          "pct_of_original": 12.2
+        },
+        "blank": {
+          "lines": 3353,
+          "pct_of_original": 15.4
+        }
+      }
+    },
+    "llm_study_knowledge_feedback": {
+      "projects": 100,
+      "files": 1192,
+      "removed_breakdown": {
+        "code": {
+          "lines": 32233,
+          "pct_of_original": 35.6
+        },
+        "comment": {
+          "lines": 36022,
+          "pct_of_original": 45.1
+        },
+        "blank": {
+          "lines": 4856,
+          "pct_of_original": 22.3
+        }
+      },
+      "added_breakdown": {
+        "code": {
+          "lines": 37099,
+          "pct_of_original": 41.0
+        },
+        "comment": {
+          "lines": 2943,
+          "pct_of_original": 3.7
+        },
+        "blank": {
+          "lines": 3615,
+          "pct_of_original": 16.6
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "address": "0xe0c35efcaf032634d976bdaddcbe35bd4a3c312e",
+  "contract_name": "UnisRenderer",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "07e05a4f7e9e22b6871ba6095e69d6ac2a68fd88e96f31317b107379d276ad22",
+  "fetched_at": "2026-06-03T05:04:58.860014+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    }
+  }
+}

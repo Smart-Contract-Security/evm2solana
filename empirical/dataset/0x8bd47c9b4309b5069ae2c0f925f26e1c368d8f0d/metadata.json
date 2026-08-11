@@ -1,0 +1,30 @@
+{
+  "address": "0x8bd47c9b4309b5069ae2c0f925f26e1c368d8f0d",
+  "contract_name": "FeeHarvester",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 6,
+  "source_sha256": "33cc10fb1abaa4bf1ee21c05194c928d9bd7ba5303de9afbacc4bf58dfccb08b",
+  "fetched_at": "2026-06-02T12:35:50.802790+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000000
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/"
+    ]
+  }
+}

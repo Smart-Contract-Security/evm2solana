@@ -1,0 +1,28 @@
+{
+  "address": "0x97dacf9b3d8fd2da87f1aa16c5e18d5c37abe007",
+  "contract_name": "HouseToken",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 7,
+  "source_sha256": "a1bf053511717f2992019d64d9c7c3c99a83b28c9e68e07075c4947a0af5c8a1",
+  "fetched_at": "2026-06-01T08:39:22.792737+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

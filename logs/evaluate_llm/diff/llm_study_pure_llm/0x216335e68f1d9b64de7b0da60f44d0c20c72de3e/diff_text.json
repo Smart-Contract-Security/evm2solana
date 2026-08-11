@@ -1,0 +1,53 @@
+[
+  {
+    "file": "Zenieth.sol",
+    "original_lines": 304,
+    "ported_lines": 276,
+    "added": [
+      "    // Solana addresses are base58 encoded, but Solang expects hex literals for addresses.",
+      "    // These are placeholder addresses that must be replaced with actual Solana program IDs.",
+      "    address constant POSITION_MANAGER = address(0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e);",
+      "    address constant POOL_MANAGER     = address(0x000000000004444c5dc75cB358380D2e3dE08A90);",
+      "    address constant UNIVERSAL_ROUTER = address(0x66a9893cC07D91D95644AEDD05D03f95e1dBA8Af);",
+      "    address constant PERMIT2          = address(0x000000000022D473030F116dDEE9F6B43aC78BA3);",
+      ""
+    ],
+    "removed": [
+      "",
+      "/*",
+      "   $ZENIETH · zenieth",
+      "",
+      "   · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·",
+      "",
+      "   site      www.zenieth.xyz",
+      "   x         x.com/_0xzenieth",
+      "",
+      "   · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·",
+      "",
+      "   zenieth is an Ethereum bonding curve token. Each new buyer pays more",
+      "   than the last - a quadratic curve enforces scarcity. Hold znth and",
+      "   accumulate Loyalty Points hourly - spend them for discounts on future",
+      "   buys. Sell and they burn. Patience compounds. Math does the rest.",
+      "*/",
+      "",
+      "    /// @dev build",
+      "    // Per-launch unique identifier — patched at compile-time by engine/compile_token.mjs to a",
+      "    // keccak256 over (symbol, name, timestamp, deployer). Embeds 32 bytes into the bytecode",
+      "    // body so every deploy produces a distinct compiled body, breaking Etherscan's",
+      "    // \"Similar Match\" auto-deduplication.",
+      "    // Uniswap V4 mainnet addresses",
+      "    address constant POSITION_MANAGER = 0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e;",
+      "    address constant POOL_MANAGER     = 0x000000000004444c5dc75cB358380D2e3dE08A90;",
+      "    address constant UNIVERSAL_ROUTER = 0x66a9893cC07D91D95644AEDD05D03f95e1dBA8Af;",
+      "    address constant PERMIT2          = 0x000000000022D473030F116dDEE9F6B43aC78BA3;",
+      "",
+      "    // Anti-whale limits — auto-lift after limitsLiftBlock so late buyers accumulate freely.",
+      "    // V4 action opcodes",
+      "    /**",
+      "     * Single-sided curve launch: deployer commits all tokens above currentPrice",
+      "     * with no ETH. As buyers swap ETH → token, price descends through the band",
+      "     * and the position releases tokens / collects ETH automatically (CLAMM math).",
+      "     */"
+    ]
+  }
+]

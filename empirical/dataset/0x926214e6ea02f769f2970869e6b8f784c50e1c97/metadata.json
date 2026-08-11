@@ -1,0 +1,27 @@
+{
+  "address": "0x926214e6ea02f769f2970869e6b8f784c50e1c97",
+  "contract_name": "PaymentRouter",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 14,
+  "source_sha256": "5acadf065af424a9be7848b8e6add1a53ccad9b99334f7c42e6af1e22481ed1f",
+  "fetched_at": "2026-06-03T08:49:43.199158+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

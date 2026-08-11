@@ -1,0 +1,54 @@
+{
+  "address": "0x0277659de1409c51229f0974c98b51e47048f8e0",
+  "contract_name": "VerifyDummyPresaleShape",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "92c942522ebb631796a48fe2825c1894a4a8522a0a8febe4aae65a58c3f9caf9",
+  "fetched_at": "2026-06-03T07:26:03.645695+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=../../../../lib/forge-std/src/",
+      "@ensdomains/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/v4-core/node_modules/@ensdomains/",
+      "@openzeppelin/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/v4-core/lib/openzeppelin-contracts/",
+      "@uniswap/v2-core/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/universal-router/node_modules/@uniswap/v2-core/",
+      "@uniswap/v3-core/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/universal-router/node_modules/@uniswap/v3-core/",
+      "@uniswap/v3-periphery/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/universal-router/lib/v3-periphery/",
+      "@uniswap/v4-core/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/v4-periphery/lib/v4-core/",
+      "@uniswap/v4-periphery/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/universal-router/lib/v4-periphery/",
+      "ds-test/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/permit2/lib/forge-gas-snapshot/src/",
+      "hardhat/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/openzeppelin-contracts/contracts/",
+      "permit2/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/permit2/src/",
+      "solmate/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/solmate/src/",
+      "universal-router/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/universal-router/contracts/",
+      "v3-periphery/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/universal-router/lib/v3-periphery/contracts/",
+      "v4-core/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/v4-core/src/",
+      "v4-periphery/=/Users/smc/Documents/claude-apps/eth-contract-snowball/lib/v4-periphery/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

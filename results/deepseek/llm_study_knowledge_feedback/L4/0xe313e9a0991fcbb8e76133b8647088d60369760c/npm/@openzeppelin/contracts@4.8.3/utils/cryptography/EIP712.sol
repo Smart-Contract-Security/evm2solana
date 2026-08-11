@@ -1,0 +1,52 @@
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v4.8.0) (utils/cryptography/EIP712.sol)
+
+import {AccountInfo} from 'solana';
+
+abstract contract EIP712 {
+    bytes32 private immutable _CACHED_DOMAIN_SEPARATOR;
+    uint64 private immutable _CACHED_SLOT;
+    address private immutable _CACHED_THIS;
+
+    bytes32 private immutable _HASHED_NAME;
+    bytes32 private immutable _HASHED_VERSION;
+    bytes32 private immutable _TYPE_HASH;
+
+    constructor(string memory name, string memory version) {
+        bytes32 hashedName = keccak256(bytes(name));
+        bytes32 hashedVersion = keccak256(bytes(version));
+        bytes32 typeHash = keccak256(
+            "EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)"
+        );
+        _HASHED_NAME = hashedName;
+        _HASHED_VERSION = hashedVersion;
+        _CACHED_SLOT = uint64(block.slot);
+        _CACHED_DOMAIN_SEPARATOR = _buildDomainSeparator(typeHash, hashedName, hashedVersion);
+        _CACHED_THIS = address(this);
+        _TYPE_HASH = typeHash;
+    }
+
+    function _domainSeparatorV4() internal view returns (bytes32) {
+        if (address(this) == _CACHED_THIS && uint64(block.slot) == _CACHED_SLOT) {
+            return _CACHED_DOMAIN_SEPARATOR;
+        } else {
+            return _buildDomainSeparator(_TYPE_HASH, _HASHED_NAME, _HASHED_VERSION);
+        }
+    }
+
+    function _buildDomainSeparator(
+        bytes32 typeHash,
+        bytes32 nameHash,
+        bytes32 versionHash
+    ) private view returns (bytes32) {
+        return keccak256(abi.encode(typeHash, nameHash, versionHash, uint64(block.slot), address(this)));
+    }
+
+    function _hashTypedDataV4(bytes32 structHash) internal view virtual returns (bytes32) {
+        return _toTypedDataHash(_domainSeparatorV4(), structHash);
+    }
+
+    function _toTypedDataHash(bytes32 domainSeparator, bytes32 structHash) internal pure returns (bytes32) {
+        return keccak256(abi.encodePacked("\x19\x01", domainSeparator, structHash));
+    }
+}

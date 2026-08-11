@@ -1,0 +1,24 @@
+{
+  "address": "0x8ecf9c500f8a25671c03c9ff11c31733a818a97c",
+  "contract_name": "TokenLockStakingReserve",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 11,
+  "source_sha256": "df9d89805d8b23321fb41660179647e032c89958cb0e3a32c812fcdec3ee613f",
+  "fetched_at": "2026-06-04T12:17:44.904696+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

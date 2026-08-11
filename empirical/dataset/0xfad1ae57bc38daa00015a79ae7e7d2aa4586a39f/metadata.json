@@ -1,0 +1,27 @@
+{
+  "address": "0xfad1ae57bc38daa00015a79ae7e7d2aa4586a39f",
+  "contract_name": "Vita",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 7,
+  "source_sha256": "6b5f47e17a883d75ccb1da18621f735e5b94047dadfcda53c5c607cdd7fc64b8",
+  "fetched_at": "2026-06-02T09:05:14.941224+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

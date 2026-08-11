@@ -1,0 +1,31 @@
+{
+  "address": "0xcf6446b1f3d51ef07b2a89b5bef78ae840309c5d",
+  "contract_name": "DuesselpixNFT",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 36,
+  "source_sha256": "ced92fb52ecf8e0467bb9f91a2a82f406893101908bc3fce681f8e445a3a4392",
+  "fetched_at": "2026-06-02T07:37:56.308707+00:00",
+  "solc_settings": {
+    "evmVersion": "osaka",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "npm/@openzeppelin/contracts-upgradeable@5.6.1/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/",
+      "project/:@openzeppelin/contracts-upgradeable/=npm/@openzeppelin/contracts-upgradeable@5.6.1/"
+    ]
+  }
+}

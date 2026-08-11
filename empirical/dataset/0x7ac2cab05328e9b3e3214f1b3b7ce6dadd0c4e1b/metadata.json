@@ -1,0 +1,28 @@
+{
+  "address": "0x7ac2cab05328e9b3e3214f1b3b7ce6dadd0c4e1b",
+  "contract_name": "Vesting",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 8,
+  "source_sha256": "48075821eeda6293752f97585b7119354dd729706f79f83e01777b6235439bf1",
+  "fetched_at": "2026-06-04T13:42:46.094556+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

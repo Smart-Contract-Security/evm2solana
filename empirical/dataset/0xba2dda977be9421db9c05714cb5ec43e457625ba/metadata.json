@@ -1,0 +1,31 @@
+{
+  "address": "0xba2dda977be9421db9c05714cb5ec43e457625ba",
+  "contract_name": "C1",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "65da44fcc1fb67e7eda95a26f09a764785be4440997b3a0b3cb398fc58179b48",
+  "fetched_at": "2026-06-03T07:27:29.624592+00:00",
+  "solc_settings": {
+    "evmVersion": "osaka",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

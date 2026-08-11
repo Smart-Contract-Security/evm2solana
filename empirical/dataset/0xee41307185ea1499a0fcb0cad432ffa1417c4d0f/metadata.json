@@ -1,0 +1,27 @@
+{
+  "address": "0xee41307185ea1499a0fcb0cad432ffa1417c4d0f",
+  "contract_name": "EternalUSDTFountain",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "b608b1cfd9972cb5ab0ad90f1491ae27f37c40e6a86799ed57f264d09bfd55b2",
+  "fetched_at": "2026-06-03T04:56:51.593440+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

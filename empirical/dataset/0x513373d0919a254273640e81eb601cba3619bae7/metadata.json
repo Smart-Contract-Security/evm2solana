@@ -1,0 +1,28 @@
+{
+  "address": "0x513373d0919a254273640e81eb601cba3619bae7",
+  "contract_name": "SiphonSetup",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 30,
+  "source_sha256": "7a8f504ae30299c2df83f5d8744e7b9ca7a09714faebdefda81b39921e301450",
+  "fetched_at": "2026-06-02T08:54:07.021211+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000000
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

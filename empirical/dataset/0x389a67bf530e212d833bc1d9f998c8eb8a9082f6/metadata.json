@@ -1,0 +1,33 @@
+{
+  "address": "0x389a67bf530e212d833bc1d9f998c8eb8a9082f6",
+  "contract_name": "TokenVesting",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 7,
+  "source_sha256": "b7577521f3340f3a6b794733caf19940ae71590bffae0f663e1e4ce4e01d0979",
+  "fetched_at": "2026-06-04T03:14:36.337646+00:00",
+  "solc_settings": {
+    "evmVersion": "istanbul",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

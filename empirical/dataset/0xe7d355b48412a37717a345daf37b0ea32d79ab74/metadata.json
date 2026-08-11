@@ -1,0 +1,27 @@
+{
+  "address": "0xe7d355b48412a37717a345daf37b0ea32d79ab74",
+  "contract_name": "HookDeployer",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "3d48078d9592db10e0b3ca1a83603549800c656f8e1f3320d26e8777df2388c1",
+  "fetched_at": "2026-06-01T10:25:22.905683+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

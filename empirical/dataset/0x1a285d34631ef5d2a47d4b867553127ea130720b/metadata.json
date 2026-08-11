@@ -1,0 +1,27 @@
+{
+  "address": "0x1a285d34631ef5d2a47d4b867553127ea130720b",
+  "contract_name": "ALIENS",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "62f553e4fec091c465aa78722b18aa645b758598d19bbac74498efbb75c020de",
+  "fetched_at": "2026-06-02T02:47:17.584950+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

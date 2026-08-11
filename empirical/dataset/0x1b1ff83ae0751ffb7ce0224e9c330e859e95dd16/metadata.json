@@ -1,0 +1,27 @@
+{
+  "address": "0x1b1ff83ae0751ffb7ce0224e9c330e859e95dd16",
+  "contract_name": "LegendToken",
+  "compiler_version": "v0.8.9+commit.e5eed63a",
+  "file_count": 8,
+  "source_sha256": "72eafe653f6f1881768f342e508f82e663251e2317ef410451d3b697d44548bc",
+  "fetched_at": "2026-06-04T11:28:40.092205+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0xfdd50c0c1a378b7af530fe912d4b154dc8980929",
+  "contract_name": "TermSettlementWithHooksFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 80,
+  "source_sha256": "03fc401f11cc628ce98b3efd91dc4b8217a2a5479817e82bd5b6ee499acc89ff",
+  "fetched_at": "2026-06-03T05:10:42.269237+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

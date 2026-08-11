@@ -1,0 +1,31 @@
+{
+  "address": "0xc61a6d95830f72bd32b34e3a2ec500564bf1b14d",
+  "contract_name": "SuperRareMarket",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "bba84fc33f06d703893ee7ea08bac32905a7b602d3455235da8fcff473aa8e5e",
+  "fetched_at": "2026-06-03T05:06:08.718585+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

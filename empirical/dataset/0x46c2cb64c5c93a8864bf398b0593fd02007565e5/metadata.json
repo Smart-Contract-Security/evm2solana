@@ -1,0 +1,40 @@
+{
+  "address": "0x46c2cb64c5c93a8864bf398b0593fd02007565e5",
+  "contract_name": "MarrowsStaking",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 9,
+  "source_sha256": "fb8e9d49296a74fd1c7e74b32059d3b9a933db94c292d535e280b3cbf43cc9ac",
+  "fetched_at": "2026-06-02T15:03:12.337078+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": false
+  }
+}

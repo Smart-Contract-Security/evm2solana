@@ -1,0 +1,63 @@
+{
+  "address": "0x81d7bfedc483bc07683eaa28e608ac1958cf6c47",
+  "contract_name": "AoABTManager",
+  "compiler_version": "v0.8.16+commit.07a7930e",
+  "file_count": 29,
+  "source_sha256": "7b46bca98df9f2b31114bb0dcabc004a6ba0d75db4bbbc3eef361d8b672dd02d",
+  "fetched_at": "2026-06-03T06:35:18.118766+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/"
+    ]
+  }
+}

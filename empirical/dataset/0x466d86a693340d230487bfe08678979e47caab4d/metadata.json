@@ -1,0 +1,40 @@
+{
+  "address": "0x466d86a693340d230487bfe08678979e47caab4d",
+  "contract_name": "RushToken",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 7,
+  "source_sha256": "de0185b8640b5ffbbd746b689b8900802d8e720f2341ff7801c0ddf50edf2bba",
+  "fetched_at": "2026-06-03T06:41:00.876194+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

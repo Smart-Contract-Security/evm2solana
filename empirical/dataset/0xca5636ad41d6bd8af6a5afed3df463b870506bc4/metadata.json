@@ -1,0 +1,27 @@
+{
+  "address": "0xca5636ad41d6bd8af6a5afed3df463b870506bc4",
+  "contract_name": "PlanetHareStakingV2",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 5,
+  "source_sha256": "f0d49ad9bdecd59bb2032d0bdb6b693fce0d88b03fe8fa1c65cd787258af3fc6",
+  "fetched_at": "2026-06-03T08:41:28.576454+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

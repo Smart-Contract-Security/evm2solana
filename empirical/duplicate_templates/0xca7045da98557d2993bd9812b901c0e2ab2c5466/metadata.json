@@ -1,0 +1,31 @@
+{
+  "address": "0xca7045da98557d2993bd9812b901c0e2ab2c5466",
+  "contract_name": "YearnVaultV2",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "2ad1ceba46e068881e39c2dcdb028c7603cc48dc3fde93f997a04ae6be4e2ad1",
+  "fetched_at": "2026-06-03T05:10:10.557028+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

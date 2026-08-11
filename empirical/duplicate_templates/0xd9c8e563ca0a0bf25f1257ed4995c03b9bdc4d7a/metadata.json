@@ -1,0 +1,26 @@
+{
+  "address": "0xd9c8e563ca0a0bf25f1257ed4995c03b9bdc4d7a",
+  "contract_name": "FREE",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 1,
+  "source_sha256": "e0b0eb3af8a6f457e49769018d3ac213618615c37e8ea08e77adc585d4605ece",
+  "fetched_at": "2026-06-04T12:18:02.029863+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

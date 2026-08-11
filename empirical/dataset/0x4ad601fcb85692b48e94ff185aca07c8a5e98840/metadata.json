@@ -1,0 +1,33 @@
+{
+  "address": "0x4ad601fcb85692b48e94ff185aca07c8a5e98840",
+  "contract_name": "SimpleStaking",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 7,
+  "source_sha256": "71be1b7c97f12aab00f88962516811d553a22bfd27b505ae9c98113cb881fbcf",
+  "fetched_at": "2026-06-04T03:14:24.081565+00:00",
+  "solc_settings": {
+    "evmVersion": "istanbul",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

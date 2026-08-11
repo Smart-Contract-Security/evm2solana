@@ -1,0 +1,45 @@
+{
+  "address": "0x219d7e71575be981b1b592234daddcd3ed82db7d",
+  "contract_name": "L1OrbitUSDCGateway",
+  "compiler_version": "v0.8.16+commit.07a7930e",
+  "file_count": 32,
+  "source_sha256": "c5039a3671ad33c853db48d7d37906cc3f02d5e20089d71c0e59d4421dc602ae",
+  "fetched_at": "2026-06-04T03:51:30.173023+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+      "@arbitrum/=node_modules/@arbitrum/",
+      "@offchainlabs/=node_modules/@offchainlabs/",
+      "@ensdomains/=node_modules/@ensdomains/",
+      "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+      "hardhat-deploy/=node_modules/hardhat-deploy/",
+      "hardhat/=node_modules/hardhat/",
+      "nitro-contracts/=lib/nitro-contracts/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 100
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "viaIR": false
+  }
+}

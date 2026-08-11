@@ -1,0 +1,36 @@
+{
+  "address": "0xcb0abec1a0110475b8a9c97baf363629e72f03e8",
+  "contract_name": "FiraLiquidator",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "194414ac805878e83d9943949b9e3e74cc99f1f627f650277b1dc7ba615844ef",
+  "fetched_at": "2026-06-02T06:54:33.524827+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

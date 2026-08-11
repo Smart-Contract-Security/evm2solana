@@ -1,0 +1,37 @@
+{
+  "address": "0x593c151a46610e20118bd612db3acffbe04cb370",
+  "contract_name": "DELTuner",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 3,
+  "source_sha256": "21693494acc82f5e618cfb7b3e45fa3080461180cb52b128bd6ef1cf90ce795e",
+  "fetched_at": "2026-06-03T03:30:36.974695+00:00",
+  "solc_settings": {
+    "remappings": [
+      "solady/=lib/solady/src/",
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

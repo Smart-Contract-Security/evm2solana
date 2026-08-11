@@ -1,0 +1,8 @@
+{
+  "address": "0x153b5b235717354e2a8c3a19a0af26128a142d59",
+  "contract_name": "MEVCheckAndSponsor",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "0a08fac7efafdc5122aca4df96609d7f2d89ef329a2139ca14e3575c7126ea84",
+  "fetched_at": "2026-06-04T13:36:17.564407+00:00"
+}

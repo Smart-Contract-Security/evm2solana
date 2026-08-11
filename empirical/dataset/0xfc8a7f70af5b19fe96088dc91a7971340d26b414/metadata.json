@@ -1,0 +1,27 @@
+{
+  "address": "0xfc8a7f70af5b19fe96088dc91a7971340d26b414",
+  "contract_name": "TedraCoinOfficial",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "802873a9c7480251705068311a2ddec74c2299699a54e4dbb5f0c778ed64c8de",
+  "fetched_at": "2026-06-03T04:58:18.711930+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

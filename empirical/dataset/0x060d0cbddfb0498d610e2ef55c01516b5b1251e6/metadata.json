@@ -1,0 +1,45 @@
+{
+  "address": "0x060d0cbddfb0498d610e2ef55c01516b5b1251e6",
+  "contract_name": "GovernorOLAS",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 29,
+  "source_sha256": "6adb5aaedc6f39251d52f36ce73e3330b8dba2f55757def0147efae0811d3b3a",
+  "fetched_at": "2026-06-01T12:25:47.933876+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@gnosis.pm/=node_modules/@gnosis.pm/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "fx-portal/=node_modules/fx-portal/",
+      "@handlers/=lib/fx-portal/test/handlers/",
+      "@mock/=lib/fx-portal/test/mock/",
+      "@utils/=lib/fx-portal/test/utils/",
+      "ds-test/=lib/solmate/lib/ds-test/src/",
+      "forge-std/=lib/fx-portal/lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/fx-portal/lib/openzeppelin-contracts/",
+      "solmate/=lib/solmate/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

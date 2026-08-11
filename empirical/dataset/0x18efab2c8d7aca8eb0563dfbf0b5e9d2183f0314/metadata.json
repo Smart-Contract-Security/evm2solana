@@ -1,0 +1,42 @@
+{
+  "address": "0x18efab2c8d7aca8eb0563dfbf0b5e9d2183f0314",
+  "contract_name": "ERC1967Proxy",
+  "compiler_version": "v0.8.29+commit.ab55807c",
+  "file_count": 9,
+  "source_sha256": "6c18f8d1e89166e1c478dc61876ecdf4a98eea26915796e9fd71f351919afafd",
+  "fetched_at": "2026-06-01T10:32:34.546096+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "address": "0x930c30350d3e6a6369f234e2c6f96db03687e457",
+  "contract_name": "Vault",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 32,
+  "source_sha256": "6368c036a2cd7daf21ce383d3ea25b239566ae00640af3037cf1670691217690",
+  "fetched_at": "2026-06-03T04:35:07.664467+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@uniswap/v3-periphery/=lib/v3-periphery/contracts/",
+      "@uniswap/v3-core/=lib/v3-core/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200,
+      "details": {
+        "yul": true,
+        "yulDetails": {
+          "stackAllocation": true
+        }
+      }
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

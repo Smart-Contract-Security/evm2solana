@@ -1,0 +1,31 @@
+{
+  "address": "0xa353218287eaa80b93d1b2c485afd16d1143800f",
+  "contract_name": "PythPriceOracle",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "51b884a0db732079b711ffc4bb8b7e9c9fefe03739f8c3ffa47b104815e0b8f7",
+  "fetched_at": "2026-06-02T07:39:40.641302+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

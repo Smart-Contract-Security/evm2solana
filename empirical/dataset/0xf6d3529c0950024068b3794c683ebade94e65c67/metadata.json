@@ -1,0 +1,26 @@
+{
+  "address": "0xf6d3529c0950024068b3794c683ebade94e65c67",
+  "contract_name": "USDCPermitExecutor",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 9,
+  "source_sha256": "cf536c5f388026252031ff0a72eff7d40be5c87ae861314d04ff66914217f7c4",
+  "fetched_at": "2026-06-01T04:34:04.002128+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "runs": 200,
+      "enabled": false
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

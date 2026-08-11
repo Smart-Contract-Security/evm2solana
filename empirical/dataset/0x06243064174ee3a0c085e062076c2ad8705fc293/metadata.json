@@ -1,0 +1,27 @@
+{
+  "address": "0x06243064174ee3a0c085e062076c2ad8705fc293",
+  "contract_name": "SSCPresale",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 12,
+  "source_sha256": "dd91e031f5dd31f5d53b1eb35bbb61072fd689db398f49225fbdcaacd82a350a",
+  "fetched_at": "2026-06-03T03:17:19.757572+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

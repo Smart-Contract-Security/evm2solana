@@ -1,0 +1,26 @@
+{
+  "address": "0xa5ce03bc529b97350f044ee9429cec169b903e2f",
+  "contract_name": "MessageBus",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 14,
+  "source_sha256": "3413338f60bd04bdd947731af2d3ef9a6295e5a9d438da74c192a167ba23226d",
+  "fetched_at": "2026-06-03T12:58:05.125391+00:00",
+  "solc_settings": {
+    "metadata": {
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 800
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    }
+  }
+}

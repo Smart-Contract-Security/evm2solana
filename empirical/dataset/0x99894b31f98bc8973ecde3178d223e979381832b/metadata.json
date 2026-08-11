@@ -1,0 +1,28 @@
+{
+  "address": "0x99894b31f98bc8973ecde3178d223e979381832b",
+  "contract_name": "TermAaveInterfaceFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 49,
+  "source_sha256": "d210d458ea24a7e88fabff78e3353883cf0282ef5bf9146433e908f68aa0c089",
+  "fetched_at": "2026-06-03T05:11:14.894066+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0xd4efc3542ff8377edad76581bb8b19eca3d935e7",
+  "contract_name": "GammaSwapPool",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "d0128c8140b9ca98cc9552419638c8db86ef7d12810a0b8cfbe17ea45831e165",
+  "fetched_at": "2026-06-02T12:04:38.692714+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

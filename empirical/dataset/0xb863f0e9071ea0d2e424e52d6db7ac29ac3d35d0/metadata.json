@@ -1,0 +1,27 @@
+{
+  "address": "0xb863f0e9071ea0d2e424e52d6db7ac29ac3d35d0",
+  "contract_name": "ERC20Preset",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 6,
+  "source_sha256": "641fb4ab2fdaaa7969ee91787af27227e46539e25efb33d45732611bb710a787",
+  "fetched_at": "2026-06-02T12:00:43.351113+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

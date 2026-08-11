@@ -1,0 +1,27 @@
+{
+  "address": "0xdad806f53426a20ffe8890c3aa876e66b2b22c46",
+  "contract_name": "Drcr",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "7274e9aa1c7120e264f195242ce10aaeda706de68a42aae4c94341044da35889",
+  "fetched_at": "2026-06-01T04:47:12.522069+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "address": "0xd628c8779a65bea8c1f073fb1fae25d9534a7bb2",
+  "contract_name": "Punks24R4",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "67842d2d36ccc426f843ca27f3d4362bbd3d5a4593f9bed51a09bf45d524e4f7",
+  "fetched_at": "2026-06-03T11:19:28.291978+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    }
+  }
+}

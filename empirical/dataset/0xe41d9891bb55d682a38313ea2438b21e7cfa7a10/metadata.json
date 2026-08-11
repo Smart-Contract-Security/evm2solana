@@ -1,0 +1,55 @@
+{
+  "address": "0xe41d9891bb55d682a38313ea2438b21e7cfa7a10",
+  "contract_name": "VaultLib",
+  "compiler_version": "v0.8.29+commit.ab55807c",
+  "file_count": 54,
+  "source_sha256": "805719e10ac7f76e38fbaccd2d03999305321e5c2afccdec3ea6fd82e391cf0e",
+  "fetched_at": "2026-06-02T02:07:22.026113+00:00",
+  "solc_settings": {
+    "remappings": [
+      "src/=lib/yieldnest-vault/src/",
+      "script/=lib/yieldnest-vault/script/",
+      "@openzeppelin/contracts/=lib/yieldnest-vault/lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/yieldnest-vault/lib/openzeppelin-contracts-upgradeable/contracts/",
+      "lib/openzeppelin-contracts/=lib/yieldnest-vault/lib/openzeppelin-contracts/",
+      "lib/openzeppelin-contracts-upgradeable/=lib/yieldnest-vault/lib/openzeppelin-contracts-upgradeable/",
+      "ds-test/=lib/yieldnest-vault/lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/yieldnest-vault/lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/yieldnest-vault/lib/wrapped-token/lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/yieldnest-vault/lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/yieldnest-vault/lib/openzeppelin-contracts/",
+      "wrapped-token/=lib/yieldnest-vault/lib/wrapped-token/",
+      "yieldnest-vault/=lib/yieldnest-vault/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": true,
+    "libraries": {
+      "lib/yieldnest-vault/src/library/VaultLib.sol": {
+        "HooksLib": "0x77489368fea0dc914c67df30431da01156c977c6",
+        "VaultLib": "0xe41d9891bb55d682a38313ea2438b21e7cfa7a10"
+      }
+    }
+  }
+}

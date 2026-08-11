@@ -1,0 +1,43 @@
+{
+  "address": "0xb48c737ce23416f749684ae8fa7fc09159cc1f48",
+  "contract_name": "TraitStorage",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 4,
+  "source_sha256": "541eacc02b6ecbb921d1678709004d6de872324fd02b3aa092b678cc8cdce6d9",
+  "fetched_at": "2026-06-03T05:15:37.785283+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "solady/=lib/solady/src/",
+      "erc721a/=lib/ERC721A/",
+      "ERC721A/=lib/ERC721A/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

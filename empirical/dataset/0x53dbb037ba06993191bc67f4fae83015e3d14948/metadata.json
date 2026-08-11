@@ -1,0 +1,40 @@
+{
+  "address": "0x53dbb037ba06993191bc67f4fae83015e3d14948",
+  "contract_name": "MerkleDistributorWithDeadline",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 10,
+  "source_sha256": "e03b1ed5718b85dd9fd5c9ae7245fc7bd5b2596e4959beab755288673e94d5b3",
+  "fetched_at": "2026-06-03T13:53:30.864366+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/openzeppelin-contracts/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "viaIR": true
+  }
+}

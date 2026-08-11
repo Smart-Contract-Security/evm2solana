@@ -1,0 +1,34 @@
+[
+  {
+    "file": "OneBalanceResourceLockManager.sol",
+    "original_lines": 56,
+    "ported_lines": 57,
+    "added": [
+      "        address sender = tx.accounts.data[0].key;",
+      "        bytes32 lockId = keccak256(abi.encodePacked(sender, amount, conditions, expiry, block.timestamp));",
+      "        resourceLocks[lockId] = ResourceLock({",
+      "            owner: sender,",
+      "            amount: amount,",
+      "            conditions: conditions,",
+      "            expiry: expiry,",
+      "            fulfilled: false",
+      "        });",
+      "        emit ResourceLockCreated(sender, lockId, amount, conditions, expiry);",
+      "        address sender = tx.accounts.data[0].key;",
+      "        require(lock.owner == sender, \"Only the owner can fulfill the lock\");"
+    ],
+    "removed": [
+      "// OneBalance Resource Lock Manager Contract",
+      "// Part of the OneBalance Framework for managing resource locks",
+      "        bytes32 lockId = keccak256(abi.encodePacked(msg.sender, amount, conditions, expiry, block.timestamp));",
+      "        ResourceLock storage newLock = resourceLocks[lockId];",
+      "        newLock.owner = msg.sender;",
+      "        newLock.amount = amount;",
+      "        newLock.conditions = conditions;",
+      "        newLock.expiry = expiry;",
+      "        newLock.fulfilled = false;",
+      "        emit ResourceLockCreated(msg.sender, lockId, amount, conditions, expiry);",
+      "        require(lock.owner == msg.sender, \"Only the owner can fulfill the lock\");"
+    ]
+  }
+]

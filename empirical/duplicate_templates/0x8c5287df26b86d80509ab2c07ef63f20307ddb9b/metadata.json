@@ -1,0 +1,8 @@
+{
+  "address": "0x8c5287df26b86d80509ab2c07ef63f20307ddb9b",
+  "contract_name": "MockUSDT_ERC20",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "439d59a183dbd9fb591391291fa40d30674e2d06ec8ec53f62559a277b1314a9",
+  "fetched_at": "2026-06-03T08:29:30.957290+00:00"
+}

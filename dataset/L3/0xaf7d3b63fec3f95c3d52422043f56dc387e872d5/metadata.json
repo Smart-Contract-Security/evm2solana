@@ -1,0 +1,27 @@
+{
+  "address": "0xaf7d3b63fec3f95c3d52422043f56dc387e872d5",
+  "contract_name": "SSCToken",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 6,
+  "source_sha256": "4640593d51525d3618eab4677d2efa8f0961f5f2ffdc73878eca194ba950ee27",
+  "fetched_at": "2026-06-03T03:17:55.310631+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

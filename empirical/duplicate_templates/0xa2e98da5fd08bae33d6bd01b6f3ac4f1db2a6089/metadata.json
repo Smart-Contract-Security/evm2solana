@@ -1,0 +1,27 @@
+{
+  "address": "0xa2e98da5fd08bae33d6bd01b6f3ac4f1db2a6089",
+  "contract_name": "SSonyc",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "b5adabefa61c468eecf8b4c953ae9b2316ec67b00b7b08e413256c642d6ea898",
+  "fetched_at": "2026-06-01T03:08:34.764952+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

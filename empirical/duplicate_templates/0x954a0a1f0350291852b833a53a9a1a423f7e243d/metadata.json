@@ -1,0 +1,27 @@
+{
+  "address": "0x954a0a1f0350291852b833a53a9a1a423f7e243d",
+  "contract_name": "BrokenClockERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "e9172e3826e39d6f85b6754c39a0db3d1c136743d16be28cb852f8c95243977c",
+  "fetched_at": "2026-06-03T07:14:22.797548+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

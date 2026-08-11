@@ -1,0 +1,45 @@
+{
+  "address": "0x95603e6d7753833b1ad9feba5f4e7213ba5b1d8a",
+  "contract_name": "WrappedNLP",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 29,
+  "source_sha256": "c1279f8e0c7e5b15b7766b8874ca5200c81f07a7b7b4f6affbad2547358c5082",
+  "fetched_at": "2026-06-03T07:22:18.723065+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "@permit2/=lib/permit2/src/",
+      "solmate/=lib/solmate/",
+      "ds-test/=lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/openzeppelin-contracts/contracts/",
+      "permit2/=lib/permit2/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 2000000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

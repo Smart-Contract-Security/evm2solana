@@ -1,0 +1,27 @@
+{
+  "address": "0x3b47c844abe21c743930521cbb4f5b6e3a02e855",
+  "contract_name": "TetherUSDToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "42fcb234cb66eeaf9c61e6af4215e91d51d9b8ebb9be08b86311b9c0c5b02caa",
+  "fetched_at": "2026-06-01T02:52:21.194564+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

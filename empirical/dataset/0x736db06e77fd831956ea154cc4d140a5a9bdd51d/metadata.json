@@ -1,0 +1,40 @@
+{
+  "address": "0x736db06e77fd831956ea154cc4d140a5a9bdd51d",
+  "contract_name": "GateCoin",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 21,
+  "source_sha256": "f325b9f7e1e542d50448a1773ecb6c05e4f5bfa96e7db50d3aa3568a98aaa151",
+  "fetched_at": "2026-06-03T06:40:54.716737+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

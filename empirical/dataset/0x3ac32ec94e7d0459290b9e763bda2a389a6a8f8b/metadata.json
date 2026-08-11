@@ -1,0 +1,51 @@
+{
+  "address": "0x3ac32ec94e7d0459290b9e763bda2a389a6a8f8b",
+  "contract_name": "LodeSplitter",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 9,
+  "source_sha256": "394ea9ab321fe218fd3cac6855c9ddb62e8ec43b4fc424210cb3f649deba08ff",
+  "fetched_at": "2026-06-02T08:43:25.322820+00:00",
+  "solc_settings": {
+    "remappings": [
+      "v4-core/=lib/uniswap-hooks/lib/v4-core/",
+      "v4-periphery/=lib/uniswap-hooks/lib/v4-periphery/",
+      "@uniswap/v4-core/=lib/uniswap-hooks/lib/v4-core/",
+      "@uniswap/v4-periphery/=lib/uniswap-hooks/lib/v4-periphery/",
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "solmate/=lib/solmate/",
+      "uniswap-hooks/=lib/uniswap-hooks/",
+      "@ensdomains/=lib/v4-core/node_modules/@ensdomains/",
+      "ds-test/=lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/v4-periphery/lib/permit2/lib/forge-gas-snapshot/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "hardhat/=lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "permit2/=lib/v4-periphery/lib/permit2/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 44444444
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

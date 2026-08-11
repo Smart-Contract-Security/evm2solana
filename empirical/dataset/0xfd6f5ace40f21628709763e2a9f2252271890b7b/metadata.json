@@ -1,0 +1,31 @@
+{
+  "address": "0xfd6f5ace40f21628709763e2a9f2252271890b7b",
+  "contract_name": "MultiUserLPStakingStrategy",
+  "compiler_version": "v0.8.18+commit.87f61d96",
+  "file_count": 51,
+  "source_sha256": "a8c3eeda493ba9294d6eddbdd5e705a8c2664b2f0240e14c65c41df2544ee024",
+  "fetched_at": "2026-06-04T10:30:47.985552+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 500
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

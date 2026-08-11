@@ -1,0 +1,32 @@
+{
+  "address": "0xaf72f6caf76775daeabaf5c82ce05d97359c8fa1",
+  "contract_name": "OmniSdaiAdapter",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 11,
+  "source_sha256": "06588a1b93da41b8b58ebc7b8b647972bce7722e4e15bda5e646bfcae281513b",
+  "fetched_at": "2026-06-02T13:17:50.477145+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

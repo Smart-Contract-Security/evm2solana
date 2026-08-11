@@ -1,0 +1,50 @@
+{
+  "address": "0x1e830483f0694ebe91b98088f2f50d6ad10269ef",
+  "contract_name": "LendingHookV4Factory",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 41,
+  "source_sha256": "0022d04b311c042118755441718c1dcb5eaf35567c9f308d0e5156a5231f681e",
+  "fetched_at": "2026-06-02T12:55:54.028376+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@uniswap/v4-core/=lib/v4-core/",
+      "@uniswap/v4-periphery/=lib/v4-periphery/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "@ensdomains/=lib/v4-core/node_modules/@ensdomains/",
+      "ds-test/=lib/v4-core/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/v4-periphery/lib/permit2/lib/forge-gas-snapshot/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "hardhat/=lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "permit2/=lib/v4-periphery/lib/permit2/",
+      "solmate/=lib/v4-core/lib/solmate/",
+      "v4-core/=lib/v4-core/src/",
+      "v4-periphery/=lib/v4-periphery/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

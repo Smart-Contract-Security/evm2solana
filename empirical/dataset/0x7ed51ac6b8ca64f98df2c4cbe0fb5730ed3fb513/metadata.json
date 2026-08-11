@@ -1,0 +1,43 @@
+{
+  "address": "0x7ed51ac6b8ca64f98df2c4cbe0fb5730ed3fb513",
+  "contract_name": "CyberApeClub",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 15,
+  "source_sha256": "5438f037a81a0d277fa9259fb7c4549c46e2b5c7c8f9b4ae0552d93a3491f430",
+  "fetched_at": "2026-06-03T05:15:15.366986+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "solady/=lib/solady/src/",
+      "erc721a/=lib/ERC721A/",
+      "ERC721A/=lib/ERC721A/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

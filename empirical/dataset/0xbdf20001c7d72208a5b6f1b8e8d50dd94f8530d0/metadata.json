@@ -1,0 +1,36 @@
+{
+  "address": "0xbdf20001c7d72208a5b6f1b8e8d50dd94f8530d0",
+  "contract_name": "AdapterSwap",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 3,
+  "source_sha256": "c898637f546300c511295d44c666390c594e600445e24ed58064cc555411f022",
+  "fetched_at": "2026-06-01T11:28:48.750744+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

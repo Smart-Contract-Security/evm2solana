@@ -1,0 +1,220 @@
+{
+  "summary": {
+    "total": 1521,
+    "success": 29,
+    "failed": 1492,
+    "total_error_messages": 390782,
+    "unique_error_messages": 6247
+  },
+  "top_errors_by_occurrence": [
+    {
+      "message": "revert with custom errors not supported on Solana",
+      "count": 120814
+    },
+    {
+      "message": "contracts are not allowed as types on Solana",
+      "count": 18700
+    },
+    {
+      "message": "builtin 'mload' is not available for target Solana. Please, open a GitHub issue at https://github.com/hyperledger-solang/solang/issues if there is need to support this function",
+      "count": 18013
+    },
+    {
+      "message": "'SafeCast' not found",
+      "count": 13435
+    },
+    {
+      "message": "builtin 'mstore' is not available for target Solana. Please, open a GitHub issue at https://github.com/hyperledger-solang/solang/issues if there is need to support this function",
+      "count": 12000
+    },
+    {
+      "message": "'msg.sender' is not available on Solana. See https://solang.readthedocs.io/en/latest/targets/solana.html#msg-sender-solana",
+      "count": 11797
+    },
+    {
+      "message": "unknown function or type '_msgSender'",
+      "count": 6837
+    },
+    {
+      "message": "'Panic' not found",
+      "count": 5144
+    },
+    {
+      "message": "'address.code' is not supported on Solana",
+      "count": 4609
+    },
+    {
+      "message": "balance is not available on Solana. Use tx.accounts.account_name.lamports to fetch the balance.",
+      "count": 4238
+    },
+    {
+      "message": "unknown modifier 'onlyOwner'",
+      "count": 3776
+    },
+    {
+      "message": "'Math' not found",
+      "count": 3437
+    },
+    {
+      "message": "unknown modifier 'onlyInitializing'",
+      "count": 3155
+    },
+    {
+      "message": "'StorageSlot' not found",
+      "count": 2997
+    },
+    {
+      "message": "slice not supported yet",
+      "count": 2960
+    },
+    {
+      "message": "builtin 'gas' is not available for target Solana. Please, open a GitHub issue at https://github.com/hyperledger-solang/solang/issues if there is need to support this function",
+      "count": 2951
+    },
+    {
+      "message": "Solana Cross Program Invocation (CPI) cannot transfer native value. See https://solang.readthedocs.io/en/latest/language/functions.html#value_transfer",
+      "count": 2138
+    },
+    {
+      "message": "'Context' not found",
+      "count": 1889
+    },
+    {
+      "message": "'vm' not found",
+      "count": 1836
+    },
+    {
+      "message": "'Address' not found",
+      "count": 1808
+    },
+    {
+      "message": "method 'staticcall' does not exist",
+      "count": 1680
+    },
+    {
+      "message": "implicit conversion would truncate from bytes8 to bytes4",
+      "count": 1658
+    },
+    {
+      "message": "method 'delegatecall' does not exist",
+      "count": 1617
+    },
+    {
+      "message": "type 'Exp' not found",
+      "count": 1571
+    },
+    {
+      "message": "builtin 'block.chainid' does not exist",
+      "count": 1513
+    },
+    {
+      "message": "type 'IERC20' not found",
+      "count": 1500
+    },
+    {
+      "message": "unknown modifier 'nonReentrant'",
+      "count": 1384
+    },
+    {
+      "message": "'Initializable' not found",
+      "count": 1305
+    },
+    {
+      "message": "'LibBytes' not found",
+      "count": 1260
+    },
+    {
+      "message": "error 'ERC20InvalidReceiver' not found",
+      "count": 1218
+    },
+    {
+      "message": "error 'ERC20InvalidSender' not found",
+      "count": 1216
+    },
+    {
+      "message": "'IERC165' not found",
+      "count": 1214
+    },
+    {
+      "message": "unknown modifier 'onlyRole'",
+      "count": 1120
+    },
+    {
+      "message": "'supportsInterface' does not override anything",
+      "count": 1112
+    },
+    {
+      "message": "'Errors' not found",
+      "count": 1098
+    },
+    {
+      "message": "function 'mcopy' is not defined",
+      "count": 1019
+    },
+    {
+      "message": "'Ownable' not found",
+      "count": 1001
+    },
+    {
+      "message": "type 'MathError' not found",
+      "count": 991
+    },
+    {
+      "message": "cannot find overloaded builtin which matches signature",
+      "count": 967
+    },
+    {
+      "message": "'ERC165' not found",
+      "count": 905
+    },
+    {
+      "message": "builtin function 'require' expects 1 arguments, 2 provided",
+      "count": 866
+    },
+    {
+      "message": "'ContextUpgradeable' not found",
+      "count": 837
+    },
+    {
+      "message": "'endpoint' not found",
+      "count": 831
+    },
+    {
+      "message": "'SignedMath' not found",
+      "count": 786
+    },
+    {
+      "message": "type 'Origin' not found",
+      "count": 784
+    },
+    {
+      "message": "builtin 'sload' is not available for target Solana. Please, open a GitHub issue at https://github.com/hyperledger-solang/solang/issues if there is need to support this function",
+      "count": 765
+    },
+    {
+      "message": "the given expression does not support '.length' suffixes",
+      "count": 763
+    },
+    {
+      "message": "'Strings' not found",
+      "count": 762
+    },
+    {
+      "message": "type 'Point3D' not found",
+      "count": 748
+    },
+    {
+      "message": "unknown function or type 'IERC20'",
+      "count": 737
+    }
+  ],
+  "unique_errors_per_contract": {
+    "min": 1,
+    "Q1": 6.0,
+    "Q2": 12.0,
+    "Q3": 35.75,
+    "max": 449,
+    "mean": 26.4,
+    "stdev": 35.3
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "address": "0x6b49976a7340d0a3c00d1bebe0e36e2367d89c7c",
+  "contract_name": "Proxy",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 1,
+  "source_sha256": "712f25eb7f96dcbab7a31ddfd6c5a678d4d4c967f4a5f215923401e354011815",
+  "fetched_at": "2026-06-02T02:09:35.156515+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@optimism/src/=lib/optimism/packages/contracts-bedrock/src/",
+      "@optimism/interfaces/=lib/optimism/packages/contracts-bedrock/interfaces/",
+      "@openzeppelin/contracts/=lib/optimism/packages/contracts-bedrock/lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/optimism/packages/contracts-bedrock/lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@openzeppelin/contracts-v5/=lib/optimism/packages/contracts-bedrock/lib/openzeppelin-contracts-v5/contracts/",
+      "@solady/=lib/optimism/packages/contracts-bedrock/lib/solady/src/",
+      "@solady-v0.0.245/=lib/optimism/packages/contracts-bedrock/lib/solady-v0.0.245/src/",
+      "safe-contracts/=lib/optimism/packages/contracts-bedrock/lib/safe-contracts/contracts/",
+      "@rari-capital/solmate/=lib/optimism/packages/contracts-bedrock/lib/solmate/",
+      "@lib-keccak/=lib/optimism/packages/contracts-bedrock/lib/lib-keccak/contracts/lib/",
+      "@risc0/=lib/risc0-ethereum/contracts/src/",
+      "openzeppelin/contracts/=lib/risc0-ethereum/lib/openzeppelin-contracts/contracts/",
+      "openzeppelin/=lib/risc0-ethereum/lib/openzeppelin-contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "kontrol-cheatcodes/=lib/optimism/packages/contracts-bedrock/lib/kontrol-cheatcodes/src/",
+      "lib-keccak/=lib/optimism/packages/contracts-bedrock/lib/lib-keccak/contracts/",
+      "openzeppelin-contracts-upgradeable/=lib/optimism/packages/contracts-bedrock/lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts-v5/=lib/optimism/packages/contracts-bedrock/lib/openzeppelin-contracts-v5/",
+      "openzeppelin-contracts/=lib/risc0-ethereum/lib/openzeppelin-contracts/",
+      "optimism/=lib/optimism/",
+      "risc0-ethereum/=lib/risc0-ethereum/",
+      "solady-v0.0.245/=lib/optimism/packages/contracts-bedrock/lib/solady-v0.0.245/src/",
+      "solady/=lib/optimism/packages/contracts-bedrock/lib/solady/src/",
+      "solmate/=lib/optimism/packages/contracts-bedrock/lib/solmate/src/",
+      "ds-test/=lib/optimism/packages/contracts-bedrock/lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/risc0-ethereum/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/risc0-ethereum/lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

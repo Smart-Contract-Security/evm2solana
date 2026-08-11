@@ -1,0 +1,33 @@
+{
+  "address": "0x4562239f51d66b96e6d94205266b76e683202a6e",
+  "contract_name": "FullMTC",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 1,
+  "source_sha256": "66c6d181153ed820760ffc2df4a76ee6a7e108f5a37e4cea4fa6a4bbf78d39e4",
+  "fetched_at": "2026-06-01T06:26:11.139256+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": false
+  }
+}

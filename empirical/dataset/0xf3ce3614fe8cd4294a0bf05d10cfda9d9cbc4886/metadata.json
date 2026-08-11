@@ -1,0 +1,42 @@
+{
+  "address": "0xf3ce3614fe8cd4294a0bf05d10cfda9d9cbc4886",
+  "contract_name": "SlopComputer",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 3,
+  "source_sha256": "5d32b46a117c2c256df45c6d94cda9dae2100c8fa505d7dadff6c3e0919628ce",
+  "fetched_at": "2026-06-03T05:07:51.402551+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "ds-test/=lib/solidity-bytes-utils/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "solidity-bytes-utils/=lib/solidity-bytes-utils/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

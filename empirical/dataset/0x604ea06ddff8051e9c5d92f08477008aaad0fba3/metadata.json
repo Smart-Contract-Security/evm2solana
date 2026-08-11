@@ -1,0 +1,27 @@
+{
+  "address": "0x604ea06ddff8051e9c5d92f08477008aaad0fba3",
+  "contract_name": "USDC",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 21,
+  "source_sha256": "bbbbd7ed32e0351e557a53580d4acf0c71b05b224ee39bdc7bc7eb22c9c08ead",
+  "fetched_at": "2026-06-04T04:25:34.954256+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

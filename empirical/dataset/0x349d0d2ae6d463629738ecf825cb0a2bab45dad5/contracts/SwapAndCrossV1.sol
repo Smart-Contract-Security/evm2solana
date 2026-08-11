@@ -1,0 +1,463 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
+import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/utils/PausableUpgradeable.sol";
+
+// ==================== Interfaces ====================
+
+interface IBridge {
+    function userLock(
+        bytes32 smgID,
+        uint tokenPairID,
+        uint value,
+        bytes memory userAccount
+    ) external payable;
+
+    function userBurn(
+        bytes32 smgID,
+        uint tokenPairID,
+        uint value,
+        uint fee,
+        address tokenAddress,
+        bytes memory userAccount
+    ) external payable;
+}
+
+interface IApproveProxy {
+    function claimTokens(
+        address token,
+        address from,
+        address to,
+        uint256 amount
+    ) external;
+}
+
+// ==================== Enums ====================
+
+enum CrossType {
+    UserLock,  // 锁定模式:锁定源链资产,目标链铸造映射资产
+    UserBurn   // 销毁模式:销毁源链映射资产,目标链解锁原生资产
+}
+
+// ==================== Events ====================
+
+event SwapAndCrossExecuted(
+    address indexed user,
+    address indexed tokenIn,
+    address tokenOut,
+    uint256 amountIn,
+    uint256 amountOut,
+    bytes recipient,
+    uint256 networkFee
+);
+
+event RouterUpdated(address indexed oldRouter, address indexed newRouter);
+event ApproveProxyUpdated(address indexed oldProxy, address indexed newProxy);
+event BridgeUpdated(address indexed oldBridge, address indexed newBridge);
+
+event RefundProcessed(
+    address indexed user,
+    address indexed token,
+    uint256 amount,
+    string reason
+);
+
+// ==================== Main Contract ====================
+
+/**
+ * @title SwapAndCrossV1
+ * @notice 整合 OKX DEX Swap 和 Wanchain Bridge 的可升级智能合约
+ * @dev 使用 UUPS 代理模式实现可升级性
+ * 
+ * 关键改进:
+ * 1. 使用 OpenZeppelin 可升级合约库
+ * 2. 采用 UUPS 代理模式
+ * 3. 移除 immutable 变量,支持运行时修改所有配置
+ * 4. 添加存储间隔以支持未来升级
+ * 5. 支持 OKX DEX 的 ApproveProxy 模式
+
+ * 新的改进:
+ * 1. swapAndCross 入口统一校验 msg.value，防止 ETH 双重消耗
+ * 2. 移除伪造 txHash：_executeCross 不再返回值，追踪请使用链上 tx.hash
+ * 3. 移除 fallback
+ * 4. 添加 PausableUpgradeable，支持紧急暂停/恢复
+ * 5. 避免用户直接发币到合约地址
+ * 6. swapAndCross 由参数传入okxDexRouter合约地址
+ */
+contract SwapAndCrossV1 is 
+    Initializable,
+    ReentrancyGuardUpgradeable,
+    OwnableUpgradeable,
+    UUPSUpgradeable,
+    PausableUpgradeable
+{
+    using SafeERC20 for IERC20;
+
+    // ==================== Structs ====================
+
+    struct SwapParams {
+        address okxDexRouter;
+        address tokenIn;         // 输入代币地址 (0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE 表示原生代币)
+        address tokenOut;        // 输出代币地址
+        uint256 amountIn;        // 输入代币数量
+        uint256 minAmountOut;    // 最小输出数量 (滑点保护)
+        bytes swapCallData;      // OKX DEX API 获取的 callData
+    }
+
+    struct BridgeParams {
+        bytes32 smgID;           // Storeman Group ID
+        uint256 tokenPairID;     // 代币对ID
+        CrossType crossType;     // 跨链类型
+        bytes recipient;         // 目标链接收地址
+        uint256 networkFee;      // 跨链网络费
+    }
+
+    // ==================== State Variables ====================
+    
+    address public okxApproveProxy;
+    address public wanBridge;  // 改为可变,不再是 immutable
+    
+    // 原生代币地址标识
+    address private constant NATIVE_TOKEN = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE;
+    
+    // ==================== Constructor & Initializer ====================
+    
+    /**
+     * @custom:oz-upgrades-unsafe-allow constructor
+     * @dev 禁用实现合约的初始化
+     */
+    constructor() {
+        _disableInitializers();
+    }
+
+    /**
+     * @notice 初始化合约(替代 constructor)
+     * @param _okxApproveProxy OKX ApproveProxy 地址
+     * @param _wanBridge Wanchain Bridge 地址
+     */
+    function initialize(
+        address _okxApproveProxy,
+        address _wanBridge
+    ) public initializer {
+        require(_okxApproveProxy != address(0), "Invalid approve proxy address");
+        require(_wanBridge != address(0), "Invalid bridge address");
+        
+        // 初始化父合约
+        __ReentrancyGuard_init();
+        __Ownable_init(msg.sender);
+        __UUPSUpgradeable_init();
+        __Pausable_init();
+        
+        // 初始化状态变量
+        okxApproveProxy = _okxApproveProxy;
+        wanBridge = _wanBridge;
+    }
+    
+    // ==================== Main Function ====================
+    
+    /**
+     * @notice 执行 Swap + Cross 操作
+     * @param swapParams Swap 参数
+     * @param bridgeParams Bridge 参数
+     * @return amountOut Swap 后得到的代币数量
+     * 
+     * @dev 重要:
+     *      1. 调用 OKX API 时,必须设置 swapReceiverAddress = address(this)
+     *      2. ERC20 代币必须授权给 ApproveProxy,而不是 DexRouter
+     *      3. 用户需要先授权本合约使用其代币
+     */
+    function swapAndCross(
+        SwapParams calldata swapParams,
+        BridgeParams calldata bridgeParams
+    ) external payable nonReentrant whenNotPaused returns (uint256 amountOut) {
+        require(swapParams.amountIn > 0, "Amount must be greater than 0");
+        require(bridgeParams.recipient.length > 0, "Invalid recipient");
+
+        bool isNativeIn = swapParams.tokenIn == NATIVE_TOKEN;
+        uint256 requiredEth = bridgeParams.networkFee + (isNativeIn ? swapParams.amountIn : 0);
+        require(msg.value == requiredEth, "ETH amount must exactly equal swap amount + network fee");
+
+        // Step 1: 执行 Swap
+        amountOut = _executeSwap(swapParams);
+        
+        // Step 2: 验证实际收到的代币数量
+        require(amountOut > 0, "No tokens received from swap");
+        
+        // Step 3: 执行跨链
+        _executeCross(swapParams.tokenOut, amountOut, bridgeParams);
+        
+        // Step 4: 退还剩余的代币(如果有)
+        _refundRemainingTokens(msg.sender, swapParams.tokenIn, swapParams.tokenOut);
+        
+        // 发出事件
+        emit SwapAndCrossExecuted(
+            msg.sender,
+            swapParams.tokenIn,
+            swapParams.tokenOut,
+            swapParams.amountIn,
+            amountOut,
+            bridgeParams.recipient,
+            bridgeParams.networkFee
+        );
+    }
+    
+    // ==================== Internal Functions ====================
+    
+    /**
+     * @notice 执行代币兑换
+     * @dev 关键改进:
+     *      1. ERC20 代币授权给 ApproveProxy 而不是 DexRouter
+     *      2. 这样 DexRouter 可以通过 ApproveProxy.claimTokens() 拉取代币
+     */
+    function _executeSwap(
+        SwapParams calldata params
+    ) internal returns (uint256 amountOut) {
+        bool isNativeIn = params.tokenIn == NATIVE_TOKEN;
+        uint256 swapValue = 0;
+        
+        // 处理输入代币
+        if (!isNativeIn) {
+            // ERC20 代币
+            // Step 1: 从用户接收代币到本合约
+            IERC20(params.tokenIn).safeTransferFrom(
+                msg.sender,
+                address(this),
+                params.amountIn
+            );
+            
+            // Step 2: 授权给 ApproveProxy (而不是 DexRouter!)
+            IERC20(params.tokenIn).forceApprove(okxApproveProxy, params.amountIn);
+        } else {
+            // 原生代币
+            swapValue = params.amountIn;
+            // require(msg.value >= swapValue, "Insufficient ETH for swap");
+        }
+        
+        // 记录兑换前的余额
+        uint256 balanceBefore = _getBalance(params.tokenOut);
+        
+        // 调用 OKX DEX Router
+        (bool success, bytes memory returnData) = params.okxDexRouter.call{value: swapValue}(
+            params.swapCallData
+        );
+        
+        if (!success) {
+            // 解析错误信息
+            string memory errorMsg = _getRevertMsg(returnData);
+            revert(string(abi.encodePacked("Swap failed: ", errorMsg)));
+        }
+        
+        // 计算实际获得的代币数量
+        uint256 balanceAfter = _getBalance(params.tokenOut);
+        amountOut = balanceAfter - balanceBefore;
+        
+        // 滑点检查
+        require(amountOut >= params.minAmountOut, "Insufficient output amount (slippage)");
+        
+        // 重置授权(安全措施)
+        if (!isNativeIn) {
+            IERC20(params.tokenIn).forceApprove(okxApproveProxy, 0);
+        }
+        
+        return amountOut;
+    }
+    
+    /**
+     * @notice 执行跨链操作
+     */
+    function _executeCross(
+        address token,
+        uint256 amount,
+        BridgeParams calldata params
+    ) internal {
+        require(amount > 0, "Amount must be greater than 0");
+        
+        uint256 bridgeFee = params.networkFee;
+        
+        if (token != NATIVE_TOKEN) {
+            // ERC20 代币跨链
+            if (params.crossType == CrossType.UserLock) {
+                // Lock 模式:授权给 bridge
+                IERC20(token).forceApprove(wanBridge, amount);
+                
+                IBridge(wanBridge).userLock{value: bridgeFee}(
+                    params.smgID,
+                    params.tokenPairID,
+                    amount,
+                    params.recipient
+                );
+                
+                // 重置授权
+                IERC20(token).forceApprove(wanBridge, 0);
+            } else {
+                // Burn 模式:直接销毁
+                IBridge(wanBridge).userBurn{value: bridgeFee}(
+                    params.smgID,
+                    params.tokenPairID,
+                    amount,
+                    0,  // fee 参数设为 0
+                    token,
+                    params.recipient
+                );
+            }
+        } else {
+            // 原生币跨链（只支持 Lock 模式）
+            require(address(this).balance >= bridgeFee + amount, "Contract insufficient ETH balance");
+
+            
+            IBridge(wanBridge).userLock{value: bridgeFee + amount}(
+                params.smgID,
+                params.tokenPairID,
+                amount,
+                params.recipient
+            );
+        }
+    }
+    
+    /**
+     * @notice 退还剩余代币给用户
+     */
+    function _refundRemainingTokens(
+        address user,
+        address tokenIn,
+        address tokenOut
+    ) internal {
+        // 退还输入代币(如果有剩余)
+        uint256 remainingIn = _getBalance(tokenIn);
+        if (remainingIn > 0) {
+            if (tokenIn == NATIVE_TOKEN) {
+                (bool success, ) = payable(user).call{value: remainingIn}("");
+                require(success, "Refund native token failed");
+            } else {
+                IERC20(tokenIn).safeTransfer(user, remainingIn);
+            }
+            emit RefundProcessed(user, tokenIn, remainingIn, "Remaining input tokens");
+        }
+        
+        // 退还输出代币(如果跨链后还有剩余)
+        uint256 remainingOut = _getBalance(tokenOut);
+        if (remainingOut > 0) {
+            if (tokenOut == NATIVE_TOKEN) {
+                (bool success, ) = payable(user).call{value: remainingOut}("");
+                require(success, "Refund native token failed");
+            } else {
+                IERC20(tokenOut).safeTransfer(user, remainingOut);
+            }
+            emit RefundProcessed(user, tokenOut, remainingOut, "Remaining output tokens");
+        }
+    }
+    
+    /**
+     * @notice 获取代币余额
+     */
+    function _getBalance(address token) internal view returns (uint256) {
+        if (token == NATIVE_TOKEN) {
+            return address(this).balance;
+        } else {
+            return IERC20(token).balanceOf(address(this));
+        }
+    }
+    
+    /**
+     * @notice 从 returnData 中提取错误信息
+     */
+    function _getRevertMsg(bytes memory returnData) internal pure returns (string memory) {
+        if (returnData.length < 68) return "Transaction reverted silently";
+        
+        assembly {
+            returnData := add(returnData, 0x04)
+        }
+        
+        return abi.decode(returnData, (string));
+    }
+    
+    // ==================== Admin Functions ====================
+    /**
+     * @notice 更新 OKX ApproveProxy 地址
+     */
+    function updateApproveProxy(address newProxy) external onlyOwner {
+        require(newProxy != address(0), "Invalid proxy address");
+        address oldProxy = okxApproveProxy;
+        okxApproveProxy = newProxy;
+        emit ApproveProxyUpdated(oldProxy, newProxy);
+    }
+    
+    /**
+     * @notice 更新 Wanchain Bridge 地址
+     */
+    function updateBridge(address newBridge) external onlyOwner {
+        require(newBridge != address(0), "Invalid bridge address");
+        address oldBridge = wanBridge;
+        wanBridge = newBridge;
+        emit BridgeUpdated(oldBridge, newBridge);
+    }
+    
+    /**
+     * @notice 紧急恢复代币(仅用于误转入的资产)
+     */
+    function emergencyWithdraw(address token, uint256 amount) external onlyOwner {
+        if (token == NATIVE_TOKEN) {
+            (bool success, ) = owner().call{value: amount}("");
+            require(success, "ETH transfer failed");
+        } else {
+            IERC20(token).safeTransfer(owner(), amount);
+        }
+    }
+
+    // ==================== Pause / Unpause ====================
+
+    /**
+     * @notice 暂停合约（紧急情况使用）
+     * [修复4] 暂停后 swapAndCross 将无法调用
+     */
+    function pause() external onlyOwner {
+        _pause();
+    }
+
+    /**
+     * @notice 恢复合约
+     */
+    function unpause() external onlyOwner {
+        _unpause();
+    }
+    
+    // ==================== Upgrade Authorization ====================
+    
+    /**
+     * @notice 授权升级(UUPS 模式要求)
+     * @dev 只有 owner 可以升级合约
+     */
+    function _authorizeUpgrade(address newImplementation) internal override onlyOwner {}
+    
+    /**
+     * @notice 获取当前实现版本
+     * @return 版本字符串
+     */
+    function version() public pure virtual returns (string memory) {
+        return "1.0.0";
+    }
+    
+    // ==================== View Functions ====================
+    
+    /**
+     * @notice 查询合约中指定代币的余额
+     */
+    function getContractBalance(address token) external view returns (uint256) {
+        return _getBalance(token);
+    }
+    
+    // ==================== Receive Functions ====================
+
+    /**
+     * @notice 接收原生代币(无数据的纯转账)
+     */
+    receive() external payable {
+        require(msg.sender != tx.origin, "ETH deposit rejected");
+    }
+}

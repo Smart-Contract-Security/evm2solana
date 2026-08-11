@@ -1,0 +1,42 @@
+{
+  "address": "0x655089cafbbb345114fe33019a26e1fa2d8d7ce9",
+  "contract_name": "DarkToken",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 4,
+  "source_sha256": "bc3c8be4bc0a1ebf5e5a2267a02b60ce49ad7cf466a5a4191c9cadf81039a8a8",
+  "fetched_at": "2026-06-03T11:12:48.037778+00:00",
+  "solc_settings": {
+    "remappings": [
+      "solady/=lib/solady/",
+      "forge-std/=lib/forge-std/src/",
+      "v4-core/=lib/v4-core/src/",
+      "ds-test/=lib/v4-core/lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/v4-core/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "openzeppelin-contracts/=lib/v4-core/lib/openzeppelin-contracts/",
+      "solmate/=lib/v4-core/lib/solmate/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

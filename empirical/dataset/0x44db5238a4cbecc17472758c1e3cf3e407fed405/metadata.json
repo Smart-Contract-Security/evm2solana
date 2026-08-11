@@ -1,0 +1,28 @@
+{
+  "address": "0x44db5238a4cbecc17472758c1e3cf3e407fed405",
+  "contract_name": "AetherHookDeployer",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 22,
+  "source_sha256": "cb6893eec8853811f6687771cc0771e7d05efadf36e8ea6ff12627d64d05e40e",
+  "fetched_at": "2026-06-01T08:17:00.272847+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

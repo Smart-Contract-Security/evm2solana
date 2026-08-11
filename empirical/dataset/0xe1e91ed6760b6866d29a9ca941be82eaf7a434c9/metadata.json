@@ -1,0 +1,27 @@
+{
+  "address": "0xe1e91ed6760b6866d29a9ca941be82eaf7a434c9",
+  "contract_name": "JVaultV3",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 9,
+  "source_sha256": "226afbcf7eb371b397984d0146c403006d212ace2fbd3fa567cd8abbb4a14adb",
+  "fetched_at": "2026-06-03T05:45:39.929511+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

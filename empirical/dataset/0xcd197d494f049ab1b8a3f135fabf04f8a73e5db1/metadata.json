@@ -1,0 +1,45 @@
+{
+  "address": "0xcd197d494f049ab1b8a3f135fabf04f8a73e5db1",
+  "contract_name": "Redemption",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 9,
+  "source_sha256": "a53dde32bb27e4ce0b2dd96961c917138e38b365b3e7766a53a7c9490d6e20a5",
+  "fetched_at": "2026-06-04T11:16:27.348419+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin/=lib/openzeppelin-contracts/contracts/",
+      "solmate/=lib/solmate/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "ds-test/=lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "solmate/=lib/solmate/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

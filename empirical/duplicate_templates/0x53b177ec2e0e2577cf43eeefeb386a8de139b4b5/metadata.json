@@ -1,0 +1,26 @@
+{
+  "address": "0x53b177ec2e0e2577cf43eeefeb386a8de139b4b5",
+  "contract_name": "LongLive",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 1,
+  "source_sha256": "bc818f31d4a0698f7a41be8fb5c9ae303e20756c230f5649d10821be920519c2",
+  "fetched_at": "2026-06-01T10:23:58.365973+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

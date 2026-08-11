@@ -1,0 +1,27 @@
+{
+  "address": "0x1996eb236b6513435164b258ce0a5da75b0f33fa",
+  "contract_name": "StableArb",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 1,
+  "source_sha256": "b24d4108a9c4b219544950e83f1612e04ed92d8a43a3591e65e157466da0995f",
+  "fetched_at": "2026-06-01T12:31:53.299652+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

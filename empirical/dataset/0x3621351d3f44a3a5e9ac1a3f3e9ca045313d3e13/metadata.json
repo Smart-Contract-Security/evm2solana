@@ -1,0 +1,46 @@
+{
+  "address": "0x3621351d3f44a3a5e9ac1a3f3e9ca045313d3e13",
+  "contract_name": "rwaUSD",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 32,
+  "source_sha256": "e5e29caa91c891ae66314f7596b3522a1e5b0c09e7574135222c8f9d192adcf4",
+  "fetched_at": "2026-06-03T12:32:47.628723+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@chainlink/contracts-ccip/=node_modules/@chainlink/contracts-ccip/",
+      "@chainlink/contracts/=node_modules/@chainlink/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@chainlink/contracts/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/=node_modules/@openzeppelin/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin-foundry-upgrades/=lib/openzeppelin-foundry-upgrades/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 8000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

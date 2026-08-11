@@ -1,0 +1,28 @@
+{
+  "address": "0x7f21f09ebd695e3612017ab7c79b6840de05f33b",
+  "contract_name": "BEP20USDT",
+  "compiler_version": "v0.8.13+commit.abaa5c0e",
+  "file_count": 1,
+  "source_sha256": "41dae7e3631f8931964312b4cf8b2b921176b3f09bbe62ee3fbe87c9e419afea",
+  "fetched_at": "2026-06-01T12:06:38.411386+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [],
+    "evmVersion": "london"
+  }
+}

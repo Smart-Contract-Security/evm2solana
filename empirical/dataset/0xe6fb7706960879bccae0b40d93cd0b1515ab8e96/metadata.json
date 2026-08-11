@@ -1,0 +1,39 @@
+{
+  "address": "0xe6fb7706960879bccae0b40d93cd0b1515ab8e96",
+  "contract_name": "StablecoinV2",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 21,
+  "source_sha256": "18c59f7b3295eb0d4a6f837f72d4890840aa69584d1a0d1130a0a26d2f379ee8",
+  "fetched_at": "2026-06-01T12:20:21.100783+00:00",
+  "solc_settings": {
+    "remappings": [
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

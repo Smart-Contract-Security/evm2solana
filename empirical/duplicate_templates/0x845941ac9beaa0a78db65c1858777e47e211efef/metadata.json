@@ -1,0 +1,28 @@
+{
+  "address": "0x845941ac9beaa0a78db65c1858777e47e211efef",
+  "contract_name": "UNodes",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 26,
+  "source_sha256": "7476719a5ee7a27debee1922a971d39add4f9407db94c0141cab885f792d15e6",
+  "fetched_at": "2026-06-02T14:52:43.104246+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 60
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

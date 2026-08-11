@@ -1,0 +1,27 @@
+{
+  "address": "0xa1308330d2c088f094e085f8a6e94b6d9e2166c5",
+  "contract_name": "MorphoVaultStrategyMainnet_SHP_USDT_V2",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 21,
+  "source_sha256": "93a8ede10c68628535e005af3bd0cd59f477520264a2c1ddb94450bc023d5071",
+  "fetched_at": "2026-06-03T12:49:46.770483+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

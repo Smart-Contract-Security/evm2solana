@@ -1,0 +1,31 @@
+{
+  "address": "0xb9af93c1e2ee9e18ec1e09e88252b85514c3806a",
+  "contract_name": "LoopringExchange",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "77f7ab54a2530a19dba867a355f253428a5bd539db37593f9187255319469112",
+  "fetched_at": "2026-06-02T11:21:06.212930+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

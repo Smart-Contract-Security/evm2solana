@@ -1,0 +1,38 @@
+{
+  "address": "0x85b4409e57568b795c826ca96606860178088983",
+  "contract_name": "FlashLoanArbitrageBot",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 17,
+  "source_sha256": "2ee78b04b341b9e39cb7db7029652cd39bf785c3ca28e6861145ff4438bae471",
+  "fetched_at": "2026-06-04T05:31:53.203321+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200,
+      "details": {
+        "yul": true,
+        "yulDetails": {
+          "stackAllocation": true,
+          "optimizerSteps": "dhfoDgvulfnTUtnIf"
+        }
+      }
+    },
+    "viaIR": true,
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

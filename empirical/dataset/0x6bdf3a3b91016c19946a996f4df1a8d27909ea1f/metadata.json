@@ -1,0 +1,27 @@
+{
+  "address": "0x6bdf3a3b91016c19946a996f4df1a8d27909ea1f",
+  "contract_name": "HookFactory",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 12,
+  "source_sha256": "5d3b172b635f2b21a00cec08b45396038b1d88815569a8013460b701d6220792",
+  "fetched_at": "2026-06-03T12:52:23.949465+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

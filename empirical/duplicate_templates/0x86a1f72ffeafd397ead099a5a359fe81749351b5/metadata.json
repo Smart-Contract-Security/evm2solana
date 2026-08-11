@@ -1,0 +1,60 @@
+{
+  "address": "0x86a1f72ffeafd397ead099a5a359fe81749351b5",
+  "contract_name": "ChainlinkOEVWrapper",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 21,
+  "source_sha256": "7ed0099e65800d65efcc71307584edc05fdb97fc30033416cd7260b2850d8167",
+  "fetched_at": "2026-06-03T05:30:40.480603+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "remappings": [
+      ":@crv-rewards/=crv-rewards/",
+      ":@deprecated/=deprecated/",
+      ":@forge-std/=lib/forge-std/src/",
+      ":@openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      ":@openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      ":@openzeppelin/=lib/openzeppelin-contracts/",
+      ":@proposals/=proposals/",
+      ":@protocol/=src/",
+      ":@script/=script/",
+      ":@test/=test/",
+      ":@utils/=src/utils/",
+      ":@wormhole/=lib/wormhole/ethereum/contracts/",
+      ":@zelt-src/=lib/zelt/src/",
+      ":@zelt-test/=lib/zelt/test/",
+      ":@zelt/=lib/zelt/",
+      ":IERC20/=lib/wormhole-solidity-sdk/src/interfaces/token/",
+      ":SafeERC20/=lib/wormhole-solidity-sdk/src/libraries/",
+      ":ds-test/=lib/solmate/lib/ds-test/src/",
+      ":erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      ":forge-std/=lib/forge-std/src/",
+      ":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      ":openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      ":openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      ":solmate/=lib/solmate/src/",
+      ":wormhole-sdk/=lib/wormhole-solidity-sdk/src/",
+      ":wormhole-solidity-sdk/=lib/wormhole-solidity-sdk/src/",
+      ":wormhole/=lib/wormhole/",
+      ":zelt/=lib/zelt/src/"
+    ],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

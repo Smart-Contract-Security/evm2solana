@@ -1,0 +1,26 @@
+{
+  "address": "0xd7d000714f1cd927d002ba7b2dab5beb18d72395",
+  "contract_name": "ILIKEVITALIK",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 1,
+  "source_sha256": "b4d9813d479bf60a0b873cec3dd5891acd53a4dd4b1323fa136dd68357f3ed2c",
+  "fetched_at": "2026-06-02T04:49:59.857888+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

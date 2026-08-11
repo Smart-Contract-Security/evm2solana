@@ -1,0 +1,27 @@
+{
+  "address": "0x3717a94c13161dc78ff127f09e90f5015bd8b246",
+  "contract_name": "sETH",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 7,
+  "source_sha256": "a1ed925d9c93a1e2475d3c6d7e4323cf80b33e484b09221329eb0e2350fd8e98",
+  "fetched_at": "2026-06-04T03:31:22.951695+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

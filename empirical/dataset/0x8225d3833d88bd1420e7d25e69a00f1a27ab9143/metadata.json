@@ -1,0 +1,8 @@
+{
+  "address": "0x8225d3833d88bd1420e7d25e69a00f1a27ab9143",
+  "contract_name": "FLAaveV3CarryDebt",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 1,
+  "source_sha256": "d22d8534afef8f6d486ed2e1f7dbe71631264f2c3bee06267c562c1e844d7a33",
+  "fetched_at": "2026-06-02T01:46:04.871940+00:00"
+}

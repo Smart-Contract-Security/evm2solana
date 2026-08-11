@@ -1,0 +1,46 @@
+{
+  "address": "0xe2ef8f27db69630a3266bc566c5421475cc31816",
+  "contract_name": "SimpleMarketConfig",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 33,
+  "source_sha256": "5943150c922d37f4f5c96616da8eff98b0a14310270a0e7019935f87bd6c634c",
+  "fetched_at": "2026-06-02T11:45:19.736621+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin-contracts-upgradeable/=dependencies/@openzeppelin-contracts-upgradeable-5.3.0/",
+      "@openzeppelin-contracts/=dependencies/@openzeppelin-contracts-5.3.0/",
+      "@openzeppelin/contracts-upgradeable/=dependencies/@openzeppelin-contracts-upgradeable-5.3.0/",
+      "@openzeppelin/contracts/=dependencies/@openzeppelin-contracts-5.3.0/",
+      "openzeppelin-foundry-upgrades/=dependencies/openzeppelin-foundry-upgrades-0.4.0/src/",
+      "solmate/=dependencies/solmate-6.8.0/",
+      "@openzeppelin-contracts-5.3.0/=dependencies/@openzeppelin-contracts-5.3.0/",
+      "@openzeppelin-contracts-upgradeable-5.3.0/=dependencies/@openzeppelin-contracts-upgradeable-5.3.0/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-foundry-upgrades-0.4.0/=dependencies/openzeppelin-foundry-upgrades-0.4.0/src/",
+      "solmate-6.8.0/=dependencies/solmate-6.8.0/src/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

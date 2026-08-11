@@ -1,0 +1,27 @@
+{
+  "address": "0xdb6b2e164847bb138141f7009c5b3430a939ee8c",
+  "contract_name": "UnitedVault",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "62922f6b79f416ba1c4f02c49fa896c327ca1f42d8b7cb50bbbc6e42b94224e7",
+  "fetched_at": "2026-06-03T12:00:37.112955+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

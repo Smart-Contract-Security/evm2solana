@@ -1,0 +1,31 @@
+{
+  "address": "0x41321a75360432f261408bb810131d6e31fc310d",
+  "contract_name": "GearboxPool",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "624e2cf5af21e59f1762a7fcc55c5d9adf25f7e2dca07400dd66cd5ddf33e439",
+  "fetched_at": "2026-06-02T08:40:07.028759+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0x3c19d13a388798b3b71b215bb04959cffaacef4b",
+  "contract_name": "TermFlashLoanExecutorFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 37,
+  "source_sha256": "e7a17e184c270bebb09e2cdad502412168ddf6129f9aba63a08b4e5835c06cfb",
+  "fetched_at": "2026-06-03T05:10:20.418885+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

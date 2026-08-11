@@ -1,0 +1,32 @@
+{
+  "address": "0x4d71b255963dac711506020b5139402b168b3418",
+  "contract_name": "Rebate",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 14,
+  "source_sha256": "e35cdf014410b8879570fd15088787bf1adfd581ae509137d2eedb4505677caa",
+  "fetched_at": "2026-06-02T01:25:42.887821+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "metadata": {
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 20000
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [],
+    "viaIR": true
+  }
+}

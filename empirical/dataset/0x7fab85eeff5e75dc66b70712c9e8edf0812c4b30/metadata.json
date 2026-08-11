@@ -1,0 +1,40 @@
+{
+  "address": "0x7fab85eeff5e75dc66b70712c9e8edf0812c4b30",
+  "contract_name": "BondFactory",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 17,
+  "source_sha256": "4ca7420300dfa230f1d54877cfca7f3e1e87a5698ef08ad5e84b46c228e4dfd4",
+  "fetched_at": "2026-06-02T08:47:09.334542+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": true
+  }
+}

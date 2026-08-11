@@ -1,0 +1,27 @@
+{
+  "address": "0x32872e38ff87f0d3c924a8b8e78cfd03584b3435",
+  "contract_name": "NeonDocksERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "66d4718eb1f0bceff34adf9f4150fb4d70a68aef03e1916435ae818031e35fba",
+  "fetched_at": "2026-06-03T03:14:32.188981+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "address": "0x9412053caa90591461cfe5231cb81647073f360a",
+  "contract_name": "TransparentUpgradeableProxy",
+  "compiler_version": "v0.8.16+commit.07a7930e",
+  "file_count": 9,
+  "source_sha256": "df9471edbb4ad859533b5a3ce335b90ede7427f3698b16735f9092bb8c7cf510",
+  "fetched_at": "2026-06-04T03:51:27.439125+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+      "@arbitrum/=node_modules/@arbitrum/",
+      "@ensdomains/=node_modules/@ensdomains/",
+      "@offchainlabs/=node_modules/@offchainlabs/",
+      "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+      "hardhat-deploy/=node_modules/hardhat-deploy/",
+      "hardhat/=node_modules/hardhat/",
+      "nitro-contracts/=lib/nitro-contracts/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 100
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "libraries": {}
+  }
+}

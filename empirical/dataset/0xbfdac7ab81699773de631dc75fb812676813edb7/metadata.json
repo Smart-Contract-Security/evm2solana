@@ -1,0 +1,42 @@
+{
+  "address": "0xbfdac7ab81699773de631dc75fb812676813edb7",
+  "contract_name": "CrystalForge",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 8,
+  "source_sha256": "8880af8e0be66309e6745ad0c779e20cefeb666b33d4dc1aa8c37bbfae3c0718",
+  "fetched_at": "2026-06-03T11:12:41.816272+00:00",
+  "solc_settings": {
+    "remappings": [
+      "solady/=lib/solady/",
+      "forge-std/=lib/forge-std/src/",
+      "v4-core/=lib/v4-core/src/",
+      "ds-test/=lib/v4-core/lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/v4-core/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "openzeppelin-contracts/=lib/v4-core/lib/openzeppelin-contracts/",
+      "solmate/=lib/v4-core/lib/solmate/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

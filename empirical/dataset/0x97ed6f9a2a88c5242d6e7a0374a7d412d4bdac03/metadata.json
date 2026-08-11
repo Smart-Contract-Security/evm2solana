@@ -1,0 +1,41 @@
+{
+  "address": "0x97ed6f9a2a88c5242d6e7a0374a7d412d4bdac03",
+  "contract_name": "SpaceDues",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 11,
+  "source_sha256": "679bc42946b4c1d93c8ab3a579c2e639d853b75e280f75a6b36cbfb4998f9ffe",
+  "fetched_at": "2026-06-02T09:01:42.547884+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": true
+  }
+}

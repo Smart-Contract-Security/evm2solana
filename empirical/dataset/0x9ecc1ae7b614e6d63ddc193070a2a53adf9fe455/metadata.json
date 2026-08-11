@@ -1,0 +1,27 @@
+{
+  "address": "0x9ecc1ae7b614e6d63ddc193070a2a53adf9fe455",
+  "contract_name": "Migrator7702",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "28979f9808bad894160209300f28027d4b8f461913b390e65d496b5b17438a63",
+  "fetched_at": "2026-06-04T02:51:29.887911+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

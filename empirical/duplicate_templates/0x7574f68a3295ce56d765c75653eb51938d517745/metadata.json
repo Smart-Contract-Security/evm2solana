@@ -1,0 +1,27 @@
+{
+  "address": "0x7574f68a3295ce56d765c75653eb51938d517745",
+  "contract_name": "StrayPanda",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "3473a8422dbf71b9ac89eeca88ed1fdeeb294d1f71a3e0dd6faffee60ccd8ddd",
+  "fetched_at": "2026-06-03T12:07:22.525783+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

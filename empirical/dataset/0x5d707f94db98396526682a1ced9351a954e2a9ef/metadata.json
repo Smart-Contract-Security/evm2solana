@@ -1,0 +1,27 @@
+{
+  "address": "0x5d707f94db98396526682a1ced9351a954e2a9ef",
+  "contract_name": "Mailbox",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 15,
+  "source_sha256": "13402b6d1df6d273d4aae7610fa77ce1096384920667cbd2fe0bf89b04e6eeec",
+  "fetched_at": "2026-06-04T05:13:51.011853+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

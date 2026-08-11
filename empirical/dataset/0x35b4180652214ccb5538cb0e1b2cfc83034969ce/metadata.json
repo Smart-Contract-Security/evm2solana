@@ -1,0 +1,28 @@
+{
+  "address": "0x35b4180652214ccb5538cb0e1b2cfc83034969ce",
+  "contract_name": "AetherMirror",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 7,
+  "source_sha256": "d91e7af07acb8ec6ba688f36cd128fa88da89e1f3ec16d860d9b50136dc7b0d7",
+  "fetched_at": "2026-06-01T08:16:55.987427+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

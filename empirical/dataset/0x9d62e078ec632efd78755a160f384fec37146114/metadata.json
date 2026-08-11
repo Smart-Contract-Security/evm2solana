@@ -1,0 +1,41 @@
+{
+  "address": "0x9d62e078ec632efd78755a160f384fec37146114",
+  "contract_name": "RoyaltySplitter",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "9b963d55d214c18c392e833e4e0647e5559af1bd59b78780150fa98c606cbe5c",
+  "fetched_at": "2026-06-02T08:55:23.005709+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "solady/=lib/solady/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xa0fb8b52dc48bbfd9dbd4a7603b44e1b84e1cd04",
+  "contract_name": "StormyGlenToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "407b5b29d144f1c10115362c9a60d9bc8dd703b1a700cf72a0ef3532980c4b84",
+  "fetched_at": "2026-06-03T11:05:39.652603+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

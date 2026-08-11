@@ -1,0 +1,55 @@
+{
+  "address": "0x7f83a473d15c40b7d2b091b481e5745f29b68d4b",
+  "contract_name": "USDT0BridgeAdapter",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 41,
+  "source_sha256": "e0f3d1e6529d22f9ea7cbc9f02ec82c962dccf09e8dbcc1badacda8824c11856",
+  "fetched_at": "2026-06-03T03:15:22.887390+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "openzeppelin-foundry-upgrades/=lib/openzeppelin-foundry-upgrades/src/",
+      "@shift-defi/core/=lib/shift-defi-platform/contracts/",
+      "@layer-zero/devtools/packages/oapp-evm/=lib/devtools/packages/oapp-evm/contracts/",
+      "@layerzerolabs/oapp-evm/=lib/devtools/packages/oapp-evm/",
+      "@layerzerolabs/oft-evm/=lib/devtools/packages/oft-evm/",
+      "@layerzerolabs/lz-evm-protocol-v2/=lib/LayerZero-v2/packages/layerzero-v2/evm/protocol/",
+      "@layerzerolabs/lz-evm-messagelib-v2/=lib/LayerZero-v2/packages/layerzero-v2/evm/messagelib/",
+      "lib/LayerZero-v2/packages/layerzero-v2/evm/oapp/contracts/oft/=@layerzerolabs/oft-evm/contracts/",
+      "solidity-bytes-utils/=lib/solidity-bytes-utils/",
+      "LayerZero-v2/=lib/LayerZero-v2/",
+      "devtools/=lib/devtools/packages/toolbox-foundry/src/",
+      "ds-test/=lib/solidity-bytes-utils/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/",
+      "shift-defi-platform/=lib/shift-defi-platform/contracts/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

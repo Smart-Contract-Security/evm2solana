@@ -1,0 +1,27 @@
+{
+  "address": "0xe347cb951060736f24a2a4b43f24b5b77a844018",
+  "contract_name": "CALI",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "13314f7d759aff70132e8bd4adc25cd43442fba7269403b74579bfa1a2709379",
+  "fetched_at": "2026-06-02T13:18:16.038035+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 100
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

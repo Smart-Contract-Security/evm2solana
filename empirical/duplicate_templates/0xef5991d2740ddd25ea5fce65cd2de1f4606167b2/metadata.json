@@ -1,0 +1,31 @@
+{
+  "address": "0xef5991d2740ddd25ea5fce65cd2de1f4606167b2",
+  "contract_name": "GameFiLaunchpad",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "b374db512b0f2a6326dbe2fa3f71c44c717099d3aba5db5abeac774dd9a73aec",
+  "fetched_at": "2026-06-03T11:04:48.494863+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{"file": "01_address_length.sol", "pattern": "1", "visibility": "rejected", "errors": ["ethereum address literal '0x1111111111111111111111111111111111111111' not supported on target Solana"]}
+{"file": "02_64bit_integers.sol", "pattern": "2", "visibility": "silently_accepted", "errors": []}
+{"file": "03_external_call_accounts.sol", "pattern": "3", "visibility": "rejected", "errors": ["unknown function or type 'ICallPa'"]}
+{"file": "04_balance_access.sol", "pattern": "4", "visibility": "rejected", "errors": ["balance is not available on Solana. Use tx.accounts.account_name.lamports to fetch the balance."]}
+{"file": "05_compute_unit_model.sol", "pattern": "5", "visibility": "rejected", "errors": ["builtin 'msg.gas' does not exist"]}
+{"file": "06_msg_sender.sol", "pattern": "6", "visibility": "rejected", "errors": ["'msg.sender' is not available on Solana. See https://solang.readthedocs.io/en/latest/targets/solana.html#msg-sender-solana"]}
+{"file": "07_ecrecover.sol", "pattern": "7", "visibility": "rejected", "errors": ["unknown function or type 'ecrecover'"]}
+{"file": "08_constructor_syntax.sol", "pattern": "8", "visibility": "rejected", "errors": ["contracts are not allowed as types on Solana"]}
+{"file": "09_gas_salt_creation.sol", "pattern": "9", "visibility": "rejected", "errors": ["contracts are not allowed as types on Solana"]}
+{"file": "10_try_catch.sol", "pattern": "10", "visibility": "rejected", "errors": ["The try-catch statement is not supported on Solana. Please, go to https://solang.readthedocs.io/en/latest/language/statements.html#try-catch-statement for more information"]}
+{"file": "11a_error_definitions.sol", "pattern": "11a", "visibility": "rejected", "errors": ["revert with custom errors not supported on Solana"]}
+{"file": "11b_error_definitions.sol", "pattern": "11b", "visibility": "silently_accepted", "errors": []}
+{"file": "12_value_transfer.sol", "pattern": "12", "visibility": "rejected", "errors": ["accounts are required for calling a contract. You can either provide the accounts with the {accounts: ...} call argument or change this function's visibility to external", "Solana Cross Program Invocation (CPI) cannot transfer native value. See https://solang.readthedocs.io/en/latest/language/functions.html#value_transfer"]}
+{"file": "13_yul_builtins.sol", "pattern": "13", "visibility": "rejected", "errors": ["builtin 'chainid' is not available for target Solana. Please, open a GitHub issue at https://github.com/hyperledger-solang/solang/issues if there is need to support this function"]}
+{"file": "14_erc20_spl_gap.sol", "pattern": "14", "visibility": "silently_accepted", "errors": []}
+{"file": "15_program_id.sol", "pattern": "15", "visibility": "rejected", "errors": ["unknown function or type 'NCon'"]}
+{"file": "16_constructor_annotations.sol", "pattern": "16", "visibility": "silently_accepted", "errors": []}
+{"file": "17_payable.sol", "pattern": "17", "visibility": "silently_accepted", "errors": []}
+{"file": "18_receive.sol", "pattern": "18", "visibility": "rejected", "errors": ["target Solana does not support receive() functions, see https://solang.readthedocs.io/en/latest/language/functions.html#fallback-and-receive-function"]}
+{"file": "19_solana_builtin_imports.sol", "pattern": "19", "visibility": "silently_accepted", "errors": []}
+{"file": "20_encode_packed.sol", "pattern": "20", "visibility": "silently_accepted", "errors": []}
+{"file": "21_contract_as_type.sol", "pattern": "21", "visibility": "rejected", "errors": ["contracts are not allowed as types on Solana"]}
+{"file": "22_this_semantics.sol", "pattern": "22", "visibility": "silently_accepted", "errors": []}
+{"file": "23_indexed_events.sol", "pattern": "23", "visibility": "silently_accepted", "errors": []}
+{"file": "24_tx_origin.sol", "pattern": "24", "visibility": "rejected", "errors": ["builtin 'tx.origin' does not exist"]}
+{"file": "25_gas_external_call.sol", "pattern": "25", "visibility": "rejected", "errors": ["unknown function or type 'ICallPa'"]}
+{"file": "26_delegatecall.sol", "pattern": "26", "visibility": "rejected", "errors": ["method 'delegatecall' does not exist"]}
+{"file": "27_send_transfer.sol", "pattern": "27", "visibility": "rejected", "errors": ["method 'transfer' not available on Solana. Use the lamports field from the AccountInfo struct directly to operate on balances."]}
+{"file": "28_gasleft.sol", "pattern": "28", "visibility": "rejected", "errors": ["unknown function or type 'gasleft'"]}
+{"file": "29_msg_sig.sol", "pattern": "29", "visibility": "rejected", "errors": ["implicit conversion would truncate from bytes8 to bytes4"]}
+{"file": "30a_abi_selector.sol", "pattern": "30a", "visibility": "rejected", "errors": ["conversion from bytes4 to function_selector not possible"]}
+{"file": "30b_abi_selector.sol", "pattern": "30b", "visibility": "silently_accepted", "errors": []}
+{"file": "31_tx_gasprice.sol", "pattern": "31", "visibility": "rejected", "errors": ["builtin 'tx.gasprice' does not exist"]}
+{"file": "32_selfdestruct.sol", "pattern": "32", "visibility": "rejected", "errors": ["unknown function or type 'selfdestruct'"]}
+{"file": "33_blockhash.sol", "pattern": "33", "visibility": "rejected", "errors": ["unknown function or type 'blockhash'"]}
+{"file": "34_clock_account.sol", "pattern": "34", "visibility": "silently_accepted", "errors": []}
+{"file": "35_block_number.sol", "pattern": "35", "visibility": "silently_accepted", "errors": []}
+{"file": "36_block_properties.sol", "pattern": "36", "visibility": "rejected", "errors": ["builtin 'block.gaslimit' does not exist"]}
+{"file": "37_pragma.sol", "pattern": "37", "visibility": "silently_accepted", "errors": []}
+{"file": "38_currency_units.sol", "pattern": "38", "visibility": "silently_accepted", "errors": []}

@@ -1,0 +1,27 @@
+{
+  "address": "0x3de0c8bbb890a5bd5f39bb377e2cac157d374036",
+  "contract_name": "GloomyRexERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "288e6175b91190bdcbd032fbb1d2a674378d4bf2584a7f9bb1acb5b7082b2d2d",
+  "fetched_at": "2026-06-03T07:07:16.180582+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

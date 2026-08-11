@@ -1,0 +1,27 @@
+{
+  "address": "0x37e35603f0eb397eadd5eb7a11108d873cff76aa",
+  "contract_name": "ArchonBlazeToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "c22a175476a04b0beb02938b107ea5e6ad4c10c53e3bfc9241fe526522ac53fa",
+  "fetched_at": "2026-06-03T11:07:46.106689+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

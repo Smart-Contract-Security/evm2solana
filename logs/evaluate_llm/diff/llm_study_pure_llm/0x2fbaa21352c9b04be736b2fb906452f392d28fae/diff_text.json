@@ -1,0 +1,28 @@
+[
+  {
+    "file": "POO.sol",
+    "original_lines": 346,
+    "ported_lines": 337,
+    "added": [
+      "pragma solidity ^0.8.19;",
+      "        _taxWallet = payable(address(0x76100dF705Ebd0130508b5C40D0E8a2435562f36));",
+      "        uniswapV2Router = IUniswapV2Router02(address(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D));",
+      ""
+    ],
+    "removed": [
+      "/**",
+      "https://www.poointoilet.wtf",
+      "https://t.me/poointoilet",
+      "https://x.com/poo_in_toilet",
+      " */",
+      "",
+      "pragma solidity 0.8.19;",
+      "",
+      "",
+      "        _taxWallet = payable(0x76100dF705Ebd0130508b5C40D0E8a2435562f36);",
+      "",
+      "        uniswapV2Router = IUniswapV2Router02(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D);",
+      "    "
+    ]
+  }
+]

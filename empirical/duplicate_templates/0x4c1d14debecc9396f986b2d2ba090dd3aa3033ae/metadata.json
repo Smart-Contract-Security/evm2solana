@@ -1,0 +1,43 @@
+{
+  "address": "0x4c1d14debecc9396f986b2d2ba090dd3aa3033ae",
+  "contract_name": "TWM",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "4fa20d40f315aa1b5f6609e5c40229b9c4573fa02f189d0c9847f308d336acdb",
+  "fetched_at": "2026-06-04T13:39:50.665984+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "v2-core/=lib/v2-core/contracts/",
+      "v2-periphery/=lib/v2-periphery/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

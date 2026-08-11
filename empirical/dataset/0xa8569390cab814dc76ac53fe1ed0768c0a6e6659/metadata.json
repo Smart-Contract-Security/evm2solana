@@ -1,0 +1,28 @@
+{
+  "address": "0xa8569390cab814dc76ac53fe1ed0768c0a6e6659",
+  "contract_name": "Packs",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 6,
+  "source_sha256": "6340b11a001720299ad9ddaac9956c1b40e356c7228b53d1f27633696c7ea796",
+  "fetched_at": "2026-06-02T08:40:20.111538+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "address": "0x022b6ee33f68cfa34ee93b1ea1f8d26fdb49316e",
+  "contract_name": "PERSIANCAT",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 7,
+  "source_sha256": "240fa91e900c53a40b823594948a8f1d9cb2a6c30e0f8d99a282f558c7578f03",
+  "fetched_at": "2026-06-02T13:22:15.723796+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "runs": 200,
+      "enabled": false
+    },
+    "remappings": [
+      "@openzeppelin/contracts/=@openzeppelin/contracts@5.6.0/",
+      "@openzeppelin/contracts-upgradeable/=@openzeppelin/contracts-upgradeable@5.6.0/"
+    ],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

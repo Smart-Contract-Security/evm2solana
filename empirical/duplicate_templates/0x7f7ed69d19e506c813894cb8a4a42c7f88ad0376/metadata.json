@@ -1,0 +1,27 @@
+{
+  "address": "0x7f7ed69d19e506c813894cb8a4a42c7f88ad0376",
+  "contract_name": "RooftopClubToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "dea287ceda16f0612d921eaa84802c256532d91ff34df9b77f90d34625fb985a",
+  "fetched_at": "2026-06-02T07:37:15.807769+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xde0bc2e257a27a9a14bf22c582aa767bd45c2f6c",
+  "contract_name": "EREBUSL",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "bf187aa5a8dad4457f500a488fdf6bc906ee968956ba6a29bad6f43129b0be1d",
+  "fetched_at": "2026-06-01T03:17:59.194369+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

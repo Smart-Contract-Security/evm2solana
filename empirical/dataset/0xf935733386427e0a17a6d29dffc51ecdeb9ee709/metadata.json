@@ -1,0 +1,32 @@
+{
+  "address": "0xf935733386427e0a17a6d29dffc51ecdeb9ee709",
+  "contract_name": "Vault",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 47,
+  "source_sha256": "182b90b91451095245aeb2b12c862f39ab036bd6dfb84bc07a1181c3ce34e1d9",
+  "fetched_at": "2026-06-03T06:25:39.958711+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "npm/@openzeppelin/contracts-upgradeable@5.6.1/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/",
+      "project/:@chainlink/contracts/=npm/@chainlink/contracts@1.5.0/",
+      "project/:@openzeppelin/contracts-upgradeable/=npm/@openzeppelin/contracts-upgradeable@5.6.1/",
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/"
+    ]
+  }
+}

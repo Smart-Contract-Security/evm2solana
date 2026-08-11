@@ -1,0 +1,27 @@
+{
+  "address": "0x2c6dbd6b937c996caa5093ae8de93f669deec1a8",
+  "contract_name": "WoahVroGov",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 6,
+  "source_sha256": "35cd9b08a2dc0fc1be604f3eed4c809f1e1740a8dd04f81b2f1a62cf1e551e91",
+  "fetched_at": "2026-06-02T12:04:33.404068+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

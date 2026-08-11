@@ -1,0 +1,28 @@
+[
+  {
+    "file": "EVMBridgeSubscription.sol",
+    "original_lines": 50,
+    "ported_lines": 55,
+    "added": [
+      "",
+      "import 'solana';",
+      "@program_id(\"EvmBridgeSub11111111111111111111111111111111\")",
+      "        address indexed user,",
+      "        address indexed targetBridge,",
+      "        owner = tx.accounts[0].key;",
+      "        require(tx.accounts[0].key == owner, \"Not the contract owner\");",
+      "",
+      "        (bool success, bytes memory returndata) = tokenAddress.call(",
+      "            abi.encodeWithSignature(\"transferFrom(address,address,uint256)\", fromUser, toBridgeC, amount)",
+      "        );"
+    ],
+    "removed": [
+      "        address indexed user, ",
+      "        address indexed targetBridge, ",
+      "        owner = msg.sender;",
+      "        require(msg.sender == owner, \"Not the contract owner\");",
+      "        ",
+      "        bool success = token.transferFrom(fromUser, toBridgeC, amount);"
+    ]
+  }
+]

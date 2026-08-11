@@ -1,0 +1,27 @@
+{
+  "address": "0xfaf27758a148eacbc289630ac6aaa757269b2ad2",
+  "contract_name": "Web3Service",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "895485b3e35feae52d8ad306d04dfdcd771ebfe588409f3ad42624e72ae88f21",
+  "fetched_at": "2026-06-01T12:22:31.446053+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "runs": 200,
+      "enabled": false
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

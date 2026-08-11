@@ -1,0 +1,26 @@
+{
+  "address": "0x09ba943f3b38e0f28e8909a00f3b58135dcd5b06",
+  "contract_name": "EthereumPriceFeedNgiplusFundamentalWithoutRoundsV1",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 12,
+  "source_sha256": "1ed22ec705ed4cf01e8de9375e6ab3db7a26601bb8cf34a74666305466f9f7bc",
+  "fetched_at": "2026-06-03T03:31:40.849525+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0x88b439321690511c47ca5aa843c20a3a04b3a788",
+  "contract_name": "Frogzilla",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "ddb8a9c59473f9c47743ca8d4b48d1971c0c9a353d98550da26847c2000d6c51",
+  "fetched_at": "2026-06-04T03:20:53.801064+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x723110be6fd6722baa51af8f2a28f825a574d6d1",
+  "contract_name": "DelegateImpl",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "5b48129fd71ea6e6791d366a25c9a7eb02b1ae3d0af4304bb6e187216b40f7dc",
+  "fetched_at": "2026-06-03T04:59:57.337623+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

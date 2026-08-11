@@ -1,0 +1,27 @@
+{
+  "address": "0xa7779e714b12b94b3b0d5600ff84c0a35f2258f1",
+  "contract_name": "LAPEPE",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "d08ddfc2b43fd7947d062dc0b27749afdf6f950327e21a66a8b6e35e07afffde",
+  "fetched_at": "2026-06-04T02:53:09.721341+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

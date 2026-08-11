@@ -1,0 +1,27 @@
+{
+  "address": "0x472fc93ae0b51fbdd588ec05b3f9f9e83cac6beb",
+  "contract_name": "DeadBrosCoin",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 7,
+  "source_sha256": "3020f41a16bf0b49ca6cb1a45038a67653fa6caf81afd9c9ebba8880236da610",
+  "fetched_at": "2026-06-03T12:02:21.054121+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

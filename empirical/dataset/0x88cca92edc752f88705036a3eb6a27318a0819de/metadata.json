@@ -1,0 +1,33 @@
+{
+  "address": "0x88cca92edc752f88705036a3eb6a27318a0819de",
+  "contract_name": "Token",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 8,
+  "source_sha256": "8f91702957c4ebfc07f7d3e35a259d8f8c62adcd0f6da877a95f281abe2b45c6",
+  "fetched_at": "2026-06-04T03:14:38.570503+00:00",
+  "solc_settings": {
+    "evmVersion": "istanbul",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

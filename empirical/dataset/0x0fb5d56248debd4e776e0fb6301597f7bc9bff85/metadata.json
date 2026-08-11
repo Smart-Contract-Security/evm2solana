@@ -1,0 +1,28 @@
+{
+  "address": "0x0fb5d56248debd4e776e0fb6301597f7bc9bff85",
+  "contract_name": "Treasury",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 19,
+  "source_sha256": "f8ca6bf8f7f6b9aa3998d9ef527157a591565ec298b2cea7ce3c8c7610092dea",
+  "fetched_at": "2026-06-01T08:39:34.839223+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

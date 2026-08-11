@@ -1,0 +1,27 @@
+{
+  "address": "0x57cdcbce62af1e804792486df5913897e11875f1",
+  "contract_name": "AstraforgeNomadsMirror",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 2,
+  "source_sha256": "6bc90c4fd0998d0da925168af3f09a2de213646a470b523e0a7101adcf091a87",
+  "fetched_at": "2026-06-01T10:15:24.468282+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

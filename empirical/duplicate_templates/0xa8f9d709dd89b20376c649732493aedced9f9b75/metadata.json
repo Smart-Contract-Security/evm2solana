@@ -1,0 +1,27 @@
+{
+  "address": "0xa8f9d709dd89b20376c649732493aedced9f9b75",
+  "contract_name": "RooftopDegenERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "5aaff6204672b12ba36026b0349c60b5506b499ecbfae77cf99dad7a9166f527",
+  "fetched_at": "2026-06-02T02:18:56.593493+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

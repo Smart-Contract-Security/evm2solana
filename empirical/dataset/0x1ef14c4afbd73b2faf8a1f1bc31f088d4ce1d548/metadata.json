@@ -1,0 +1,8 @@
+{
+  "address": "0x1ef14c4afbd73b2faf8a1f1bc31f088d4ce1d548",
+  "contract_name": "StateTransitionManager",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "c7dda84b1118da76c2a16896c3ffa0d1516e781fb57bedac9ac0adf03119384a",
+  "fetched_at": "2026-06-04T10:56:08.058434+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "address": "0x7d343d17896d2cd87a49b4fb8872298a883f78f7",
+  "contract_name": "SaturnTimelock",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 14,
+  "source_sha256": "d80fe152e2adaafe4e1b1baa1bb837045675d1417a40b3901043658ca3b7d49b",
+  "fetched_at": "2026-06-01T06:35:39.436784+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@layerzerolabs/=node_modules/@layerzerolabs/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "forge-std/=lib/forge-std/src/",
+      "@axelar-network/=node_modules/@axelar-network/",
+      "@chainlink/=node_modules/@chainlink/",
+      "@eth-optimism/=node_modules/@eth-optimism/",
+      "hardhat-deploy/=node_modules/hardhat-deploy/",
+      "solidity-bytes-utils/=node_modules/solidity-bytes-utils/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 750
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

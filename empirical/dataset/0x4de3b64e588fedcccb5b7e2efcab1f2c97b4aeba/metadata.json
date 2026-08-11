@@ -1,0 +1,28 @@
+{
+  "address": "0x4de3b64e588fedcccb5b7e2efcab1f2c97b4aeba",
+  "contract_name": "WeeklyVotingN6",
+  "compiler_version": "v0.8.21+commit.d9974bed",
+  "file_count": 23,
+  "source_sha256": "cf9afce5e21700007dbc068739e662711856d61466ea946ac745295f562bd019",
+  "fetched_at": "2026-06-04T13:55:19.521858+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 2000
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

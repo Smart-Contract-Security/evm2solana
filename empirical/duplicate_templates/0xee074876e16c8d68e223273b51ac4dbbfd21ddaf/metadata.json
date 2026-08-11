@@ -1,0 +1,28 @@
+{
+  "address": "0xee074876e16c8d68e223273b51ac4dbbfd21ddaf",
+  "contract_name": "SKOLEM",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "9eb4bff9935d3efaa5b7615d290c578ad0157606eeecfca2b3f0ade5cbb6499d",
+  "fetched_at": "2026-06-04T12:06:46.566611+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0x42f85870ace29dae576b5c0b2f192afec7168be9",
+  "contract_name": "RouterDistributionVault",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 14,
+  "source_sha256": "252c2372f74fffc6720dcde99ff02409483995040a313bbd0176929c3ae98c33",
+  "fetched_at": "2026-06-03T03:32:00.333603+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "runs": 200,
+      "enabled": true
+    },
+    "evmVersion": "paris",
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

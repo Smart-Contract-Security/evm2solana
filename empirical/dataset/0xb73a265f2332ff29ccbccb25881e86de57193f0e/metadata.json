@@ -1,0 +1,26 @@
+{
+  "address": "0xb73a265f2332ff29ccbccb25881e86de57193f0e",
+  "contract_name": "HonestFlashArbV2",
+  "compiler_version": "v0.8.21+commit.d9974bed",
+  "file_count": 1,
+  "source_sha256": "c8f1a3d1685cff687a72cf399afd102a14788b8881a071ac20079de6a45aeba2",
+  "fetched_at": "2026-06-01T11:24:26.277995+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "runs": 200,
+      "enabled": false
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

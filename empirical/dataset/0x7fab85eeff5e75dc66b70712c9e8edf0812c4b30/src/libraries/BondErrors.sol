@@ -1,0 +1,32 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+error OnlyOwner();
+error OnlyIssuer();
+error OnlyBondContract();
+error InvalidStatus();
+error ZeroAddress();
+error ZeroAmount();
+error AlreadyFinalized();
+error AlreadyPaid();
+error TransfersDisabled();
+error InvalidDate();
+error InvalidPrice();
+error NotMatured();
+error NotFunded();
+error NoBalance();
+error NoHolders();
+error Unauthorized();
+error InvalidPayment();
+error AlreadyFunded();
+error SubscriptionClosed();
+error SubscriptionNotClosed();
+error AlreadyReviewed();
+error InvalidSubscription();
+error AccountingMismatch();
+error InsufficientReserve();
+error DuplicatePayment();
+error CouponsUnpaid();
+error InvalidClassId();
+error ClassIdTaken();
+error AlreadyDeactivated();

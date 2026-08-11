@@ -1,0 +1,31 @@
+{
+  "address": "0x9823bfb54c9516e04632de189e0ee6730d90c558",
+  "contract_name": "AgentRouter",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 26,
+  "source_sha256": "99f0d091aeec1bedc2209efd9a17e79adde8f7db68c8544304d52070ac8ec6b4",
+  "fetched_at": "2026-06-03T03:46:13.684228+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

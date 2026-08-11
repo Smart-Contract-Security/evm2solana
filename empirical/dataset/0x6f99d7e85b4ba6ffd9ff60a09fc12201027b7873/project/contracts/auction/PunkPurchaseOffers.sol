@@ -1,0 +1,305 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.34;
+
+import "../interfaces/IPunksAuction.sol";
+import "../interfaces/ICryptoPunksMarket.sol";
+import "../interfaces/IPunksDataMatcher.sol";
+import "../lib/Punks.sol";
+import "../lib/PushPullEscrow.sol";
+
+/// @title  PunkPurchaseOffers
+///
+/// @notice Native ETH offers for CryptoPunks with trait filters and punk bundles.
+///         Bidding inspired by MouseDev's CryptoPunksBids.
+///
+/// @dev    The concrete auction contract supplies the market-specific purchase
+///         path used when an offer is accepted.
+///
+/// @author VV × 1001
+abstract contract PunkPurchaseOffers is IPunksAuction, PushPullEscrow {
+    using Punks for Punks.Filter;
+
+    /// @notice Maximum slots per offer.
+    uint8 internal constant MAX_OFFER_SLOTS = 80;
+    /// @notice Maximum number of punks to specifically include or exclude per slot.
+    uint8 internal constant MAX_SLOT_IDS = 64;
+
+    /// @notice Returns the last offer id that was created.
+    uint256 public lastOfferId;
+
+    /// @notice Returns the core data of an offer.
+    /// @dev    Dynamic `slots` are read via `getOfferSlots`.
+    mapping(uint256 => Offer) public offers;
+
+    /// @notice Returns the sealed PunksData contract used for offer matching.
+    IPunksDataMatcher public immutable PUNKS_DATA =
+        IPunksDataMatcher(0x9cF9C8eA737A7d5157d3F4282aCe30880a7A117C);
+
+    // ────────────────────────────────── Offers ─────────────────────────────────
+
+    /// @inheritdoc IPunksAuction
+    function placeOffer(
+        uint96 amountWei,
+        OfferSlot[] calldata slots
+    ) external payable returns (uint256 offerId) {
+        if (amountWei == 0) revert InvalidAmount();
+        if (msg.value != amountWei) revert IncorrectPayment();
+
+        uint256 slotCount = slots.length;
+        if (slotCount == 0 || slotCount > MAX_OFFER_SLOTS) revert InvalidSlotCount();
+
+        for (uint256 i; i < slotCount;) {
+            _requireValidSlot(slots[i]);
+            unchecked { ++i; }
+        }
+
+        unchecked { offerId = ++lastOfferId; }
+
+        Offer storage stored = offers[offerId];
+        stored.amountWei = amountWei;
+        stored.offerer = msg.sender;
+        _storeOfferSlots(stored, slots);
+
+        emit OfferPlaced(
+            offerId,
+            msg.sender,
+            amountWei,
+            uint8(slotCount)
+        );
+        _emitOfferSlotDetails(offerId, slots);
+    }
+
+    /// @inheritdoc IPunksAuction
+    function cancelOffer(uint256 offerId) external nonReentrant {
+        Offer storage offer = _offerForOfferer(offerId);
+        uint96 refundWei = offer.amountWei;
+
+        delete offers[offerId];
+        _pushOrCredit(msg.sender, refundWei);
+
+        emit OfferCancelled(offerId);
+    }
+
+    /// @inheritdoc IPunksAuction
+    function adjustOfferAmount(uint256 offerId, uint96 newAmountWei)
+        external
+        payable
+        nonReentrant
+    {
+        if (newAmountWei == 0) revert InvalidAmount();
+        Offer storage offer = _offerForOfferer(offerId);
+
+        uint96 oldAmountWei = offer.amountWei;
+        if (newAmountWei > oldAmountWei) {
+            if (msg.value != newAmountWei - oldAmountWei) revert IncorrectPayment();
+        } else {
+            if (msg.value != 0) revert IncorrectPayment();
+        }
+
+        offer.amountWei = newAmountWei;
+
+        if (newAmountWei < oldAmountWei) {
+            _pushOrCredit(msg.sender, oldAmountWei - newAmountWei);
+        }
+
+        emit OfferAmountAdjusted(offerId, newAmountWei);
+    }
+
+    /// @inheritdoc IPunksAuction
+    function acceptOffer(
+        uint256 offerId,
+        uint16 punkId,
+        uint96 expectedListingWei
+    ) external nonReentrant {
+        Offer memory offer = _activeOffer(offerId);
+        if (offer.slots.length != 1) revert MultiSlotOfferRequiresLot();
+
+        OfferSlot memory slot = offer.slots[0];
+        TokenStandard standard = slot.standard;
+        _requireSlotMatchesPunk(slot, standard, punkId);
+
+        ICryptoPunksMarket market = _offerMarket(standard);
+        (address seller,) = _requireAcceptableListing(
+            market,
+            punkId,
+            offer.amountWei,
+            expectedListingWei
+        );
+
+        delete offers[offerId];
+
+        address recipient = offer.offerer;
+        _buyListedOfferPunk(standard, punkId, offer.amountWei, seller, recipient);
+
+        emit OfferAccepted(
+            offerId,
+            punkId,
+            seller,
+            offer.offerer,
+            offer.amountWei
+        );
+    }
+
+    // ─────────────────────────────────── Views ──────────────────────────────────
+
+    /// @inheritdoc IPunksAuction
+    function getOfferSlots(uint256 offerId) external view returns (OfferSlot[] memory) {
+        return offers[offerId].slots;
+    }
+
+    // ───────────────────────────────── Internals ─────────────────────────────────
+
+    /// @dev Loads an active offer copy and reverts if it is missing.
+    function _activeOffer(uint256 offerId) internal view returns (Offer memory offer) {
+        offer = offers[offerId];
+        if (offer.offerer == address(0)) revert OfferNotActive();
+    }
+
+    /// @dev Returns an active offer's locked amount without copying its slots,
+    ///      reverting if the offer is missing.
+    function _activeOfferAmount(uint256 offerId) internal view returns (uint96) {
+        Offer storage offer = offers[offerId];
+        if (offer.offerer == address(0)) revert OfferNotActive();
+        return offer.amountWei;
+    }
+
+    /// @dev Loads the offer storage struct, ensuring the caller is the offerer.
+    function _offerForOfferer(uint256 offerId)
+        private
+        view
+        returns (Offer storage offer)
+    {
+        offer = offers[offerId];
+        if (offer.offerer == address(0)) revert OfferNotActive();
+        if (offer.offerer != msg.sender) revert NotOfferer();
+    }
+
+    /// @dev Validates a slot's filter and id-list bounds at place time.
+    function _requireValidSlot(OfferSlot calldata slot) private pure {
+        Punks.validate(slot.criteria);
+
+        if (slot.includeIds.length > MAX_SLOT_IDS) revert TooManyIds();
+        if (slot.excludeIds.length > MAX_SLOT_IDS) revert TooManyIds();
+    }
+
+    /// @dev Copies offer slots from calldata into storage.
+    function _storeOfferSlots(Offer storage stored, OfferSlot[] calldata slots) private {
+        uint256 n = slots.length;
+        for (uint256 i; i < n;) {
+            OfferSlot calldata src = slots[i];
+            OfferSlot storage dst = stored.slots.push();
+            dst.criteria = src.criteria;
+            dst.standard = src.standard;
+            uint256 incLen = src.includeIds.length;
+            for (uint256 j; j < incLen;) {
+                dst.includeIds.push(src.includeIds[j]);
+                unchecked { ++j; }
+            }
+            uint256 excLen = src.excludeIds.length;
+            for (uint256 j; j < excLen;) {
+                dst.excludeIds.push(src.excludeIds[j]);
+                unchecked { ++j; }
+            }
+            unchecked { ++i; }
+        }
+    }
+
+    /// @dev Emits one OfferSlotDetail per slot at place time.
+    function _emitOfferSlotDetails(uint256 offerId, OfferSlot[] calldata slots) private {
+        uint256 n = slots.length;
+        for (uint256 i; i < n;) {
+            OfferSlot calldata s = slots[i];
+            emit OfferSlotDetail(
+                offerId,
+                uint8(i),
+                s.standard,
+                s.criteria,
+                s.includeIds,
+                s.excludeIds
+            );
+            unchecked { ++i; }
+        }
+    }
+
+    /// @dev Reverts unless `slots` and `items` are pairwise compatible.
+    function _requireSlotsMatchItems(
+        OfferSlot[] memory slots,
+        LotItem[] memory items
+    ) internal view {
+        if (slots.length != items.length) revert SlotItemCountMismatch();
+        uint256 n = items.length;
+        for (uint256 i; i < n;) {
+            LotItem memory item = items[i];
+            _requireSlotMatchesPunk(slots[i], item.standard, item.punkId);
+            unchecked { ++i; }
+        }
+    }
+
+    /// @dev Reverts unless the slot matches `(standard, punkId)`.
+    function _requireSlotMatchesPunk(
+        OfferSlot memory slot,
+        TokenStandard standard,
+        uint16 punkId
+    ) internal view {
+        if (slot.standard != standard) revert OfferStandardMismatch();
+
+        uint256 excludeLen = slot.excludeIds.length;
+        for (uint256 i; i < excludeLen;) {
+            if (slot.excludeIds[i] == punkId) revert PunkExcluded();
+            unchecked { ++i; }
+        }
+
+        uint256 includeLen = slot.includeIds.length;
+        for (uint256 i; i < includeLen;) {
+            if (slot.includeIds[i] == punkId) return;
+            unchecked { ++i; }
+        }
+        if (includeLen > 0 && slot.criteria.isEmpty()) revert PunkNotMatched();
+
+        if (!slot.criteria.matches(PUNKS_DATA, punkId)) {
+            revert PunkNotMatched();
+        }
+    }
+
+    /// @dev Validates a Punk listing and returns its seller and price.
+    function _requireAcceptableListing(
+        ICryptoPunksMarket market,
+        uint16 punkId,
+        uint96 amountWei,
+        uint96 expectedListingWei
+    ) internal view returns (address seller, uint256 listingWei) {
+        (bool isForSale,, address listingSeller, uint256 minValue, address onlySellTo) =
+            market.punksOfferedForSale(punkId);
+
+        if (
+            !isForSale
+                || listingSeller == address(0)
+                || (onlySellTo != address(0) && onlySellTo != address(this))
+        ) {
+            revert ListingNotValid();
+        }
+        if (market.punkIndexToAddress(punkId) != listingSeller) revert ListingNotValid();
+        if (minValue != expectedListingWei) {
+            revert ListingPriceMismatch(expectedListingWei, minValue);
+        }
+        if (minValue > amountWei) revert ListingPriceTooHigh();
+
+        return (listingSeller, minValue);
+    }
+
+    /// @dev Resolves the Punk market for an offer standard.
+    function _offerMarket(TokenStandard standard)
+        internal
+        view
+        virtual
+        returns (ICryptoPunksMarket);
+
+    /// @dev Buys a listed Punk and sends it to the final recipient.
+    function _buyListedOfferPunk(
+        TokenStandard standard,
+        uint16 punkId,
+        uint256 purchaseWei,
+        address seller,
+        address recipient
+    ) internal virtual;
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0x62d45c5379e7c82a3c43c95ebc5ab464a3c1ce32",
+  "contract_name": "ERC20T_V4",
+  "compiler_version": "v0.8.29+commit.ab55807c",
+  "file_count": 14,
+  "source_sha256": "78c96f163eb09a103085926814aed8e5cf460305c9505c0a588b6193255f9717",
+  "fetched_at": "2026-06-01T13:31:41.660473+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "viaIR": true,
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

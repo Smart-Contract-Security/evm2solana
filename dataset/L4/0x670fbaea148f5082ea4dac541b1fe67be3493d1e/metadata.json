@@ -1,0 +1,28 @@
+{
+  "address": "0x670fbaea148f5082ea4dac541b1fe67be3493d1e",
+  "contract_name": "TermRepoRolloverManager",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 48,
+  "source_sha256": "c1a5222554748f42dfb207c32e6762ae176be07085f28a1fcf8f0de4e447dbdf",
+  "fetched_at": "2026-06-03T05:24:59.770791+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

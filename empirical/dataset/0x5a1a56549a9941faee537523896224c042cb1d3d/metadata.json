@@ -1,0 +1,31 @@
+{
+  "address": "0x5a1a56549a9941faee537523896224c042cb1d3d",
+  "contract_name": "PushOracle",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 9,
+  "source_sha256": "e604d4f93eba63547052b5cca3724fb30f0f8f5673a6fd7422518ab015763358",
+  "fetched_at": "2026-06-03T06:47:31.249402+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true,
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

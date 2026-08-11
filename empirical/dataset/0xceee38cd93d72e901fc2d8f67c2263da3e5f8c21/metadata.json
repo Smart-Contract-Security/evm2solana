@@ -1,0 +1,27 @@
+{
+  "address": "0xceee38cd93d72e901fc2d8f67c2263da3e5f8c21",
+  "contract_name": "GIVEREP",
+  "compiler_version": "v0.8.16+commit.07a7930e",
+  "file_count": 1,
+  "source_sha256": "2100f639bb1786c748b84d37f8e6a3f3cf923dad8342bcef8beeb124d02066dd",
+  "fetched_at": "2026-06-04T05:22:04.845002+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

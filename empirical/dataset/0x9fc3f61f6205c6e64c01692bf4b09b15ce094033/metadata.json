@@ -1,0 +1,38 @@
+{
+  "address": "0x9fc3f61f6205c6e64c01692bf4b09b15ce094033",
+  "contract_name": "GXAGv2",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 19,
+  "source_sha256": "724d83f385bf9d07075da19636332867a207da9edbcee5201c908be621ddbcb9",
+  "fetched_at": "2026-06-03T03:17:30.232439+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": true
+  }
+}

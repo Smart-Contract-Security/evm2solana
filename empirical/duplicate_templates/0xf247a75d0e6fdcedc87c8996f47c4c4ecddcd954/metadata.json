@@ -1,0 +1,27 @@
+{
+  "address": "0xf247a75d0e6fdcedc87c8996f47c4c4ecddcd954",
+  "contract_name": "OpalDrake",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "520d6ae11574724c6edf7f158f9cd0f16f6660058b291daaa85788a84fe6e5fe",
+  "fetched_at": "2026-06-02T03:23:53.457618+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

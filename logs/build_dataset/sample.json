@@ -1,0 +1,713 @@
+{
+  "seed": 786793487,
+  "layer": {
+    "L1": "[1,6]",
+    "L2": "(6,12]",
+    "L3": "(12,35]",
+    "L4": "(35,+)"
+  },
+  "per_tier": 25,
+  "total_contract": 100,
+  "sample_list": [
+    {
+      "address": "0xcdccf9078540448009d432f87141a76b1c02b774",
+      "contract_name": "FeeDistributor",
+      "tier": "L1",
+      "error_types": 1,
+      "file_count": 30
+    },
+    {
+      "address": "0x0793d9064fd0767ea332f98cd1c796989a786f9d",
+      "contract_name": "BackendSignerRegistry",
+      "tier": "L1",
+      "error_types": 6,
+      "file_count": 3
+    },
+    {
+      "address": "0x1a8790201415565b294b4de10f5a18cc1de6f07e",
+      "contract_name": "EVMBridgeSubscription",
+      "tier": "L1",
+      "error_types": 4,
+      "file_count": 1
+    },
+    {
+      "address": "0x713f2a9e10df011e589b7925906b8cae8f35e38d",
+      "contract_name": "MyToken",
+      "tier": "L1",
+      "error_types": 3,
+      "file_count": 1
+    },
+    {
+      "address": "0xfcc4e10269b9209282efd5d2f375aef69b076612",
+      "contract_name": "UnisHookForge",
+      "tier": "L1",
+      "error_types": 2,
+      "file_count": 1
+    },
+    {
+      "address": "0xb298780c687080a47d0cc6547a3f48d0fa259492",
+      "contract_name": "TwoBaseFeeds",
+      "tier": "L1",
+      "error_types": 1,
+      "file_count": 2
+    },
+    {
+      "address": "0x485db97610542bb9fac0a950863efa368e319994",
+      "contract_name": "DaemonWrapper",
+      "tier": "L1",
+      "error_types": 1,
+      "file_count": 4
+    },
+    {
+      "address": "0x462e8d241ea455bbcee7521a610cc6dff72a3df9",
+      "contract_name": "BUPE",
+      "tier": "L1",
+      "error_types": 4,
+      "file_count": 1
+    },
+    {
+      "address": "0xb3ae9ac0922057a09464af5d6bc912de4debc771",
+      "contract_name": "Erc20",
+      "tier": "L1",
+      "error_types": 1,
+      "file_count": 1
+    },
+    {
+      "address": "0xbd27b6e16ec874e3ee27051f2782e484f258488f",
+      "contract_name": "MerchantRegistry",
+      "tier": "L1",
+      "error_types": 6,
+      "file_count": 3
+    },
+    {
+      "address": "0x287eabdeed1857b7a477041673ceb1339e54be87",
+      "contract_name": "DELTuner",
+      "tier": "L1",
+      "error_types": 3,
+      "file_count": 3
+    },
+    {
+      "address": "0x7f23e1c32119db13ab37a35b8baf8e7ee353072b",
+      "contract_name": "HALO",
+      "tier": "L1",
+      "error_types": 1,
+      "file_count": 1
+    },
+    {
+      "address": "0x49237b3cc6be0339da880147703df416ff4f77f4",
+      "contract_name": "UnisToken",
+      "tier": "L1",
+      "error_types": 4,
+      "file_count": 1
+    },
+    {
+      "address": "0xf3bb458ee4f655cd69b6b933adfc05d96223b14f",
+      "contract_name": "CutiesStaking",
+      "tier": "L1",
+      "error_types": 4,
+      "file_count": 1
+    },
+    {
+      "address": "0x9d0153bbd8d46e0f2172217e721b26ce63545b02",
+      "contract_name": "Token",
+      "tier": "L1",
+      "error_types": 3,
+      "file_count": 1
+    },
+    {
+      "address": "0x4368ea2910ad793fd9e47c5861aae42e2065a53a",
+      "contract_name": "AirdropperV2",
+      "tier": "L1",
+      "error_types": 6,
+      "file_count": 4
+    },
+    {
+      "address": "0x75ecdf8df17f1706367462fb00ae569382e6c62d",
+      "contract_name": "MockUSDT_ERC20",
+      "tier": "L1",
+      "error_types": 4,
+      "file_count": 1
+    },
+    {
+      "address": "0x4096dc8773b8d8c4a4146f8d4295d4a1bddaab25",
+      "contract_name": "OneBalanceResourceLockManager",
+      "tier": "L1",
+      "error_types": 3,
+      "file_count": 1
+    },
+    {
+      "address": "0x3c00fcf488712cd0430b6d4c77d6e48c3718a0ef",
+      "contract_name": "SmileShare",
+      "tier": "L1",
+      "error_types": 2,
+      "file_count": 1
+    },
+    {
+      "address": "0x135638a9a20fd20fc9a48e646e25c3e585df4cee",
+      "contract_name": "DiamondLoupeFacet",
+      "tier": "L1",
+      "error_types": 5,
+      "file_count": 4
+    },
+    {
+      "address": "0x0ef18015c203f2d719af3ded46569ea4ad2a65ad",
+      "contract_name": "UnisDomains",
+      "tier": "L1",
+      "error_types": 3,
+      "file_count": 1
+    },
+    {
+      "address": "0x02216b215de59bf949ff68bbbe0a5649863c2767",
+      "contract_name": "MandaliaStorage",
+      "tier": "L1",
+      "error_types": 2,
+      "file_count": 1
+    },
+    {
+      "address": "0x29cd6a20e15a2c8e70d0fc4ca0f4ae18c0135644",
+      "contract_name": "Honkler",
+      "tier": "L1",
+      "error_types": 5,
+      "file_count": 1
+    },
+    {
+      "address": "0x964e0c903aab594e01bcfe917a2bdddf5f3ead5a",
+      "contract_name": "FCFAFaucet",
+      "tier": "L1",
+      "error_types": 5,
+      "file_count": 1
+    },
+    {
+      "address": "0x210dbb010d93c7f843f699190da4fc4064f95260",
+      "contract_name": "SessionKeyManager",
+      "tier": "L1",
+      "error_types": 1,
+      "file_count": 1
+    },
+    {
+      "address": "0xc764eabc9aad91c1601da0848c89ebf1a545082d",
+      "contract_name": "ALBITRUMP",
+      "tier": "L2",
+      "error_types": 7,
+      "file_count": 1
+    },
+    {
+      "address": "0x216335e68f1d9b64de7b0da60f44d0c20c72de3e",
+      "contract_name": "Zenieth",
+      "tier": "L2",
+      "error_types": 7,
+      "file_count": 1
+    },
+    {
+      "address": "0xecb0d19390707578e19574d0e12974bb59067f3a",
+      "contract_name": "PixelDataV2",
+      "tier": "L2",
+      "error_types": 12,
+      "file_count": 7
+    },
+    {
+      "address": "0x704c7f90da7715bb1f798ce4e95f4aca5f611032",
+      "contract_name": "Token",
+      "tier": "L2",
+      "error_types": 9,
+      "file_count": 1
+    },
+    {
+      "address": "0xb430b9078939544cda03ee7b18ea0454157058d6",
+      "contract_name": "ONIMain",
+      "tier": "L2",
+      "error_types": 7,
+      "file_count": 1
+    },
+    {
+      "address": "0x5413a12b99ed0626360dee110bc8fb1841d67695",
+      "contract_name": "FFF",
+      "tier": "L2",
+      "error_types": 8,
+      "file_count": 1
+    },
+    {
+      "address": "0x2fbaa21352c9b04be736b2fb906452f392d28fae",
+      "contract_name": "POO",
+      "tier": "L2",
+      "error_types": 8,
+      "file_count": 1
+    },
+    {
+      "address": "0x7506ec047cb56aa79984d448fb0dc0ef6ed8dbb5",
+      "contract_name": "ERC1967Proxy",
+      "tier": "L2",
+      "error_types": 10,
+      "file_count": 1
+    },
+    {
+      "address": "0x2718e865504666c9b5f9b62cb5cb9a25df3118cd",
+      "contract_name": "baskai",
+      "tier": "L2",
+      "error_types": 8,
+      "file_count": 1
+    },
+    {
+      "address": "0xe9f6258803dfa4ef2e755f3306532cba6cc80525",
+      "contract_name": "Tweet",
+      "tier": "L2",
+      "error_types": 8,
+      "file_count": 1
+    },
+    {
+      "address": "0x65aff014ef8eed7e209dcf22a282cf097b76f736",
+      "contract_name": "MEMEVERSE",
+      "tier": "L2",
+      "error_types": 8,
+      "file_count": 1
+    },
+    {
+      "address": "0xb12cfa935cdf9dbd7e3ae9926ac5ba193de77098",
+      "contract_name": "DBCCurve",
+      "tier": "L2",
+      "error_types": 10,
+      "file_count": 4
+    },
+    {
+      "address": "0x3e6ac58136764994667bb6ead3adc6127e4dab8f",
+      "contract_name": "CrossAdapter",
+      "tier": "L2",
+      "error_types": 12,
+      "file_count": 7
+    },
+    {
+      "address": "0xcb789f26376661a970eac720da22fba9ab8cdfe3",
+      "contract_name": "FROGE",
+      "tier": "L2",
+      "error_types": 8,
+      "file_count": 1
+    },
+    {
+      "address": "0xebc0974e159e6381bb0fa796d91b3da318823f5e",
+      "contract_name": "DevveTreasury",
+      "tier": "L2",
+      "error_types": 11,
+      "file_count": 1
+    },
+    {
+      "address": "0x2f6c5fbabee0c281b8f6fdfac66a9c9a2829b916",
+      "contract_name": "DOGS",
+      "tier": "L2",
+      "error_types": 8,
+      "file_count": 1
+    },
+    {
+      "address": "0x97e1f80647da8cc1130af30d20e9cabd62d9f586",
+      "contract_name": "LiquidityMarketplace",
+      "tier": "L2",
+      "error_types": 12,
+      "file_count": 1
+    },
+    {
+      "address": "0xa0c84685939884ddd43937cd29cb5ad139c30cf2",
+      "contract_name": "DogeCoin2",
+      "tier": "L2",
+      "error_types": 7,
+      "file_count": 1
+    },
+    {
+      "address": "0x065bc1d115c528f335241a8f760a6d2dd1f4b44b",
+      "contract_name": "Token",
+      "tier": "L2",
+      "error_types": 8,
+      "file_count": 1
+    },
+    {
+      "address": "0x9affdbdcb5f9efe13c3c8ef31565245a1915bed7",
+      "contract_name": "Erc20",
+      "tier": "L2",
+      "error_types": 8,
+      "file_count": 1
+    },
+    {
+      "address": "0xd0d041f4d6dae906cf9d784d6b19a67d17ddbd1b",
+      "contract_name": "popo",
+      "tier": "L2",
+      "error_types": 7,
+      "file_count": 1
+    },
+    {
+      "address": "0x6c9b0dbe1efb76c7d80a64817ab8b8bc4633552f",
+      "contract_name": "QUBY",
+      "tier": "L2",
+      "error_types": 7,
+      "file_count": 1
+    },
+    {
+      "address": "0x01b3e6fc7d2eda19b86a203551ebbbc4745236e9",
+      "contract_name": "FlashUSDT",
+      "tier": "L2",
+      "error_types": 7,
+      "file_count": 1
+    },
+    {
+      "address": "0x69bff07ece33ef58499fc12e2f9ce116e96eaf0c",
+      "contract_name": "FINE",
+      "tier": "L2",
+      "error_types": 7,
+      "file_count": 1
+    },
+    {
+      "address": "0xfed23180494cade2231f0470a2450bc9ac7f25e9",
+      "contract_name": "SkinVault",
+      "tier": "L2",
+      "error_types": 9,
+      "file_count": 1
+    },
+    {
+      "address": "0xedd94d0f561e83304fb06ffb6a9fe2affaa3be26",
+      "contract_name": "SecureNFTStaking",
+      "tier": "L3",
+      "error_types": 18,
+      "file_count": 8
+    },
+    {
+      "address": "0xdcd88aee953ef5293a6f5a18f157b9b94912bd89",
+      "contract_name": "EvntBurner",
+      "tier": "L3",
+      "error_types": 14,
+      "file_count": 7
+    },
+    {
+      "address": "0xa59519590ea9f8f1c161307faf8597c81a6a2f72",
+      "contract_name": "LedgerDistributionVault",
+      "tier": "L3",
+      "error_types": 28,
+      "file_count": 14
+    },
+    {
+      "address": "0xc35cabd8a6137644fe141ab64dd990e4a0109ba2",
+      "contract_name": "MetaVision",
+      "tier": "L3",
+      "error_types": 17,
+      "file_count": 7
+    },
+    {
+      "address": "0x0a8fa92dfc78423e4f76f8aaecf253776aae42e1",
+      "contract_name": "WaterfallDistributor",
+      "tier": "L3",
+      "error_types": 23,
+      "file_count": 12
+    },
+    {
+      "address": "0x4d8c2bc7eb64036e44e43fd66db0a0b5af2031e4",
+      "contract_name": "PrizeVault",
+      "tier": "L3",
+      "error_types": 27,
+      "file_count": 16
+    },
+    {
+      "address": "0xdfab3d67edbb8593393b8f378da446ccb0883e71",
+      "contract_name": "WrappedStellarPT",
+      "tier": "L3",
+      "error_types": 19,
+      "file_count": 7
+    },
+    {
+      "address": "0x543a292dee59bfcb3ecc0e5185814b2d80c94098",
+      "contract_name": "AaveV3Strategy",
+      "tier": "L3",
+      "error_types": 30,
+      "file_count": 13
+    },
+    {
+      "address": "0x26f25062524b209be1966dc00bdcce3f3494e200",
+      "contract_name": "UtexoSourceEntrypoint",
+      "tier": "L3",
+      "error_types": 35,
+      "file_count": 21
+    },
+    {
+      "address": "0x688e274377c5737c1e88ce4a929dc069f1020d7a",
+      "contract_name": "FeeManager",
+      "tier": "L3",
+      "error_types": 31,
+      "file_count": 19
+    },
+    {
+      "address": "0x3b666d48c3f02bfa59a196f8ee2fc28506781220",
+      "contract_name": "MetaCraftVNode",
+      "tier": "L3",
+      "error_types": 23,
+      "file_count": 1
+    },
+    {
+      "address": "0x2bd467577f1fc5923c10b78984be763757ec4f6f",
+      "contract_name": "LaunchFactory",
+      "tier": "L3",
+      "error_types": 33,
+      "file_count": 23
+    },
+    {
+      "address": "0xe5f7147646e728f7a324983b00865a80afcecd57",
+      "contract_name": "DiamondMarket",
+      "tier": "L3",
+      "error_types": 16,
+      "file_count": 1
+    },
+    {
+      "address": "0x0e69595c6c3603b896e9e27df43c294182ead5d6",
+      "contract_name": "DirectRateAdapter",
+      "tier": "L3",
+      "error_types": 34,
+      "file_count": 17
+    },
+    {
+      "address": "0xdd288ae9d82489d57d6e8e836730dcf3d471785e",
+      "contract_name": "CurveStableReader",
+      "tier": "L3",
+      "error_types": 23,
+      "file_count": 16
+    },
+    {
+      "address": "0x7c11ad06a70492df4d111b7cf88f8c85ab5b3a95",
+      "contract_name": "Treasury",
+      "tier": "L3",
+      "error_types": 22,
+      "file_count": 14
+    },
+    {
+      "address": "0x0ea92e1b97efeb0c9ccddd94b4249d2f5139ce08",
+      "contract_name": "DELSVGRenderer",
+      "tier": "L3",
+      "error_types": 17,
+      "file_count": 9
+    },
+    {
+      "address": "0xbc3dbb73edc410de1121a73b567717f16c913a9b",
+      "contract_name": "DreamverseAirdrop",
+      "tier": "L3",
+      "error_types": 20,
+      "file_count": 9
+    },
+    {
+      "address": "0xaf7d3b63fec3f95c3d52422043f56dc387e872d5",
+      "contract_name": "SSCToken",
+      "tier": "L3",
+      "error_types": 13,
+      "file_count": 6
+    },
+    {
+      "address": "0x3d8b00948eb2030c715db9dae6e7b6e71d0b8ee9",
+      "contract_name": "MyTokenV1Eth",
+      "tier": "L3",
+      "error_types": 32,
+      "file_count": 14
+    },
+    {
+      "address": "0xd044eda54908d8bbede38293f351e34a85b12102",
+      "contract_name": "RushClaim",
+      "tier": "L3",
+      "error_types": 21,
+      "file_count": 10
+    },
+    {
+      "address": "0x0dabc7fc9cbe23bd26e2ef05bb8e055be2a58f49",
+      "contract_name": "SeerdexToken",
+      "tier": "L3",
+      "error_types": 15,
+      "file_count": 7
+    },
+    {
+      "address": "0x2c00a80cb3b605b4faf6ac45364fbc2742c06090",
+      "contract_name": "RebalanceManager",
+      "tier": "L3",
+      "error_types": 30,
+      "file_count": 15
+    },
+    {
+      "address": "0xde7f0e8eea39d015767e09f533e0f8628779348e",
+      "contract_name": "ReceiptValidator",
+      "tier": "L3",
+      "error_types": 23,
+      "file_count": 6
+    },
+    {
+      "address": "0x0fb5d56248debd4e776e0fb6301597f7bc9bff85",
+      "contract_name": "Treasury",
+      "tier": "L3",
+      "error_types": 29,
+      "file_count": 19
+    },
+    {
+      "address": "0x47d437bb536ba279762ebdeca2f10de654816f38",
+      "contract_name": "TermPriceConsumerV3",
+      "tier": "L4",
+      "error_types": 67,
+      "file_count": 37
+    },
+    {
+      "address": "0xdcf74abede98e79b8299e3a9b13c214a75694274",
+      "contract_name": "SmtVestingV3",
+      "tier": "L4",
+      "error_types": 37,
+      "file_count": 12
+    },
+    {
+      "address": "0xf5b46b7f05e77ec41824b1afc7f244ce53c851ea",
+      "contract_name": "ArtCollection",
+      "tier": "L4",
+      "error_types": 40,
+      "file_count": 17
+    },
+    {
+      "address": "0x670fbaea148f5082ea4dac541b1fe67be3493d1e",
+      "contract_name": "TermRepoRolloverManager",
+      "tier": "L4",
+      "error_types": 79,
+      "file_count": 48
+    },
+    {
+      "address": "0xfc8e25ce53f9c73b7f1d9bb11d6e60ca99f8cc5f",
+      "contract_name": "EmGEMxToken",
+      "tier": "L4",
+      "error_types": 84,
+      "file_count": 30
+    },
+    {
+      "address": "0xc8e86a14a51cecae771f75e7c8cd4bffecf9fc5d",
+      "contract_name": "ProjectSale",
+      "tier": "L4",
+      "error_types": 72,
+      "file_count": 30
+    },
+    {
+      "address": "0xe313e9a0991fcbb8e76133b8647088d60369760c",
+      "contract_name": "GreenAcres",
+      "tier": "L4",
+      "error_types": 131,
+      "file_count": 28
+    },
+    {
+      "address": "0x7f180dd375e9f61d107ccb4105a3ff2306134055",
+      "contract_name": "WCLPunkMint",
+      "tier": "L4",
+      "error_types": 53,
+      "file_count": 23
+    },
+    {
+      "address": "0x9e021261ba1450211310db5d784b27e8fee266d1",
+      "contract_name": "Florin",
+      "tier": "L4",
+      "error_types": 82,
+      "file_count": 32
+    },
+    {
+      "address": "0x4a6c02bddc0c1951a4c5be7e4b125281a61655bd",
+      "contract_name": "EAGStakingRouter",
+      "tier": "L4",
+      "error_types": 40,
+      "file_count": 16
+    },
+    {
+      "address": "0x79a254e91ae128b88d0a691de534d7b162cac721",
+      "contract_name": "NestAccountant",
+      "tier": "L4",
+      "error_types": 179,
+      "file_count": 72
+    },
+    {
+      "address": "0x1f318eae8b8e5a5a16030955c7b9e5785df17123",
+      "contract_name": "NestVault",
+      "tier": "L4",
+      "error_types": 261,
+      "file_count": 97
+    },
+    {
+      "address": "0x98b3f0db84ca50a776f7cc340f429198c917f6f1",
+      "contract_name": "HypERC20",
+      "tier": "L4",
+      "error_types": 89,
+      "file_count": 34
+    },
+    {
+      "address": "0xb481db29312cedc1956090d24a5b3b5fcfaa8b9f",
+      "contract_name": "TermRepoToken",
+      "tier": "L4",
+      "error_types": 123,
+      "file_count": 57
+    },
+    {
+      "address": "0x62074e272aeff86303062ba3a7a97e51a947972e",
+      "contract_name": "WolfGameBridge",
+      "tier": "L4",
+      "error_types": 41,
+      "file_count": 20
+    },
+    {
+      "address": "0xa976d5fd510bc46cd09d53c126f05ceaa1afb510",
+      "contract_name": "BOMBToken",
+      "tier": "L4",
+      "error_types": 91,
+      "file_count": 28
+    },
+    {
+      "address": "0xc6319e2a568e2ca0bc7f12abd908979e0a47772a",
+      "contract_name": "EscrowFactory",
+      "tier": "L4",
+      "error_types": 45,
+      "file_count": 20
+    },
+    {
+      "address": "0x52f7ca34f44a1d22f470253a06af5110c7cfa05b",
+      "contract_name": "Blupets",
+      "tier": "L4",
+      "error_types": 79,
+      "file_count": 22
+    },
+    {
+      "address": "0x6997171001fd29d05ba6e76a31785fef6c165390",
+      "contract_name": "BronToken",
+      "tier": "L4",
+      "error_types": 72,
+      "file_count": 24
+    },
+    {
+      "address": "0x599a01297fc181558bdfa1737cafee513694b654",
+      "contract_name": "ChainlinkOracle",
+      "tier": "L4",
+      "error_types": 86,
+      "file_count": 19
+    },
+    {
+      "address": "0xa0aeb95bbbd55205471a92d49dae9da3245175bc",
+      "contract_name": "SpcxSaleCollector",
+      "tier": "L4",
+      "error_types": 46,
+      "file_count": 25
+    },
+    {
+      "address": "0x850da2e21f1f71479e2a307edab114777d9f6217",
+      "contract_name": "LidoARM",
+      "tier": "L4",
+      "error_types": 46,
+      "file_count": 13
+    },
+    {
+      "address": "0x085d710b87ab04cf6e7f55f7931b73d48ec19de8",
+      "contract_name": "TrustedRelayerIsm",
+      "tier": "L4",
+      "error_types": 39,
+      "file_count": 16
+    },
+    {
+      "address": "0x1c4123f1f57a22d1d0fc49250e40c7ba22e3ecd6",
+      "contract_name": "AaveV3GatewayFactory",
+      "tier": "L4",
+      "error_types": 99,
+      "file_count": 40
+    },
+    {
+      "address": "0x963d7e1f08895724f99370ef8851e83c86d59b6b",
+      "contract_name": "DunaldoToken",
+      "tier": "L4",
+      "error_types": 69,
+      "file_count": 31
+    }
+  ]
+}

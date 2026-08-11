@@ -1,0 +1,40 @@
+{
+  "address": "0x2a8e7a84110545f703dcae65be148580e1e6d299",
+  "contract_name": "Pricer",
+  "compiler_version": "v0.8.16+commit.07a7930e",
+  "file_count": 11,
+  "source_sha256": "daf135d6937168b36f6b46893a5bbe13156e59d980a5066259dafde1b86a4340",
+  "fetched_at": "2026-06-03T06:43:10.648633+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/"
+    ]
+  }
+}

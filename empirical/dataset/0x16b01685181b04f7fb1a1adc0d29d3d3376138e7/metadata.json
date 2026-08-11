@@ -1,0 +1,27 @@
+{
+  "address": "0x16b01685181b04f7fb1a1adc0d29d3d3376138e7",
+  "contract_name": "ECTPoolManagerV4",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 13,
+  "source_sha256": "80e86305502af4f942038da5aed896df533239fc3bda99d44a9c37582a98f623",
+  "fetched_at": "2026-06-03T12:52:35.263656+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

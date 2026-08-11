@@ -1,0 +1,27 @@
+{
+  "address": "0xf139b2fdab94a574fac8810cb5e72a5093e0b63b",
+  "contract_name": "DLS",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "5810e584787a8b99c28a7c0199fc576965b6fbc762d8d6ad8c9d3ff587440c24",
+  "fetched_at": "2026-05-30T14:38:57.704231+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

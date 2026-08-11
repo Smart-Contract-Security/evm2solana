@@ -1,0 +1,49 @@
+{
+  "address": "0x77489368fea0dc914c67df30431da01156c977c6",
+  "contract_name": "HooksLib",
+  "compiler_version": "v0.8.29+commit.ab55807c",
+  "file_count": 51,
+  "source_sha256": "86a9247a50dd75febda9af86f89ef39926139dbfcef96213060e499b1dffa744",
+  "fetched_at": "2026-06-02T02:07:26.452538+00:00",
+  "solc_settings": {
+    "remappings": [
+      "src/=lib/yieldnest-vault/src/",
+      "script/=lib/yieldnest-vault/script/",
+      "@openzeppelin/contracts/=lib/yieldnest-vault/lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/yieldnest-vault/lib/openzeppelin-contracts-upgradeable/contracts/",
+      "lib/openzeppelin-contracts/=lib/yieldnest-vault/lib/openzeppelin-contracts/",
+      "lib/openzeppelin-contracts-upgradeable/=lib/yieldnest-vault/lib/openzeppelin-contracts-upgradeable/",
+      "ds-test/=lib/yieldnest-vault/lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/yieldnest-vault/lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/yieldnest-vault/lib/wrapped-token/lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/yieldnest-vault/lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/yieldnest-vault/lib/openzeppelin-contracts/",
+      "wrapped-token/=lib/yieldnest-vault/lib/wrapped-token/",
+      "yieldnest-vault/=lib/yieldnest-vault/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": true
+  }
+}

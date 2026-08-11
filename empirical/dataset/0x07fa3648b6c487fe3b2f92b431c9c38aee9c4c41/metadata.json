@@ -1,0 +1,27 @@
+{
+  "address": "0x07fa3648b6c487fe3b2f92b431c9c38aee9c4c41",
+  "contract_name": "RecurringBillingVault",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 13,
+  "source_sha256": "35e6df991724792e738f561132229fa53cbb3832ec81b162681e7ddaf8d9029a",
+  "fetched_at": "2026-06-03T08:49:38.545480+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

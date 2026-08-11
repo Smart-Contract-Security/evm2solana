@@ -1,0 +1,30 @@
+{
+  "address": "0x36cf975e49fece171d2be28c61cca477b119d317",
+  "contract_name": "SurplusConverter",
+  "compiler_version": "v0.8.13+commit.abaa5c0e",
+  "file_count": 28,
+  "source_sha256": "669215ab2919833d70260a25c113b6228a59e231e4a9510175aac6c99f778966",
+  "fetched_at": "2026-06-04T12:07:27.651804+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200,
+      "details": {
+        "yul": false
+      }
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

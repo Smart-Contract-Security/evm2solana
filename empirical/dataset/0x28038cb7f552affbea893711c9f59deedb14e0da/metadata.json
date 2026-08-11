@@ -1,0 +1,42 @@
+{
+  "address": "0x28038cb7f552affbea893711c9f59deedb14e0da",
+  "contract_name": "Halo",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 13,
+  "source_sha256": "a679f108b7be7f4b0b1a1c1c110d8423d7e092bf112bcb61227e99050195517b",
+  "fetched_at": "2026-06-03T11:10:49.550047+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "chainlink-brownie-contracts/=lib/chainlink-brownie-contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

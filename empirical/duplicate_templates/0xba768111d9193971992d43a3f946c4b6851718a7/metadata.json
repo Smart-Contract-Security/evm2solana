@@ -1,0 +1,27 @@
+{
+  "address": "0xba768111d9193971992d43a3f946c4b6851718a7",
+  "contract_name": "ScarletExchange",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "5c603af5a268161a1b8b48ee36e841e3180b8fd047f7632aadc213d8c767eb19",
+  "fetched_at": "2026-06-03T08:28:03.871308+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

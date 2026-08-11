@@ -1,0 +1,27 @@
+{
+  "address": "0x07aa97ddb49b8bd4d1ec0847b7ad79d187578772",
+  "contract_name": "GlassApeERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "65812359d78b085a34e2eb3521346f8fee9953cce861def6bd123288fefbfab3",
+  "fetched_at": "2026-06-01T12:17:14.996700+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "address": "0x8883fc11a4c24f399a3a0c9ab25492eed7335d6d",
+  "contract_name": "PearlBlockHeroes",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 23,
+  "source_sha256": "faa5ed5a342d0de43363acbda3b5e170fafe1553f7356a3eaf2d24b346c8a837",
+  "fetched_at": "2026-06-02T08:51:40.096925+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {
+      "contracts/PearlBlockHeroes.sol": {
+        "PearlSVGRenderer": "0x447a5a2ea4c6d4d15c177f1cff185febdc66efce"
+      }
+    }
+  }
+}

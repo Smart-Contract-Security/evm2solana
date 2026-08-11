@@ -1,0 +1,59 @@
+{
+  "address": "0x273c9b1956b51fa8904bf7935b3940906c76531c",
+  "contract_name": "PriceOracle",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 13,
+  "source_sha256": "3a73779915af4beb32901b878ccda0d48ff1491a751023dfe345ef4b753defc1",
+  "fetched_at": "2026-06-03T12:32:57.649077+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "murky/=lib/murky/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@openzeppelin/foundry-upgrades/=lib/openzeppelin-foundry-upgrades/src/",
+      "@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/",
+      "@layerzerolabs/oft-evm/=lib/devtools/packages/oft-evm/",
+      "@layerzerolabs/oft-evm-upgradeable/=lib/devtools/packages/oft-evm-upgradeable/",
+      "@layerzerolabs/oapp-evm/=lib/devtools/packages/oapp-evm/",
+      "@layerzerolabs/oapp-evm-upgradeable/=lib/devtools/packages/oapp-evm-upgradeable/",
+      "@layerzerolabs/lz-evm-protocol-v2/=lib/layerzero-v2/packages/layerzero-v2/evm/protocol/",
+      "@layerzerolabs/lz-evm-messagelib-v2/=lib/layerzero-v2/packages/layerzero-v2/evm/messagelib/",
+      "@layerzerolabs/test-devtools-evm-foundry/=lib/devtools/packages/test-devtools-evm-foundry/",
+      "solidity-bytes-utils/contracts/=lib/solidity-bytes-utils/contracts/",
+      "@layerzerolabs/lz-evm-v1-0.7/contracts/=node_modules/@layerzerolabs/lz-evm-v1-0.7/contracts/",
+      "chainlink-brownie-contracts/=lib/chainlink-brownie-contracts/",
+      "devtools/=lib/devtools/packages/toolbox-foundry/src/",
+      "ds-test/=lib/solidity-bytes-utils/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "layerzero-v2/=lib/layerzero-v2/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/",
+      "openzeppelin-foundry-upgrades/=lib/openzeppelin-foundry-upgrades/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

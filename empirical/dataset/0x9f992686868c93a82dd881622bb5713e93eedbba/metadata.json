@@ -1,0 +1,27 @@
+{
+  "address": "0x9f992686868c93a82dd881622bb5713e93eedbba",
+  "contract_name": "uDOGEHook",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 6,
+  "source_sha256": "6b16c2f7aa7917ce2a3762d607f3e1b70726c91a5457a919d19d694612b10f5f",
+  "fetched_at": "2026-06-03T07:03:19.630588+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

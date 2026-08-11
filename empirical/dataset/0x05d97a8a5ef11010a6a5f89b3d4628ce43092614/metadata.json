@@ -1,0 +1,50 @@
+{
+  "address": "0x05d97a8a5ef11010a6a5f89b3d4628ce43092614",
+  "contract_name": "PresaleManager",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 17,
+  "source_sha256": "ebc20d53799d8bcca65c6238c517ffcbacd104bd7139f2924de306461e9d2202",
+  "fetched_at": "2026-06-01T03:07:14.888141+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@uniswap/v4-periphery/=lib/v4-periphery/",
+      "@uniswap/v4-core/=lib/v4-periphery/lib/v4-core/",
+      "@ensdomains/=lib/v4-periphery/lib/v4-core/node_modules/@ensdomains/",
+      "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/v4-periphery/lib/permit2/lib/forge-gas-snapshot/src/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "hardhat/=lib/v4-periphery/lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "permit2/=lib/v4-periphery/lib/permit2/",
+      "solmate/=lib/v4-periphery/lib/v4-core/lib/solmate/",
+      "v4-core/=lib/v4-periphery/lib/v4-core/src/",
+      "v4-periphery/=lib/v4-periphery/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

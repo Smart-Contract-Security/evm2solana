@@ -1,0 +1,58 @@
+{
+  "address": "0xa617f8cc3825b16e9d592527491816217a2bce5c",
+  "contract_name": "Erc20TvlAdapter",
+  "compiler_version": "v0.8.21+commit.d9974bed",
+  "file_count": 3,
+  "source_sha256": "c0f61b46d3b2e7fc53a42a8c04d8d7985808e630cd0a65b2adb662786bd4aa9c",
+  "fetched_at": "2026-06-01T10:43:37.767650+00:00",
+  "solc_settings": {
+    "evmVersion": "shanghai",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [
+      ":@ccip/=lib/ccip/",
+      ":@devtools-oapp-evm/=lib/OAppAuth/lib/devtools/packages/oapp-evm/contracts/oapp/",
+      ":@ds-test/=lib/forge-std/lib/ds-test/src/",
+      ":@forge-std/=lib/forge-std/src/",
+      ":@layerzerolabs/lz-evm-messagelib-v2/=lib/OAppAuth/node_modules/@layerzerolabs/lz-evm-messagelib-v2/",
+      ":@layerzerolabs/lz-evm-protocol-v2/=lib/OAppAuth/lib/LayerZero-V2/packages/layerzero-v2/evm/protocol/",
+      ":@layerzerolabs/oapp-evm/=lib/OAppAuth/lib/devtools/packages/oapp-evm/",
+      ":@lz-oapp-evm/=lib/OAppAuth/lib/LayerZero-V2/packages/layerzero-v2/evm/oapp/contracts/oapp/",
+      ":@oapp-auth/=lib/OAppAuth/src/",
+      ":@openzeppelin/=lib/openzeppelin-contracts/",
+      ":@sbu/=lib/OAppAuth/lib/solidity-bytes-utils/",
+      ":@solmate/=lib/solmate/src/",
+      ":LayerZero-V2/=lib/OAppAuth/lib/",
+      ":LayerZero-v2/=lib/LayerZero-v2/",
+      ":OAppAuth/=lib/OAppAuth/",
+      ":ccip/=lib/ccip/contracts/",
+      ":ds-test/=lib/forge-std/lib/ds-test/src/",
+      ":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      ":forge-std/=lib/forge-std/src/",
+      ":halmos-cheatcodes/=lib/OAppAuth/lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      ":morpho-blue/=lib/morpho-blue/",
+      ":openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      ":solidity-bytes-utils/=lib/OAppAuth/node_modules/solidity-bytes-utils/",
+      ":solmate/=lib/solmate/src/",
+      ":v3-core/=lib/v3-core/contracts/",
+      ":v3-periphery/=lib/v3-periphery/contracts/"
+    ],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

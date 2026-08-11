@@ -1,0 +1,27 @@
+{
+  "address": "0x82a285c2a7473f480041baa1d7fb01e53199c561",
+  "contract_name": "FLOKIUS",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "1b571671b7b9cbca221f958b6db783369d537428ec3765edd91be960fe0f91c4",
+  "fetched_at": "2026-06-01T04:52:38.097221+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

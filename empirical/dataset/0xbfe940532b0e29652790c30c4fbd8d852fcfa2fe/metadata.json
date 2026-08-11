@@ -1,0 +1,27 @@
+{
+  "address": "0xbfe940532b0e29652790c30c4fbd8d852fcfa2fe",
+  "contract_name": "DiglettMugs",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 18,
+  "source_sha256": "2069faf4894b712d97bedfbc3fbb65ba12a5bd88b94a48b901245e41757f204e",
+  "fetched_at": "2026-06-01T14:52:04.181705+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

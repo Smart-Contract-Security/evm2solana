@@ -1,0 +1,27 @@
+{
+  "address": "0x4cc461a32ae3fcdcd04ad51ee42e93b5861c2214",
+  "contract_name": "MGP",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "fcce44a800105463804dfe53bb17f572a04120ed4c08f6909dbd6026a09e8668",
+  "fetched_at": "2026-06-01T03:02:08.263876+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

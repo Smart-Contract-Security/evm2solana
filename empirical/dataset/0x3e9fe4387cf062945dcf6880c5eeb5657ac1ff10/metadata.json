@@ -1,0 +1,41 @@
+{
+  "address": "0x3e9fe4387cf062945dcf6880c5eeb5657ac1ff10",
+  "contract_name": "EthLock",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 4,
+  "source_sha256": "20ffae68bfde6bab854ff93ae55e8e5e04e78cd52411d1e47d6b34347b002725",
+  "fetched_at": "2026-06-04T05:46:20.896392+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "shanghai",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

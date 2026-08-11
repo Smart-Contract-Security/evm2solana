@@ -1,0 +1,27 @@
+{
+  "address": "0x5716abc3cef613c249d0d41ec1496a966dcc2858",
+  "contract_name": "RoleBasedToken",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 11,
+  "source_sha256": "89edc4146116de90f43f54b4892f850a518ea471f8c799f32f2adfe1489360f1",
+  "fetched_at": "2026-06-03T07:30:57.983196+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

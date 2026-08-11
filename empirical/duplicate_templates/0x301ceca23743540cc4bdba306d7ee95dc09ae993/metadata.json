@@ -1,0 +1,27 @@
+{
+  "address": "0x301ceca23743540cc4bdba306d7ee95dc09ae993",
+  "contract_name": "JollyWayneToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "e1b10c3dda833d29f107bf6b184065f4bfd1331d1049a10a50978068531f4342",
+  "fetched_at": "2026-06-03T13:04:22.294205+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x1b9eaa17d7a5ede12360b71137ec11415081fd13",
+  "contract_name": "GeneralPumpERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "697fd7593d9929163c15d55fab20042880bcf109da3a72aaa5a88532f63671e3",
+  "fetched_at": "2026-06-03T04:15:45.972023+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

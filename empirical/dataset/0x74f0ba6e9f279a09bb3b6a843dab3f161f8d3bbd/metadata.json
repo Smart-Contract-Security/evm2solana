@@ -1,0 +1,30 @@
+{
+  "address": "0x74f0ba6e9f279a09bb3b6a843dab3f161f8d3bbd",
+  "contract_name": "ERC1155Marketplace",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 27,
+  "source_sha256": "bb478cb4aeacedf2e561c41339535f067130455ba869d26a75daa6cdffa46b0b",
+  "fetched_at": "2026-06-04T13:28:52.431046+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    },
+    "libraries": {}
+  }
+}

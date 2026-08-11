@@ -1,0 +1,27 @@
+{
+  "address": "0x9c00f2ced83e3f987e45f139413df309daac2bd6",
+  "contract_name": "CrunchyPeteERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "dfe85090f218ef5db88de1f84f7bb55750492244e5a5ac8e45052edc4aaeeceb",
+  "fetched_at": "2026-06-03T03:32:48.938756+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

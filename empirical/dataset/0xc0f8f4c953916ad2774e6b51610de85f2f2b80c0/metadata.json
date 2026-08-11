@@ -1,0 +1,54 @@
+{
+  "address": "0xc0f8f4c953916ad2774e6b51610de85f2f2b80c0",
+  "contract_name": "RewardToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 2,
+  "source_sha256": "b9c884bde2f0c9e9cfabf0114f569b41d08fb1f41fda2b79ec60f8b8943138a8",
+  "fetched_at": "2026-06-01T08:13:47.209933+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "@uniswap/v4-core/=lib/uniswap-hooks/lib/v4-core/",
+      "@uniswap/v4-periphery/=lib/uniswap-hooks/lib/v4-periphery/",
+      "v4-core/=lib/uniswap-hooks/lib/v4-core/",
+      "v4-periphery/=lib/uniswap-hooks/lib/v4-periphery/",
+      "@openzeppelin/uniswap-hooks/=lib/uniswap-hooks/",
+      "@openzeppelin/contracts/=lib/uniswap-hooks/lib/v4-core/lib/openzeppelin-contracts/contracts/",
+      "hookmate/=lib/hookmate/src/",
+      "permit2/=lib/uniswap-hooks/lib/v4-periphery/lib/permit2/",
+      "solmate/=lib/uniswap-hooks/lib/v4-core/lib/solmate/",
+      "@ensdomains/=lib/uniswap-hooks/lib/v4-core/node_modules/@ensdomains/",
+      "ds-test/=lib/uniswap-hooks/lib/v4-core/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/uniswap-hooks/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/uniswap-hooks/lib/v4-periphery/lib/permit2/lib/forge-gas-snapshot/src/",
+      "halmos-cheatcodes/=lib/uniswap-hooks/lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "hardhat/=lib/uniswap-hooks/lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts/=lib/uniswap-hooks/lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/uniswap-hooks/lib/openzeppelin-contracts/contracts/",
+      "uniswap-hooks/=lib/uniswap-hooks/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "address": "0x6387f911cb07ba5682d9feecf5293c0af78fe5ae",
+  "contract_name": "OraculAi",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "9b9b4ec6964b21419aeb74ff7821b75e6080884be5be8bb78487058e189d149a",
+  "fetched_at": "2026-06-04T13:36:06.564336+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

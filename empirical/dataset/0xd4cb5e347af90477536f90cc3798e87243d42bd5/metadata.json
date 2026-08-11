@@ -1,0 +1,27 @@
+{
+  "address": "0xd4cb5e347af90477536f90cc3798e87243d42bd5",
+  "contract_name": "LogOffNow",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 6,
+  "source_sha256": "f2e50435e117a0d8f5d0fde923dcb81ef35c6fc37adbb37987a78cd606f013d8",
+  "fetched_at": "2026-06-01T08:32:45.363344+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

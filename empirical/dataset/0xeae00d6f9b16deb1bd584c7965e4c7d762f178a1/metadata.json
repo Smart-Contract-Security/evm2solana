@@ -1,0 +1,26 @@
+{
+  "address": "0xeae00d6f9b16deb1bd584c7965e4c7d762f178a1",
+  "contract_name": "XBorg",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 19,
+  "source_sha256": "089f068e5d858b81a864e517dcfc1759ee5d5fa559243524dfdcad32c3c243eb",
+  "fetched_at": "2026-06-04T11:42:31.707223+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

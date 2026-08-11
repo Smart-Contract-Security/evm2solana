@@ -1,0 +1,29 @@
+{
+  "address": "0xcfbf2f46ba0a9ec3382e80171ecf191de3a0899d",
+  "contract_name": "ThorchainSimpleAggregatorV5",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 1,
+  "source_sha256": "328b05ee382f729b373990087c2a5014ea26ed4bd2ee48d22979a25d4f78ec3a",
+  "fetched_at": "2026-06-04T10:36:55.584138+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "address": "0x4d25875dcee767453b61e282e28e1fb12f148ee4",
+  "contract_name": "EnsAuctions",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 9,
+  "source_sha256": "e46d399473c14276639ba1ea4d5f86e4dbcf85a522321b694d4209a837503f21",
+  "fetched_at": "2026-06-04T12:48:36.261234+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "ERC1155P/=lib/ERC11155P/",
+      "solady/=lib/solady/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "libraries": {}
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0xa3577a238b00bb7d5cee0abbf8b244526f415752",
+  "contract_name": "PriceOracle",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 26,
+  "source_sha256": "e6b08d1e6d435eb2b02f1d369e33d0d0573dc03a7fa158c0f9a12635ccf254ac",
+  "fetched_at": "2026-06-01T09:57:31.667452+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

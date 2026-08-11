@@ -1,0 +1,27 @@
+{
+  "address": "0x98ee9512297f200ffc929dc76b1613661f58122a",
+  "contract_name": "MorphoVaultStrategyMainnet_YOG_USDC_V2",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 21,
+  "source_sha256": "95eb5096122c9518fc413d9db630df67d47105048fe9c4f5a0e8034a6f2b06e2",
+  "fetched_at": "2026-06-03T12:49:43.385844+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

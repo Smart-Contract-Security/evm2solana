@@ -1,0 +1,27 @@
+{
+  "address": "0xdbfb18e151e621445fbad72b402c06110786915a",
+  "contract_name": "BigRonnieERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "3ac973497983e681df830715ab2f4a50bf15ca8a20f9a6a5613235e3e75a7993",
+  "fetched_at": "2026-06-03T04:19:03.916501+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

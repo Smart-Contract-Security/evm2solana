@@ -1,0 +1,31 @@
+{
+  "address": "0xc23b8981a33d2958251a2a2b3581c73bf405455c",
+  "contract_name": "ERC2771Forwarder",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 14,
+  "source_sha256": "3c8b0c85243f7c0f0b29876072617a6a27cf6e0632f700451a47ab563e179498",
+  "fetched_at": "2026-06-03T03:30:16.037941+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x7ce46852896af1f8a47b7adfea5ae39d07a2f557",
+  "contract_name": "PrefectCashERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "59251220917ff27a4604a3841bb4156b04f2abf5a4b581d70063021cc720f2e9",
+  "fetched_at": "2026-06-03T03:27:19.166108+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

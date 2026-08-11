@@ -1,0 +1,195 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import { IERC20Metadata } from "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
+import { ERC20Upgradeable } from "../ERC20Upgradeable.sol";
+import { SafeERC20 } from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+import { IERC4626 } from "@openzeppelin/contracts/interfaces/IERC4626.sol";
+import { Math } from "@openzeppelin/contracts/utils/math/Math.sol";
+import { Initializable } from "@openzeppelin/contracts/proxy/utils/Initializable.sol";
+
+abstract contract ERC4626Upgradeable is Initializable, ERC20Upgradeable, IERC4626 {
+    using Math for uint256;
+
+    struct ERC4626Storage {
+        IERC20 _asset;
+        uint8 _underlyingDecimals;
+    }
+
+    bytes32 private constant ERC4626StorageLocation =
+        0x0773e532dfede91f04b12a73d3d2acd361424f41f76b4fb79f090161e36b4e00;
+
+    function _getERC4626Storage() private view returns (ERC4626Storage storage $) {
+        assembly {
+            $.slot := ERC4626StorageLocation
+        }
+    }
+
+    error ERC4626ExceededMaxDeposit(address receiver, uint256 assets, uint256 max);
+    error ERC4626ExceededMaxMint(address receiver, uint256 shares, uint256 max);
+    error ERC4626ExceededMaxWithdraw(address owner, uint256 assets, uint256 max);
+    error ERC4626ExceededMaxRedeem(address owner, uint256 shares, uint256 max);
+
+    function __ERC4626_init(IERC20 asset_) internal onlyInitializing {
+        __ERC4626_init_unchained(asset_);
+    }
+
+    function __ERC4626_init_unchained(IERC20 asset_) internal onlyInitializing {
+        ERC4626Storage storage $ = _getERC4626Storage();
+        (bool success, uint8 assetDecimals) = _tryGetAssetDecimals(asset_);
+        $._underlyingDecimals = success ? assetDecimals : 18;
+        $._asset = asset_;
+    }
+
+    function _tryGetAssetDecimals(IERC20 asset_) private view returns (bool ok, uint8 assetDecimals) {
+        // Solang does not support LowLevelCall or Memory libraries.
+        // Use a try/catch approach to call decimals() on the asset.
+        try IERC20Metadata(address(asset_)).decimals() returns (uint8 dec) {
+            return (true, dec);
+        } catch {
+            return (false, 0);
+        }
+    }
+
+    function decimals() public view virtual override(IERC20Metadata, ERC20Upgradeable) returns (uint8) {
+        ERC4626Storage storage $ = _getERC4626Storage();
+        return $._underlyingDecimals + _decimalsOffset();
+    }
+
+    function asset() public view virtual returns (address) {
+        ERC4626Storage storage $ = _getERC4626Storage();
+        return address($._asset);
+    }
+
+    function totalAssets() public view virtual returns (uint256) {
+        return IERC20(asset()).balanceOf(address(this));
+    }
+
+    function convertToShares(uint256 assets) public view virtual returns (uint256) {
+        return _convertToShares(assets, Math.Rounding.Floor);
+    }
+
+    function convertToAssets(uint256 shares) public view virtual returns (uint256) {
+        return _convertToAssets(shares, Math.Rounding.Floor);
+    }
+
+    function maxDeposit(address) public view virtual returns (uint256) {
+        return type(uint256).max;
+    }
+
+    function maxMint(address) public view virtual returns (uint256) {
+        return type(uint256).max;
+    }
+
+    function maxWithdraw(address owner) public view virtual returns (uint256) {
+        return previewRedeem(maxRedeem(owner));
+    }
+
+    function maxRedeem(address owner) public view virtual returns (uint256) {
+        return balanceOf(owner);
+    }
+
+    function previewDeposit(uint256 assets) public view virtual returns (uint256) {
+        return _convertToShares(assets, Math.Rounding.Floor);
+    }
+
+    function previewMint(uint256 shares) public view virtual returns (uint256) {
+        return _convertToAssets(shares, Math.Rounding.Ceil);
+    }
+
+    function previewWithdraw(uint256 assets) public view virtual returns (uint256) {
+        return _convertToShares(assets, Math.Rounding.Ceil);
+    }
+
+    function previewRedeem(uint256 shares) public view virtual returns (uint256) {
+        return _convertToAssets(shares, Math.Rounding.Floor);
+    }
+
+    function deposit(uint256 assets, address receiver) public virtual returns (uint256) {
+        uint256 maxAssets = maxDeposit(receiver);
+        if (assets > maxAssets) {
+            revert ERC4626ExceededMaxDeposit(receiver, assets, maxAssets);
+        }
+
+        uint256 shares = previewDeposit(assets);
+        _deposit(_msgSender(), receiver, assets, shares);
+
+        return shares;
+    }
+
+    function mint(uint256 shares, address receiver) public virtual returns (uint256) {
+        uint256 maxShares = maxMint(receiver);
+        if (shares > maxShares) {
+            revert ERC4626ExceededMaxMint(receiver, shares, maxShares);
+        }
+
+        uint256 assets = previewMint(shares);
+        _deposit(_msgSender(), receiver, assets, shares);
+
+        return assets;
+    }
+
+    function withdraw(uint256 assets, address receiver, address owner) public virtual returns (uint256) {
+        uint256 maxAssets = maxWithdraw(owner);
+        if (assets > maxAssets) {
+            revert ERC4626ExceededMaxWithdraw(owner, assets, maxAssets);
+        }
+
+        uint256 shares = previewWithdraw(assets);
+        _withdraw(_msgSender(), receiver, owner, assets, shares);
+
+        return shares;
+    }
+
+    function redeem(uint256 shares, address receiver, address owner) public virtual returns (uint256) {
+        uint256 maxShares = maxRedeem(owner);
+        if (shares > maxShares) {
+            revert ERC4626ExceededMaxRedeem(owner, shares, maxShares);
+        }
+
+        uint256 assets = previewRedeem(shares);
+        _withdraw(_msgSender(), receiver, owner, assets, shares);
+
+        return assets;
+    }
+
+    function _convertToShares(uint256 assets, Math.Rounding rounding) internal view virtual returns (uint256) {
+        return assets.mulDiv(totalSupply() + 10 ** _decimalsOffset(), totalAssets() + 1, rounding);
+    }
+
+    function _convertToAssets(uint256 shares, Math.Rounding rounding) internal view virtual returns (uint256) {
+        return shares.mulDiv(totalAssets() + 1, totalSupply() + 10 ** _decimalsOffset(), rounding);
+    }
+
+    function _deposit(address caller, address receiver, uint256 assets, uint256 shares) internal virtual {
+        SafeERC20.safeTransferFrom(IERC20(asset()), caller, address(this), assets);
+        _mint(receiver, shares);
+
+        emit Deposit(caller, receiver, assets, shares);
+    }
+
+    function _withdraw(
+        address caller,
+        address receiver,
+        address owner,
+        uint256 assets,
+        uint256 shares
+    )
+        internal
+        virtual
+    {
+        if (caller != owner) {
+            _spendAllowance(owner, caller, shares);
+        }
+
+        _burn(owner, shares);
+        SafeERC20.safeTransfer(IERC20(asset()), receiver, assets);
+
+        emit Withdraw(caller, receiver, owner, assets, shares);
+    }
+
+    function _decimalsOffset() internal view virtual returns (uint8) {
+        return 0;
+    }
+}

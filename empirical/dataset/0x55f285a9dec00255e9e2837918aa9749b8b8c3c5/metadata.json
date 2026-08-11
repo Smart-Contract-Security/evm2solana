@@ -1,0 +1,27 @@
+{
+  "address": "0x55f285a9dec00255e9e2837918aa9749b8b8c3c5",
+  "contract_name": "CRYPEX",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "afcee526ea58967622518a1db0cbd7a36a7033107dd8083fe1414de15b01e0f3",
+  "fetched_at": "2026-06-03T11:50:24.264474+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

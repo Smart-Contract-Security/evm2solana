@@ -1,0 +1,26 @@
+{
+  "address": "0xe6b5aaf498075af8116cc209a450d92d2c9a4919",
+  "contract_name": "ERC1967Proxy",
+  "compiler_version": "v0.8.9+commit.e5eed63a",
+  "file_count": 14,
+  "source_sha256": "9c95b766a6a62fe51f9cdb12c62f2fab6fa03b796e177fb1a604446c328c8ef2",
+  "fetched_at": "2026-06-02T02:21:21.453232+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

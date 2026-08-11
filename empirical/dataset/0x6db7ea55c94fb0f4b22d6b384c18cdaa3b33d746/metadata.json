@@ -1,0 +1,40 @@
+{
+  "address": "0x6db7ea55c94fb0f4b22d6b384c18cdaa3b33d746",
+  "contract_name": "Blocklist",
+  "compiler_version": "v0.8.16+commit.07a7930e",
+  "file_count": 11,
+  "source_sha256": "f7117bcca19c0794e84a1961587045d1e50460b24e7fb76fb1e47cba7bade688",
+  "fetched_at": "2026-06-03T06:45:09.797392+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/"
+    ]
+  }
+}

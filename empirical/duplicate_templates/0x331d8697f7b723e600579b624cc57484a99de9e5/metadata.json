@@ -1,0 +1,27 @@
+{
+  "address": "0x331d8697f7b723e600579b624cc57484a99de9e5",
+  "contract_name": "BongoTheBullERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "a35d7447edb95009274e65979bb427dd5c525429dc2e9e2eb85de7e5719ef194",
+  "fetched_at": "2026-06-03T03:20:13.788022+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

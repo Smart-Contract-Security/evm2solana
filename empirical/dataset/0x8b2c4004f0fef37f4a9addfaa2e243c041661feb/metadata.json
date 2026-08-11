@@ -1,0 +1,27 @@
+{
+  "address": "0x8b2c4004f0fef37f4a9addfaa2e243c041661feb",
+  "contract_name": "FomoContract",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 1,
+  "source_sha256": "7185c42bfd913518e5d834064ab0b02d9d56d71760ee90c4cdcfbe9f2f5587eb",
+  "fetched_at": "2026-06-03T11:13:27.423750+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

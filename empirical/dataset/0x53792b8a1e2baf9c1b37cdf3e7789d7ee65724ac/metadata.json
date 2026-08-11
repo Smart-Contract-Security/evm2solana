@@ -1,0 +1,33 @@
+{
+  "address": "0x53792b8a1e2baf9c1b37cdf3e7789d7ee65724ac",
+  "contract_name": "Tollbound",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 1,
+  "source_sha256": "43545e0a7778186b66999f8a150b3ea0b03b2c927ff4d394ae98d3ef67505192",
+  "fetched_at": "2026-06-02T01:32:16.954516+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "projects": 8,
+  "compared": 8,
+  "divergent": 7,
+  "blocked": {},
+  "divergences_by_kind": {
+    "NO SIGNER": 24,
+    "TYPE_NARROWED": 18,
+    "MISSING": 5,
+    "Constructor Arity": 3
+  },
+  "projects_by_kind": {
+    "NO SIGNER": 7,
+    "TYPE_NARROWED": 6,
+    "MISSING": 2,
+    "Constructor Arity": 3
+  },
+  "per_project": [
+    {
+      "tier": "L1",
+      "address": "0x135638a9a20fd20fc9a48e646e25c3e585df4cee",
+      "status": "COMPARED",
+      "contract": "DiamondLoupeFacet",
+      "evm_functions": 4,
+      "solana_instructions": 5,
+      "divergent": false,
+      "divergence_counts": {},
+      "divergences": []
+    },
+    {
+      "tier": "L1",
+      "address": "0x1a8790201415565b294b4de10f5a18cc1de6f07e",
+      "status": "COMPARED",
+      "contract": "EVMBridgeSubscription",
+      "evm_functions": 3,
+      "solana_instructions": 4,
+      "divergent": true,
+      "divergence_counts": {
+        "TYPE_NARROWED": 1,
+        "NO SIGNER": 2,
+        "Constructor Arity": 1
+      },
+      "divergences": [
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "executeSync(address,address,address,uint256)",
+          "position": 3,
+          "evm": "uint256",
+          "solana": "u64"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "executeSync(address,address,address,uint256)",
+          "accounts": [
+            "dataAccount",
+            "systemProgram"
+          ]
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "transferOwnership(address)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "Constructor Arity",
+          "function": "constructor",
+          "evm": 0,
+          "solana": 1
+        }
+      ]
+    },
+    {
+      "tier": "L1",
+      "address": "0x4096dc8773b8d8c4a4146f8d4295d4a1bddaab25",
+      "status": "COMPARED",
+      "contract": "OneBalanceResourceLockManager",
+      "evm_functions": 3,
+      "solana_instructions": 4,
+      "divergent": true,
+      "divergence_counts": {
+        "TYPE_NARROWED": 2,
+        "NO SIGNER": 2
+      },
+      "divergences": [
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "createResourceLock(uint256,bytes32,uint256)",
+          "position": 0,
+          "evm": "uint256",
+          "solana": "u64"
+        },
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "createResourceLock(uint256,bytes32,uint256)",
+          "position": 2,
+          "evm": "uint256",
+          "solana": "u64"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "createResourceLock(uint256,bytes32,uint256)",
+          "accounts": [
+            "dataAccount",
+            "clock",
+            "systemProgram"
+          ]
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "fulfillResourceLock(bytes32,bytes32)",
+          "accounts": [
+            "dataAccount",
+            "clock"
+          ]
+        }
+      ]
+    },
+    {
+      "tier": "L1",
+      "address": "0x713f2a9e10df011e589b7925906b8cae8f35e38d",
+      "status": "COMPARED",
+      "contract": "MyToken",
+      "evm_functions": 10,
+      "solana_instructions": 11,
+      "divergent": true,
+      "divergence_counts": {
+        "TYPE_NARROWED": 3,
+        "NO SIGNER": 3,
+        "Constructor Arity": 1
+      },
+      "divergences": [
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "approve(address,uint256)",
+          "position": 1,
+          "evm": "uint256",
+          "solana": "u64"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "approve(address,uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "transfer(address,uint256)",
+          "position": 1,
+          "evm": "uint256",
+          "solana": "u64"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "transfer(address,uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "transferFrom(address,address,uint256)",
+          "position": 2,
+          "evm": "uint256",
+          "solana": "u64"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "transferFrom(address,address,uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "Constructor Arity",
+          "function": "constructor",
+          "evm": 1,
+          "solana": 2
+        }
+      ]
+    },
+    {
+      "tier": "L1",
+      "address": "0xbd27b6e16ec874e3ee27051f2782e484f258488f",
+      "status": "COMPARED",
+      "contract": "MerchantRegistry",
+      "evm_functions": 10,
+      "solana_instructions": 8,
+      "divergent": true,
+      "divergence_counts": {
+        "MISSING": 3,
+        "NO SIGNER": 4,
+        "Constructor Arity": 1
+      },
+      "divergences": [
+        {
+          "kind": "MISSING",
+          "function": "owner()"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "reactivateMerchant(bytes32)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "registerMerchant(bytes32,address)",
+          "accounts": [
+            "dataAccount",
+            "clock"
+          ]
+        },
+        {
+          "kind": "MISSING",
+          "function": "renounceOwnership()"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "suspendMerchant(bytes32)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "MISSING",
+          "function": "transferOwnership(address)"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "updateMerchantWallet(bytes32,address)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "Constructor Arity",
+          "function": "constructor",
+          "evm": 0,
+          "solana": 1
+        }
+      ]
+    },
+    {
+      "tier": "L3",
+      "address": "0x0dabc7fc9cbe23bd26e2ef05bb8e055be2a58f49",
+      "status": "COMPARED",
+      "contract": "SeerdexToken",
+      "evm_functions": 16,
+      "solana_instructions": 17,
+      "divergent": true,
+      "divergence_counts": {
+        "TYPE_NARROWED": 5,
+        "NO SIGNER": 5
+      },
+      "divergences": [
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "approve(address,uint256)",
+          "position": 1,
+          "evm": "uint256",
+          "solana": "u128"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "approve(address,uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "burn(uint256)",
+          "position": 0,
+          "evm": "uint256",
+          "solana": "u128"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "burn(uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "burnFrom(address,uint256)",
+          "position": 1,
+          "evm": "uint256",
+          "solana": "u128"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "burnFrom(address,uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "transfer(address,uint256)",
+          "position": 1,
+          "evm": "uint256",
+          "solana": "u128"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "transfer(address,uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "transferFrom(address,address,uint256)",
+          "position": 2,
+          "evm": "uint256",
+          "solana": "u128"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "transferFrom(address,address,uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        }
+      ]
+    },
+    {
+      "tier": "L3",
+      "address": "0xaf7d3b63fec3f95c3d52422043f56dc387e872d5",
+      "status": "COMPARED",
+      "contract": "SSCToken",
+      "evm_functions": 11,
+      "solana_instructions": 14,
+      "divergent": true,
+      "divergence_counts": {
+        "TYPE_NARROWED": 4,
+        "NO SIGNER": 4
+      },
+      "divergences": [
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "approve(address,uint256)",
+          "position": 1,
+          "evm": "uint256",
+          "solana": "u64"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "approve(address,uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "burn(uint256)",
+          "position": 0,
+          "evm": "uint256",
+          "solana": "u64"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "burn(uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "transfer(address,uint256)",
+          "position": 1,
+          "evm": "uint256",
+          "solana": "u64"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "transfer(address,uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "transferFrom(address,address,uint256)",
+          "position": 2,
+          "evm": "uint256",
+          "solana": "u64"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "transferFrom(address,address,uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        }
+      ]
+    },
+    {
+      "tier": "L3",
+      "address": "0xc35cabd8a6137644fe141ab64dd990e4a0109ba2",
+      "status": "COMPARED",
+      "contract": "MetaVision",
+      "evm_functions": 14,
+      "solana_instructions": 13,
+      "divergent": true,
+      "divergence_counts": {
+        "TYPE_NARROWED": 3,
+        "NO SIGNER": 4,
+        "MISSING": 2
+      },
+      "divergences": [
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "approve(address,uint256)",
+          "position": 1,
+          "evm": "uint256",
+          "solana": "u64"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "approve(address,uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "openTrading()",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "MISSING",
+          "function": "renounceOwnership()"
+        },
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "transfer(address,uint256)",
+          "position": 1,
+          "evm": "uint256",
+          "solana": "u64"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "transfer(address,uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "TYPE_NARROWED",
+          "function": "transferFrom(address,address,uint256)",
+          "position": 2,
+          "evm": "uint256",
+          "solana": "u64"
+        },
+        {
+          "kind": "NO SIGNER",
+          "function": "transferFrom(address,address,uint256)",
+          "accounts": [
+            "dataAccount"
+          ]
+        },
+        {
+          "kind": "MISSING",
+          "function": "transferOwnership(address)"
+        }
+      ]
+    }
+  ]
+}

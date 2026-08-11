@@ -1,0 +1,27 @@
+{
+  "address": "0xbfdf2d2653859b66a8a15e1c85f6d6cdee89698f",
+  "contract_name": "CvxCrvRewardAllocator",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 64,
+  "source_sha256": "a2a87ff74f42e2cd172c7b884c05081d6c326b1abdf32922865f1f92d0e2530c",
+  "fetched_at": "2026-06-03T07:36:57.318665+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

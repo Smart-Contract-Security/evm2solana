@@ -1,0 +1,8 @@
+{
+  "address": "0xdea69f78f7de69a53532fbfd025060427d945431",
+  "contract_name": "ExpiringTokenERC20",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "02274be39909a682eeb69951373f885f112ccb44f8a63d9b93cdb66b94aa4685",
+  "fetched_at": "2026-06-01T10:35:59.183995+00:00"
+}

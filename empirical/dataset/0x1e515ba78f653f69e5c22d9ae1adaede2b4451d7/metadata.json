@@ -1,0 +1,28 @@
+{
+  "address": "0x1e515ba78f653f69e5c22d9ae1adaede2b4451d7",
+  "contract_name": "FlashLoanExecutor",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 1,
+  "source_sha256": "d34a36ed1814078a842730a058e935dc604fd561352f1237ee38ebc297dd52b1",
+  "fetched_at": "2026-06-01T03:17:08.291207+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x4184a130e37c6574904cbc1875dd4c7df26e8fcf",
+  "contract_name": "S342",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 8,
+  "source_sha256": "6b7bc1c9c020066ff657cd13d9840a49bb319e7ff796553018599b4b27b1b8b8",
+  "fetched_at": "2026-06-03T08:51:12.482005+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

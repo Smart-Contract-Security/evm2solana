@@ -1,0 +1,49 @@
+{
+  "address": "0xc016abb105bf275d621fe04e3ac9f0c21b558ece",
+  "contract_name": "LpManager",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 35,
+  "source_sha256": "9ec6f6ea494b1f3e7a671d34ab54550b853c393971adc25d3d68cf34450d666b",
+  "fetched_at": "2026-06-03T11:46:47.639875+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "@uniswap/v4-core/=lib/v4-core/",
+      "@uniswap/permit2/=lib/permit2/",
+      "v4-core/=lib/v4-core/",
+      "v4-periphery/=lib/v4-periphery/",
+      "permit2/=lib/permit2/",
+      "forge-std/=lib/forge-std/src/",
+      "solmate/=lib/v4-core/lib/solmate/",
+      "@ensdomains/=lib/v4-core/node_modules/@ensdomains/",
+      "ds-test/=lib/v4-core/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/",
+      "hardhat/=lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

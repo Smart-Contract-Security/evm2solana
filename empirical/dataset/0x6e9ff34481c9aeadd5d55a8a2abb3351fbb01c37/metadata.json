@@ -1,0 +1,46 @@
+{
+  "address": "0x6e9ff34481c9aeadd5d55a8a2abb3351fbb01c37",
+  "contract_name": "ObolAndAsh",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 32,
+  "source_sha256": "027c6c9b89782f6b96483e1d56f1abab1d31b1aed4061a22d7c5d932303d4d7b",
+  "fetched_at": "2026-06-01T03:02:05.799507+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "libraries": {
+      "src/ObolAndAsh.sol": {
+        "Metadata": "0xfd8e6a9026e1fc89386efaabeb8fa95fa4d21482",
+        "Traits": "0xb95930c09572ae0ad2d800ae8342a3549c5de95d"
+      }
+    }
+  }
+}

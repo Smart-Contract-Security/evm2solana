@@ -1,0 +1,27 @@
+{
+  "address": "0xc0dd3e458e841aa4508bb65d9ebaf6e7701d5246",
+  "contract_name": "Vessel_Piano_Map",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 3,
+  "source_sha256": "b0082fbed026823b22740a259e8897878dbd3b20f6c2f30a495e1777ad17e546",
+  "fetched_at": "2026-06-03T11:55:11.090290+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

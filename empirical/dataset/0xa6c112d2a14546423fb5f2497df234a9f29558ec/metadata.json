@@ -1,0 +1,28 @@
+{
+  "address": "0xa6c112d2a14546423fb5f2497df234a9f29558ec",
+  "contract_name": "VeblenStandard",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 11,
+  "source_sha256": "a797bbba006f9371c0cc609b1f8c7a2267408f090798a3d9717b1b5fcd80507f",
+  "fetched_at": "2026-06-03T08:51:41.060843+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [],
+    "evmVersion": "paris"
+  }
+}

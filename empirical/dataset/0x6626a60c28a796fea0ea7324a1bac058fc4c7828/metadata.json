@@ -1,0 +1,32 @@
+{
+  "address": "0x6626a60c28a796fea0ea7324a1bac058fc4c7828",
+  "contract_name": "PermitFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 19,
+  "source_sha256": "0006cf10a39491420a8a8d8520fd621d24ad8348b05f2490b65de0e421d2f72f",
+  "fetched_at": "2026-06-03T05:11:50.932352+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "remappings": [],
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "address": "0x675fdb7e00e5eae13b0b0c8e6b6c62b7f772ae5f",
+  "contract_name": "BraleToken",
+  "compiler_version": "v0.8.18+commit.87f61d96",
+  "file_count": 29,
+  "source_sha256": "4adaf68309fca7165c1b4a8b6e56bba2599ec5f2d22cad12405512ad9fad46ea",
+  "fetched_at": "2026-06-01T10:18:06.414445+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "optimizer": {
+      "enabled": true,
+      "runs": 2000000,
+      "details": {
+        "constantOptimizer": true,
+        "cse": true,
+        "deduplicate": true,
+        "jumpdestRemover": true,
+        "inliner": true,
+        "orderLiterals": true,
+        "peephole": true,
+        "yul": true
+      }
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

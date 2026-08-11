@@ -1,0 +1,27 @@
+{
+  "address": "0x5072c70d7d5abc712476d08c692faa97d396511b",
+  "contract_name": "GoblinModeToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "92c3d1aef815c8ab930c853b76333efa63c89650fa01be5fe96b98f0da766fb8",
+  "fetched_at": "2026-06-01T10:20:56.207588+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

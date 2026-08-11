@@ -1,0 +1,28 @@
+{
+  "address": "0x8327fb6acb158c115aee87d9d53883b90e356703",
+  "contract_name": "MethMiners",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 19,
+  "source_sha256": "4b3866d71f0f0d1a7db7a7462e3bd4f67de4f0d004f6de151650c5586a63b08b",
+  "fetched_at": "2026-06-02T08:40:38.689112+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

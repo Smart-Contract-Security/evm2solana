@@ -1,0 +1,42 @@
+{
+  "address": "0x4e200da3ccdae2e9042c4f0f824ab7d3aff6ff9d",
+  "contract_name": "Proof",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "f286bcf1ecde3938aaa7246a71b9998dee3af344e4fe8e4ffccc192d83736cd5",
+  "fetched_at": "2026-06-03T12:06:35.556088+00:00",
+  "solc_settings": {
+    "remappings": [
+      "solady/=lib/solady/",
+      "forge-std/=lib/forge-std/src/",
+      "v4-core/=lib/v4-core/src/",
+      "ds-test/=lib/v4-core/lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/v4-core/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "openzeppelin-contracts/=lib/v4-core/lib/openzeppelin-contracts/",
+      "solmate/=lib/v4-core/lib/solmate/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

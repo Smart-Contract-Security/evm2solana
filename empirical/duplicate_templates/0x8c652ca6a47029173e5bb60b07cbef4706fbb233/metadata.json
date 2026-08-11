@@ -1,0 +1,27 @@
+{
+  "address": "0x8c652ca6a47029173e5bb60b07cbef4706fbb233",
+  "contract_name": "ERC721SeaDrop",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 1,
+  "source_sha256": "e1dd842c2783c3aa37274c54a70adf92780c41c4a194d1dae4b3e07b0a2c54e2",
+  "fetched_at": "2026-06-03T12:26:33.897080+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

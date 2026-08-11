@@ -1,0 +1,29 @@
+{
+  "address": "0x0dab355959f5d7369607e7fbfa3d3f3cdfb00987",
+  "contract_name": "TCGMarketplace",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 40,
+  "source_sha256": "bff073bd08b2b4c973d94c5d3dc162e5a8d799ff206fa9faf6a3ec011f84b994",
+  "fetched_at": "2026-06-04T04:05:16.823281+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 999
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

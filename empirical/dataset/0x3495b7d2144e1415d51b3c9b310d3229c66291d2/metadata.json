@@ -1,0 +1,27 @@
+{
+  "address": "0x3495b7d2144e1415d51b3c9b310d3229c66291d2",
+  "contract_name": "DAEMONS",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 7,
+  "source_sha256": "c179dd04efa43ce718d3f717b78fd018d2d8bc4ca02ad554196754ed539312c0",
+  "fetched_at": "2026-06-02T11:11:08.369637+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0x494513322a50260cc073a2da96593e5a98df777c",
+  "contract_name": "KaminoLendingMarket",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "05f45ee39f2c8792a0426c35a141df683c2349a201ea9da637832b88930733f4",
+  "fetched_at": "2026-06-03T04:35:52.638158+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

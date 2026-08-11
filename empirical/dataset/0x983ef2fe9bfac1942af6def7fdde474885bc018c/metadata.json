@@ -1,0 +1,27 @@
+{
+  "address": "0x983ef2fe9bfac1942af6def7fdde474885bc018c",
+  "contract_name": "AstraforgeNomadsDN",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 17,
+  "source_sha256": "a5c0eb36d6c681452ee32a8e90614c0e099ec2f52d7c59e8dcb3aa0ab3bf5459",
+  "fetched_at": "2026-06-01T10:35:58.044787+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

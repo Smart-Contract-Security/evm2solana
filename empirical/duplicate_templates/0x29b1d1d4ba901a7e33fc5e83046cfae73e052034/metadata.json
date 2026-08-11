@@ -1,0 +1,31 @@
+{
+  "address": "0x29b1d1d4ba901a7e33fc5e83046cfae73e052034",
+  "contract_name": "ImmutablePassport",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "8bdac50af1df25df29a7e1f0beef30acf4a4775aa901d467770b27fd8cada2a0",
+  "fetched_at": "2026-06-02T09:00:01.953254+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

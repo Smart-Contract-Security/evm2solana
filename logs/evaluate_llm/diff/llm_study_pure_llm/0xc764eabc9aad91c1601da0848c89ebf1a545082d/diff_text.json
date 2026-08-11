@@ -1,0 +1,50 @@
+[
+  {
+    "file": "ALBITRUMP.sol",
+    "original_lines": 410,
+    "ported_lines": 401,
+    "added": [
+      "    function addLiquidityETH(",
+      "    IUniswapV2Router02 private constant _router = IUniswapV2Router02(address(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D));",
+      "    uint256 private swapbackMin = 3000000 * 1e9;",
+      "        feeReceiver = address(0x6C84727E0e5D0e5226f43ed6550b1A20715D4173);",
+      "",
+      "        }",
+      "            if (block.number > _lastSellBlock)",
+      "            uint256 contractSwapAmount = from == _pairAddress ?  swapbackMax/2 : amount;",
+      "            if (contractETHBalance > 0)",
+      "                sendETHToFee(contractETHBalance);",
+      "            _lastSellBlock = uint32(block.number);",
+      "        require(newBuyFee <= buyFee && newSellFee <= sellFee, 'New fee must be lower.');",
+      "    function removeLimitz() external onlyOwner {",
+      "    function updateStructures(uint256 maxAmount, uint256 minAmount) external onlyOwner {",
+      "        if(address(token) == address(this))"
+    ],
+    "removed": [
+      "/*",
+      "",
+      "Website: https://banglastream.net/news/bsimqsivbo25",
+      "Twitter: https://x.com/MarioNawfal/status/2059752520298209470",
+      "Telegram: https://t.me/ALBITRUMP",
+      "",
+      "*/",
+      "",
+      "",
+      "        function addLiquidityETH(",
+      "    IUniswapV2Router02 private constant _router = IUniswapV2Router02(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D);",
+      "    uint256 private swapbackMin = 3000000 * 1e9;  ",
+      "        feeReceiver = 0x6C84727E0e5D0e5226f43ed6550b1A20715D4173;",
+      "        ",
+      "        }            ",
+      "            if (block.number > _lastSellBlock) ",
+      "            uint256 contractSwapAmount = from == _pairAddress ?  swapbackMax/2 : amount; ",
+      "            if (contractETHBalance > 0) ",
+      "                sendETHToFee(contractETHBalance);   ",
+      "            _lastSellBlock = uint32(block.number);            ",
+      "        require(newBuyFee <= buyFee && newSellFee <= sellFee, 'New fee must be lower.'); ",
+      "    function removeLimitz() external onlyOwner {                ",
+      "    function updateStructures(uint256 maxAmount, uint256 minAmount) external onlyOwner {                ",
+      "        if(address(token) == address(this)) //burn ca balance if input token is ALBITRUMP"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "address": "0x997bc9e1d636b09fbf0eb75532abd499173cbefb",
+  "contract_name": "Dogecoin2",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "f8707c223fae5c338ab2eb904292acc4b58f3a559414845bb979af63ba03d788",
+  "fetched_at": "2026-06-04T10:41:23.414543+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

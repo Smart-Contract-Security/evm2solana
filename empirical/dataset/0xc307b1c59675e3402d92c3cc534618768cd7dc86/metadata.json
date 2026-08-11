@@ -1,0 +1,37 @@
+{
+  "address": "0xc307b1c59675e3402d92c3cc534618768cd7dc86",
+  "contract_name": "Dhow",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 8,
+  "source_sha256": "c6548a71e003f0eadff77fe8df031d84265da3d926ee98daea61c41b185e9f96",
+  "fetched_at": "2026-06-03T11:35:11.832612+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+      "hardhat/=node_modules/hardhat/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": false
+  }
+}

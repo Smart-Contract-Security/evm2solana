@@ -1,0 +1,34 @@
+{
+  "address": "0x4a94a0743a69bee2a58c8fae7ef3881c2f5da126",
+  "contract_name": "RibbonThetaVaultWithSwap",
+  "compiler_version": "v0.8.4+commit.c7e474f2",
+  "file_count": 25,
+  "source_sha256": "9ce3ea4bc559293818a9fcdc49f10d865e9d0edd501b1030aa55d065832d5910",
+  "fetched_at": "2026-06-04T13:54:43.005662+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    },
+    "libraries": {
+      "contracts/libraries/VaultLifecycleWithSwap.sol": {
+        "VaultLifecycleWithSwap": "0x4f1fafbfe3a3a3f66e17ba674c5c79eb0cdc19ba"
+      }
+    }
+  }
+}

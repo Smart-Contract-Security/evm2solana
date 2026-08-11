@@ -1,0 +1,37 @@
+{
+  "address": "0x4d3d2675791c4b3961cc9b91812c7ef8155d0161",
+  "contract_name": "OraclaRouter",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 29,
+  "source_sha256": "7139f2e122d85be0c182f58f47fcbdb6ecb5a6dad5f75502c26ea91d5af9cc29",
+  "fetched_at": "2026-06-03T06:48:10.745195+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "solady/=lib/solady/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 9999999
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": true
+  }
+}

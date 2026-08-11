@@ -1,0 +1,30 @@
+{
+  "address": "0x1261fa2717b94ce68eb8d17e194e1c88eb6547fb",
+  "contract_name": "ACLManager",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 13,
+  "source_sha256": "bd4be2b27fa56873a75e6e6228467fa27e8626bcba2da522c4294bbdc5edd458",
+  "fetched_at": "2026-06-02T02:06:07.658761+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 20000
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}

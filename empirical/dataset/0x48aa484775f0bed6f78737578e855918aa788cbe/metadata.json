@@ -1,0 +1,36 @@
+{
+  "address": "0x48aa484775f0bed6f78737578e855918aa788cbe",
+  "contract_name": "FragmentX",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "d752db0205ac3d63741c2822ec961c0e570fc4f7ed94cfce10ae45b43195483a",
+  "fetched_at": "2026-06-03T12:34:46.817992+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x49237b3cc6be0339da880147703df416ff4f77f4",
+  "contract_name": "UnisToken",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "44a5343075c703fac64094a38697cc546c7402e46ffdb0a57b598609453fc540",
+  "fetched_at": "2026-06-03T05:05:05.834264+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

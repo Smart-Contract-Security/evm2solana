@@ -1,0 +1,27 @@
+{
+  "address": "0xfba148a382adb63ed925f4a5d33cbe1d3636eac3",
+  "contract_name": "OffchainQuotedLinearFee",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 19,
+  "source_sha256": "b13869a02dd9d20073ef0af4cdcc3b6cf5d3e4c7477e9ab90e6e2e71f48b894d",
+  "fetched_at": "2026-06-03T03:27:25.506447+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

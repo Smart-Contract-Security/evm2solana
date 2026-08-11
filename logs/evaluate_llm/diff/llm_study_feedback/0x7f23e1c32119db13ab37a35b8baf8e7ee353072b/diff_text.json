@@ -1,0 +1,13 @@
+[
+  {
+    "file": "contracts/halo.sol",
+    "original_lines": 92,
+    "ported_lines": 92,
+    "added": [
+      "        return tx.origin;"
+    ],
+    "removed": [
+      "        return msg.sender;"
+    ]
+  }
+]

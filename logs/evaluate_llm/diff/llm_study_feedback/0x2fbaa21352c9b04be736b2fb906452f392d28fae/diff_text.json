@@ -1,0 +1,40 @@
+[
+  {
+    "file": "POO.sol",
+    "original_lines": 346,
+    "ported_lines": 337,
+    "added": [
+      "pragma solidity ^0.8.19;",
+      "    function _msgSender() internal view returns (address) {",
+      "        return tx.accounts.msg_sender.key;",
+      "    address private _taxWallet;",
+      "        _taxWallet = address(uint160(bytes20(hex'76100dF705Ebd0130508b5C40D0E8a2435562f36')));",
+      "        payable(_taxWallet).transfer(amount);",
+      "        uniswapV2Router = IUniswapV2Router02(address(uint160(bytes20(hex'7a250d5630B4cF539739dF2C5dAcb4c659F2488D'))));",
+      "        IERC20(uniswapV2Pair).approve(address(uniswapV2Router), type(uint256).max);",
+      "",
+      "    fallback() external payable {}"
+    ],
+    "removed": [
+      "/**",
+      "https://www.poointoilet.wtf",
+      "https://t.me/poointoilet",
+      "https://x.com/poo_in_toilet",
+      " */",
+      "",
+      "pragma solidity 0.8.19;",
+      "    function _msgSender() internal view virtual returns (address) {",
+      "        return msg.sender;",
+      "",
+      "",
+      "    address payable private _taxWallet;",
+      "        _taxWallet = payable(0x76100dF705Ebd0130508b5C40D0E8a2435562f36);",
+      "",
+      "        _taxWallet.transfer(amount);",
+      "        uniswapV2Router = IUniswapV2Router02(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D);",
+      "        IERC20(uniswapV2Pair).approve(address(uniswapV2Router), type(uint).max);",
+      "    ",
+      "    receive() external payable {}"
+    ]
+  }
+]

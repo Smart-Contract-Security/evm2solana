@@ -1,0 +1,27 @@
+{
+  "address": "0x48bb918ba03eec7480ccd39fba94959431f4bd4d",
+  "contract_name": "Dogeus",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "235361fda796f49ec19bc5cbe431bf08649e3da42a603eb1b860c81472f28446",
+  "fetched_at": "2026-06-01T03:22:27.515743+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

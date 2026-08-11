@@ -1,0 +1,28 @@
+{
+  "address": "0xbe983edb26497f4c7ccb7e31bb6736a7b28e9ff4",
+  "contract_name": "AlwaysRevert",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 1,
+  "source_sha256": "802c7c8c98400036e5f4b7d94f4c5da0f6bc5a722a7f8d4a40d5cbcbfb3dbb63",
+  "fetched_at": "2026-06-03T12:45:00.944375+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

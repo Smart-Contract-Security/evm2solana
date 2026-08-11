@@ -1,0 +1,29 @@
+{
+  "address": "0xbcce93ff93e9b29472888911822824d27f6095bb",
+  "contract_name": "TokenFactory_V2_ETH",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 31,
+  "source_sha256": "b69e943bd7c0ad0d415e1dc736d64a1597691759cc07e31b3c1494eccf50e06b",
+  "fetched_at": "2026-06-01T13:07:34.903083+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

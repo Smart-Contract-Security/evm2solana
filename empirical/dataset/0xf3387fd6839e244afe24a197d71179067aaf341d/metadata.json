@@ -1,0 +1,30 @@
+{
+  "address": "0xf3387fd6839e244afe24a197d71179067aaf341d",
+  "contract_name": "OmniCounter",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 64,
+  "source_sha256": "a9937d8dc3382f37fffd4dc4a08720290a5504b72b697c42ba3d2ddb6e4b0696",
+  "fetched_at": "2026-06-02T09:00:27.609858+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 20000
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}

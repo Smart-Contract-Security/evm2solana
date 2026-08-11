@@ -1,0 +1,27 @@
+{
+  "address": "0x9ea3284218ac473488609cdba6a5749cd9f63328",
+  "contract_name": "BTWO",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "1a9d00fd83a629758284017c625b19bc571e786967ae457fe24c6bcbb4a04c15",
+  "fetched_at": "2026-06-01T03:21:58.225999+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

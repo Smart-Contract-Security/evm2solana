@@ -1,0 +1,34 @@
+{
+  "address": "0x3d57bfed258fb4f8d8535407118fac45c9db9f5f",
+  "contract_name": "PROTO",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "0cec3c31cfa55e4a1bf3d3969f40895824cc40acaa04699603a48eb122142413",
+  "fetched_at": "2026-06-04T05:54:20.454334+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

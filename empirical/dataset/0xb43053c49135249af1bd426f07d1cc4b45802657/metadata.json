@@ -1,0 +1,28 @@
+{
+  "address": "0xb43053c49135249af1bd426f07d1cc4b45802657",
+  "contract_name": "Monetables",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 25,
+  "source_sha256": "730b5f2e9487a2cdb2e31bb2bdeca83b6229a0f02adc454990721c25e1d2ac28",
+  "fetched_at": "2026-06-02T05:59:52.071247+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 800
+    },
+    "viaIR": false,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "unisdev/UnisToken.sol",
+    "original_lines": 120,
+    "ported_lines": 117,
+    "added": [
+      "pragma solidity ^0.8.0;",
+      "import 'solana';",
+      ""
+    ],
+    "removed": [
+      "// Objectized Asset: onchain objects, not just tokens or NFTs.",
+      "// https://x.com/unisdotdev",
+      "pragma solidity 0.8.34;",
+      "/// @title UNIS - protocol governance and fee-routing token",
+      "/// @notice Receives ETH fees from the Factory (object forge fees, Domains registrations)",
+      "///         and from the shared Hook (50% of every swap skim on UNIS pools)."
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "address": "0xcfdcafd1ee8a9d437d7cda2ee6ab932c12fa2512",
+  "contract_name": "SirBagsToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "20c9868b3b9235e2e9698ef17089f97211be78b8d0e3780fa34662cb75587727",
+  "fetched_at": "2026-06-01T08:22:58.872820+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

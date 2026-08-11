@@ -1,0 +1,24 @@
+{
+  "address": "0xdda970cb4d6176f15bcffb8bca2b25eb14f50288",
+  "contract_name": "BotBridge",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 22,
+  "source_sha256": "7e3822a97749579c2f2674aa7a31186f8cc25797d662fc610dcb5622d1ad9748",
+  "fetched_at": "2026-06-02T02:23:12.944091+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    }
+  }
+}

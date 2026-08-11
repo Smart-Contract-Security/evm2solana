@@ -1,0 +1,30 @@
+{
+  "address": "0xe5cfea9b3b6a9789ea9bdf5564ab8ad062672b8e",
+  "contract_name": "PoolVault",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 17,
+  "source_sha256": "62a209ff567da51adc37c6d323e8b0b5967cb6c61cb54af49173fa642e6620a1",
+  "fetched_at": "2026-06-03T12:04:30.927926+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

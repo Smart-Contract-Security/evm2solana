@@ -1,0 +1,27 @@
+{
+  "address": "0x55b138ed4409640018ade41cff0ade6a3f7e6d71",
+  "contract_name": "ArbitrageExecutor",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 63,
+  "source_sha256": "afe24a39bda9b1f38328a5bffe14af53acf9ebbc7f828bbfd1cf505881252359",
+  "fetched_at": "2026-06-04T03:44:34.074497+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 5
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

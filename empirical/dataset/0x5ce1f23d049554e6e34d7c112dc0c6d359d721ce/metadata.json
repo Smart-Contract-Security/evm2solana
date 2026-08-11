@@ -1,0 +1,27 @@
+{
+  "address": "0x5ce1f23d049554e6e34d7c112dc0c6d359d721ce",
+  "contract_name": "BearlyBassToken",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 18,
+  "source_sha256": "f8b34ea6b2ee30fa073c919558dca46a082f0a0d96a8867abbea46cfcf62754b",
+  "fetched_at": "2026-06-03T11:30:56.415522+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

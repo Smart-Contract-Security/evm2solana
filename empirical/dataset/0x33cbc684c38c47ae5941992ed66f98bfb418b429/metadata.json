@@ -1,0 +1,48 @@
+{
+  "address": "0x33cbc684c38c47ae5941992ed66f98bfb418b429",
+  "contract_name": "Attribute",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 44,
+  "source_sha256": "aef1c623b2a475f6d4badb522233b3ea263ad06ca87dad87eac20c4836493887",
+  "fetched_at": "2026-06-03T12:40:35.140806+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "shanghai",
+    "viaIR": true,
+    "libraries": {
+      "src/Attribute.sol": {
+        "AttributeFixedSaleLib": "0xedb64e6793683b8ff7c185ddbf4a1e2952357939",
+        "AttributePackMintLib": "0x834b891cbe2c3e8f4695a65a4e097a66e6c7ae06"
+      }
+    }
+  }
+}

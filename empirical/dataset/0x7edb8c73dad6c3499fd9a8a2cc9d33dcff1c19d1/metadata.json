@@ -1,0 +1,27 @@
+{
+  "address": "0x7edb8c73dad6c3499fd9a8a2cc9d33dcff1c19d1",
+  "contract_name": "OMALLEY",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "4aee43ab35475813c6d9135df7c56163c20d7e0a1972bdce234614e1be9eb340",
+  "fetched_at": "2026-06-04T05:09:21.179395+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

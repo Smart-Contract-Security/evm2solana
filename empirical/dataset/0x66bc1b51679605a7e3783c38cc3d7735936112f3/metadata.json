@@ -1,0 +1,28 @@
+{
+  "address": "0x66bc1b51679605a7e3783c38cc3d7735936112f3",
+  "contract_name": "RatorCoinReward",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 7,
+  "source_sha256": "d0294afd4682daa6f4bf18478bafc8aaf12a0ef15a7b6d7bb2abba021f871a06",
+  "fetched_at": "2026-06-04T03:11:34.855092+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

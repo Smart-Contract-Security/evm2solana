@@ -1,0 +1,27 @@
+{
+  "address": "0xf685fed2938bbed016620f1d2208a12c7c458497",
+  "contract_name": "LANDLORD",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "45f40f81bec19161297a9f071ce6fe6cfe80cf79a258437fba597bae7c30a9e4",
+  "fetched_at": "2026-06-04T03:29:01.784427+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

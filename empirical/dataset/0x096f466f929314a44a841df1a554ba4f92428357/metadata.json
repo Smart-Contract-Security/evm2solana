@@ -1,0 +1,27 @@
+{
+  "address": "0x096f466f929314a44a841df1a554ba4f92428357",
+  "contract_name": "Renderer",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "ff09739eded01e30158b91f5bc79ba61db64bf3eaae9e97c53402c3264cac153",
+  "fetched_at": "2026-06-02T11:27:52.470656+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

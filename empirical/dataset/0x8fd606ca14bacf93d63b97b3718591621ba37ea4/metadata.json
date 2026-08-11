@@ -1,0 +1,28 @@
+{
+  "address": "0x8fd606ca14bacf93d63b97b3718591621ba37ea4",
+  "contract_name": "Cells",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 8,
+  "source_sha256": "c979ef579585fc10ddde37c137e551ecb59fd8e4eaf40fd9c2b29e09694ccdd0",
+  "fetched_at": "2026-06-01T04:32:12.001966+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

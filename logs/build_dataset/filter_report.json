@@ -1,0 +1,39 @@
+{
+  "total_original": 1521,
+  "excluded_solang_success": {
+    "count": 29,
+    "reason": "solang compiled successfully, no porting needed",
+    "addresses": [
+      "0xb45a086f867e3e2128fb10e84b6afaa66546e93e",
+      "0xf728cab5ec2aa2bd93a54b8046047673818dd5d5",
+      "0x0277659de1409c51229f0974c98b51e47048f8e0",
+      "0xc577e5e75fac7e1629911a8240404ba2c4039751",
+      "0x8d9ed8a78682a70a3e68c48d19749fe24b455ef5",
+      "0x5cfa791d5c1b162216309fba6fc2a68758a3b233",
+      "0xba2dda977be9421db9c05714cb5ec43e457625ba",
+      "0x381c253c3d8b4e8244c694f9cf1557ddcf634bb9",
+      "0x7c679fd62e529f0a65cf5a95be03338beb7148e0",
+      "0xa460943f5c18432ca3163f2d4e4c79b53e4c7a91",
+      "0xa41bc9e27db3e388a6b5fd5b6d96bc75d72ebdd7",
+      "0x6e13ed42145d4ab8b7951da267c28442bd76b2ed",
+      "0xd628c8779a65bea8c1f073fb1fae25d9534a7bb2",
+      "0xcf288e68ff777b71e28744dc9f8bdea206d3f635",
+      "0x4b9eae6924e9a41142eaef7e1388997251fefdd1",
+      "0x3ef6ca013741d5b98ac7198e1d491002c9793b4b",
+      "0x56561fed26933c2254daf1f1f7fc47b6324ea715",
+      "0x07f835015c5b8b25317dbce21ca893f05ec47a37",
+      "0xce3dff867e092c7d8d81d22c0a17fb2b932f206d",
+      "0x5e610492d76b13bb46ace368f454f22a8ce8df7b",
+      "0xd4cac03bee7d8703d5d615fd0d1f9dcc831ad0d3",
+      "0x500fea6c7cff4ccba3ecdc296a0e8550ccc86b37",
+      "0x1b94c93266610fb8996208f4255ebf8c1a33fe21",
+      "0x7cb05645e27b644cc4d2a3480bb2453d57223c14",
+      "0xe25d4cec6f9ac37ab81e02200dcd848f36c069ca",
+      "0xdec65bbd5828a4145865422f9a909acf957c53e3",
+      "0x44f6549c04e264b752cba4f50078a8165b25de9a",
+      "0x197673752541ba42b4b7a6c834e1ab1c1668b6d4",
+      "0x6cc447e956f33e0bf2c434f8837a010a6cc7f534"
+    ]
+  },
+  "candidate_pool_count": 1492
+}

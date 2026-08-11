@@ -1,0 +1,27 @@
+{
+  "address": "0x14584891e9e0ac530402bb23e94877ab8134febd",
+  "contract_name": "DaemonRendererV4",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "060e0d6203bcf3a6c2b65ec0186a8ece0345107cfc8f55253542be1324d4e173",
+  "fetched_at": "2026-06-03T06:30:53.358874+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

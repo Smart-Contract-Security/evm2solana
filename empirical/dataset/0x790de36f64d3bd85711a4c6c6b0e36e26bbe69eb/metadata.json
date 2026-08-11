@@ -1,0 +1,27 @@
+{
+  "address": "0x790de36f64d3bd85711a4c6c6b0e36e26bbe69eb",
+  "contract_name": "RevenueDistributorV2",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 5,
+  "source_sha256": "4b139d22afbe7dbc3efec821fbbda32cfe56886f07135d9f09b8c4c84f0edc6c",
+  "fetched_at": "2026-06-03T06:28:35.320432+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

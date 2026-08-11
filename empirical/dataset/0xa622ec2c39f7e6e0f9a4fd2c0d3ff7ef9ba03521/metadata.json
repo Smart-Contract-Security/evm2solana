@@ -1,0 +1,50 @@
+{
+  "address": "0xa622ec2c39f7e6e0f9a4fd2c0d3ff7ef9ba03521",
+  "contract_name": "ZKMRStakeRegistry",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 23,
+  "source_sha256": "8f3d64d315344ef7f31d7912b93c64b0b9bdfc985bcfdb3e6c55d4efe2f91616",
+  "fetched_at": "2026-06-04T12:10:59.557540+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin-upgrades-v4.9.0/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-upgradeable-v4.9.0/",
+      "@openzeppelin-upgrades/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-upgradeable/",
+      "@openzeppelin-v4.9.0/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/",
+      "@openzeppelin/=lib/eigenlayer-contracts/lib/openzeppelin-contracts/",
+      "ds-test/=lib/eigenlayer-contracts/lib/ds-test/src/",
+      "eigenlayer-contracts/=lib/eigenlayer-contracts/",
+      "erc4626-tests/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-upgradeable-v4.9.0/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts-upgradeable-v4.9.0/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-upgradeable-v4.9.0/",
+      "openzeppelin-contracts-upgradeable/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts-v4.9.0/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/",
+      "openzeppelin-contracts/=lib/eigenlayer-contracts/lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/eigenlayer-contracts/lib/openzeppelin-contracts-upgradeable-v4.9.0/contracts/",
+      "solady/=lib/solady/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

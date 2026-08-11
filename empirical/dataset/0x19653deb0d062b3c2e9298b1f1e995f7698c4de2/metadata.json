@@ -1,0 +1,31 @@
+{
+  "address": "0x19653deb0d062b3c2e9298b1f1e995f7698c4de2",
+  "contract_name": "StrategyStakeDaoBoostHubYearn",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 17,
+  "source_sha256": "f6332c09cb15eca71572ce4507d6fa445cd53ccf809753dceb08cf528d9c9fc5",
+  "fetched_at": "2026-06-03T07:42:48.111739+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

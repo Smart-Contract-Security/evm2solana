@@ -1,0 +1,8 @@
+{
+  "address": "0xccbe686f9d132e821e3c856f9dec2f2d5526b323",
+  "contract_name": "SimpleERC20OrderBook",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "2abd1e2d3544df42db97953f4a6aac13a40609dec2a4f1377eb8f9c433fdc2f8",
+  "fetched_at": "2026-06-02T07:39:43.487907+00:00"
+}

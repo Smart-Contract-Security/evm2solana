@@ -1,0 +1,27 @@
+{
+  "address": "0x9b7c4452324fb6db75bbbfd2f9b9cbf6d2e77b11",
+  "contract_name": "JMarketsV3",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 6,
+  "source_sha256": "f76105fec4bd118d0d00e04d4cffe24a89758d2c0144ceb9abba260af22d73ac",
+  "fetched_at": "2026-06-03T05:45:34.494404+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

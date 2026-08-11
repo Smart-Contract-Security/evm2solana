@@ -1,0 +1,29 @@
+{
+  "address": "0x796321ad04f4e32488cabedb820ffc1c99cd3b6c",
+  "contract_name": "HungryHippo",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 1,
+  "source_sha256": "d4e72709c86fe291c26cfea3b62ff44b79bc0a7c0363331f32c3de6555c6621b",
+  "fetched_at": "2026-06-03T11:44:14.607433+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

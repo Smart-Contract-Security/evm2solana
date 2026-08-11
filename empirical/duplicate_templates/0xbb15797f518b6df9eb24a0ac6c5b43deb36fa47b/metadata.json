@@ -1,0 +1,27 @@
+{
+  "address": "0xbb15797f518b6df9eb24a0ac6c5b43deb36fa47b",
+  "contract_name": "ScruffyNedToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "88f789f467007e1dad17c0af87f06f9c009c43ff30415f8752e62489769d5029",
+  "fetched_at": "2026-06-01T14:46:05.461949+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "address": "0xa3b4acfd0d070ddcd2ff3a9f20a3ab46080ad7cb",
+  "contract_name": "Clouds",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 9,
+  "source_sha256": "8e585b90bc1e62104e6133a68298cd6842ae2f63489439d1f4101ed926490f08",
+  "fetched_at": "2026-06-03T06:50:17.965777+00:00",
+  "solc_settings": {
+    "remappings": [
+      "erc721a/=lib/ERC721A/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "ERC721A/=lib/ERC721A/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": false
+  }
+}

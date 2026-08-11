@@ -1,0 +1,28 @@
+{
+  "address": "0xd6fe5fb548a6d8b6ed04b3cab3979f6fe98baaed",
+  "contract_name": "PendleCurveRouterNgAdapter",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 32,
+  "source_sha256": "0c27d8001b7cd052701aafb957665bf48ae87e7755a92a4664fbb396c47ff508",
+  "fetched_at": "2026-06-04T04:09:17.564534+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 5000000
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

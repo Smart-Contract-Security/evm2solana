@@ -1,0 +1,27 @@
+{
+  "address": "0xb9a99a7262d75a2df0ba552ad2c0b058cc18f449",
+  "contract_name": "LunarFoxToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "8828432c0e7edf3ba6e9636e6db4201359be1451d4a35f02481763ef553d2d25",
+  "fetched_at": "2026-06-03T04:39:48.704186+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

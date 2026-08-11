@@ -1,0 +1,30 @@
+{
+  "address": "0x98e9c05db5819c2d5e21556f1d05f738985feadb",
+  "contract_name": "ForgottenWorldsPass",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 22,
+  "source_sha256": "4b5ff0c3bbe7e75874a6f6d94cca90b490440e4352c9e7faba2130fa40371f93",
+  "fetched_at": "2026-06-01T08:34:30.922613+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xff9c75934f8c3ce9ec5d26317ab763213f55bc79",
+  "contract_name": "PermissionVault",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 17,
+  "source_sha256": "1310dde0e22ee556d2b321840460f84194a40dbc8d53e4ff2eb3eb294f9a3c79",
+  "fetched_at": "2026-06-03T08:49:34.096637+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "address": "0x6db596b66fed6a9994e09eed70b6d210f01705e5",
+  "contract_name": "EtherFiARM",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 14,
+  "source_sha256": "cfa4fbc429d04a2aae6672537a05fb5b1ac8da1d3cd412c4cd47bf931fee27ee",
+  "fetched_at": "2026-06-02T01:39:56.213610+00:00",
+  "solc_settings": {
+    "remappings": [
+      "dependencies/@pendle-sy-1.0.0-1.0.0/:@openzeppelin/contracts/=dependencies/@openzeppelin-contracts-4.9.3-4.9.3/contracts/",
+      "contracts/=src/contracts/",
+      "script/=script/",
+      "test/=test/",
+      "utils/=src/contracts/utils/",
+      "@solmate/=dependencies/solmate-6.7.0/src/",
+      "forge-std/=dependencies/forge-std-1.9.7/src/",
+      "@pendle-sy/=dependencies/@pendle-sy-1.0.0-1.0.0/contracts/",
+      "@openzeppelin/contracts/=dependencies/@openzeppelin-contracts-5.0.2-5.0.2/contracts/",
+      "@openzeppelin/contracts-upgradeable/=dependencies/@openzeppelin-contracts-upgradeable-5.0.2-5.0.2/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "shanghai",
+    "viaIR": false
+  }
+}

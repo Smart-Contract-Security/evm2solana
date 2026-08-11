@@ -1,0 +1,17 @@
+[
+  {
+    "file": "EVMBridgeSubscription.sol",
+    "original_lines": 50,
+    "ported_lines": 52,
+    "added": [
+      "",
+      "import 'solana';",
+      "        owner = tx.origin;",
+      "        require(tx.origin == owner, \"Not the contract owner\");"
+    ],
+    "removed": [
+      "        owner = msg.sender;",
+      "        require(msg.sender == owner, \"Not the contract owner\");"
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "file": "src/interfaces/AggregatorV3Interface.sol",
+    "original_lines": 22,
+    "ported_lines": 23,
+    "added": [
+      "",
+      "import 'solana';",
+      "    function version() external view returns (uint64);",
+      "    function getRoundData(uint64 _roundId)",
+      "        returns (uint64 roundId, int64 answer, uint64 startedAt, uint64 updatedAt, uint64 answeredInRound);",
+      "        returns (uint64 roundId, int64 answer, uint64 startedAt, uint64 updatedAt, uint64 answeredInRound);"
+    ],
+    "removed": [
+      "pragma solidity >=0.5.0;",
+      "    function version() external view returns (uint256);",
+      "    function getRoundData(uint80 _roundId)",
+      "        returns (uint80 roundId, int256 answer, uint256 startedAt, uint256 updatedAt, uint80 answeredInRound);",
+      "        returns (uint80 roundId, int256 answer, uint256 startedAt, uint256 updatedAt, uint80 answeredInRound);"
+    ]
+  },
+  {
+    "file": "src/oracles/TwoBaseFeeds.sol",
+    "original_lines": 37,
+    "ported_lines": 39,
+    "added": [
+      "import 'solana';",
+      "interface AggregatorV3Interface {",
+      "    function decimals() external view returns (uint64);",
+      "    function latestRoundData() external view returns (uint80 roundId, int64 answer, uint64 startedAt, uint64 updatedAt, uint80 answeredInRound);",
+      "}",
+      "    uint64 public targetDecimals = 18;",
+      "    uint64 public feedsTotalDecimals;",
+      "    function getPrice() public view returns (uint64) {",
+      "        uint64 _price = price(feed1) * price(feed2);",
+      "    function price(address feed) public view returns (uint64) {",
+      "        (, int64 answer,,,) = AggregatorV3Interface(feed).latestRoundData();",
+      "        return uint64(answer);"
+    ],
+    "removed": [
+      "// SPDX-License-Identifier: UNLICENSED",
+      "pragma solidity ^0.8.13;",
+      "import \"../interfaces/AggregatorV3Interface.sol\";",
+      "    uint256 public targetDecimals = 18;",
+      "    uint256 public feedsTotalDecimals;",
+      "    function getPrice() public view returns (uint256) {",
+      "        uint256 _price = price(feed1) * price(feed2);",
+      "    function price(address feed) public view returns (uint256) {",
+      "        (, int256 answer,,,) = AggregatorV3Interface(feed).latestRoundData();",
+      "        return uint256(answer);"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "address": "0xd5a555053f28ac4956ba5af9d96e0deb6b88ad1a",
+  "contract_name": "Whdoge",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "7cd7a7791282e5f77ae61897615ce44d36df0c100464afd90f61a98b7e9144e6",
+  "fetched_at": "2026-06-01T04:44:03.886034+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

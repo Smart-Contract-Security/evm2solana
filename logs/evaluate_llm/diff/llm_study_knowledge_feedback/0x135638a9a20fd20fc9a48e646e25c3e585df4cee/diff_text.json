@@ -1,0 +1,123 @@
+[
+  {
+    "file": "contracts/diamond/facets/DiamondLoupeFacet.sol",
+    "original_lines": 28,
+    "ported_lines": 28,
+    "added": [
+      "        uint64 len = ds.facetAddresses.length;",
+      "        facets_ = new Facet[](len);",
+      "        for (uint64 i = 0; i < len; i++) {"
+    ],
+    "removed": [
+      "pragma solidity 0.8.19;",
+      "        facets_ = new Facet[](ds.facetAddresses.length);",
+      "        for (uint256 i = 0; i < ds.facetAddresses.length; i++) {"
+    ]
+  },
+  {
+    "file": "contracts/diamond/interfaces/IDiamondCut.sol",
+    "original_lines": 20,
+    "ported_lines": 19,
+    "added": [],
+    "removed": [
+      "pragma solidity 0.8.19;"
+    ]
+  },
+  {
+    "file": "contracts/diamond/interfaces/IDiamondLoupe.sol",
+    "original_lines": 17,
+    "ported_lines": 16,
+    "added": [],
+    "removed": [
+      "pragma solidity 0.8.19;"
+    ]
+  },
+  {
+    "file": "contracts/diamond/libraries/LibDiamond.sol",
+    "original_lines": 187,
+    "ported_lines": 180,
+    "added": [
+      "        uint64 selectorPosition;",
+      "        uint64 facetAddressPosition;",
+      "        if (tx.accounts.dataAccount.key != diamondStorage().contractOwner) {",
+      "            revert(\"NotContractOwner\");",
+      "        for (uint64 i = 0; i < diamondCut_.length; i++) {",
+      "                revert(\"InvalidFacetCut\");",
+      "            revert(\"InvalidFacetCut\");",
+      "        uint64 selectorPosition = uint64(ds.facetFunctionSelectors[facetAddress].selectors.length);",
+      "            ds.facetFunctionSelectors[facetAddress].facetAddressPosition = uint64(ds.facetAddresses.length);",
+      "        for (uint64 i = 0; i < selectors.length; i++) {",
+      "                revert(\"FunctionAlreadyExists\");",
+      "            revert(\"InvalidFacetCut\");",
+      "        uint64 selectorPosition = uint64(ds.facetFunctionSelectors[facetAddress].selectors.length);",
+      "            ds.facetFunctionSelectors[facetAddress].facetAddressPosition = uint64(ds.facetAddresses.length);",
+      "        for (uint64 i = 0; i < selectors.length; i++) {",
+      "                revert(\"CannotReplaceFunctionWithSameFacet\");",
+      "            revert(\"InvalidFacetCut\");",
+      "        for (uint64 i = 0; i < selectors.length; i++) {",
+      "            revert(\"FunctionDoesNotExist\");",
+      "            revert(\"CannotRemoveImmutableFunction\");",
+      "        uint64 selectorPosition = ds.selectorToFacetAndPosition[selector].selectorPosition;",
+      "        uint64 lastSelectorPosition = uint64(ds.facetFunctionSelectors[facetAddress].selectors.length - 1);",
+      "            ds.selectorToFacetAndPosition[lastSelector].selectorPosition = selectorPosition;",
+      "            uint64 lastFacetAddressPosition = uint64(ds.facetAddresses.length - 1);",
+      "            uint64 facetAddressPosition = ds.facetFunctionSelectors[facetAddress].facetAddressPosition;",
+      "        (bool success, ) = init.call{accounts: []}(calldata_);",
+      "            revert(\"InitializationFailed\");",
+      "        // On Solana, extcodesize is not available.",
+      "        // We check if the account is a program by verifying it is executable.",
+      "        // This requires the account to be passed in the transaction accounts.",
+      "        // Since this is an internal view function, we assume the caller ensures",
+      "        // the account is a valid program. We simply check that the address is not zero.",
+      "        if (contractAddress == address(0)) {",
+      "            revert(\"FacetHasNoCode\");",
+      "        // Note: A full check would require the account to be passed and its executable flag checked.",
+      "        // For now, we rely on the caller to provide valid program addresses."
+    ],
+    "removed": [
+      "pragma solidity 0.8.19;",
+      "        uint96 selectorPosition;",
+      "        uint256 facetAddressPosition;",
+      "",
+      "    error NotContractOwner();",
+      "    error InvalidFacetCut();",
+      "    error FunctionAlreadyExists();",
+      "    error FunctionDoesNotExist();",
+      "    error CannotReplaceFunctionWithSameFacet();",
+      "    error CannotRemoveImmutableFunction();",
+      "    error FacetHasNoCode();",
+      "    error InitializationFailed();",
+      "        if (msg.sender != diamondStorage().contractOwner) {",
+      "            revert NotContractOwner();",
+      "        for (uint256 i = 0; i < diamondCut_.length; i++) {",
+      "                revert InvalidFacetCut();",
+      "            revert InvalidFacetCut();",
+      "        uint96 selectorPosition = uint96(ds.facetFunctionSelectors[facetAddress].selectors.length);",
+      "            ds.facetFunctionSelectors[facetAddress].facetAddressPosition = ds.facetAddresses.length;",
+      "        for (uint256 i = 0; i < selectors.length; i++) {",
+      "                revert FunctionAlreadyExists();",
+      "            revert InvalidFacetCut();",
+      "        uint96 selectorPosition = uint96(ds.facetFunctionSelectors[facetAddress].selectors.length);",
+      "            ds.facetFunctionSelectors[facetAddress].facetAddressPosition = ds.facetAddresses.length;",
+      "        for (uint256 i = 0; i < selectors.length; i++) {",
+      "                revert CannotReplaceFunctionWithSameFacet();",
+      "            revert InvalidFacetCut();",
+      "        for (uint256 i = 0; i < selectors.length; i++) {",
+      "            revert FunctionDoesNotExist();",
+      "            revert CannotRemoveImmutableFunction();",
+      "        uint256 selectorPosition = ds.selectorToFacetAndPosition[selector].selectorPosition;",
+      "        uint256 lastSelectorPosition = ds.facetFunctionSelectors[facetAddress].selectors.length - 1;",
+      "            ds.selectorToFacetAndPosition[lastSelector].selectorPosition = uint96(selectorPosition);",
+      "            uint256 lastFacetAddressPosition = ds.facetAddresses.length - 1;",
+      "            uint256 facetAddressPosition = ds.facetFunctionSelectors[facetAddress].facetAddressPosition;",
+      "        (bool success, ) = init.delegatecall(calldata_);",
+      "            revert InitializationFailed();",
+      "        uint256 contractSize;",
+      "        assembly {",
+      "            contractSize := extcodesize(contractAddress)",
+      "        if (contractSize == 0) {",
+      "            revert FacetHasNoCode();",
+      "        }"
+    ]
+  }
+]

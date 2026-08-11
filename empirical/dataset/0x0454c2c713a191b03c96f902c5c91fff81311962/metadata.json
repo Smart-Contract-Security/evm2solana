@@ -1,0 +1,28 @@
+{
+  "address": "0x0454c2c713a191b03c96f902c5c91fff81311962",
+  "contract_name": "TempleTeamPayments",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 7,
+  "source_sha256": "b416bc75ba2d910a28c72b4be6a82aad6e2d5dca0d18e6b00e97279c95805956",
+  "fetched_at": "2026-06-01T15:42:41.666908+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

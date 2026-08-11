@@ -1,0 +1,27 @@
+{
+  "address": "0x942a7f5cd6e2d6ea434f696b545675ff74fca113",
+  "contract_name": "SweetRookie",
+  "compiler_version": "v0.8.31+commit.fd3a2265",
+  "file_count": 8,
+  "source_sha256": "5f6456cd183d8613b91ac454c77d5307a506880cc03c040ca0abeac2929ff859",
+  "fetched_at": "2026-05-30T14:39:29.519081+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

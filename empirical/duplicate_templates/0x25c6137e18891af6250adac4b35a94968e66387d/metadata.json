@@ -1,0 +1,27 @@
+{
+  "address": "0x25c6137e18891af6250adac4b35a94968e66387d",
+  "contract_name": "NgmiNoMore",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "3dc5e4a6795deb7c8ea553603204d9e769a609776b8b6e691e214592dd6af0b9",
+  "fetched_at": "2026-06-03T08:09:27.148462+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xbfbaa1c3130c6a01a2dbe9ab51a20c03e3b3f189",
+  "contract_name": "BinaryPunksR3",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "5302461e5ddff8272efccaf42435f705b8a5edf23de303fa09a77a9ad8a0fc33",
+  "fetched_at": "2026-06-02T08:51:33.537968+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

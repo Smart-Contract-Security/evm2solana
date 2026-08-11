@@ -1,0 +1,26 @@
+{
+  "address": "0xd3999188ff689b99d8097a4876f61e70b22f7881",
+  "contract_name": "SpurdoSparde",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 20,
+  "source_sha256": "2ecbc08e50f0123384a6cb254b30bbb55c12743175fbe5df65567325d65b9ef1",
+  "fetched_at": "2026-06-04T13:41:26.002131+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

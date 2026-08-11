@@ -1,0 +1,73 @@
+{
+  "address": "0x79e5bd3bd5cfc52c718fe0f83feaab31691683ca",
+  "contract_name": "RevocationPayload",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 18,
+  "source_sha256": "a855aa2b4ee0847ef7260bf93bb7ae07a90a70e118e200d8745d83055f9bfe7a",
+  "fetched_at": "2026-06-02T13:16:52.447350+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/ignition-monorepo/contracts/lib/forge-std/src/",
+      "@oz/=lib/ignition-monorepo/contracts/lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/=lib/ignition-monorepo/contracts/lib/openzeppelin-contracts/",
+      "@atp/=lib/ignition-monorepo/contracts/lib/teegeeee/src/",
+      "circuits/=lib/ignition-monorepo/contracts/lib/circuits/src/",
+      "continuous-clearing-auction/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/continuous-clearing-auction/",
+      "ds-test/=lib/ignition-monorepo/contracts/lib/predicate-contracts/lib/forge-std/lib/ds-test/src/",
+      "eigenlayer-contracts/=lib/ignition-monorepo/contracts/lib/predicate-contracts/lib/eigenlayer-contracts/",
+      "eigenlayer-middleware/=lib/ignition-monorepo/contracts/lib/predicate-contracts/lib/eigenlayer-middleware/",
+      "erc4626-tests/=lib/ignition-monorepo/contracts/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/continuous-clearing-auction/lib/forge-gas-snapshot/src/",
+      "halmos-cheatcodes/=lib/ignition-monorepo/contracts/lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "ignition-monorepo/=lib/ignition-monorepo/contracts/",
+      "kontrol-cheatcodes/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/optimism/packages/contracts-bedrock/lib/kontrol-cheatcodes/src/",
+      "l1-contracts/=lib/ignition-monorepo/contracts/lib/l1-contracts/src/",
+      "lib-keccak/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/optimism/packages/contracts-bedrock/lib/lib-keccak/contracts/",
+      "liquidity-launcher/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/",
+      "merkle-distributor/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/merkle-distributor/contracts/",
+      "openzeppelin-contracts-4.7/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/openzeppelin-contracts-4.7/",
+      "openzeppelin-contracts-upgradeable-v4.9.0/=lib/ignition-monorepo/contracts/lib/predicate-contracts/lib/eigenlayer-contracts/lib/openzeppelin-contracts-upgradeable-v4.9.0/",
+      "openzeppelin-contracts-upgradeable/=lib/ignition-monorepo/contracts/lib/predicate-contracts/lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts-v4.9.0/=lib/ignition-monorepo/contracts/lib/predicate-contracts/lib/eigenlayer-contracts/lib/openzeppelin-contracts-v4.9.0/",
+      "openzeppelin-contracts-v5/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/optimism/packages/contracts-bedrock/lib/openzeppelin-contracts-v5/",
+      "openzeppelin-contracts/=lib/ignition-monorepo/contracts/lib/openzeppelin-contracts/",
+      "openzeppelin-foundry-upgrades/=lib/ignition-monorepo/contracts/lib/predicate-contracts/lib/openzeppelin-foundry-upgrades/src/",
+      "optimism/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/optimism/",
+      "permit2/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/permit2/",
+      "predicate-contracts/=lib/ignition-monorepo/contracts/lib/predicate-contracts/src/",
+      "safe-contracts/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/optimism/packages/contracts-bedrock/lib/safe-contracts/contracts/",
+      "solady-v0.0.245/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/optimism/packages/contracts-bedrock/lib/solady-v0.0.245/src/",
+      "solady/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/solady/src/",
+      "solmate/=lib/ignition-monorepo/contracts/lib/predicate-contracts/lib/solmate/src/",
+      "splits-contracts-monorepo/=lib/ignition-monorepo/contracts/lib/",
+      "teegeeee/=lib/ignition-monorepo/contracts/lib/teegeeee/src/",
+      "utils/=lib/ignition-monorepo/contracts/lib/predicate-contracts/lib/utils/",
+      "v4-core/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/v4-core/src/",
+      "v4-periphery/=lib/ignition-monorepo/contracts/lib/liquidity-launcher/lib/v4-periphery/",
+      "zkpassport-packages/=lib/ignition-monorepo/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

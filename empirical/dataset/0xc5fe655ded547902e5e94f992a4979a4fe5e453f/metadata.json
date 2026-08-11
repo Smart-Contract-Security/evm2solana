@@ -1,0 +1,36 @@
+{
+  "address": "0xc5fe655ded547902e5e94f992a4979a4fe5e453f",
+  "contract_name": "ArbiWhatExecutorBalancerSvr",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 1,
+  "source_sha256": "bfac79614b94fced6e42eb4883ab60cc6375b029a9017835b69d825e5a4ef1ed",
+  "fetched_at": "2026-06-03T04:09:51.501767+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

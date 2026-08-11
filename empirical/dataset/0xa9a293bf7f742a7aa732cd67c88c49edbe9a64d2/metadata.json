@@ -1,0 +1,28 @@
+{
+  "address": "0xa9a293bf7f742a7aa732cd67c88c49edbe9a64d2",
+  "contract_name": "TermRepoTokenIntentFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 77,
+  "source_sha256": "2fa99c5ffe8f08cd1897e570d7e8740249b2dd2092308608ee87c05edca2c4ae",
+  "fetched_at": "2026-06-03T05:10:47.808646+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

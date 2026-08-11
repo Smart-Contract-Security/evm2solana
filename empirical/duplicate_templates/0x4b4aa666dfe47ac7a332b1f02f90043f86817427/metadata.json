@@ -1,0 +1,27 @@
+{
+  "address": "0x4b4aa666dfe47ac7a332b1f02f90043f86817427",
+  "contract_name": "ZKR",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "62574f65c5f675e49b006a1cab9a6c9262ebf5c94666711248cadaed30cc9c7e",
+  "fetched_at": "2026-06-01T04:32:27.095025+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

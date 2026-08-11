@@ -1,0 +1,30 @@
+{
+  "address": "0x80df3190ceced5bef957a17fdba85c1e71181e73",
+  "contract_name": "Api3USDCOracle",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 21,
+  "source_sha256": "8241f5d0bd59a0b756896c0affd9e5e3654edce49e1265c479cbdc1e9b93609c",
+  "fetched_at": "2026-06-03T06:44:48.657361+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}

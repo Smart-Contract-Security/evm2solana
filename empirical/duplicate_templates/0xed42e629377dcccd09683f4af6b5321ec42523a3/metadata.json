@@ -1,0 +1,27 @@
+{
+  "address": "0xed42e629377dcccd09683f4af6b5321ec42523a3",
+  "contract_name": "PaperTiger",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "17c0180f44463349b297e28d58e3738bd9299d7d627c0d282484bc25ef166a4d",
+  "fetched_at": "2026-06-03T04:42:55.592829+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

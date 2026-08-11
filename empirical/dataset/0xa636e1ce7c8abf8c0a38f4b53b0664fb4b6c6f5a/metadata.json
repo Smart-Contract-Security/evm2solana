@@ -1,0 +1,28 @@
+{
+  "address": "0xa636e1ce7c8abf8c0a38f4b53b0664fb4b6c6f5a",
+  "contract_name": "bulkBurner",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "9f8a185a2c5a2305f70b916c249e6acd3473b97db5655673ca3e2ae44045b993",
+  "fetched_at": "2026-06-04T13:20:22.805151+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "address": "0xa2c83fe226e752a86d72a3daac0662988ffbfc49",
+  "contract_name": "AccessControlledOCR2Aggregator",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 18,
+  "source_sha256": "bcee2aab100c14e1d7fb970afbc2c8008bc94f42950d9f489cac57c1bc225828",
+  "fetched_at": "2026-06-02T12:26:03.046975+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

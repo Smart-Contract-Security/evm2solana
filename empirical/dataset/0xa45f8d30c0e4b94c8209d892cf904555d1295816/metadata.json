@@ -1,0 +1,27 @@
+{
+  "address": "0xa45f8d30c0e4b94c8209d892cf904555d1295816",
+  "contract_name": "Nyan",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 1,
+  "source_sha256": "0f2abf30da1741d0d7e6c3dbdeb2dedb2d8b7b459594c9c6943bd272451622f4",
+  "fetched_at": "2026-06-01T08:35:05.700811+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

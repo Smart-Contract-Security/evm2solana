@@ -1,0 +1,30 @@
+{
+  "address": "0xcf7fffc6fb884193794dd4e01eb4a8e6be2e63f7",
+  "contract_name": "TimelockController",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 10,
+  "source_sha256": "af349324bcacf7f6ae4e57b40485bb5e19c775bef9b4211ce9e55bd7f776510a",
+  "fetched_at": "2026-06-02T02:06:14.659855+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 20000
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}

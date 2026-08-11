@@ -1,0 +1,8 @@
+{
+  "tier": "L4",
+  "total": 25,
+  "success": 0,
+  "failed": 25,
+  "infra_failed": 0,
+  "solang_version": "solang version v0.3.4"
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x5a48bcca54747695b5a6cf2253182558d8a9f20d",
+  "contract_name": "PepeThePenguin",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 7,
+  "source_sha256": "d712632e88b795c819fc8a57e7c1b0c23137442229beae4b806490b7c1433984",
+  "fetched_at": "2026-06-03T05:39:35.261831+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

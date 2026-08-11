@@ -1,0 +1,26 @@
+{
+  "address": "0xc56a3f3bfcbecfceb8659104840dfcd342846bb1",
+  "contract_name": "Normilio",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "fa9d7b65a0ecc0eb41737179f6390f3ceb98e236eead9109a1307744c31e4206",
+  "fetched_at": "2026-06-04T12:49:05.664773+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

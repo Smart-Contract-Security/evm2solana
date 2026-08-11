@@ -1,0 +1,27 @@
+{
+  "address": "0xdc461316bd5a001d31bd947e49d794f7269efb3a",
+  "contract_name": "ECTPositionManagerV3",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 29,
+  "source_sha256": "397e701ff23f72d288be74f1a02b9fbd5d62ac9d63435aa62275d5a11b6adba9",
+  "fetched_at": "2026-06-03T12:53:04.416633+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

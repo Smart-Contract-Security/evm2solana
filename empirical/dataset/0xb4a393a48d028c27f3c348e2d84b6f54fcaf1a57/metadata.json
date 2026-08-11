@@ -1,0 +1,31 @@
+{
+  "address": "0xb4a393a48d028c27f3c348e2d84b6f54fcaf1a57",
+  "contract_name": "Share",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 49,
+  "source_sha256": "0ec3c2448bf36959e6bdcac6d4a4d5d321921c8bf1e7bc9892d18a9d9c020363",
+  "fetched_at": "2026-06-03T06:26:05.005345+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "npm/@openzeppelin/contracts-upgradeable@5.6.1/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/",
+      "project/:@openzeppelin/contracts-upgradeable/=npm/@openzeppelin/contracts-upgradeable@5.6.1/",
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/"
+    ]
+  }
+}

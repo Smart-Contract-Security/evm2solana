@@ -1,0 +1,27 @@
+{
+  "address": "0xa9e6620e2a2267071563920377ab3cf286f47427",
+  "contract_name": "FrozenPeaks",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "82d7f3c8f0997dddb239917c69cd2ac777f7fdb2ac43f80bbdb8ba4a6d5ca990",
+  "fetched_at": "2026-06-01T08:20:28.499888+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

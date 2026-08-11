@@ -1,0 +1,28 @@
+{
+  "address": "0xf200d509b00c7aacce04928cf786e94d81d8cc7f",
+  "contract_name": "TokenSale",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 12,
+  "source_sha256": "fa7e52dd5ea0d343bb92c4f93b73fde32a17afadf129df9df3b894cf27f68bc8",
+  "fetched_at": "2026-06-04T13:35:34.084327+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

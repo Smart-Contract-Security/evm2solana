@@ -1,0 +1,28 @@
+[
+  {
+    "file": "Token.sol",
+    "original_lines": 345,
+    "ported_lines": 336,
+    "added": [
+      "    function _msgSender() internal view returns (address) {",
+      "    constructor () {",
+      "        return tx.origin;",
+      "    }"
+    ],
+    "removed": [
+      "    function _msgSender() internal view virtual returns (address) {",
+      "",
+      "",
+      "    constructor () payable {",
+      "",
+      "    // function balanceOf(address account) public view override returns (uint256) {",
+      "    //     return _balances[account];",
+      "    // }",
+      "        assembly {",
+      "            _payer := origin()",
+      "        }",
+      "    }",
+      ""
+    ]
+  }
+]

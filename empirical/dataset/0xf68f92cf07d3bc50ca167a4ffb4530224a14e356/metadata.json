@@ -1,0 +1,44 @@
+{
+  "address": "0xf68f92cf07d3bc50ca167a4ffb4530224a14e356",
+  "contract_name": "ConnextVestingWallet",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 7,
+  "source_sha256": "0d6d38ab1448368c0880eb2f384614440500b81e5493221fb359af91958a1f33",
+  "fetched_at": "2026-06-04T13:55:32.007018+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=node_modules/ds-test/src/",
+      "forge-std/=node_modules/forge-std/src/",
+      "isolmate/=node_modules/isolmate/src/",
+      "contracts/=solidity/contracts/",
+      "interfaces/=solidity/interfaces/",
+      "scripts/=solidity/scripts/",
+      "test/=solidity/test/",
+      "@openzeppelin/=node_modules/@openzeppelin/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "shanghai",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

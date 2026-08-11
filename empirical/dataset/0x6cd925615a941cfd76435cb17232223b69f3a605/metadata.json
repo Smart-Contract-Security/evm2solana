@@ -1,0 +1,27 @@
+{
+  "address": "0x6cd925615a941cfd76435cb17232223b69f3a605",
+  "contract_name": "StandardOpenTradingToken",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 7,
+  "source_sha256": "60961fd239e0685d8e0b408a0aa8e0d93cc4ef4d35184312b0712b93300b0696",
+  "fetched_at": "2026-06-02T08:46:43.516401+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

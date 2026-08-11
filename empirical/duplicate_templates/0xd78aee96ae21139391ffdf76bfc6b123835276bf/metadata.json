@@ -1,0 +1,27 @@
+{
+  "address": "0xd78aee96ae21139391ffdf76bfc6b123835276bf",
+  "contract_name": "DegenParadise",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "178972c44f5ce53cd6860e31c53228bc93d7855c5f2f3aba70730d4e2bb35e3c",
+  "fetched_at": "2026-06-02T02:11:32.467368+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

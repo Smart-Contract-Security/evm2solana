@@ -1,0 +1,24 @@
+{
+  "address": "0x6eed23258cac4a569a0624cc3138d9891c335389",
+  "contract_name": "TokenLockDevelopment",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 11,
+  "source_sha256": "d4d25a8660a871539671b4e912ebed3b9e6163513076c770a5f163cdc83d8548",
+  "fetched_at": "2026-06-04T12:18:27.276252+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

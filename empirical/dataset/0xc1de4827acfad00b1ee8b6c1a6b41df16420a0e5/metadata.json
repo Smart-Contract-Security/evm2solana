@@ -1,0 +1,28 @@
+{
+  "address": "0xc1de4827acfad00b1ee8b6c1a6b41df16420a0e5",
+  "contract_name": "Router",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 23,
+  "source_sha256": "159b7ee14458d38fa1bebd31e3175ddf417ae61ee00a49a5890d991c8f05315e",
+  "fetched_at": "2026-06-01T08:39:27.110217+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

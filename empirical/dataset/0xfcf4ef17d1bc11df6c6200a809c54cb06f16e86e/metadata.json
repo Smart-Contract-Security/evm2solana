@@ -1,0 +1,28 @@
+{
+  "address": "0xfcf4ef17d1bc11df6c6200a809c54cb06f16e86e",
+  "contract_name": "TermRepoLocker",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 45,
+  "source_sha256": "f0c83ff8be46ea57622829c23af8faa104b762e3115df057938b038d40f1f57a",
+  "fetched_at": "2026-06-03T05:25:08.680014+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

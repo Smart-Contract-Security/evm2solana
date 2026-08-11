@@ -1,0 +1,26 @@
+{
+  "address": "0xf174aa36f32e45d593e3e94d7ce754b6950ce2a7",
+  "contract_name": "BrainCredits",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 9,
+  "source_sha256": "eb7291229dd4d55513c64a0038de643ef66a31e32d2823bf9ba96f3e32f2d785",
+  "fetched_at": "2026-06-04T10:26:53.481018+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 800
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

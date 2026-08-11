@@ -1,0 +1,33 @@
+[
+  {
+    "file": "MEMEVERSE.sol",
+    "original_lines": 385,
+    "ported_lines": 371,
+    "added": [
+      "",
+      "        _taxWallet = payable(address(0x6E256df666fEeB98cD6A4689b04649C7274C7847));",
+      "        uniswapV2Router = IUniswapV2Router02(address(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D));",
+      ""
+    ],
+    "removed": [
+      "/**",
+      "",
+      "Website:  https://memeverse.pro",
+      "Twitter:  https://x.com/MemeVerseETH",
+      "Telegram: https://t.me/MemeVerseEth",
+      "",
+      "",
+      "",
+      "*/",
+      "",
+      "",
+      "",
+      "    ",
+      "",
+      "        _taxWallet = payable(0x6E256df666fEeB98cD6A4689b04649C7274C7847);",
+      "",
+      "        uniswapV2Router = IUniswapV2Router02(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D);",
+      "    "
+    ]
+  }
+]

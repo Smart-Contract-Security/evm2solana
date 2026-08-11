@@ -1,0 +1,28 @@
+{
+  "address": "0x86850c9c2018184d5a821de306ddb9d5eaea391d",
+  "contract_name": "GRUMPY",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "d4c292b1b0ec278dccd4db14f9f62aecb77f7d656d6c9c0bce6ee191c6f7accc",
+  "fetched_at": "2026-06-04T12:07:19.521633+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

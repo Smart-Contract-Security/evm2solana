@@ -1,0 +1,31 @@
+{
+  "address": "0x9fa6a9c6be73c0130d358d1a68c4da691552c6f4",
+  "contract_name": "TempleGoldAdmin",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 43,
+  "source_sha256": "9d38ccc9ca356f08b7445da207f9e9c15621cc3e2285c92af5fd13730e6c6cdc",
+  "fetched_at": "2026-06-03T11:27:06.700058+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "runs": 999999,
+      "enabled": true
+    },
+    "evmVersion": "paris",
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

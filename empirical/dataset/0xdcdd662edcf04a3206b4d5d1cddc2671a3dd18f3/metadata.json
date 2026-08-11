@@ -1,0 +1,29 @@
+{
+  "address": "0xdcdd662edcf04a3206b4d5d1cddc2671a3dd18f3",
+  "contract_name": "MintBundler",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 8,
+  "source_sha256": "15d1cdb8376f899d6f2fbea983e00f677358f127fbb3776830c6cc9167ad53ae",
+  "fetched_at": "2026-06-04T05:11:43.499094+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

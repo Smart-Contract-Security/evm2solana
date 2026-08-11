@@ -1,0 +1,27 @@
+{
+  "address": "0xd949cbf06a329542769df0b0ec25d104cf4f7b9a",
+  "contract_name": "The_Long_Drift_SVG",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 2,
+  "source_sha256": "bc27c5378bf0f0a7b5aae0800d91bd296b3282f3af102a822428fa49589f73a6",
+  "fetched_at": "2026-06-03T07:38:22.002905+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

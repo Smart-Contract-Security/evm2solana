@@ -1,0 +1,27 @@
+{
+  "address": "0x28481016c749c5e73866e6c98a8ee3976d97dab8",
+  "contract_name": "PINO",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "dec144e2277e76667bb4dc58022191db0c71704431521a9d57bd0345bbb06ee8",
+  "fetched_at": "2026-06-04T03:42:49.021648+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

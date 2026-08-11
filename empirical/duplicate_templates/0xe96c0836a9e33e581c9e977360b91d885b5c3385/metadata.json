@@ -1,0 +1,28 @@
+{
+  "address": "0xe96c0836a9e33e581c9e977360b91d885b5c3385",
+  "contract_name": "Kaufen",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 27,
+  "source_sha256": "65f9e07a0a5e953a2c0658e6d0a7204f5f2034ecb3b5282c21a894475f56df98",
+  "fetched_at": "2026-06-01T08:34:40.736465+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

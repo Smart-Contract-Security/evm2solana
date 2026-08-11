@@ -1,0 +1,27 @@
+{
+  "address": "0x4040177578fe1ba913737eb7275e1350b1e5314e",
+  "contract_name": "ERC4040PriceNotFound",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "b7acb30154d3e810bb173c1c003a10ac8d454de7fe4f0cd52bcb7e54ea4f3899",
+  "fetched_at": "2026-06-02T09:05:50.475261+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

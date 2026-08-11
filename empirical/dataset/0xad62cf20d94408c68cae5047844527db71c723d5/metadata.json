@@ -1,0 +1,27 @@
+{
+  "address": "0xad62cf20d94408c68cae5047844527db71c723d5",
+  "contract_name": "VitalikToken",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 7,
+  "source_sha256": "a3770bee79180b52fde52cb58de90ed6717a5dde10251b08a8c78d9a278edde5",
+  "fetched_at": "2026-06-03T07:10:24.670693+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

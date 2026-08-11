@@ -1,0 +1,37 @@
+// SPDX-License-Identifier: MIT OR Apache-2.0
+pragma solidity >=0.8.0;
+
+// ============ Internal Imports ============
+import {IInterchainSecurityModule} from "../interfaces/IInterchainSecurityModule.sol";
+import {Message} from "../libs/Message.sol";
+import {PackageVersioned} from "contracts/PackageVersioned.sol";
+
+// Forward declaration of Mailbox interface to avoid circular dependency
+interface Mailbox {
+    function processor(bytes32 _id) external view returns (address);
+}
+
+contract TrustedRelayerIsm is IInterchainSecurityModule, PackageVersioned {
+    using Message for bytes;
+
+    uint8 public immutable moduleType = uint8(Types.NULL);
+    Mailbox public immutable mailbox;
+    address public immutable trustedRelayer;
+
+    constructor(address _mailbox, address _trustedRelayer) {
+        require(
+            _trustedRelayer != address(0),
+            "TrustedRelayerIsm: invalid relayer"
+        );
+        // Solang does not support Address.isContract; assume _mailbox is a valid contract address
+        mailbox = Mailbox(_mailbox);
+        trustedRelayer = _trustedRelayer;
+    }
+
+    function verify(
+        bytes calldata,
+        bytes calldata message
+    ) external view returns (bool) {
+        return mailbox.processor(message.id()) == trustedRelayer;
+    }
+}

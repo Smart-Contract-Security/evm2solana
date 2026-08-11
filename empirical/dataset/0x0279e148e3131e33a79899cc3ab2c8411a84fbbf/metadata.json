@@ -1,0 +1,28 @@
+{
+  "address": "0x0279e148e3131e33a79899cc3ab2c8411a84fbbf",
+  "contract_name": "TermDiamondFactory",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 12,
+  "source_sha256": "f0a29be584c1e9053fa71060df98d1ef3a9ecbd35f1fe85d670d2e7ae7f98a05",
+  "fetched_at": "2026-06-03T05:31:36.666145+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "address": "0xe1add6dc17696cd7d7918a76741d9c725e22b84b",
+  "contract_name": "DarkRewardsV2",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 3,
+  "source_sha256": "3d659d2f3edfa9d8d6b6074c89cce7c975799e970360337de81854c2b321756a",
+  "fetched_at": "2026-06-03T06:34:24.549766+00:00",
+  "solc_settings": {
+    "remappings": [
+      "solady/=lib/solady/",
+      "forge-std/=lib/forge-std/src/",
+      "v4-core/=lib/v4-core/src/",
+      "ds-test/=lib/v4-core/lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/v4-core/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "openzeppelin-contracts/=lib/v4-core/lib/openzeppelin-contracts/",
+      "solmate/=lib/v4-core/lib/solmate/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xe7213c15a5a2b19d33d210d966a5d7d11f7fba17",
+  "contract_name": "BlazingCoopERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "c52f577bc94d9dac99460691b843ae5c95698348a3e5b0dcbc23932e5020cb91",
+  "fetched_at": "2026-06-03T12:47:49.466624+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

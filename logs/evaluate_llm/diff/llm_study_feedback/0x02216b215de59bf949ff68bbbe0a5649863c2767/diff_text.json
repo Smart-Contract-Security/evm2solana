@@ -1,0 +1,21 @@
+[
+  {
+    "file": "src/MandaliaStorage.sol",
+    "original_lines": 45,
+    "ported_lines": 47,
+    "added": [
+      "",
+      "import 'solana';",
+      "    string constant NotNFT_ERROR = \"NotNFT\";",
+      "    string constant AlreadyInitialized_ERROR = \"AlreadyInitialized\";",
+      "        if (nft != address(0)) revert(AlreadyInitialized_ERROR);",
+      "        if (tx.origin != nft) revert(NotNFT_ERROR);"
+    ],
+    "removed": [
+      "    error NotNFT();",
+      "    error AlreadyInitialized();",
+      "        if (nft != address(0)) revert AlreadyInitialized();",
+      "        if (msg.sender != nft) revert NotNFT();"
+    ]
+  }
+]

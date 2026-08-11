@@ -1,0 +1,27 @@
+{
+  "address": "0x7975770ca7382ee35419daea73ccb14397c04af5",
+  "contract_name": "StratoNativeRepresentationBridge",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 35,
+  "source_sha256": "d2324bdbde6221423aa5326d0be978fd10f28f6b67a4bf1305071e48c6b56c8f",
+  "fetched_at": "2026-06-01T10:08:00.893940+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

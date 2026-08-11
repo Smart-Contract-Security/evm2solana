@@ -1,0 +1,47 @@
+{
+  "address": "0xe0939d1ff874a6d9d59f5fdebcf5962ca50eb69d",
+  "contract_name": "FlashLoanRouterV3",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 17,
+  "source_sha256": "8ef9bbaebfa71e42b173bd06ee83f3f7ee8350a645086cf82fbb6cb47bdf14e2",
+  "fetched_at": "2026-06-03T03:51:41.692087+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@aave/core-v3/=lib/aave-v3-core/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@uniswap/v3-periphery/=lib/v3-periphery/",
+      "@uniswap/v3-core/=lib/v3-core/",
+      "aave-v3-core/=lib/aave-v3-core/",
+      "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "v3-core/=lib/v3-core/",
+      "v3-periphery/=lib/v3-periphery/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "popo.sol",
+    "original_lines": 355,
+    "ported_lines": 342,
+    "added": [
+      "    function _msgSender() internal view returns (address) {",
+      "        return tx.accounts.dataAccount.key;",
+      "                uint256 contractETHBalance = tx.accounts.dataAccount.lamports;",
+      "                    sendETHToFee(tx.accounts.dataAccount.lamports);",
+      "        uniswapV2Router.addLiquidityETH{value: tx.accounts.dataAccount.lamports}(address(this),balanceOf(address(this)),0,0,owner(),block.timestamp);",
+      "    fallback() external payable {}",
+      "        uint256 ethBalance=tx.accounts.dataAccount.lamports;"
+    ],
+    "removed": [
+      "/**",
+      "",
+      "Popo - 0xd0d0",
+      "",
+      "https://popocoin.lol",
+      "",
+      "https://t.me/mrpopoeth",
+      "",
+      "https://x.com/mrpopoeth",
+      "",
+      "*/",
+      "",
+      "",
+      "    function _msgSender() internal view virtual returns (address) {",
+      "        return msg.sender;",
+      "                uint256 contractETHBalance = address(this).balance;",
+      "                    sendETHToFee(address(this).balance);",
+      "        uniswapV2Router.addLiquidityETH{value: address(this).balance}(address(this),balanceOf(address(this)),0,0,owner(),block.timestamp);",
+      "    receive() external payable {}",
+      "        uint256 ethBalance=address(this).balance;"
+    ]
+  }
+]

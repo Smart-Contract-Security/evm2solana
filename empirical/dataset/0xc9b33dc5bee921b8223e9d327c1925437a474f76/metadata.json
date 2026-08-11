@@ -1,0 +1,27 @@
+{
+  "address": "0xc9b33dc5bee921b8223e9d327c1925437a474f76",
+  "contract_name": "NoisiesR4",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "4401ddb4235187f6fff22da5b441da8ba96f26495f8a98718bbc3e1afd3dbebf",
+  "fetched_at": "2026-06-01T10:25:15.849967+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

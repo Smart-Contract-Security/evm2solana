@@ -1,0 +1,27 @@
+{
+  "address": "0x7ee0065b52eb8b6702770b0830e31e2b783835cf",
+  "contract_name": "Daemon",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "6bf15e4fc7fc6e75a86b1a994d6054dcfae887a90c3a69895ee52f404006f9bb",
+  "fetched_at": "2026-06-03T12:16:22.213651+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

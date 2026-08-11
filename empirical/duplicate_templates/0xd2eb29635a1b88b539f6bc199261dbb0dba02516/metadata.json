@@ -1,0 +1,27 @@
+{
+  "address": "0xd2eb29635a1b88b539f6bc199261dbb0dba02516",
+  "contract_name": "DizzyBagsToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "1fe5758651e21b2f83899b8ca2876adf4aaa94830c444922d819e2b5c40da7ec",
+  "fetched_at": "2026-06-02T02:46:06.020256+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

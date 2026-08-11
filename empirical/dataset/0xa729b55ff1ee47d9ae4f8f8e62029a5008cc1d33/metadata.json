@@ -1,0 +1,28 @@
+{
+  "address": "0xa729b55ff1ee47d9ae4f8f8e62029a5008cc1d33",
+  "contract_name": "OperoseFactory",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 16,
+  "source_sha256": "70230a709b1be82b315fdd1fc2c664f2a6de3b2b033650a713cde6b251bd7a41",
+  "fetched_at": "2026-06-03T11:55:19.180646+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

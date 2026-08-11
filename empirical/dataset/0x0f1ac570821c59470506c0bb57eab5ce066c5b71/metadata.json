@@ -1,0 +1,27 @@
+{
+  "address": "0x0f1ac570821c59470506c0bb57eab5ce066c5b71",
+  "contract_name": "ERC20_burnable_mintable",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 66,
+  "source_sha256": "46570208fc37000a69300479a3206df806643013b6194ddecbb7eb6b68d339f1",
+  "fetched_at": "2026-06-03T05:46:23.128556+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

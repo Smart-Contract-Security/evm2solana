@@ -1,0 +1,27 @@
+{
+  "address": "0x294d362b640a53facdd72893e268b19f2fe419e3",
+  "contract_name": "Kimchi",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "1529102e40ebd85367f48b2000b8f9a6567d1c9f056f1d561ea866574043fd54",
+  "fetched_at": "2026-06-01T04:50:26.741077+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "file": "EVMBridgeSubscription.sol",
+    "original_lines": 50,
+    "ported_lines": 48,
+    "added": [
+      "@program_id(\"TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA\") interface IERC20 {",
+      "    function transferFrom(address from, address to, uint64 value) external returns (bool);",
+      "        address user, ",
+      "        address targetBridge, ",
+      "        uint64 amount",
+      "    @payer(payer)",
+      "    @space(512)",
+      "    @seed(\"owner\")",
+      "    constructor(address payer) {",
+      "        owner = payer;",
+      "        require(tx.accounts.dataAccount.key == owner, \"Not the contract owner\");",
+      "        uint64 amount",
+      "        (bool success, ) = tokenAddress.call{program_id: \"TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA\"}(abi.encodeWithSignature(\"transferFrom(address,address,uint64)\", fromUser, toBridgeC, amount));"
+    ],
+    "removed": [
+      "// SPDX-License-Identifier: MIT",
+      "pragma solidity ^0.8.20;",
+      "",
+      "interface IERC20 {",
+      "    function transferFrom(address from, address to, uint256 value) external returns (bool);",
+      "        address indexed user, ",
+      "        address indexed targetBridge, ",
+      "        uint256 amount",
+      "    constructor() {",
+      "        owner = msg.sender;",
+      "        require(msg.sender == owner, \"Not the contract owner\");",
+      "        uint256 amount",
+      "        IERC20 token = IERC20(tokenAddress);",
+      "        ",
+      "        bool success = token.transferFrom(fromUser, toBridgeC, amount);"
+    ]
+  }
+]

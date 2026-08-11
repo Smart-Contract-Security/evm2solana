@@ -1,0 +1,27 @@
+{
+  "address": "0xbfa3203150d5cc70b39cf172fef960888a104e56",
+  "contract_name": "GOLD",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 31,
+  "source_sha256": "2a6df693d4122d586216b2dbc2494fcb1b7e086007cec7558d1c6b7abc9cb316",
+  "fetched_at": "2026-06-04T04:34:31.658102+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

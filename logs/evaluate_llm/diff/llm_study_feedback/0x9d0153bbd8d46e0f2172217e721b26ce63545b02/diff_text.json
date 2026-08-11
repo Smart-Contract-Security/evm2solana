@@ -1,0 +1,49 @@
+[
+  {
+    "file": "Token.sol",
+    "original_lines": 44,
+    "ported_lines": 50,
+    "added": [
+      "",
+      "",
+      "    address private _owner;",
+      "",
+      "        _owner = tx.accounts[0].key;",
+      "        balances[_owner] = totalSupply;",
+      "",
+      "    function balanceOf(address owner) public view returns(uint) {",
+      "",
+      "        address sender = tx.accounts[0].key;",
+      "        require(balanceOf(sender) >= value, 'balance too low');",
+      "        balances[sender] -= value;",
+      "        emit Transfer(sender, to, value);",
+      "",
+      "        address spender = tx.accounts[0].key;",
+      "        require(allowance[from][spender] >= value, 'allowance too low');",
+      "        return true;",
+      "",
+      "        address owner = tx.accounts[0].key;",
+      "        allowance[owner][spender] = value;",
+      "        emit Approval(owner, spender, value);",
+      "        return true;"
+    ],
+    "removed": [
+      "    ",
+      "    ",
+      "        balances[msg.sender] = totalSupply;",
+      "    ",
+      "    function balanceOf(address owner) public returns(uint) {",
+      "    ",
+      "        require(balanceOf(msg.sender) >= value, 'balance too low');",
+      "        balances[msg.sender] -= value;",
+      "       emit Transfer(msg.sender, to, value);",
+      "    ",
+      "        require(allowance[from][msg.sender] >= value, 'allowance too low');",
+      "        return true;   ",
+      "    ",
+      "        allowance[msg.sender][spender] = value;",
+      "        emit Approval(msg.sender, spender, value);",
+      "        return true;   "
+    ]
+  }
+]

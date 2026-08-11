@@ -1,0 +1,31 @@
+{
+  "address": "0x95c20b807c9f2edce71f8bd4d2114a7de4f384b8",
+  "contract_name": "SolicAbstract",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 13,
+  "source_sha256": "c5787913714ceb5f49fe4570bb908bc3865d38283f734c0666d9f0c129b56807",
+  "fetched_at": "2026-06-03T05:31:54.346716+00:00",
+  "solc_settings": {
+    "evmVersion": "shanghai",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/",
+      "project/:erc721a/=npm/erc721a@4.3.0/"
+    ]
+  }
+}

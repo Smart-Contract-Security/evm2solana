@@ -1,0 +1,27 @@
+{
+  "address": "0x9a85abc0d62efc99be3c47704a426cc21fb0319b",
+  "contract_name": "Shiyainu",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "b828a18739248e81c62ac490befd3a8b3464e82ee9c04af7f5476a183e713c56",
+  "fetched_at": "2026-06-01T14:45:45.759936+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

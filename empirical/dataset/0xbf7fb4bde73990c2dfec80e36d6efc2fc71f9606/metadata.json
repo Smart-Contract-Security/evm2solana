@@ -1,0 +1,44 @@
+{
+  "address": "0xbf7fb4bde73990c2dfec80e36d6efc2fc71f9606",
+  "contract_name": "UpkeepBalanceMonitor",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 9,
+  "source_sha256": "89008642225cb751e7466e30756174189f7aeafbb6bed8ca271e28b8119cf1b1",
+  "fetched_at": "2026-06-04T05:57:06.600254+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=src/v0.8/vendor/forge-std/src/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "@arbitrum/=node_modules/@arbitrum/",
+      "hardhat/=node_modules/hardhat/",
+      "@eth-optimism/=node_modules/@eth-optimism/",
+      "@scroll-tech/=node_modules/@scroll-tech/",
+      "@zksync/=node_modules/@zksync/",
+      "@chainlink/=node_modules/@chainlink/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

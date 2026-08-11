@@ -1,0 +1,48 @@
+{
+  "address": "0x7dfaf914041a571448d9f638d50a3ba32a0815d7",
+  "contract_name": "HelperConfig",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 16,
+  "source_sha256": "c641c8f9eefcb011b17daf27bbb738c9ee14c398350ac6325519bf3cb0412882",
+  "fetched_at": "2026-06-01T10:44:17.934816+00:00",
+  "solc_settings": {
+    "viaIR": false,
+    "metadata": {
+      "appendCBOR": true,
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": false
+    },
+    "optimizer": {
+      "runs": 8000,
+      "enabled": true
+    },
+    "evmVersion": "cancun",
+    "remappings": [
+      "@rwausd/=lib/rwausd-token-ccip/",
+      "@chainlink/contracts-ccip/=node_modules/@chainlink/contracts-ccip/",
+      "@chainlink/contracts/=node_modules/@chainlink/contracts/",
+      "@openzeppelin/contracts/=lib/rwausd-token-ccip/lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/rwausd-token-ccip/lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@chainlink/contracts/src/v0.8/vendor/openzeppelin-solidity/v4.8.3/contracts/=node_modules/@openzeppelin/contracts/",
+      "erc4626-tests/=lib/rwausd-token-ccip/lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/rwausd-token-ccip/lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/rwausd-token-ccip/lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/rwausd-token-ccip/lib/openzeppelin-contracts/",
+      "openzeppelin-foundry-upgrades/=lib/openzeppelin-foundry-upgrades/src/",
+      "rwausd-token-ccip/=lib/rwausd-token-ccip/src/"
+    ],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

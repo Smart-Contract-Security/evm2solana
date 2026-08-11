@@ -1,0 +1,27 @@
+{
+  "address": "0x7459bda8b67f5d44c6d6a5638f0fa930332abf15",
+  "contract_name": "P2P",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 14,
+  "source_sha256": "1692d9a20f6ff89c414f136beb0e69f19a4f0dcaa9787457cd939251cbdad0ab",
+  "fetched_at": "2026-06-03T03:26:01.022307+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

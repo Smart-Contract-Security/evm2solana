@@ -1,0 +1,26 @@
+{
+  "address": "0x47b04b8845316b066f7fbfbc81a61ef3800643f0",
+  "contract_name": "QuillComputer",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 9,
+  "source_sha256": "4b1467c83c9600221715a97873a78d3bb5347fa8645c17b415cf1187ef3f3ca6",
+  "fetched_at": "2026-06-02T06:42:01.181188+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

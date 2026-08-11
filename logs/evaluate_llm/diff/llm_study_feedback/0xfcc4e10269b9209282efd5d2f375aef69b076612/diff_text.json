@@ -1,0 +1,24 @@
+[
+  {
+    "file": "unisdev/UnisHookForge.sol",
+    "original_lines": 69,
+    "ported_lines": 66,
+    "added": [
+      "        revert(\"MineFailed\");",
+      "        bytes memory code = creationCodeWithArgs;",
+      "        hook = address(0);",
+      "            hook := create2(0, add(code, 32), mload(code), salt)",
+      "        if (hook == address(0)) revert(\"CreateFailed\");"
+    ],
+    "removed": [
+      "",
+      "    error MineFailed();",
+      "    error CreateFailed();",
+      "        revert MineFailed();",
+      "            let p := mload(0x40)",
+      "            calldatacopy(p, creationCodeWithArgs.offset, creationCodeWithArgs.length)",
+      "            hook := create2(0, p, creationCodeWithArgs.length, salt)",
+      "        if (hook == address(0)) revert CreateFailed();"
+    ]
+  }
+]

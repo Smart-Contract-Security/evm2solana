@@ -1,0 +1,29 @@
+{
+  "address": "0xc1d04a666580b9f0c45cfb5c034be089e5bf010c",
+  "contract_name": "BlackMuseum",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 23,
+  "source_sha256": "66f4c5b4766dafb2f3d00f54df336e06f5c373f9561ed94eaecda345e34ecb75",
+  "fetched_at": "2026-06-01T02:50:36.145482+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "@openzeppelin/contracts/=@openzeppelin/contracts@5.6.0/"
+    ]
+  }
+}

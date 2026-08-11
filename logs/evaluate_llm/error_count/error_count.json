@@ -1,0 +1,180 @@
+{
+  "cases": {
+    "dataset": {
+      "overall": {
+        "total": 100,
+        "success": 0,
+        "infra_failed": 2,
+        "failed": 98,
+        "total_errors": 31822,
+        "unique_errors": 1015
+      },
+      "per_tier": {
+        "L1": {
+          "total": 25,
+          "success": 0,
+          "infra_failed": 2,
+          "failed": 23,
+          "total_errors": 265,
+          "unique_errors": 24
+        },
+        "L2": {
+          "total": 25,
+          "success": 0,
+          "infra_failed": 0,
+          "failed": 25,
+          "total_errors": 570,
+          "unique_errors": 71
+        },
+        "L3": {
+          "total": 25,
+          "success": 0,
+          "infra_failed": 0,
+          "failed": 25,
+          "total_errors": 3074,
+          "unique_errors": 252
+        },
+        "L4": {
+          "total": 25,
+          "success": 0,
+          "infra_failed": 0,
+          "failed": 25,
+          "total_errors": 27913,
+          "unique_errors": 843
+        }
+      }
+    },
+    "llm_study_pure_llm": {
+      "overall": {
+        "total": 100,
+        "success": 0,
+        "infra_failed": 1,
+        "failed": 99,
+        "total_errors": 23253,
+        "unique_errors": 993
+      },
+      "per_tier": {
+        "L1": {
+          "total": 25,
+          "success": 0,
+          "infra_failed": 1,
+          "failed": 24,
+          "total_errors": 373,
+          "unique_errors": 37
+        },
+        "L2": {
+          "total": 25,
+          "success": 0,
+          "infra_failed": 0,
+          "failed": 25,
+          "total_errors": 511,
+          "unique_errors": 62
+        },
+        "L3": {
+          "total": 25,
+          "success": 0,
+          "infra_failed": 0,
+          "failed": 25,
+          "total_errors": 2395,
+          "unique_errors": 219
+        },
+        "L4": {
+          "total": 25,
+          "success": 0,
+          "infra_failed": 0,
+          "failed": 25,
+          "total_errors": 19974,
+          "unique_errors": 844
+        }
+      }
+    },
+    "llm_study_feedback": {
+      "overall": {
+        "total": 100,
+        "success": 1,
+        "infra_failed": 1,
+        "failed": 98,
+        "total_errors": 4407,
+        "unique_errors": 477
+      },
+      "per_tier": {
+        "L1": {
+          "total": 25,
+          "success": 1,
+          "infra_failed": 1,
+          "failed": 23,
+          "total_errors": 135,
+          "unique_errors": 24
+        },
+        "L2": {
+          "total": 25,
+          "success": 0,
+          "infra_failed": 0,
+          "failed": 25,
+          "total_errors": 279,
+          "unique_errors": 49
+        },
+        "L3": {
+          "total": 25,
+          "success": 0,
+          "infra_failed": 0,
+          "failed": 25,
+          "total_errors": 635,
+          "unique_errors": 92
+        },
+        "L4": {
+          "total": 25,
+          "success": 0,
+          "infra_failed": 0,
+          "failed": 25,
+          "total_errors": 3358,
+          "unique_errors": 399
+        }
+      }
+    },
+    "llm_study_knowledge_feedback": {
+      "overall": {
+        "total": 100,
+        "success": 8,
+        "infra_failed": 9,
+        "failed": 83,
+        "total_errors": 1019,
+        "unique_errors": 307
+      },
+      "per_tier": {
+        "L1": {
+          "total": 25,
+          "success": 5,
+          "infra_failed": 5,
+          "failed": 15,
+          "total_errors": 35,
+          "unique_errors": 17
+        },
+        "L2": {
+          "total": 25,
+          "success": 0,
+          "infra_failed": 0,
+          "failed": 25,
+          "total_errors": 135,
+          "unique_errors": 45
+        },
+        "L3": {
+          "total": 25,
+          "success": 3,
+          "infra_failed": 2,
+          "failed": 20,
+          "total_errors": 271,
+          "unique_errors": 83
+        },
+        "L4": {
+          "total": 25,
+          "success": 0,
+          "infra_failed": 2,
+          "failed": 23,
+          "total_errors": 578,
+          "unique_errors": 224
+        }
+      }
+    }
+  }
+}

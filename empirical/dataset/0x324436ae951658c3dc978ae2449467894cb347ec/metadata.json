@@ -1,0 +1,31 @@
+{
+  "address": "0x324436ae951658c3dc978ae2449467894cb347ec",
+  "contract_name": "SwarmCoordinator",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 2,
+  "source_sha256": "ce9abae262aa77b54c32f537a2ef7908ef4c0d0fe31742ccbda222c80228b6ad",
+  "fetched_at": "2026-06-01T02:52:26.955239+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "runs": 200,
+      "enabled": true
+    },
+    "evmVersion": "paris",
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

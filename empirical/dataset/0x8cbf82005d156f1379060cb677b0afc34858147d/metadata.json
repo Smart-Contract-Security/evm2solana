@@ -1,0 +1,30 @@
+{
+  "address": "0x8cbf82005d156f1379060cb677b0afc34858147d",
+  "contract_name": "Fiat",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 46,
+  "source_sha256": "fc2ba5c6baa1a4d1e70e7a22a704eda11f89da5a678434c6f0d2bb4a76172ce9",
+  "fetched_at": "2026-06-03T06:26:14.637220+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "npm/@openzeppelin/contracts-upgradeable@5.6.1/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/",
+      "project/:@openzeppelin/contracts-upgradeable/=npm/@openzeppelin/contracts-upgradeable@5.6.1/"
+    ]
+  }
+}

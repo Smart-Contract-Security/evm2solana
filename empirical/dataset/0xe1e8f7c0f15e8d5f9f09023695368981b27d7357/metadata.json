@@ -1,0 +1,41 @@
+{
+  "address": "0xe1e8f7c0f15e8d5f9f09023695368981b27d7357",
+  "contract_name": "SpacePort",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 18,
+  "source_sha256": "2e39ac856099b54df69fcc3daea8234e461b7fadd94077b69fc2eec8190761eb",
+  "fetched_at": "2026-06-02T09:01:46.726596+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": true
+  }
+}

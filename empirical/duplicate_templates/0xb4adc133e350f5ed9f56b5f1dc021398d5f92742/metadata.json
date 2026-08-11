@@ -1,0 +1,27 @@
+{
+  "address": "0xb4adc133e350f5ed9f56b5f1dc021398d5f92742",
+  "contract_name": "CtrlAltDegen",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "8333ee6773195008b087fb3a7f04147591cb7f06b3076361b6fc2ae97f544cec",
+  "fetched_at": "2026-06-03T04:16:42.640066+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

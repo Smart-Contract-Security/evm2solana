@@ -1,0 +1,48 @@
+{
+  "address": "0xadf50af70fb5890c95efdc11f435352a57f2fbd1",
+  "contract_name": "LoopedVault",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 51,
+  "source_sha256": "171909becd9a452c175cc0a01b9756d1b0b427a316680d2f4bd07a7acd281fb4",
+  "fetched_at": "2026-06-04T04:00:25.694743+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "@morpho/=lib/morpho-blue/src/",
+      "@pendle/=lib/pendle-core-v2-public/contracts/",
+      "@openzeppelin-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "ds-test/=lib/morpho-blue/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "morpho-blue/=lib/morpho-blue/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "pendle-core-v2-public/=lib/pendle-core-v2-public/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

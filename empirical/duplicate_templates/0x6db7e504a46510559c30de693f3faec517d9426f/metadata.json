@@ -1,0 +1,27 @@
+{
+  "address": "0x6db7e504a46510559c30de693f3faec517d9426f",
+  "contract_name": "EthCC",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "8faa353720d85a21e4fb33e3a42c2441b4227fb6b9f2a2f518d55a8028f41cc9",
+  "fetched_at": "2026-06-04T03:52:10.420510+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

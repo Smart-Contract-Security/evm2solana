@@ -1,0 +1,27 @@
+{
+  "address": "0x7c83ddfa7314b19e5a0e69fa401274b4c3a1858b",
+  "contract_name": "AshValley",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "bfc9dab68df3a06df9e5590b0de5b279011d0dc01de07faf3b69ba1d5250bdde",
+  "fetched_at": "2026-06-01T08:30:51.460879+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

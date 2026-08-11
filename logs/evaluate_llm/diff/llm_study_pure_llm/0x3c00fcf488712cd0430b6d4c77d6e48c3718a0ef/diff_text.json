@@ -1,0 +1,17 @@
+[
+  {
+    "file": "SmileShare.sol",
+    "original_lines": 726,
+    "ported_lines": 726,
+    "added": [
+      "    mapping(address => uint256) private _balances;",
+      "",
+      "    mapping(address => mapping(address => uint256)) private _allowances;"
+    ],
+    "removed": [
+      "    mapping(address account => uint256) private _balances;",
+      "",
+      "    mapping(address account => mapping(address spender => uint256)) private _allowances;"
+    ]
+  }
+]

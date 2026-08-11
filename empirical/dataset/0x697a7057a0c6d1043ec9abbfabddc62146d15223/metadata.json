@@ -1,0 +1,47 @@
+{
+  "address": "0x697a7057a0c6d1043ec9abbfabddc62146d15223",
+  "contract_name": "Lithium",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 31,
+  "source_sha256": "d3dadad85a874b0f45673c1e33d2308c0f4e14594f0ee47d3df8e48807d72c95",
+  "fetched_at": "2026-06-03T11:17:52.616996+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 50000,
+      "details": {
+        "peephole": true,
+        "inliner": true,
+        "deduplicate": true,
+        "cse": true,
+        "yul": true
+      }
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": true
+  }
+}

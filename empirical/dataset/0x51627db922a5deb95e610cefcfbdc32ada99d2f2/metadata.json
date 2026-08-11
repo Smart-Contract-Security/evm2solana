@@ -1,0 +1,27 @@
+{
+  "address": "0x51627db922a5deb95e610cefcfbdc32ada99d2f2",
+  "contract_name": "AssetBridge",
+  "compiler_version": "v0.8.18+commit.87f61d96",
+  "file_count": 26,
+  "source_sha256": "ddfbfd901a8ec6629b3eb16ff630dcea5e2c8b971470e917be32a5fddf208e9a",
+  "fetched_at": "2026-06-03T07:02:45.021692+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

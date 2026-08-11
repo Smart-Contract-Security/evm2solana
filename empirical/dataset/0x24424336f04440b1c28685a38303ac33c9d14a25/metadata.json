@@ -1,0 +1,50 @@
+{
+  "address": "0x24424336f04440b1c28685a38303ac33c9d14a25",
+  "contract_name": "LivenessGuard",
+  "compiler_version": "v0.8.15+commit.e14f2714",
+  "file_count": 19,
+  "source_sha256": "f59ba4709c5abb3b2bbb539e17fa20c187f663917404b13af5941f0ddaa30ce0",
+  "fetched_at": "2026-06-04T11:44:10.214556+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@rari-capital/solmate/=lib/solmate/",
+      "@lib-keccak/=lib/lib-keccak/contracts/lib/",
+      "@solady/=lib/solady/src/",
+      "forge-std/=lib/forge-std/src/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "safe-contracts/=lib/safe-contracts/contracts/",
+      "kontrol-cheatcodes/=lib/kontrol-cheatcodes/src/",
+      "@solady-test/=lib/lib-keccak/lib/solady/test/",
+      "lib-keccak/=lib/lib-keccak/contracts/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "solady/=lib/solady/",
+      "solmate/=lib/solmate/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

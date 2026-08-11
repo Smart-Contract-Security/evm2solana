@@ -1,0 +1,29 @@
+{
+  "address": "0x449af84ae341bbda7f96f78fbf19928a7f6e55b1",
+  "contract_name": "TypCrypMe",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 29,
+  "source_sha256": "8e4af4a216e1300b6f4f961987fc5bd22fd9277ba537cf45835443fa7a87bb19",
+  "fetched_at": "2026-06-03T11:08:50.432777+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "@openzeppelin/contracts/=@openzeppelin/contracts@5.6.0/"
+    ]
+  }
+}

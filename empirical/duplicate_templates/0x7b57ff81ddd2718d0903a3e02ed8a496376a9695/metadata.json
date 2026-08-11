@@ -1,0 +1,27 @@
+{
+  "address": "0x7b57ff81ddd2718d0903a3e02ed8a496376a9695",
+  "contract_name": "ZeroToHero",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "6d345bf9d6c514bd6a9963a623e625336966849e5b5349ab21904d4e93646b5d",
+  "fetched_at": "2026-06-02T02:04:04.144082+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

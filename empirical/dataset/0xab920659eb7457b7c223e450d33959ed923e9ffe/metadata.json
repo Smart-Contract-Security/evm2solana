@@ -1,0 +1,27 @@
+{
+  "address": "0xab920659eb7457b7c223e450d33959ed923e9ffe",
+  "contract_name": "Lock",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "5e6fb1ba2a598c4d415c1b95c0744972e4becff7e403780f92f30a10d67c1dc3",
+  "fetched_at": "2026-06-04T05:42:22.452947+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

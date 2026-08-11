@@ -1,0 +1,112 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {Errors} from "./Errors.sol";
+
+library Address {
+    error AddressEmptyCode(address target);
+
+    function sendValue(address payable recipient, uint256 amount) internal {
+        if (recipient.lamports < amount) {
+            revert Errors.InsufficientBalance(recipient.lamports, amount);
+        }
+        (bool success, bytes memory returndata) = recipient.call{value: amount}("");
+        if (success) {
+            return;
+        } else if (returndata.length > 0) {
+            _bubbleRevert(returndata);
+        } else {
+            revert("FailedCall");
+        }
+    }
+
+    function functionCall(address target, bytes memory data) internal returns (bytes memory) {
+        return functionCallWithValue(target, data, 0);
+    }
+
+    function functionCallWithValue(address target, bytes memory data, uint256 value) internal returns (bytes memory) {
+        if (target.lamports < value) {
+            revert Errors.InsufficientBalance(target.lamports, value);
+        }
+        (bool success, bytes memory returndata) = target.call{value: value}(data);
+        if (success && (returndata.length > 0 || _hasCode(target))) {
+            return returndata;
+        } else if (success) {
+            revert AddressEmptyCode(target);
+        } else if (returndata.length > 0) {
+            _bubbleRevert(returndata);
+        } else {
+            revert("FailedCall");
+        }
+    }
+
+    function functionStaticCall(address target, bytes memory data) internal view returns (bytes memory) {
+        (bool success, bytes memory returndata) = target.call(data);
+        if (success && (returndata.length > 0 || _hasCode(target))) {
+            return returndata;
+        } else if (success) {
+            revert AddressEmptyCode(target);
+        } else if (returndata.length > 0) {
+            _bubbleRevert(returndata);
+        } else {
+            revert("FailedCall");
+        }
+    }
+
+    function functionDelegateCall(address target, bytes memory data) internal returns (bytes memory) {
+        (bool success, bytes memory returndata) = target.call(data);
+        if (success && (returndata.length > 0 || _hasCode(target))) {
+            return returndata;
+        } else if (success) {
+            revert AddressEmptyCode(target);
+        } else if (returndata.length > 0) {
+            _bubbleRevert(returndata);
+        } else {
+            revert("FailedCall");
+        }
+    }
+
+    function verifyCallResultFromTarget(
+        address target,
+        bool success,
+        bytes memory returndata
+    ) internal view returns (bytes memory) {
+        if (success && (returndata.length > 0 || _hasCode(target))) {
+            return returndata;
+        } else if (success) {
+            revert AddressEmptyCode(target);
+        } else if (returndata.length > 0) {
+            _bubbleRevert(returndata);
+        } else {
+            revert("FailedCall");
+        }
+    }
+
+    function verifyCallResult(bool success, bytes memory returndata) internal pure returns (bytes memory) {
+        if (success) {
+            return returndata;
+        } else if (returndata.length > 0) {
+            _bubbleRevert(returndata);
+        } else {
+            revert("FailedCall");
+        }
+    }
+
+    function _hasCode(address target) private view returns (bool) {
+        // On Solana, accounts always have executable data if they are programs.
+        // We check if the account is a program by checking if it has an owner that is the BPF Loader.
+        // For simplicity, we assume that if the account exists and is not a PDA without code, it has code.
+        // A more robust check would involve checking the account's executable flag.
+        // Since Solang does not provide a direct `code.length` equivalent, we use a workaround:
+        // We check if the account's data length is greater than zero, which is a heuristic.
+        // In practice, for Solana programs, this is sufficient.
+        return target.data.length > 0;
+    }
+
+    function _bubbleRevert(bytes memory returndata) private pure {
+        // Revert with the provided returndata.
+        // In Solidity, we can use assembly to revert with the exact bytes.
+        // Solang does not support mload, so we revert with a generic message.
+        revert("Bubbled revert");
+    }
+}

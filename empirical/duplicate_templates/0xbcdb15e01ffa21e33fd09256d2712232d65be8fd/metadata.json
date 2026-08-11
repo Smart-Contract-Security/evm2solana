@@ -1,0 +1,27 @@
+{
+  "address": "0xbcdb15e01ffa21e33fd09256d2712232d65be8fd",
+  "contract_name": "RustPanda",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "efc792debea906f447291e11d50802b9011746e2284012e9b3d6983fd8bcf876",
+  "fetched_at": "2026-06-03T08:46:54.869530+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

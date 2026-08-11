@@ -1,0 +1,27 @@
+{
+  "address": "0xc5ec93c6fe4c9420ab3d2a5816973857e6381ed0",
+  "contract_name": "DaemonHookForgeV4",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "dbe51c8f008970e791bd950da42def09ffdb065be71629a2542ac4c3a4ce56a7",
+  "fetched_at": "2026-06-03T06:30:43.204849+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

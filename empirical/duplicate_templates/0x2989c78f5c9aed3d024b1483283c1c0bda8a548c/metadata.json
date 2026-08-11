@@ -1,0 +1,27 @@
+{
+  "address": "0x2989c78f5c9aed3d024b1483283c1c0bda8a548c",
+  "contract_name": "SerTrustMeToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "b35681f5ee181c7c6057a385595e11b57e2983cd75e735c8abb9cd0ef5c284da",
+  "fetched_at": "2026-06-03T13:36:38.361040+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

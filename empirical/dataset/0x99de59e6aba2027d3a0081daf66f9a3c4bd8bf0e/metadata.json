@@ -1,0 +1,44 @@
+{
+  "address": "0x99de59e6aba2027d3a0081daf66f9a3c4bd8bf0e",
+  "contract_name": "DynamicFeeCalculator",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 3,
+  "source_sha256": "2dde01ab2577bbded4ca85a47f5bdf8b0ff5b2eaf44b9063f4c4ad985d7b241e",
+  "fetched_at": "2026-06-04T12:48:34.877105+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "ERC1155P/=lib/ERC11155P/",
+      "solady/=lib/solady/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "libraries": {}
+  }
+}

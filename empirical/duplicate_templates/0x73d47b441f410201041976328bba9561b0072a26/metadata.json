@@ -1,0 +1,27 @@
+{
+  "address": "0x73d47b441f410201041976328bba9561b0072a26",
+  "contract_name": "Cnc",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "b85a5224b140fcd0a7d8e11d1987f2dd106491b934704c2e8916c9547aec80b2",
+  "fetched_at": "2026-06-01T03:06:33.516411+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

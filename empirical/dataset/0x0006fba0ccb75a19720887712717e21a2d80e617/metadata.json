@@ -1,0 +1,26 @@
+{
+  "address": "0x0006fba0ccb75a19720887712717e21a2d80e617",
+  "contract_name": "PRW",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 5,
+  "source_sha256": "6b70a7808cbcbafa7e0db9f9669dd7982b63a1d18c3342d2a98d37fa238225d1",
+  "fetched_at": "2026-06-04T11:28:46.153920+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

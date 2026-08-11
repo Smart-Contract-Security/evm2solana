@@ -1,0 +1,27 @@
+{
+  "address": "0x4f2b026fc771183ab67685e40ee618d788ff85a6",
+  "contract_name": "AstraAIv2",
+  "compiler_version": "v0.8.21+commit.d9974bed",
+  "file_count": 10,
+  "source_sha256": "6b286d239df49adbc320cac7a31caa557d3391cfe4c3abd9def4e5cad52847a0",
+  "fetched_at": "2026-06-03T08:04:05.893269+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

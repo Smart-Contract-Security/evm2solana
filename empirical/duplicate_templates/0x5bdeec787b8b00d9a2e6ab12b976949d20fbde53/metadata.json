@@ -1,0 +1,27 @@
+{
+  "address": "0x5bdeec787b8b00d9a2e6ab12b976949d20fbde53",
+  "contract_name": "WenLamboSirERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "b4050e9ae0131eb7b18239485c4287c4af9619e4881d09b3b314bdfc1d17a4dc",
+  "fetched_at": "2026-06-03T04:17:25.319557+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

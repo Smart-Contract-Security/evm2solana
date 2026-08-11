@@ -1,0 +1,42 @@
+{
+  "address": "0xc075da148e1c52df434bac00f65a7e8f4086ac7e",
+  "contract_name": "SushiCalculator",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 3,
+  "source_sha256": "19bf920bcad9b7b975ed12a5e27ff3cf26eee422c504009fada20bd0f34aeeb8",
+  "fetched_at": "2026-06-04T11:27:48.371736+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "v2-core/=lib/v2-core/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

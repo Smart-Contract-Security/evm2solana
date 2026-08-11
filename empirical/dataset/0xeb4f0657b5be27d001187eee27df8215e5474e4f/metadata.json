@@ -1,0 +1,8 @@
+{
+  "address": "0xeb4f0657b5be27d001187eee27df8215e5474e4f",
+  "contract_name": "PartialNonCustodialERC20OrderBook",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "94ed474a10b6a87c726552bf9fc644477122e977b76e666a6b2735d582c94d31",
+  "fetched_at": "2026-06-01T08:18:52.317945+00:00"
+}

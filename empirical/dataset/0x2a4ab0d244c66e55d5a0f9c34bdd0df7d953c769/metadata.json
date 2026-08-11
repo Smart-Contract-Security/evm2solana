@@ -1,0 +1,28 @@
+{
+  "address": "0x2a4ab0d244c66e55d5a0f9c34bdd0df7d953c769",
+  "contract_name": "WorldCupCards",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 24,
+  "source_sha256": "2d6f528af327d52c06855c2702f3aa6d93efd8105e567ed28c13b448a956c1d3",
+  "fetched_at": "2026-06-03T06:39:31.972944+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": false,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

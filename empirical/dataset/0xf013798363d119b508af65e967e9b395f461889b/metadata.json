@@ -1,0 +1,27 @@
+{
+  "address": "0xf013798363d119b508af65e967e9b395f461889b",
+  "contract_name": "ArthrokinetixGenesisV3",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 19,
+  "source_sha256": "cdc301680d8fa23132dc0257fbc57ee706d43d69ee06b3ca8567ca0fbfe5a9bc",
+  "fetched_at": "2026-06-04T04:45:10.131020+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

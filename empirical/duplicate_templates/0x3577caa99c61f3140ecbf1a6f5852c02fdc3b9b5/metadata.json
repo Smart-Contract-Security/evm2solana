@@ -1,0 +1,27 @@
+{
+  "address": "0x3577caa99c61f3140ecbf1a6f5852c02fdc3b9b5",
+  "contract_name": "ProfessorPumpERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "b7445c933a2fc7a6346e4b574e3e0cb5ad98934625259e06b8ea13fa65e88a8f",
+  "fetched_at": "2026-06-03T07:28:46.333276+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

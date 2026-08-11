@@ -1,0 +1,7 @@
+{
+  "use_token_standards": 2068,
+  "ERC20": 1974,
+  "ERC721": 812,
+  "ERC1155": 702,
+  "multiple_standards": 733
+}

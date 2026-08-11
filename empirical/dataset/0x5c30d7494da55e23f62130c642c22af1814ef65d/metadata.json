@@ -1,0 +1,23 @@
+{
+  "address": "0x5c30d7494da55e23f62130c642c22af1814ef65d",
+  "contract_name": "MantleTokenMigrator",
+  "compiler_version": "v0.8.13+commit.abaa5c0e",
+  "file_count": 3,
+  "source_sha256": "ac33c2185b64ca33a1b0b951a7906841a534866b8eec972933d20432f1c1c29e",
+  "fetched_at": "2026-06-02T15:46:18.900707+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    }
+  }
+}

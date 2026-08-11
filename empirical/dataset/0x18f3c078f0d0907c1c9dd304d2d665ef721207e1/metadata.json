@@ -1,0 +1,25 @@
+{
+  "address": "0x18f3c078f0d0907c1c9dd304d2d665ef721207e1",
+  "contract_name": "SafeVault",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 12,
+  "source_sha256": "1ca830d952113f3c916bae69a892faf0b087d472fe2807ce003a301fc7635826",
+  "fetched_at": "2026-06-03T06:22:18.770644+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [],
+    "evmVersion": "paris"
+  }
+}

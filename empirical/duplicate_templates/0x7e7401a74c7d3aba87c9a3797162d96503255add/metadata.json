@@ -1,0 +1,50 @@
+{
+  "address": "0x7e7401a74c7d3aba87c9a3797162d96503255add",
+  "contract_name": "TransparentUpgradeableProxy",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 12,
+  "source_sha256": "a2dc046b22400cff17196ab1186740c71ebac5832f74a36dc70b0c1ab3dbe9cb",
+  "fetched_at": "2026-06-03T05:24:14.307598+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@axelar-network/=dependencies/@axelar-gmp-sdk-6.0.6/",
+      "@layerzerolabs/lz-evm-protocol-v2/=dependencies/@layerzero-v2-2.0.0/packages/layerzero-v2/evm/protocol/",
+      "@openzeppelin/contracts-upgradeable/=dependencies/@openzeppelin-contracts-upgradeable-5.3.0/contracts/",
+      "@openzeppelin/contracts/=dependencies/@openzeppelin-contracts-5.3.0/contracts/",
+      "dependencies/@openzeppelin-contracts-upgradeable-5.3.0/:@openzeppelin/contracts/=dependencies/@openzeppelin-contracts-5.3.0/contracts/",
+      "forge-std/=dependencies/forge-std-1.9.7/src/",
+      "@axelar-gmp-sdk-6.0.6/=dependencies/@axelar-gmp-sdk-6.0.6/contracts/",
+      "@layerzero-v2-2.0.0/=dependencies/@layerzero-v2-2.0.0/",
+      "@openzeppelin-contracts-5.3.0/=dependencies/@openzeppelin-contracts-5.3.0/",
+      "@openzeppelin-contracts-upgradeable-5.3.0/=dependencies/@openzeppelin-contracts-upgradeable-5.3.0/",
+      "ds-test/=dependencies/@layerzero-v2-2.0.0/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=dependencies/@openzeppelin-contracts-upgradeable-5.3.0/lib/erc4626-tests/",
+      "forge-std-1.9.7/=dependencies/forge-std-1.9.7/src/",
+      "halmos-cheatcodes/=dependencies/@openzeppelin-contracts-upgradeable-5.3.0/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=dependencies/@openzeppelin-contracts-upgradeable-5.3.0/lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false
+  }
+}

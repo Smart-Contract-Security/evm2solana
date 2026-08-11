@@ -1,0 +1,30 @@
+{
+  "address": "0xac59fc303e6a97f86d2e43b402d892b0407eaca5",
+  "contract_name": "DiscreteDutchAuctionMechanic",
+  "compiler_version": "v0.8.10+commit.fc410830",
+  "file_count": 20,
+  "source_sha256": "cfbaad945f81b4c6e17ec25e38801546b501ec1ef1edf2ab086cd74d77adbaf0",
+  "fetched_at": "2026-06-04T10:55:04.369161+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

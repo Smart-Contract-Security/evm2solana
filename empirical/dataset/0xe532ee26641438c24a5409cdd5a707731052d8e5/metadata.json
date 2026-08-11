@@ -1,0 +1,8 @@
+{
+  "address": "0xe532ee26641438c24a5409cdd5a707731052d8e5",
+  "contract_name": "OneBalanceCrossChainSwapManager",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "78e2e23434d3cf249789a16907d8e5655783b1599bf47908ff288684ee727238",
+  "fetched_at": "2026-06-04T11:01:13.469722+00:00"
+}

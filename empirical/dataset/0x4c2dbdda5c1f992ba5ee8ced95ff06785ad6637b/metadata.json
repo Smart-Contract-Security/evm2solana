@@ -1,0 +1,24 @@
+{
+  "address": "0x4c2dbdda5c1f992ba5ee8ced95ff06785ad6637b",
+  "contract_name": "CMTATUpgradeableLight",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 154,
+  "source_sha256": "6a64d355963cb7b2aa783615045bd135d5fc896c344e7310991c5f8fd3f2edd7",
+  "fetched_at": "2026-06-03T06:53:32.801956+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "prague",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    }
+  }
+}

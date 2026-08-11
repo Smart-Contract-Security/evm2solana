@@ -1,0 +1,55 @@
+{
+  "address": "0x420be24df40f3cfb1e1d774504ef1b4ee9bcb3d5",
+  "contract_name": "RektPunkRenderer",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 19,
+  "source_sha256": "678c238fa5a83baa11914c6d18b06f57680c71e5943ceb23d467e39ae95f4f1d",
+  "fetched_at": "2026-06-03T08:01:00.771200+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "erc721a/=lib/ERC721A/",
+      "ERC721A/=lib/ERC721A/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "libraries": {
+      "src/RektPunkRenderer.sol": {
+        "BgLib": "0xadedd91f96248c0b2cc0f3673f19e7e9a8707112",
+        "CrackLib": "0xcbca0480fee39488c802de869e8e5c9b90406be6",
+        "EyesLib": "0x2e1af0db81eee114644881420e9860f9cda17686",
+        "FxLib": "0x1adb6c1e7a9aa830181fa794a291b9a6c88d9770",
+        "HeadLib": "0x401fe016c4ef79c5b6cc6e4dcdad231414079a34",
+        "HoodieLib": "0xf9756aff10adf4714f15d2e3e6fd4f6134028a39",
+        "LogoLib": "0xce59a30525c2bf17a7cd8a14061ff6aede88715f",
+        "MouthLib": "0x978e7ae1e64a854f7c7f098edddf4e3696082ff7",
+        "SkullLib": "0xb5923ac0078feee3738cc35a35a9b3772fb9f2cd"
+      }
+    }
+  }
+}

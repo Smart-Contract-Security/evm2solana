@@ -1,0 +1,28 @@
+{
+  "address": "0x975978cd10fc027c881827d00658e0c74b3d507e",
+  "contract_name": "BeaconProxy",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 8,
+  "source_sha256": "20b0fde7a7041d679135cd5c0e9e5dda179b0fe1440e5a0c1a70b92a47f60040",
+  "fetched_at": "2026-06-03T11:32:27.509631+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

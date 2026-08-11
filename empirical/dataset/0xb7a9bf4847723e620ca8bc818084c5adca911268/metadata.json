@@ -1,0 +1,24 @@
+{
+  "address": "0xb7a9bf4847723e620ca8bc818084c5adca911268",
+  "contract_name": "Airdrop",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 4,
+  "source_sha256": "63436f8847a147fded9bc129a63e5e99c07aeb52918fda240e7cee6451233ceb",
+  "fetched_at": "2026-06-04T13:23:54.607057+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

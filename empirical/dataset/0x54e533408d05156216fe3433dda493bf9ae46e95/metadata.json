@@ -1,0 +1,27 @@
+{
+  "address": "0x54e533408d05156216fe3433dda493bf9ae46e95",
+  "contract_name": "StandardToken",
+  "compiler_version": "v0.8.4+commit.c7e474f2",
+  "file_count": 1,
+  "source_sha256": "196dafc2ce0f98f2c2b0898e5182f6af39571fc39b74cafb5a10172bffff429c",
+  "fetched_at": "2026-06-03T07:35:42.877600+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

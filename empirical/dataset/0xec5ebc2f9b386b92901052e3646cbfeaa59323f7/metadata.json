@@ -1,0 +1,30 @@
+{
+  "address": "0xec5ebc2f9b386b92901052e3646cbfeaa59323f7",
+  "contract_name": "GenerativeSeries",
+  "compiler_version": "v0.8.10+commit.fc410830",
+  "file_count": 7,
+  "source_sha256": "eb36d07e799317d5534f67980464410d564ebe7437821fb65d1b5c95933aa2e9",
+  "fetched_at": "2026-06-04T12:05:58.913824+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

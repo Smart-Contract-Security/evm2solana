@@ -1,0 +1,27 @@
+{
+  "address": "0x34f2c6225037913cfe62d575a4ec71700744a35f",
+  "contract_name": "TokinsoTokenV10",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 29,
+  "source_sha256": "acb850665ebabf16f793fbfbb317a10593077b6435e2b05c76232bc31037b8d2",
+  "fetched_at": "2026-06-03T05:23:48.124724+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 50
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

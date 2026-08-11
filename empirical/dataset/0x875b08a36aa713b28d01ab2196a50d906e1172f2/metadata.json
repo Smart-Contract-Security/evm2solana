@@ -1,0 +1,27 @@
+{
+  "address": "0x875b08a36aa713b28d01ab2196a50d906e1172f2",
+  "contract_name": "OZToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "ad3fa3b065fc3934ca18e2d40d75e4875f3ace1a1a5c429de77c5fd6111364bd",
+  "fetched_at": "2026-06-03T12:03:50.781882+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

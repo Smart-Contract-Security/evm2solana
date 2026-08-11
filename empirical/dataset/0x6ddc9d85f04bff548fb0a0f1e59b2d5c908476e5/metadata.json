@@ -1,0 +1,28 @@
+{
+  "address": "0x6ddc9d85f04bff548fb0a0f1e59b2d5c908476e5",
+  "contract_name": "BeeHiveMonitoringToken",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 6,
+  "source_sha256": "5c39f54b525c1041e92f2097ca252a1bf56ae93c6778863e36e28f26807e9424",
+  "fetched_at": "2026-06-01T08:32:04.944395+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "evmVersion": "osaka",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    }
+  }
+}

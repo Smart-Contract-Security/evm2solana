@@ -1,0 +1,27 @@
+{
+  "address": "0x1554c188e3eaaf62a3d9ac140227b4298c06f35a",
+  "contract_name": "YxyzNft",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 20,
+  "source_sha256": "4df7fd84cb5f19aac693303c3433acef7ab0144dcd80153388f2d9824fad7016",
+  "fetched_at": "2026-06-03T03:19:14.553442+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

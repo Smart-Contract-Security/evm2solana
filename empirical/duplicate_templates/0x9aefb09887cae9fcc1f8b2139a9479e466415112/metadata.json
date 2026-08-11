@@ -1,0 +1,27 @@
+{
+  "address": "0x9aefb09887cae9fcc1f8b2139a9479e466415112",
+  "contract_name": "BAG",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "03fd342e512ae437753311fd72dc50d677a26d521d6f70c5da0e399d753610d2",
+  "fetched_at": "2026-06-04T03:07:11.579217+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

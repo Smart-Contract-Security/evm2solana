@@ -1,0 +1,28 @@
+{
+  "address": "0x622a884b3ec3bab26f54c5b1888a34a22960d89b",
+  "contract_name": "Bag",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 17,
+  "source_sha256": "85b4da396743fc25d9fbef2183848e4b57e88516fb2c6732b9f5ef5526b47cbf",
+  "fetched_at": "2026-06-02T08:40:35.711859+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

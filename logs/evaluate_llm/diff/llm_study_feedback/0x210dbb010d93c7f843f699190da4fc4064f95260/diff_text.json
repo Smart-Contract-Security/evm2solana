@@ -1,0 +1,30 @@
+[
+  {
+    "file": "SessionKeyManager.sol",
+    "original_lines": 48,
+    "ported_lines": 47,
+    "added": [
+      "",
+      "",
+      "        address sender = tx.accounts.tx_origin;",
+      "        SessionKey storage key = sessionKeys[sender];",
+      "        key.user = sender;",
+      "        emit SessionKeyAdded(sender, sessionKey, expiry);",
+      "        address sender = tx.accounts.tx_origin;",
+      "        SessionKey storage key = sessionKeys[sender];",
+      "        emit SessionKeyRevoked(sender, key.sessionKey);"
+    ],
+    "removed": [
+      "// OneBalance Session Key Manager Contract",
+      "// Part of the OneBalance Framework for managing session keys",
+      "",
+      "    ",
+      "    ",
+      "        SessionKey storage key = sessionKeys[msg.sender];",
+      "        key.user = msg.sender;",
+      "        emit SessionKeyAdded(msg.sender, sessionKey, expiry);",
+      "        SessionKey storage key = sessionKeys[msg.sender];",
+      "        emit SessionKeyRevoked(msg.sender, key.sessionKey);"
+    ]
+  }
+]

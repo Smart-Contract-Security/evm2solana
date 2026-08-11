@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: NO LICENSE
+
+pragma solidity ^0.8.0;
+
+import 'solana';
+
+interface IWoolfGen2 {
+    function mint(address recipient) external;
+    function migrate(address[] calldata _recipient, uint256[] calldata _tokenIds) external;
+    function currentId() external view returns (uint256);
+}

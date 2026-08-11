@@ -1,0 +1,28 @@
+{
+  "address": "0x1594c5c5517751461142dce5822fb094e2422715",
+  "contract_name": "Egg",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 96,
+  "source_sha256": "dd2566113cd72506eda843e409dee43a686367e7bcf003690802a7d4582c2609",
+  "fetched_at": "2026-06-03T12:31:41.756944+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

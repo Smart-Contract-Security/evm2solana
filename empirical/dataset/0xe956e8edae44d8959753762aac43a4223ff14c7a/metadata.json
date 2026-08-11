@@ -1,0 +1,28 @@
+{
+  "address": "0xe956e8edae44d8959753762aac43a4223ff14c7a",
+  "contract_name": "PenniNFTv2",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 26,
+  "source_sha256": "0de9b919181854c9af4a0444eeca628ed1549c8f0c0392b39634b42e7c22bd34",
+  "fetched_at": "2026-06-03T11:52:16.525723+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [],
+    "evmVersion": "paris"
+  }
+}

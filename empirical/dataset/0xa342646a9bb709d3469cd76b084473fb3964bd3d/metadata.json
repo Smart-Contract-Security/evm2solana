@@ -1,0 +1,29 @@
+{
+  "address": "0xa342646a9bb709d3469cd76b084473fb3964bd3d",
+  "contract_name": "FullFeatureToken",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 10,
+  "source_sha256": "32e541ae75a82a8a5b41051aa69b893208f0f3519ca5b230ba405ad6716781b0",
+  "fetched_at": "2026-06-04T10:57:25.493197+00:00",
+  "solc_settings": {
+    "metadata": {
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1337
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

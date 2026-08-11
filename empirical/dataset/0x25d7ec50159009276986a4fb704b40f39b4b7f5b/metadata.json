@@ -1,0 +1,27 @@
+{
+  "address": "0x25d7ec50159009276986a4fb704b40f39b4b7f5b",
+  "contract_name": "ERC20",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 3,
+  "source_sha256": "ffcf91704647514d1b8958f8fb0a2fd4d67a867b1878c3b64b0937a91ea7bf35",
+  "fetched_at": "2026-06-03T11:59:38.631524+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

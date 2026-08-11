@@ -1,0 +1,642 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.0;
+
+import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
+import '@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol';
+import '@openzeppelin/contracts/utils/ReentrancyGuard.sol';
+
+interface IKVStore {
+    function get(
+        address _account,
+        string memory _key
+    ) external view returns (string memory);
+}
+
+enum EscrowStatuses {
+    Launched,
+    Pending,
+    Partial,
+    Paid,
+    Complete,
+    Cancelled,
+    ToCancel
+}
+
+interface IEscrow {
+    function setup(
+        address _reputationOracle,
+        address _recordingOracle,
+        address _exchangeOracle,
+        string calldata _manifest,
+        string calldata _manifestHash
+    ) external;
+
+    function requestCancellation() external;
+
+    function withdraw(address _token) external;
+
+    function cancel() external;
+
+    function complete() external;
+
+    function storeResults(
+        string calldata _url,
+        string calldata _hash
+    ) external;
+
+    function storeResults(
+        string calldata _url,
+        string calldata _hash,
+        uint256 _fundsToReserve
+    ) external;
+
+    function bulkPayOut(
+        address[] calldata _recipients,
+        uint256[] calldata _amounts,
+        string calldata _url,
+        string calldata _hash,
+        uint256 _txId,
+        bool forceComplete
+    ) external;
+
+    function bulkPayOut(
+        address[] calldata _recipients,
+        uint256[] calldata _amounts,
+        string calldata _url,
+        string calldata _hash,
+        string calldata _payoutId,
+        bool forceComplete
+    ) external;
+
+    function status() external view returns (EscrowStatuses);
+}
+
+/**
+ * @title Escrow Contract
+ * @dev This contract manages the lifecycle of an escrow, including funding,
+ * setup, payouts, and completion.
+ */
+contract Escrow is IEscrow, ReentrancyGuard {
+    using SafeERC20 for IERC20;
+
+    string private constant ERROR_ZERO_ADDRESS = 'Zero address';
+    string private constant FEE_KEY = 'fee';
+    uint8 private constant MAX_ORACLE_FEE = 25;
+    uint32 private constant BULK_MAX_COUNT = 100;
+
+    event IntermediateStorage(string url, string hash);
+    event Pending(string manifest, string hash);
+    event PendingV2(
+        string manifest,
+        string hash,
+        address reputationOracle,
+        address recordingOracle,
+        address exchangeOracle
+    );
+    event PendingV3(
+        string manifest,
+        string hash,
+        address reputationOracle,
+        address recordingOracle,
+        address exchangeOracle,
+        uint8 reputationOracleFeePercentage,
+        uint8 recordingOracleFeePercentage,
+        uint8 exchangeOracleFeePercentage
+    );
+    event BulkTransfer(
+        uint256 indexed txId,
+        address[] recipients,
+        uint256[] amounts,
+        bool isPartial
+    );
+    event BulkTransferV2(
+        uint256 indexed txId,
+        address[] recipients,
+        uint256[] amounts,
+        bool isPartial,
+        string finalResultsUrl
+    );
+    event BulkTransferV3(
+        bytes32 indexed payoutId,
+        address[] recipients,
+        uint256[] amounts,
+        bool isPartial,
+        string finalResultsUrl,
+        string finalResultsHash
+    );
+    event Cancelled();
+    event Completed();
+    event Fund(uint256 amount);
+    event Withdraw(address token, uint256 amount);
+    event CancellationRequested();
+    event CancellationRefund(uint256 amount);
+    event OracleFeeTransfer(address[] oracles, uint256[] amounts);
+
+    EscrowStatuses public override status;
+
+    address public reputationOracle;
+    address public recordingOracle;
+    address public exchangeOracle;
+
+    address public immutable launcher;
+    address public immutable admin;
+    address public immutable escrowFactory;
+    address public immutable token;
+    address public immutable kvstore;
+
+    uint8 public reputationOracleFeePercentage;
+    uint8 public recordingOracleFeePercentage;
+    uint8 public exchangeOracleFeePercentage;
+
+    string public manifest;
+    string public manifestHash;
+    string public intermediateResultsUrl;
+    string public intermediateResultsHash;
+    string public finalResultsUrl;
+    string public finalResultsHash;
+
+    uint256 public duration;
+    mapping(bytes32 => bool) private payouts;
+    uint256 public fundAmount;
+    uint256 public remainingFunds;
+    uint256 public reservedFunds;
+
+    /**
+     * @param _token     Address of the token used in the escrow.
+     * @param _launcher  Creator of the escrow.
+     * @param _admin     Admin address for the escrow.
+     * @param _duration  Escrow lifetime (seconds).
+     * @param _kvstore   KVStore contract address.
+     */
+    constructor(
+        address _token,
+        address _launcher,
+        address _admin,
+        uint256 _duration,
+        address _kvstore
+    ) {
+        require(_launcher != address(0), ERROR_ZERO_ADDRESS);
+        require(_admin != address(0), ERROR_ZERO_ADDRESS);
+        require(_token != address(0), ERROR_ZERO_ADDRESS);
+        require(_kvstore != address(0), ERROR_ZERO_ADDRESS);
+        require(_duration > 0, 'Duration is 0');
+
+        token = _token;
+        launcher = _launcher;
+        admin = _admin;
+        kvstore = _kvstore;
+        escrowFactory = msg.sender;
+
+        status = EscrowStatuses.Launched;
+        duration = _duration + block.timestamp;
+    }
+
+    /**
+     * @dev Returns the balance of the escrow contract for the main token.
+     */
+    function getBalance() public view returns (uint256) {
+        return getTokenBalance(token);
+    }
+
+    /**
+     * @dev Returns the balance of the escrow contract for a specific token.
+     * @param _token Address of the token to check the balance for.
+     */
+    function getTokenBalance(address _token) public view returns (uint256) {
+        return IERC20(_token).balanceOf(address(this));
+    }
+
+    /**
+     * @dev Sets up the escrow with oracles, manifest and fees.
+     * @param _reputationOracle Address of the reputation oracle.
+     * @param _recordingOracle Address of the recording oracle.
+     * @param _exchangeOracle Address of the exchange oracle.
+     * @param _manifest Manifest or URL for the escrow manifest.
+     * @param _manifestHash Hash of the escrow manifest.
+     */
+    function setup(
+        address _reputationOracle,
+        address _recordingOracle,
+        address _exchangeOracle,
+        string calldata _manifest,
+        string calldata _manifestHash
+    ) external override adminLauncherOrFactory notExpired {
+        require(_reputationOracle != address(0), 'Invalid reputation oracle');
+        require(_recordingOracle != address(0), 'Invalid recording oracle');
+        require(_exchangeOracle != address(0), 'Invalid exchange oracle');
+
+        uint8 _reputationOracleFeePercentage = _getOracleFee(_reputationOracle);
+        uint8 _recordingOracleFeePercentage = _getOracleFee(_recordingOracle);
+        uint8 _exchangeOracleFeePercentage = _getOracleFee(_exchangeOracle);
+
+        require(status == EscrowStatuses.Launched, 'Wrong status');
+
+        reputationOracle = _reputationOracle;
+        recordingOracle = _recordingOracle;
+        exchangeOracle = _exchangeOracle;
+
+        reputationOracleFeePercentage = _reputationOracleFeePercentage;
+        recordingOracleFeePercentage = _recordingOracleFeePercentage;
+        exchangeOracleFeePercentage = _exchangeOracleFeePercentage;
+
+        manifest = _manifest;
+        manifestHash = _manifestHash;
+        status = EscrowStatuses.Pending;
+
+        uint256 balance = getBalance();
+        require(balance > 0, 'Zero balance');
+
+        fundAmount = balance;
+        uint256 reputationOracleFee = (balance *
+            _reputationOracleFeePercentage) / 100;
+        uint256 recordingOracleFee = (balance * _recordingOracleFeePercentage) /
+            100;
+        uint256 exchangeOracleFee = (balance * _exchangeOracleFeePercentage) /
+            100;
+        remainingFunds =
+            balance -
+            reputationOracleFee -
+            recordingOracleFee -
+            exchangeOracleFee;
+
+        emit PendingV3(
+            _manifest,
+            _manifestHash,
+            _reputationOracle,
+            _recordingOracle,
+            _exchangeOracle,
+            _reputationOracleFeePercentage,
+            _recordingOracleFeePercentage,
+            _exchangeOracleFeePercentage
+        );
+        emit Fund(balance);
+    }
+
+    function _getOracleFee(address _oracle) private view returns (uint8) {
+        return _parseUint8(IKVStore(kvstore).get(_oracle, FEE_KEY));
+    }
+
+    function _parseUint8(string memory _value) private pure returns (uint8) {
+        bytes memory valueBytes = bytes(_value);
+        require(valueBytes.length > 0, 'Invalid oracle fee');
+
+        uint256 parsedValue = 0;
+        for (uint256 i = 0; i < valueBytes.length; i++) {
+            uint8 c = uint8(valueBytes[i]);
+            require(c >= 48 && c <= 57, 'Invalid oracle fee');
+            parsedValue = parsedValue * 10 + (c - 48);
+            require(parsedValue <= MAX_ORACLE_FEE, 'Percentage out of bounds');
+        }
+
+        return uint8(parsedValue);
+    }
+
+    /**
+     * @dev Initiates a cancellation request. If expired, it finalizes immediately.
+     */
+    function requestCancellation()
+        external
+        override
+        adminOrLauncher
+        nonReentrant
+    {
+        require(
+            status != EscrowStatuses.ToCancel &&
+                (remainingFunds != 0 || status == EscrowStatuses.Launched),
+            'Invalid status'
+        );
+
+        EscrowStatuses previousStatus = status;
+        status = EscrowStatuses.ToCancel;
+        emit CancellationRequested();
+
+        if (duration <= block.timestamp) {
+            _finalize();
+            return;
+        }
+
+        if (previousStatus == EscrowStatuses.Launched) {
+            uint256 balance = getBalance();
+            if (balance > 0) {
+                IERC20(token).safeTransfer(launcher, balance);
+            }
+            status = EscrowStatuses.Cancelled;
+            emit Cancelled();
+        }
+    }
+
+    /**
+     * @dev Withdraws excess funds from the escrow for a specific token.
+     * @param _token Address of the token to withdraw.
+     */
+    function withdraw(
+        address _token
+    ) external override adminOrLauncher nonReentrant {
+        uint256 amount;
+        if (_token == token) {
+            uint256 balance = getBalance();
+            uint256 lockedFunds = remainingFunds +
+                ((fundAmount * reputationOracleFeePercentage) / 100) +
+                ((fundAmount * recordingOracleFeePercentage) / 100) +
+                ((fundAmount * exchangeOracleFeePercentage) / 100);
+            require(balance > lockedFunds, 'No funds');
+            amount = balance - lockedFunds;
+        } else {
+            amount = getTokenBalance(_token);
+        }
+
+        require(amount > 0, 'No funds');
+        IERC20(_token).safeTransfer(msg.sender, amount);
+
+        emit Withdraw(_token, amount);
+    }
+
+    /**
+     * @dev Finalizes a previously requested cancellation and transfers the remaining funds to the launcher.
+     */
+    function cancel() external override notExpired adminOrReputationOracle {
+        require(status == EscrowStatuses.ToCancel, 'Invalid status');
+        require(reservedFunds == 0, 'Reserved funds');
+        _finalize();
+    }
+
+    /**
+     * @dev Completes the escrow and transfers the remaining funds to the launcher.
+     */
+    function complete() external override notExpired adminOrReputationOracle {
+        require(
+            status == EscrowStatuses.Paid ||
+                status == EscrowStatuses.Partial ||
+                (status == EscrowStatuses.Pending &&
+                    bytes(intermediateResultsUrl).length > 0 &&
+                    reservedFunds == 0),
+            'Invalid status'
+        );
+        _finalize();
+    }
+
+    /**
+     * @dev Finalizes the escrow, transferring remaining funds to the launcher
+     * and updating the status to Complete or Cancelled.
+     */
+    function _finalize() private {
+        bool isCancellation = status == EscrowStatuses.ToCancel;
+        uint256 _remainingFunds = remainingFunds;
+
+        uint256 _reputationOracleFee = (fundAmount *
+            reputationOracleFeePercentage) / 100;
+        uint256 _recordingOracleFee = (fundAmount *
+            recordingOracleFeePercentage) / 100;
+        uint256 _exchangeOracleFee = (fundAmount *
+            exchangeOracleFeePercentage) / 100;
+        uint256 _totalOracleFee = _reputationOracleFee +
+            _recordingOracleFee +
+            _exchangeOracleFee;
+
+        IERC20 tokenContract = IERC20(token);
+
+        fundAmount = 0;
+        remainingFunds = 0;
+        reservedFunds = 0;
+
+        if (bytes(intermediateResultsUrl).length != 0) {
+            address[] memory oracles = new address[](3);
+            uint256[] memory amounts = new uint256[](3);
+
+            oracles[0] = reputationOracle;
+            oracles[1] = recordingOracle;
+            oracles[2] = exchangeOracle;
+            amounts[0] = _reputationOracleFee;
+            amounts[1] = _recordingOracleFee;
+            amounts[2] = _exchangeOracleFee;
+
+            if (_reputationOracleFee > 0) {
+                tokenContract.safeTransfer(
+                    reputationOracle,
+                    _reputationOracleFee
+                );
+            }
+            if (_recordingOracleFee > 0) {
+                tokenContract.safeTransfer(
+                    recordingOracle,
+                    _recordingOracleFee
+                );
+            }
+            if (_exchangeOracleFee > 0) {
+                tokenContract.safeTransfer(exchangeOracle, _exchangeOracleFee);
+            }
+
+            emit OracleFeeTransfer(oracles, amounts);
+        } else {
+            _remainingFunds += _totalOracleFee;
+        }
+
+        if (_remainingFunds > 0) {
+            tokenContract.safeTransfer(launcher, _remainingFunds);
+            if (isCancellation) {
+                emit CancellationRefund(_remainingFunds);
+            }
+        }
+
+        if (isCancellation) {
+            status = EscrowStatuses.Cancelled;
+            emit Cancelled();
+        } else {
+            status = EscrowStatuses.Complete;
+            emit Completed();
+        }
+    }
+
+    /**
+     * @dev Stores intermediate results in the escrow.
+     * @param _url URL of the intermediate results.
+     * @param _hash Hash of the intermediate results.
+     */
+    function storeResults(
+        string calldata _url,
+        string calldata _hash
+    ) external override adminOrRecordingOracle notExpired {
+        require(false, 'DEPRECATED_SIGNATURE');
+    }
+
+    /**
+     * @dev Stores intermediate results in the escrow.
+     * @param _url URL of the intermediate results.
+     * @param _hash Hash of the intermediate results.
+     * @param _fundsToReserve Amount of funds to reserve for future payouts.
+     */
+    function storeResults(
+        string calldata _url,
+        string calldata _hash,
+        uint256 _fundsToReserve
+    ) external override adminOrRecordingOracle notExpired {
+        require(
+            status == EscrowStatuses.Pending ||
+                status == EscrowStatuses.Partial ||
+                status == EscrowStatuses.ToCancel,
+            'Invalid status'
+        );
+        if (_fundsToReserve > 0) {
+            require(bytes(_url).length != 0, 'Empty URL');
+            require(bytes(_hash).length != 0, 'Empty hash');
+        }
+        require(
+            _fundsToReserve <= remainingFunds - reservedFunds,
+            'Insufficient unreserved funds'
+        );
+
+        intermediateResultsUrl = _url;
+        intermediateResultsHash = _hash;
+        reservedFunds += _fundsToReserve;
+
+        emit IntermediateStorage(_url, _hash);
+
+        if (status == EscrowStatuses.ToCancel) {
+            if (_fundsToReserve == 0) {
+                _finalize();
+                return;
+            }
+
+            uint256 unreservedFunds = remainingFunds - reservedFunds;
+            if (unreservedFunds > 0) {
+                IERC20(token).safeTransfer(launcher, unreservedFunds);
+                emit CancellationRefund(unreservedFunds);
+                remainingFunds = reservedFunds;
+            }
+        }
+    }
+
+    /**
+     * @dev Bulk payout to multiple recipients.
+     * @param _recipients Array of recipient addresses.
+     * @param _amounts Array of amounts to be transferred to each recipient.
+     * @param _url URL of the final results.
+     * @param _hash Hash of the final results.
+     * @param _txId Transaction ID for tracking.
+     * @param forceComplete  Whether to force completion of the escrow and transfer remaining funds to the launcher.
+     */
+    function bulkPayOut(
+        address[] calldata _recipients,
+        uint256[] calldata _amounts,
+        string calldata _url,
+        string calldata _hash,
+        uint256 _txId,
+        bool forceComplete
+    ) external override {
+        require(false, 'DEPRECATED_SIGNATURE');
+    }
+
+    /**
+     * @dev Bulk payout to multiple recipients.
+     * @param _recipients Array of recipient addresses.
+     * @param _amounts Array of amounts to be transferred to each recipient.
+     * @param _url URL of the final results.
+     * @param _hash Hash of the final results.
+     * @param _payoutId Payout ID for tracking.
+     * @param forceComplete  Whether to force completion of the escrow and transfer remaining funds to the launcher.
+     */
+    function bulkPayOut(
+        address[] calldata _recipients,
+        uint256[] calldata _amounts,
+        string calldata _url,
+        string calldata _hash,
+        string calldata _payoutId,
+        bool forceComplete
+    ) external override adminOrReputationOracle notExpired nonReentrant {
+        bytes32 payoutId = keccak256(bytes(_payoutId));
+        require(remainingFunds != 0, 'No funds');
+        require(!payouts[payoutId], 'payoutId already exists');
+        uint256 length = _amounts.length;
+        require(_recipients.length == length, 'Length mismatch');
+        require(length > 0, 'Empty amounts');
+        require(length <= BULK_MAX_COUNT, 'Too many recipients');
+        require(
+            bytes(_url).length != 0 && bytes(_hash).length != 0,
+            'Empty url/hash'
+        );
+
+        IERC20 erc20 = IERC20(token);
+        uint256 totalBulkAmount;
+
+        for (uint256 i; i < length; ) {
+            uint256 amount = _amounts[i];
+            require(amount > 0, 'Zero amount');
+            totalBulkAmount += amount;
+            unchecked {
+                ++i;
+            }
+        }
+
+        require(totalBulkAmount <= reservedFunds, 'Not enough funds');
+
+        unchecked {
+            remainingFunds -= totalBulkAmount;
+            reservedFunds -= totalBulkAmount;
+        }
+
+        for (uint256 i; i < length; ) {
+            erc20.safeTransfer(_recipients[i], _amounts[i]);
+            unchecked {
+                ++i;
+            }
+        }
+
+        finalResultsUrl = _url;
+        finalResultsHash = _hash;
+        payouts[payoutId] = true;
+
+        bool isPartial = remainingFunds != 0 && !forceComplete;
+
+        emit BulkTransferV3(
+            payoutId,
+            _recipients,
+            _amounts,
+            isPartial,
+            _url,
+            _hash
+        );
+
+        if (!isPartial) {
+            _finalize();
+        } else if (status != EscrowStatuses.ToCancel) {
+            status = EscrowStatuses.Partial;
+        }
+    }
+
+    modifier adminOrLauncher() {
+        require(msg.sender == admin || msg.sender == launcher, 'Unauthorised');
+        _;
+    }
+
+    modifier adminLauncherOrFactory() {
+        require(
+            msg.sender == admin ||
+                msg.sender == launcher ||
+                msg.sender == escrowFactory,
+            'Unauthorised'
+        );
+        _;
+    }
+
+    modifier adminOrReputationOracle() {
+        require(
+            msg.sender == admin || msg.sender == reputationOracle,
+            'Unauthorised'
+        );
+        _;
+    }
+
+    modifier adminOrRecordingOracle() {
+        require(
+            msg.sender == admin || msg.sender == recordingOracle,
+            'Unauthorised'
+        );
+        _;
+    }
+
+    modifier notExpired() {
+        require(duration > block.timestamp, 'Expired');
+        _;
+    }
+}

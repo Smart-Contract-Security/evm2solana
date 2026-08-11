@@ -1,0 +1,27 @@
+{
+  "address": "0x774ed2b7441ee3eb3591f966ee523ef461d71bdb",
+  "contract_name": "Chenoo",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "9f0ba3b60a4f1c658c0dc5bd4ca5c30aadd1347339d964b33a0a14e55a817e90",
+  "fetched_at": "2026-06-04T03:56:21.541496+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

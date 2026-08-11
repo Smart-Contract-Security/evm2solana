@@ -1,0 +1,33 @@
+{
+  "address": "0x1ddeb31da20b4ca44c34b5a1e83db9f30d4153b9",
+  "contract_name": "StaticStaking",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 7,
+  "source_sha256": "7b021f9088912fc9f851e9c4f1be29d97d6dc7954c269aa2224c0cfceeac6c3d",
+  "fetched_at": "2026-06-04T03:14:28.844780+00:00",
+  "solc_settings": {
+    "evmVersion": "istanbul",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

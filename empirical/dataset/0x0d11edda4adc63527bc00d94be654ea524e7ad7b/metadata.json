@@ -1,0 +1,29 @@
+{
+  "address": "0x0d11edda4adc63527bc00d94be654ea524e7ad7b",
+  "contract_name": "Herbarium",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 26,
+  "source_sha256": "009b3b9edf1245e4dbde699ec8da93f8da4ead961d3b8a8bf4ef2017db534551",
+  "fetched_at": "2026-06-01T10:44:22.032400+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "@openzeppelin/contracts/=@openzeppelin/contracts@5.6.0/"
+    ]
+  }
+}

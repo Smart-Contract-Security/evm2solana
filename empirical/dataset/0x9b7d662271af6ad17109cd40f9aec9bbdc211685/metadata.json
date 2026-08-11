@@ -1,0 +1,27 @@
+{
+  "address": "0x9b7d662271af6ad17109cd40f9aec9bbdc211685",
+  "contract_name": "LiquidityPool",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 44,
+  "source_sha256": "a9219e398cdb6693b9fff6b8ec1998e80beb479e337e40d0e794ce02945778c1",
+  "fetched_at": "2026-06-03T04:10:05.792906+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 10
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

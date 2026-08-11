@@ -1,0 +1,27 @@
+{
+  "address": "0x38585ed7a204c2957bc0704a7898f96e6f5b5667",
+  "contract_name": "Pizzas",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 5,
+  "source_sha256": "b6d1d1e257f9988e12b56c72bfe25df9d9f5b148af08f6c3347e2e6bdaadc49d",
+  "fetched_at": "2026-06-03T11:37:37.144995+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

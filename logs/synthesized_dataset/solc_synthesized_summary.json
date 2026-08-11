@@ -1,0 +1,10 @@
+{
+  "total": 40,
+  "success": 38,
+  "failed": 2,
+  "failed_files": [
+    "05_compute_unit_model.sol",
+    "19_solana_builtin_imports.sol"
+  ],
+  "solc_version": "Version: 0.8.17+commit.8df45f5f.Linux.g++"
+}

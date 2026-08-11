@@ -1,0 +1,27 @@
+{
+  "address": "0x06048a18191f9e96ab2152df577cdf6a35f1eb05",
+  "contract_name": "VxvoPresale",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 14,
+  "source_sha256": "2fe523a01d8e13b776f40a7f19e1e4ab12eda463eaa00746390a5dbdaca6593a",
+  "fetched_at": "2026-06-01T10:38:38.247288+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

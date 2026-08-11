@@ -1,0 +1,28 @@
+{
+  "address": "0x67bbd4a09b5d454e807a0fc22c06f5934d55380e",
+  "contract_name": "DMeth",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 3,
+  "source_sha256": "b751e89872226ba0e8946ace1d369cfb469998b891dbbebfb32951709b709152",
+  "fetched_at": "2026-06-02T08:40:41.249277+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

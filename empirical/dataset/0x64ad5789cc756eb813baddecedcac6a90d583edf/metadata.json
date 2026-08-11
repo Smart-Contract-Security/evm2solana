@@ -1,0 +1,27 @@
+{
+  "address": "0x64ad5789cc756eb813baddecedcac6a90d583edf",
+  "contract_name": "ECTPoolFactoryV3",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 16,
+  "source_sha256": "958916853afb58fd6af16ad6ec87af26f1d801320c4d93898a59154f415b8801",
+  "fetched_at": "2026-06-03T12:53:22.704203+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

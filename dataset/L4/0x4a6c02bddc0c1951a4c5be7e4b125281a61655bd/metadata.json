@@ -1,0 +1,36 @@
+{
+  "address": "0x4a6c02bddc0c1951a4c5be7e4b125281a61655bd",
+  "contract_name": "EAGStakingRouter",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 16,
+  "source_sha256": "62837fcb120cd1cdd71badb61f7b7b4dc06198e6f05a16bbae267ee2bd72f435",
+  "fetched_at": "2026-06-03T04:06:43.880571+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0x2da4730a8fbf791b4c1abeccf62db1ccf153729b",
+  "contract_name": "GenesisSale",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 6,
+  "source_sha256": "f4f8f9dca67e56ee8239191003de485a50cad1d74cc0408c5e8ff8108a4706e7",
+  "fetched_at": "2026-06-02T08:40:16.734570+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

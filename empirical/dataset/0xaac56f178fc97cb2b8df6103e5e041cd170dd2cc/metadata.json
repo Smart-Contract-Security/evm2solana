@@ -1,0 +1,43 @@
+{
+  "address": "0xaac56f178fc97cb2b8df6103e5e041cd170dd2cc",
+  "contract_name": "SoulBoundNFTCosigned",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 29,
+  "source_sha256": "e381f3b602809f1b9c5908de6fa81d1e4d6c92732d3778c194b2079a7eef2f98",
+  "fetched_at": "2026-06-02T11:41:07.855000+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 50
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "shanghai",
+    "viaIR": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0x7ceb97d8e2a2a4e5b71ee2cb124af1dfb18d8019",
+  "contract_name": "noops",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 27,
+  "source_sha256": "339c6a7c65646fe9de722274a2ff1d1ccf985f01fe4372c4a5cc058b3f60825b",
+  "fetched_at": "2026-06-01T08:42:03.059379+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x055a7dac2f868d43c8ad1e658cf88bf78bb46522",
+  "contract_name": "CULT",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 6,
+  "source_sha256": "97401cc4196a9208f3ef250dd13c4881b5c2f6357f4acfe3eb37000ef67aea65",
+  "fetched_at": "2026-06-02T15:29:22.844746+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

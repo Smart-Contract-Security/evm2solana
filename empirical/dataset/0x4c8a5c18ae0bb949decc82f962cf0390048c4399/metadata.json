@@ -1,0 +1,46 @@
+{
+  "address": "0x4c8a5c18ae0bb949decc82f962cf0390048c4399",
+  "contract_name": "RebalanceManager",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 15,
+  "source_sha256": "e5482c35613ffb2ab901e55bac21402d023523d4382971f81670aa0a0cd69cfa",
+  "fetched_at": "2026-06-03T06:25:51.947004+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "oz-v5/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "viaIR": true,
+    "debug": {
+      "revertStrings": "default"
+    }
+  }
+}

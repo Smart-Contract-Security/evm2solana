@@ -1,0 +1,56 @@
+{
+  "address": "0xc637c62c97670f3354eaf8ea0fd1d01db2b3d7a7",
+  "contract_name": "TransparentUpgradeableProxy",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 9,
+  "source_sha256": "cce63b86d312500ba2545cc6c3743394f13c684e1e7a90e290881aaf34a32ed3",
+  "fetched_at": "2026-06-02T07:35:52.750543+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=dependencies/@openzeppelin-contracts-4.9.3/contracts/",
+      "@openzeppelin/contracts-upgradeable/=dependencies/@openzeppelin-contracts-upgradeable-4.9.3/contracts/",
+      "@arbitrum/nitro-contracts/src/=dependencies/@arbitrum-nitro-contracts-1.2.1/src/",
+      "@chainlink/contracts-ccip/src/v0.8/=dependencies/@chainlink-contracts-ccip-1.5.0/contracts/src/v0.8/",
+      "@eth-optimism/contracts/=dependencies/@eth-optimism-contracts-0.6.0/packages/contracts/contracts/",
+      "@predicate/=dependencies/@predicate-contracts-2.2.2/src/",
+      "forge-std/=dependencies/forge-std-1.9.2/src/",
+      "ds-test/=dependencies/forge-std-1.9.2/lib/ds-test/src/",
+      "permit2/=dependencies/permit2-1.0.0/src/",
+      "@arbitrum-nitro-contracts-1.2.1/=dependencies/@arbitrum-nitro-contracts-1.2.1/src/",
+      "@chainlink-contracts-ccip-1.5.0/=dependencies/@chainlink-contracts-ccip-1.5.0/",
+      "@eth-optimism-contracts-0.6.0/=dependencies/@eth-optimism-contracts-0.6.0/",
+      "@openzeppelin-contracts-4.9.3/=dependencies/@openzeppelin-contracts-4.9.3/",
+      "@openzeppelin-contracts-upgradeable-4.9.3/=dependencies/@openzeppelin-contracts-upgradeable-4.9.3/",
+      "@predicate-contracts-2.2.2/=dependencies/@predicate-contracts-2.2.2/src/",
+      "forge-std-1.9.2/=dependencies/forge-std-1.9.2/src/",
+      "openzeppelin-upgradeable/=dependencies/@predicate-contracts-2.2.2/lib/openzeppelin-contracts-upgradeable/contracts/",
+      "openzeppelin/=dependencies/@openzeppelin-contracts-upgradeable-4.9.3/contracts/",
+      "permit2-1.0.0/=dependencies/permit2-1.0.0/src/",
+      "solmate/=dependencies/permit2-1.0.0/lib/solmate/",
+      "utils/=dependencies/@predicate-contracts-2.2.2/lib/utils/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

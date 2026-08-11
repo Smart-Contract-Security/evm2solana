@@ -1,0 +1,31 @@
+{
+  "address": "0x0750bdb743865cf671edfc821ceb48ae8e2b07a2",
+  "contract_name": "BridgeableFlashUSDT",
+  "compiler_version": "v0.8.7+commit.e28d00a7",
+  "file_count": 1,
+  "source_sha256": "895aa20b73d633fae4a5d454f420985332d6c61d0c2d7054db4bc4836a99b3f4",
+  "fetched_at": "2026-06-04T02:51:16.238204+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

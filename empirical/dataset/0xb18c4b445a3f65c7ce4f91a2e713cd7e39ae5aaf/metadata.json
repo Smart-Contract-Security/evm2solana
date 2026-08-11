@@ -1,0 +1,27 @@
+{
+  "address": "0xb18c4b445a3f65c7ce4f91a2e713cd7e39ae5aaf",
+  "contract_name": "SimpleMultisend",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "63d54fc5a22b5c7a59b1ff54e8db2b18c27c5273db2d86db4253dc3efd0b853b",
+  "fetched_at": "2026-06-01T03:25:32.332803+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

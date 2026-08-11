@@ -1,0 +1,40 @@
+{
+  "address": "0x410edfea5c6659791d4cb15c44e0f410350d4d6c",
+  "contract_name": "DaemonHookFactory",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "4c35ca81eb695c5b18970155a9bfca13c74fd91ef8fd26a5a8aa30052e591015",
+  "fetched_at": "2026-06-02T11:19:08.147525+00:00",
+  "solc_settings": {
+    "remappings": [
+      "project/=src/project/",
+      "solady/=src/npm/solady@0.1.26/",
+      "@uniswap/v4-core/=src/npm/@uniswap/v4-core@1.0.2/",
+      "@openzeppelin/uniswap-hooks/=src/npm/@openzeppelin/uniswap-hooks@1.1.1/",
+      "@openzeppelin/contracts/=src/npm/@openzeppelin/contracts@5.6.1/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

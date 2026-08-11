@@ -1,0 +1,18 @@
+[
+  {
+    "file": "unisdev/UnisHookForge.sol",
+    "original_lines": 69,
+    "ported_lines": 72,
+    "added": [
+      "        bytes memory code = creationCodeWithArgs;",
+      "        hook = address(0);",
+      "            mstore(p, add(code, 0x20))",
+      "            let len := mload(code)",
+      "            hook := create2(0, p, len, salt)"
+    ],
+    "removed": [
+      "            calldatacopy(p, creationCodeWithArgs.offset, creationCodeWithArgs.length)",
+      "            hook := create2(0, p, creationCodeWithArgs.length, salt)"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "address": "0x030242ea33a7da5af43d960badc2478fbec64d23",
+  "contract_name": "PEPE",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 6,
+  "source_sha256": "04c1ac93862a8da94128c21ff134a24287bf99349f014dec966d8ed246d9e0b4",
+  "fetched_at": "2026-06-04T10:28:41.920232+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "address": "0xcc798d5e82e82b8ba7745b321a169023d2e52765",
+  "contract_name": "DTRUMP",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 7,
+  "source_sha256": "6a07f8790409bacd253380f8ebef0eb201590fa2aa584899f8c309fc6fcb16fa",
+  "fetched_at": "2026-06-04T11:08:18.084407+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

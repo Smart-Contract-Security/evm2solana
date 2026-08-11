@@ -1,0 +1,25 @@
+{
+  "address": "0xcf288e68ff777b71e28744dc9f8bdea206d3f635",
+  "contract_name": "SpriteDataIcons",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "935070eae7ec1e32a2344984492462fff1eb12024099acb5f6f763ac857c6638",
+  "fetched_at": "2026-06-03T11:48:27.007165+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    }
+  }
+}

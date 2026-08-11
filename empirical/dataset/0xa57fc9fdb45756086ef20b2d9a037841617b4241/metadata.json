@@ -1,0 +1,44 @@
+{
+  "address": "0xa57fc9fdb45756086ef20b2d9a037841617b4241",
+  "contract_name": "BeefyVaultPSMV2",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 2,
+  "source_sha256": "cc0f7f07fe478e3d74af5743b904d3c88fa7415197e91b00d17ec5527e5061ae",
+  "fetched_at": "2026-06-03T11:53:00.755734+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=node_modules/ds-test/src/",
+      "forge-std/=node_modules/forge-std/src/",
+      "isolmate/=node_modules/isolmate/src/",
+      "contracts/=solidity/contracts/",
+      "interfaces/=solidity/interfaces/",
+      "test/=solidity/test/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": false
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

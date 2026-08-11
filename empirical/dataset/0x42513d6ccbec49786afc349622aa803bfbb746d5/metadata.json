@@ -1,0 +1,27 @@
+{
+  "address": "0x42513d6ccbec49786afc349622aa803bfbb746d5",
+  "contract_name": "LockReleaseTokenPool",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 20,
+  "source_sha256": "6f6bceec4f949da318c7ec72dfd52291aeaa7854d1e7d7ac36a04cfb6cfab110",
+  "fetched_at": "2026-06-04T05:58:24.943994+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

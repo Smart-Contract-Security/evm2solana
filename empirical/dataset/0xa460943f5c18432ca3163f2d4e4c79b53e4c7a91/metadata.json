@@ -1,0 +1,37 @@
+{
+  "address": "0xa460943f5c18432ca3163f2d4e4c79b53e4c7a91",
+  "contract_name": "DELDataStore",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 2,
+  "source_sha256": "748cbbeadaaa314acd236f8655e387241032fcfa29141360fec69f9d9802a3db",
+  "fetched_at": "2026-06-03T12:55:06.235049+00:00",
+  "solc_settings": {
+    "remappings": [
+      "solady/=lib/solady/src/",
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

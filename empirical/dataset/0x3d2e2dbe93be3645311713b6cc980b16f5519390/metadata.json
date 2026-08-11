@@ -1,0 +1,32 @@
+{
+  "address": "0x3d2e2dbe93be3645311713b6cc980b16f5519390",
+  "contract_name": "MulticallFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 19,
+  "source_sha256": "485a6577e599b82aa045fbb41827ac2e75e24448a8d984c790dd8669f3fc6c85",
+  "fetched_at": "2026-06-03T05:11:55.144557+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "remappings": [],
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

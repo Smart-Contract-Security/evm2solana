@@ -1,0 +1,27 @@
+{
+  "address": "0x9ab09329ab223a6ffdcd9660b4e3c7d6e4a71157",
+  "contract_name": "Kazu",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "edb44b4365c6235f86111fc8791dcffeab8650155aad68d326ccfb8241f5160e",
+  "fetched_at": "2026-06-04T04:10:09.223605+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

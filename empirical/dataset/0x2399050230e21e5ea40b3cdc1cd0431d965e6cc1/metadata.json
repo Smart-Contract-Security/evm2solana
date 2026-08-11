@@ -1,0 +1,28 @@
+{
+  "address": "0x2399050230e21e5ea40b3cdc1cd0431d965e6cc1",
+  "contract_name": "BankAuthorizedUSDTDistributor",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 15,
+  "source_sha256": "4c5ba42c6c6f6c0213b4033cf31b4c0c4e640c66e19baedab1a6a9c31629e608",
+  "fetched_at": "2026-06-03T05:29:02.774055+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

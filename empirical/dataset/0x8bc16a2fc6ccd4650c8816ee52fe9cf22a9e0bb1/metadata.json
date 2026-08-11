@@ -1,0 +1,28 @@
+{
+  "address": "0x8bc16a2fc6ccd4650c8816ee52fe9cf22a9e0bb1",
+  "contract_name": "aige",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 27,
+  "source_sha256": "ddf2ccb581c5707b7090e8bfa24a2289eea12be2aac092778bacdb7353f3e68b",
+  "fetched_at": "2026-06-02T07:06:04.681574+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

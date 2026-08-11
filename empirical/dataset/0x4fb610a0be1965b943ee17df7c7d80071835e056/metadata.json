@@ -1,0 +1,62 @@
+{
+  "address": "0x4fb610a0be1965b943ee17df7c7d80071835e056",
+  "contract_name": "AddressManager",
+  "compiler_version": "v0.8.21+commit.d9974bed",
+  "file_count": 4,
+  "source_sha256": "06287f6b4b6d2700cb7417f90d5132b97795b8fc8d011c40e2fe328cc28b58f5",
+  "fetched_at": "2026-06-04T11:14:58.822469+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@forge-std/=lib/forge-std/src/",
+      "@openzeppelin/=lib/openzeppelin-contracts/contracts/",
+      "@solady/=lib/solady/src/",
+      "@solmate/=lib/solmate/src/",
+      "@zora/=lib/v3/contracts/",
+      "@chainlink/=lib/chainlink/contracts/src/v0.8/",
+      "@delegate/=lib/delegate-registry/src/",
+      "@seaport/=lib/seaport/lib/",
+      "test/=test/",
+      "@manifoldxyz/=lib/v3/node_modules/@manifoldxyz/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@rari-capital/=lib/v3/node_modules/@rari-capital/",
+      "@rari-capital/solmate/=lib/seaport/lib/solmate/",
+      "chainlink/=lib/chainlink/contracts/",
+      "delegate-registry/=lib/delegate-registry/",
+      "ds-test/=lib/seaport/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "murky/=lib/delegate-registry/lib/murky/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/delegate-registry/lib/openzeppelin-contracts/contracts/",
+      "seaport-core/=lib/seaport/lib/seaport-core/",
+      "seaport-sol/=lib/seaport/lib/seaport-sol/",
+      "seaport-types/=lib/seaport/lib/seaport-types/",
+      "seaport/=lib/seaport/",
+      "solady/=lib/solady/src/",
+      "solarray/=lib/seaport/lib/solarray/src/",
+      "solmate/=lib/solmate/src/",
+      "v3/=lib/v3/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 20
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": true,
+    "libraries": {}
+  }
+}

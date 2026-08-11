@@ -1,0 +1,54 @@
+{
+  "address": "0x20dac6f637bf08ac4eaf970f512a82120e450308",
+  "contract_name": "NestVaultComposer",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 109,
+  "source_sha256": "f484f77be57c965c965d405f7b186084c8a81960333d571ce77f4e7e03ad561c",
+  "fetched_at": "2026-06-03T06:45:16.418488+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=node_modules/forge-std/src/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "@openzeppelin-4.9.3/=script/vendor/openzeppelin-4.9.3/",
+      "@solmate/=node_modules/solmate/src/",
+      "@boring-vault/=node_modules/boring-vault/",
+      "src/=node_modules/boring-vault/src/",
+      "@predicate/=node_modules/@predicate/contracts/",
+      "@pendle/=node_modules/@pendle/",
+      "createx/=node_modules/createx/src/",
+      "solidity-bytes-utils/contracts/=node_modules/@layerzerolabs/toolbox-foundry/lib/solidity-bytes-utils/",
+      "@layerzerolabs/=node_modules/@layerzerolabs/",
+      "@uniswap/permit2/=node_modules/@uniswap/permit2/src/",
+      "@morpho/=node_modules/morpho/src/",
+      "boring-vault/=node_modules/boring-vault/",
+      "ds-test/=node_modules/@layerzerolabs/toolbox-foundry/lib/ds-test/",
+      "hardhat-deploy/=node_modules/hardhat-deploy/",
+      "hardhat/=node_modules/hardhat/",
+      "morpho/=node_modules/morpho/",
+      "solmate/=node_modules/solmate/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": true
+  }
+}

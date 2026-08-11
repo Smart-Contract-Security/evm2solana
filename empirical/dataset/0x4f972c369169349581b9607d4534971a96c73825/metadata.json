@@ -1,0 +1,28 @@
+{
+  "address": "0x4f972c369169349581b9607d4534971a96c73825",
+  "contract_name": "MultiSendProxy",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 3,
+  "source_sha256": "e6c2c3cc3c2d8ab88119d856b5bc1965c5e9e1332dade787ebb3743635df78e5",
+  "fetched_at": "2026-06-03T03:16:29.470310+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [],
+    "evmVersion": "cancun"
+  }
+}

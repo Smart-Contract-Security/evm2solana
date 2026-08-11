@@ -1,0 +1,27 @@
+{
+  "address": "0x332f6f24f58563b1b8846c4cbe714ce20dc6d1f1",
+  "contract_name": "FlashLoanBot",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "91d44c0e9fcf00d4349e0f99451e7d94f5f3b6b5e9f8901ae218008b05ad0435",
+  "fetched_at": "2026-06-03T05:17:21.829431+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

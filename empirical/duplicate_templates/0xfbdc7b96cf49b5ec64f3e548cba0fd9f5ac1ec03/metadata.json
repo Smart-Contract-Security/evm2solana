@@ -1,0 +1,31 @@
+{
+  "address": "0xfbdc7b96cf49b5ec64f3e548cba0fd9f5ac1ec03",
+  "contract_name": "USDCTreasuryV2",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "a55a5db937b6915e48ac341ffe4de0cdee4cbd71bbc025e28b81b3465d4fdde4",
+  "fetched_at": "2026-06-03T05:29:46.121147+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

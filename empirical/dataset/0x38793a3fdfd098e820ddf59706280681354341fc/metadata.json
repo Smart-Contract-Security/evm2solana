@@ -1,0 +1,54 @@
+{
+  "address": "0x38793a3fdfd098e820ddf59706280681354341fc",
+  "contract_name": "BRAINROT",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 27,
+  "source_sha256": "29615408edec3779c9fba17dccd10a1dd2a75244ff9c74401ce4abedf8bbf6be",
+  "fetched_at": "2026-06-03T04:38:09.643560+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@limitbreak/creator-token-standards/=lib/creator-token-standards/src/",
+      "@openzeppelin/contracts/=lib/creator-token-standards/lib/openzeppelin-contracts/contracts/",
+      "erc721a/=lib/creator-token-standards/lib/ERC721A/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "@limitbreak/permit-c/=lib/creator-token-standards/lib/PermitC/src/",
+      "@opensea/tstorish/=lib/creator-token-standards/lib/tstorish/src/",
+      "@rari-capital/solmate/=lib/creator-token-standards/lib/PermitC/lib/solmate/",
+      "ERC721A/=lib/creator-token-standards/lib/ERC721A/contracts/",
+      "PermitC/=lib/creator-token-standards/lib/PermitC/",
+      "creator-token-standards/=lib/creator-token-standards/",
+      "ds-test/=lib/creator-token-standards/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/creator-token-standards/lib/PermitC/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-metering/=lib/creator-token-standards/lib/PermitC/lib/forge-gas-metering/",
+      "murky/=lib/creator-token-standards/lib/murky/",
+      "openzeppelin-contracts/=lib/creator-token-standards/lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/creator-token-standards/lib/PermitC/lib/openzeppelin-contracts/contracts/",
+      "solady/=lib/creator-token-standards/lib/PermitC/lib/forge-gas-metering/lib/solady/",
+      "solmate/=lib/creator-token-standards/lib/PermitC/lib/solmate/src/",
+      "tstorish/=lib/creator-token-standards/lib/tstorish/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 800
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": false
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

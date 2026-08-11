@@ -1,0 +1,41 @@
+{
+  "address": "0x07376eda55a788cd3f3689335a29c74eefff97c7",
+  "contract_name": "BalanceClaimer",
+  "compiler_version": "v0.8.15+commit.e14f2714",
+  "file_count": 8,
+  "source_sha256": "133b01aad4e2fd0304ac5a4578e0b6ca2a8c2919a500e988075ed5c3f4212c99",
+  "fetched_at": "2026-06-01T08:41:59.276098+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+      "@rari-capital/solmate/=node_modules/@rari-capital/solmate/",
+      "@cwia/=node_modules/clones-with-immutable-args/src/",
+      "forge-std/=node_modules/forge-std/src/",
+      "ds-test/=node_modules/ds-test/src/",
+      "clones-with-immutable-args/=node_modules/clones-with-immutable-args/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "viaIR": false
+  }
+}

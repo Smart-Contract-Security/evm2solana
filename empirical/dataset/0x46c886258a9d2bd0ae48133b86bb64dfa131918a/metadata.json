@@ -1,0 +1,27 @@
+{
+  "address": "0x46c886258a9d2bd0ae48133b86bb64dfa131918a",
+  "contract_name": "DaemonFactory",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 18,
+  "source_sha256": "231bba91da1431cdd27834601676531306e66fa44c30047ab0f423ee37a7bd2f",
+  "fetched_at": "2026-06-03T05:45:45.606200+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

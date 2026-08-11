@@ -1,0 +1,27 @@
+{
+  "address": "0x56561fed26933c2254daf1f1f7fc47b6324ea715",
+  "contract_name": "Decoder",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "a9b7e837001f3e18aae94313479eaa77be7271d9a65d5503368b102a4512930b",
+  "fetched_at": "2026-06-03T12:33:30.678897+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

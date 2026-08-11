@@ -1,0 +1,67 @@
+{
+  "address": "0xa218a4776e2487eaa25e738e6d6a64f21593ca22",
+  "contract_name": "WETHRouter",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 17,
+  "source_sha256": "7e5cefde7e0508b4fc75743a97800c88c2db46c04e008a2ff6c0712421e00fea",
+  "fetched_at": "2026-06-03T05:32:08.055387+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@forge-std/=lib/forge-std/src/",
+      "@openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "@openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "@wormhole/=lib/wormhole/ethereum/contracts/",
+      "@protocol/=src/",
+      "@test/=test/",
+      "@proposals/=proposals/",
+      "@utils/=src/utils/",
+      "@zelt/=lib/zelt/",
+      "@deprecated/=deprecated/",
+      "@script/=script/",
+      "@crv-rewards/=crv-rewards/",
+      "wormhole-sdk/=lib/wormhole-solidity-sdk/src/",
+      "wormhole-solidity-sdk/=lib/wormhole-solidity-sdk/src/",
+      "@zelt-src/=lib/zelt/src/",
+      "@zelt-test/=lib/zelt/test/",
+      "IERC20/=lib/wormhole-solidity-sdk/src/interfaces/token/",
+      "SafeERC20/=lib/wormhole-solidity-sdk/src/libraries/",
+      "ds-test/=lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "solmate/=lib/solmate/src/",
+      "wormhole/=lib/wormhole/",
+      "zelt/=lib/zelt/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1,
+      "details": {}
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "debug": {
+      "revertStrings": "default"
+    }
+  }
+}

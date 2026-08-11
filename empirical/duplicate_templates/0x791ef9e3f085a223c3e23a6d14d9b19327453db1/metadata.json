@@ -1,0 +1,26 @@
+{
+  "address": "0x791ef9e3f085a223c3e23a6d14d9b19327453db1",
+  "contract_name": "Contract",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 1,
+  "source_sha256": "7460923d870beeffe04dadff023709afa8c1970a83a5354d3b24f144ac8cb423",
+  "fetched_at": "2026-06-03T06:30:16.724542+00:00",
+  "solc_settings": {
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    }
+  }
+}

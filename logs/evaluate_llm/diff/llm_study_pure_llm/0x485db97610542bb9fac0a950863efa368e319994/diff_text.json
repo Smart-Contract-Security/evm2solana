@@ -1,0 +1,108 @@
+[
+  {
+    "file": "src/ChainConfig.sol",
+    "original_lines": 22,
+    "ported_lines": 22,
+    "added": [
+      "    address internal constant ETHEREUM_POOL_MANAGER = address(0x000000000004444c5dc75cB358380D2e3dE08A90);",
+      "    address internal constant BASE_POOL_MANAGER = address(0x498581fF718922c3f8e6A244956aF099B2652b2b);"
+    ],
+    "removed": [
+      "    address internal constant ETHEREUM_POOL_MANAGER = 0x000000000004444c5dc75cB358380D2e3dE08A90;",
+      "    address internal constant BASE_POOL_MANAGER = 0x498581fF718922c3f8e6A244956aF099B2652b2b;"
+    ]
+  },
+  {
+    "file": "src/DaemonRenderer.sol",
+    "original_lines": 155,
+    "ported_lines": 142,
+    "added": [],
+    "removed": [
+      "",
+      "/**",
+      " * @title DAEMONS Renderer",
+      " * @author DAEMONSv4",
+      " * @notice Onchain SVG renderer for frozen and live DAEMON artifacts",
+      " *",
+      " * Website: https://daemons.life",
+      " * Twitter: https://x.com/DAEMONSv4",
+      " *",
+      " * Renders compact 24x24 artifact SVGs directly from packed traits,",
+      " * corruption, aura, and freeze state. The wrapper uses this contract",
+      " * for ERC721 metadata after a holder wraps 1 whole DAEMON.",
+      " */"
+    ]
+  },
+  {
+    "file": "src/DaemonToken.sol",
+    "original_lines": 385,
+    "ported_lines": 370,
+    "added": [
+      "    error UnsupportedChain(uint256 chainId);",
+      "        // Solana does not have block.prevrandao; use block.timestamp as a substitute",
+      "        seed = keccak256(abi.encodePacked(state.seed, msg.sender, \"AURA\", block.timestamp, block.timestamp));",
+      "        // Solana does not have block.prevrandao; use block.timestamp as a substitute",
+      "                block.timestamp,"
+    ],
+    "removed": [
+      "type Currency is address;",
+      "type BalanceDelta is int256;",
+      "type BeforeSwapDelta is int256;",
+      "",
+      "struct PoolKey {",
+      "    Currency currency0;",
+      "    Currency currency1;",
+      "    uint24 fee;",
+      "    int24 tickSpacing;",
+      "    address hooks;",
+      "}",
+      "",
+      "struct SwapParams {",
+      "    bool zeroForOne;",
+      "    int256 amountSpecified;",
+      "    uint160 sqrtPriceLimitX96;",
+      "}",
+      "",
+      "        seed = keccak256(abi.encodePacked(state.seed, msg.sender, \"AURA\", block.timestamp, block.prevrandao));",
+      "                block.prevrandao,"
+    ]
+  },
+  {
+    "file": "src/DaemonWrapper.sol",
+    "original_lines": 163,
+    "ported_lines": 146,
+    "added": [
+      "        tokenId = nextTokenId;",
+      "        nextTokenId = nextTokenId + 1;",
+      "        balanceOf[msg.sender] = balanceOf[msg.sender] + 1;",
+      "        balanceOf[msg.sender] = balanceOf[msg.sender] - 1;",
+      "        balanceOf[from] = balanceOf[from] - 1;",
+      "        balanceOf[to] = balanceOf[to] + 1;"
+    ],
+    "removed": [
+      "",
+      "/**",
+      " * @title DAEMONS Wrapper",
+      " * @author DAEMONSv4",
+      " * @notice ERC721 freeze adapter for DAEMON ERC20 artifacts",
+      " *",
+      " * Website: https://daemons.life",
+      " * Twitter: https://x.com/DAEMONSv4",
+      " *",
+      " * Escrows 1 whole DAEMON, snapshots the holder's artifact state,",
+      " * and mints a transferable ERC721 whose SVG/metadata are frozen",
+      " * through the renderer. Unwrapping burns the frozen artifact and",
+      " * returns the escrowed ERC20 backing.",
+      " */",
+      "        tokenId = nextTokenId++;",
+      "        balanceOf[msg.sender]++;",
+      "        unchecked {",
+      "            balanceOf[msg.sender]--;",
+      "        }",
+      "        unchecked {",
+      "            balanceOf[from]--;",
+      "            balanceOf[to]++;",
+      "        }"
+    ]
+  }
+]

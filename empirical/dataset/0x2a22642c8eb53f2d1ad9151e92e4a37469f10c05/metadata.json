@@ -1,0 +1,28 @@
+{
+  "address": "0x2a22642c8eb53f2d1ad9151e92e4a37469f10c05",
+  "contract_name": "UniswapV4FlashLoanArbitrageV6",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "790958595d922f0660138f06eb1b443dae4f55f970fbfd47bbf42730fed1a6f8",
+  "fetched_at": "2026-06-01T03:24:53.999906+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 4000
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

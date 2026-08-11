@@ -1,0 +1,28 @@
+{
+  "address": "0x9503ab5a9177ad12f942e8c0f6936af6d73b324c",
+  "contract_name": "TradingCardsCrowdSale",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "5dca9ed1a9d55b4c99be5d0b19ee16aeb08dc489a76ed22efde2c08bb20cab5a",
+  "fetched_at": "2026-06-04T11:59:16.378922+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x1efd68d07784d461c06550c4b2c0174150301743",
+  "contract_name": "SPIKE",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "3a62225f24ab1fa0326b87463d34765080ccfef5e0e3a664ae6d29c267e58b0d",
+  "fetched_at": "2026-06-04T03:10:43.080198+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

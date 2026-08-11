@@ -1,0 +1,28 @@
+{
+  "address": "0xca71f7e50c5c906343ade0cc698d0c29280749d6",
+  "contract_name": "MirrorRenderer",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 5,
+  "source_sha256": "6e9ca7a04b42c003357e875ca0459690ad364a628d559c2ebca5bc1bb065d3ef",
+  "fetched_at": "2026-06-01T03:03:48.463384+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

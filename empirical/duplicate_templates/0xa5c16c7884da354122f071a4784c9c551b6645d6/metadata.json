@@ -1,0 +1,28 @@
+{
+  "address": "0xa5c16c7884da354122f071a4784c9c551b6645d6",
+  "contract_name": "MUKI",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "48cde282624b9378d41d1a535669e8d72ed491af2d2bee155274d98f32ecdcd1",
+  "fetched_at": "2026-06-04T12:07:11.589545+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

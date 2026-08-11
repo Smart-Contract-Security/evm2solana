@@ -1,0 +1,27 @@
+{
+  "address": "0xfce6e94f0759b35470bc8360bf4fcdd228843937",
+  "contract_name": "TeteToken",
+  "compiler_version": "v0.8.0+commit.c7dfd78e",
+  "file_count": 1,
+  "source_sha256": "c40c21c022fc1bab1833e438b3286055b9e964492cd63bc1a7c9780133e289da",
+  "fetched_at": "2026-06-04T13:36:45.597933+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

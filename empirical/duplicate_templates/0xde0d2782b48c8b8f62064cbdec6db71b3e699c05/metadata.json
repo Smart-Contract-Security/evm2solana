@@ -1,0 +1,27 @@
+{
+  "address": "0xde0d2782b48c8b8f62064cbdec6db71b3e699c05",
+  "contract_name": "GateMint",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "681e492f3f0f31103bfcd0468350fd16bcc355ccfd0fe54fab50c097879917ea",
+  "fetched_at": "2026-06-03T12:16:00.455929+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

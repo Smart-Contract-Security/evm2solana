@@ -1,0 +1,42 @@
+{
+  "address": "0x466a078d17e3706a9414acc48029ee9bae4c9b65",
+  "contract_name": "EVM2EVMOnRamp",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 25,
+  "source_sha256": "6591e4fa166c54cfca12b538cddf490d298f8495b19df1965ded57e63c4c620c",
+  "fetched_at": "2026-06-04T10:47:58.398115+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=foundry-lib/forge-std/lib/ds-test/src/",
+      "forge-std/=foundry-lib/forge-std/src/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "hardhat/=node_modules/hardhat/",
+      "@eth-optimism/=node_modules/@eth-optimism/",
+      "@ensdomains/=node_modules/@ensdomains/",
+      "eth-gas-reporter/=node_modules/eth-gas-reporter/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "libraries": {}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "address": "0xb24aee4bd963ca9f35b27fec7fbca678d1201480",
+  "contract_name": "SAFUPool",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 14,
+  "source_sha256": "33616a61c11f2c6c78a48f3d9007371a1a06708e0383bf4da7f7421f5b881be2",
+  "fetched_at": "2026-06-03T07:03:52.464239+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

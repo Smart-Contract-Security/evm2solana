@@ -1,0 +1,28 @@
+{
+  "address": "0x3920332950d31f274384e477c987e1e0f5f9df97",
+  "contract_name": "FeeRouter",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 13,
+  "source_sha256": "cb88b7d3244291a490b34db8c08d06d7ec053c81e76f501fbed9d5e5509053f5",
+  "fetched_at": "2026-06-01T14:50:29.218478+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x00f2947ed5a66c9cc8f5e69ab89ced1b575cd118",
+  "contract_name": "MidnightGoblinToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "7f39baf633a047dc79fe2155c8c829e20ec6e25a51e67e1f82aeaf54b6117bd6",
+  "fetched_at": "2026-06-03T08:42:29.687964+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

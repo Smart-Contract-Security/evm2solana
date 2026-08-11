@@ -1,0 +1,48 @@
+{
+  "address": "0x817bdfc82e1246e7779f4cb8af0d41e64475bd22",
+  "contract_name": "DaemonRenderer",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 9,
+  "source_sha256": "b3c79e003a16148633cf95aef331a5f91fbfd8179f9c69fc2fe762eaebc51db2",
+  "fetched_at": "2026-06-02T11:19:27.883708+00:00",
+  "solc_settings": {
+    "remappings": [
+      "project/=src/project/",
+      "solady/=src/npm/solady@0.1.26/",
+      "@uniswap/v4-core/=src/npm/@uniswap/v4-core@1.0.2/",
+      "@openzeppelin/uniswap-hooks/=src/npm/@openzeppelin/uniswap-hooks@1.1.1/",
+      "@openzeppelin/contracts/=src/npm/@openzeppelin/contracts@5.6.1/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "libraries": {
+      "src/project/contracts/daemons/DaemonRenderer.sol": {
+        "DaemonAnimationData": "0xce9d9d50c4ac650556097409dc98df494645177e",
+        "DaemonArtData": "0x4dfb03cdf61e6085767972617ceb6e9130ab1ae0",
+        "DaemonCorruption": "0xc29c07cbfabd7e2a592e4b735ef08473a4b4a09a",
+        "DaemonTypeFixedData": "0x7c30300a05f1964c88798351b2eb6d3f678dece4"
+      }
+    }
+  }
+}

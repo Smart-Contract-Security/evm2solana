@@ -1,0 +1,27 @@
+{
+  "address": "0x2200de30a23d98cab575ba0488f1b5b43207b7bf",
+  "contract_name": "WAG",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "16290a550a77a836130c5b32c0e0b74a0788fca07252c174804404d42fc616f5",
+  "fetched_at": "2026-06-01T05:03:30.854221+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

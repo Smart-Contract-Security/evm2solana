@@ -1,0 +1,27 @@
+{
+  "address": "0xf8775fe0c5691290241f3a481fc9168d2ccb8116",
+  "contract_name": "StormBearERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "b2cf8fdc1feefc81a490bb13e9a5977b4ae9059deb3195e78b91e5dcf15a0446",
+  "fetched_at": "2026-06-03T07:12:05.598784+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

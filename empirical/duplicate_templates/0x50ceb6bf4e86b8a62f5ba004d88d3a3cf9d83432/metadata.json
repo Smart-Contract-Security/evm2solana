@@ -1,0 +1,27 @@
+{
+  "address": "0x50ceb6bf4e86b8a62f5ba004d88d3a3cf9d83432",
+  "contract_name": "BasicERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 1,
+  "source_sha256": "0d370217485f2653a9c833b2b08443edb3b433fff36f80fd8e294bc78b678172",
+  "fetched_at": "2026-06-01T03:18:22.827276+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

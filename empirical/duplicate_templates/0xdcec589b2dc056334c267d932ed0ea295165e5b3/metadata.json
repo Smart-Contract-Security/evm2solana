@@ -1,0 +1,27 @@
+{
+  "address": "0xdcec589b2dc056334c267d932ed0ea295165e5b3",
+  "contract_name": "UncleDegen",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "8bdfee61d81eba86040c1748d686d2b605d4889e8aebc8dd97a2714b8bb20b28",
+  "fetched_at": "2026-06-03T04:16:14.443298+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

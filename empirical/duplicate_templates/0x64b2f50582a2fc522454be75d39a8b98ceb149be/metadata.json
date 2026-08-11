@@ -1,0 +1,27 @@
+{
+  "address": "0x64b2f50582a2fc522454be75d39a8b98ceb149be",
+  "contract_name": "EmergencySweeper",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "7f297f33bca63ce9f483507827745937cdb13cb3cf81bf9b55140aecccd47aa6",
+  "fetched_at": "2026-06-03T11:35:53.336670+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xb6be9712755ff9081241a8b20d2baf5f6192ac0b",
+  "contract_name": "EcosystemRegistry",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 5,
+  "source_sha256": "680c097e23e62e30ca33a9c9c7440b4ccffe0b86b4b497df0726f5a411437942",
+  "fetched_at": "2026-06-03T12:54:15.058501+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xb4bfbd46c0cf3f1c2d01aa4b6f6172df29d78647",
+  "contract_name": "PixelCartel",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "fc6c687fd7c0d8392bec3d96763125d35bd88e0ebcef1c1880b332fe1aea19e6",
+  "fetched_at": "2026-06-03T07:48:39.202135+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

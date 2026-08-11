@@ -1,0 +1,27 @@
+{
+  "address": "0xa13f1545d6e916a3fff0db53d7b29786e92a86d1",
+  "contract_name": "TribuneMoon",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "06b57d4065f8bed0ee6ee2b3be79c73164e1a2736d5407f74ce94f46fb2f1841",
+  "fetched_at": "2026-06-01T08:36:21.805625+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

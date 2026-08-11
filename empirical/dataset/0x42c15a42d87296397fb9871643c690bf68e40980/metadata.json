@@ -1,0 +1,28 @@
+{
+  "address": "0x42c15a42d87296397fb9871643c690bf68e40980",
+  "contract_name": "SHDW",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "fd1fa4addc234cc1248d1924d65fc71f667edd3d0459b434ad5413d21c603d8c",
+  "fetched_at": "2026-06-01T11:54:27.642083+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x8206709d6b73b462e584bce26577683600bc138e",
+  "contract_name": "FlashUSDTLiquidityBot",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 1,
+  "source_sha256": "2de240941084716d7a10999f0b889c02d582d546f3e728727e00de3dfed04dc3",
+  "fetched_at": "2026-06-02T09:04:16.173173+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

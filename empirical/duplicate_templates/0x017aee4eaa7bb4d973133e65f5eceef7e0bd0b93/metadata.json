@@ -1,0 +1,27 @@
+{
+  "address": "0x017aee4eaa7bb4d973133e65f5eceef7e0bd0b93",
+  "contract_name": "MagnateFluxToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "519f3bf3b4529bf3653c1d226f7fa0c831f4c4685a76d02cbe3884656eaa9d71",
+  "fetched_at": "2026-06-02T08:59:05.611783+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

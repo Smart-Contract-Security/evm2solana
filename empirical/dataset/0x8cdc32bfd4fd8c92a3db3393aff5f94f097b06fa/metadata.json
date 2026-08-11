@@ -1,0 +1,54 @@
+{
+  "address": "0x8cdc32bfd4fd8c92a3db3393aff5f94f097b06fa",
+  "contract_name": "PrismaGenesis",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 25,
+  "source_sha256": "3c1e75d5d4f7d6371c204e7b18d07f717c37b73a397367c5527fedb297691b39",
+  "fetched_at": "2026-06-01T12:53:06.343619+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@limitbreak/creator-token-standards/=lib/creator-token-standards/",
+      "@openzeppelin/=lib/creator-token-standards/lib/openzeppelin-contracts/",
+      "forge-std/=lib/creator-token-standards/lib/forge-std/src/",
+      "@limitbreak/permit-c/=lib/creator-token-standards/lib/PermitC/src/",
+      "@opensea/tstorish/=lib/creator-token-standards/lib/tstorish/src/",
+      "@rari-capital/solmate/=lib/creator-token-standards/lib/PermitC/lib/solmate/",
+      "ERC721A/=lib/creator-token-standards/lib/ERC721A/contracts/",
+      "PermitC/=lib/creator-token-standards/lib/PermitC/",
+      "creator-token-standards/=lib/creator-token-standards/",
+      "ds-test/=lib/creator-token-standards/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/creator-token-standards/lib/PermitC/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "erc721a/=lib/creator-token-standards/lib/ERC721A/",
+      "forge-gas-metering/=lib/creator-token-standards/lib/PermitC/lib/forge-gas-metering/",
+      "murky/=lib/creator-token-standards/lib/murky/",
+      "openzeppelin-contracts/=lib/creator-token-standards/lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/creator-token-standards/lib/PermitC/lib/openzeppelin-contracts/contracts/",
+      "solady/=lib/creator-token-standards/lib/PermitC/lib/forge-gas-metering/lib/solady/",
+      "solmate/=lib/creator-token-standards/lib/PermitC/lib/solmate/src/",
+      "tstorish/=lib/creator-token-standards/lib/tstorish/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

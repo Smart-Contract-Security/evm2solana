@@ -1,0 +1,27 @@
+{
+  "address": "0x8e75fbfe02d61eaee073dc3b78fa6143e407de89",
+  "contract_name": "LandRegistry",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 18,
+  "source_sha256": "93a361c1fa0ce2bdd33297fc394cacfc9605a14919bc2cda9fa29ec88507165f",
+  "fetched_at": "2026-06-02T02:24:16.402478+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

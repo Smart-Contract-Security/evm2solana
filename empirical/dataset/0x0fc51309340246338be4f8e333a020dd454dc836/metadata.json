@@ -1,0 +1,27 @@
+{
+  "address": "0x0fc51309340246338be4f8e333a020dd454dc836",
+  "contract_name": "HypERC20Collateral",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 29,
+  "source_sha256": "0a996a66c1588270636058410dd733651b3b509110f3a15aeae74a67ec8d47b9",
+  "fetched_at": "2026-06-04T05:07:26.757133+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

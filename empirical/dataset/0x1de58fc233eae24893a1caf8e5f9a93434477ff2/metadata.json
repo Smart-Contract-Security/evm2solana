@@ -1,0 +1,27 @@
+{
+  "address": "0x1de58fc233eae24893a1caf8e5f9a93434477ff2",
+  "contract_name": "Lumen",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 6,
+  "source_sha256": "a499f8c9575c7e48957fbd14571a0ae8efd0c1c665c153812d167051c46c739b",
+  "fetched_at": "2026-06-01T10:39:02.654457+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

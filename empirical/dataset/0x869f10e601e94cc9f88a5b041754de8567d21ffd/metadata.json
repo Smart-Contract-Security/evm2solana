@@ -1,0 +1,8 @@
+{
+  "address": "0x869f10e601e94cc9f88a5b041754de8567d21ffd",
+  "contract_name": "FeeReceiver",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "ad69592dcfe374eecf12f71e136b58379c8a5c9d99688b61404d5298386f4341",
+  "fetched_at": "2026-06-04T05:26:54.945043+00:00"
+}

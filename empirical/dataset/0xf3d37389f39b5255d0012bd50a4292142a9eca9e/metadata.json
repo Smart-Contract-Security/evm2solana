@@ -1,0 +1,28 @@
+{
+  "address": "0xf3d37389f39b5255d0012bd50a4292142a9eca9e",
+  "contract_name": "OperoseVault",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 30,
+  "source_sha256": "39a024cd4a3b6f9e72b36c405c9a36d314a0cd15290a25ead611d398633bfd6d",
+  "fetched_at": "2026-06-03T11:55:00.238728+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

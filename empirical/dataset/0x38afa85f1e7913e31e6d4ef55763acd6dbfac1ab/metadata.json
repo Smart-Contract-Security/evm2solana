@@ -1,0 +1,28 @@
+{
+  "address": "0x38afa85f1e7913e31e6d4ef55763acd6dbfac1ab",
+  "contract_name": "MoonsendFeeManager_V2_ETH",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "33c2b96dd5d051512e67a44d8c0a8d1132edce3efa6cee4ef0e1ec3fc7ec0b30",
+  "fetched_at": "2026-06-01T13:08:33.330472+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "runs": 200,
+      "enabled": true
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

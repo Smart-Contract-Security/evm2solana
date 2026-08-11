@@ -1,0 +1,57 @@
+{
+  "address": "0x9d7f4fbe053fc5029ac17e67d6138980d6212fa5",
+  "contract_name": "SuperRareBazaarERC20BuyProxy",
+  "compiler_version": "v0.8.18+commit.87f61d96",
+  "file_count": 20,
+  "source_sha256": "db03dcb873cbe9ae18d6fdbc366f224e293c39dcb3e771e87bf2d23a55b34d73",
+  "fetched_at": "2026-06-03T05:23:06.530094+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@ensdomains/ens-contracts/=lib/ens-contracts/contracts/",
+      "@ensdomains/governance/=lib/governance-contracts/contracts/",
+      "ensdomains/governance/=lib/governance-contracts/contracts/",
+      "ds-test/=lib/ds-test/src/",
+      "murky/=lib/murky/src/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/",
+      "royalty-registry-solidity/=lib/royalty-registry-solidity/contracts/",
+      "royalty-registry/=lib/royalty-registry-solidity/contracts/",
+      "royalty-guard/=lib/royalty-guard/src/royalty-guard/",
+      "solmate/=lib/solmate/src/",
+      "rareprotocol/assets/=lib/assets/src/",
+      "rareprotocol/aux/=src/",
+      "ensdomains/ens-contracts/=lib/ensdomains/ens-contracts/contracts/",
+      "@ensdomains/buffer/=lib/buffer/",
+      "arachnid/solidity-stringutils/=lib/solidity-stringutils/",
+      "@uniswap/v3-core/contracts/=lib/v3-core/contracts/",
+      "@uniswap/v3-core/=lib/v3-core/contracts/",
+      "@uniswap/v3-periphery/=lib/v3-periphery/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 100
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": true
+  }
+}

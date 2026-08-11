@@ -1,0 +1,74 @@
+{
+  "address": "0x327dde84c9173dd799a4f74b04a69d9d385d31a4",
+  "contract_name": "AggregateVerifier",
+  "compiler_version": "v0.8.15+commit.e14f2714",
+  "file_count": 29,
+  "source_sha256": "da24912b4ce66c59801dc751c5b2724f3d6a2a2f1873e7d954d7e6b589f9bc81",
+  "fetched_at": "2026-06-03T05:08:33.221377+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@eth-optimism-bedrock/=lib/optimism/packages/contracts-bedrock/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@rari-capital/solmate/=lib/solmate/",
+      "@base-contracts/=lib/contracts/",
+      "solady/=lib/solady/src/",
+      "@solady/=lib/solady/src/",
+      "@solady-v0.0.245/=lib/solady-v0.0.245/src/",
+      "@lib-keccak/=lib/lib-keccak/contracts/lib/",
+      "forge-std/=lib/forge-std/src/",
+      "interfaces/dispute/=lib/contracts/interfaces/dispute/",
+      "interfaces/cannon/=lib/contracts/interfaces/cannon/",
+      "interfaces/multiproof/=lib/contracts/interfaces/multiproof/",
+      "interfaces/universal/=lib/contracts/interfaces/universal/",
+      "interfaces/L1/=lib/contracts/interfaces/L1/",
+      "interfaces/legacy/=lib/contracts/interfaces/legacy/",
+      "src/dispute/=lib/contracts/src/dispute/",
+      "src/multiproof/=lib/contracts/src/multiproof/",
+      "src/universal/=lib/contracts/src/universal/",
+      "src/L1/=lib/contracts/src/L1/",
+      "src/cannon/=lib/contracts/src/cannon/",
+      "src/vendor/=lib/contracts/src/vendor/",
+      "src/libraries/=lib/contracts/src/libraries/",
+      "lib/op-enclave/=lib/op-enclave/",
+      "openzeppelin/=lib/risc0-ethereum/lib/openzeppelin-contracts/",
+      "@openzeppelin/contracts-v5/=lib/contracts/lib/openzeppelin-contracts-v5/contracts/",
+      "@solady-test/=lib/lib-keccak/lib/solady/test/",
+      "clones-with-immutable-args/=lib/clones-with-immutable-args/src/",
+      "contracts/=lib/contracts/src/",
+      "ds-test/=lib/clones-with-immutable-args/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "kontrol-cheatcodes/=lib/contracts/lib/kontrol-cheatcodes/src/",
+      "lib-keccak/=lib/lib-keccak/contracts/",
+      "op-enclave/=lib/op-enclave/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "safe-contracts/=lib/contracts/lib/safe-contracts/contracts/",
+      "solady-v0.0.245/=lib/solady-v0.0.245/src/",
+      "solmate/=lib/solmate/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "viaIR": false
+  }
+}

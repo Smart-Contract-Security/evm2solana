@@ -1,0 +1,45 @@
+{
+  "address": "0x6ec30e492b5767473a187bad12d3e68d85a9c9e5",
+  "contract_name": "PeppePresale",
+  "compiler_version": "v0.8.29+commit.ab55807c",
+  "file_count": 11,
+  "source_sha256": "77001d4863e3efe42ac80807ee74a0d8cd8a10450a9cfe44d6d1b4afa8edc7e6",
+  "fetched_at": "2026-06-04T04:29:28.526922+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "@openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@chainlink/=lib/chainlink/",
+      "chainlink/=lib/chainlink/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

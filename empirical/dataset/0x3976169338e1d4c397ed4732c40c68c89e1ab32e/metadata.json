@@ -1,0 +1,28 @@
+{
+  "address": "0x3976169338e1d4c397ed4732c40c68c89e1ab32e",
+  "contract_name": "WETHWrappingFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 14,
+  "source_sha256": "9b24eca198f9246580e3b4d5a98e309c268e05d8de2b464be1eb7b0eb2f99dbd",
+  "fetched_at": "2026-06-03T05:11:37.775486+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "file": "MyToken.sol",
+    "original_lines": 51,
+    "ported_lines": 51,
+    "added": [
+      "        owner = tx.accounts[0];",
+      "        require(balanceOf[tx.accounts[0]] >= value, \"insufficient balance\");",
+      "        _transfer(tx.accounts[0], to, value);",
+      "        require(to != address(0), \"invalid to address\");",
+      "        allowance[tx.accounts[0]][spender] = value;",
+      "        emit Approval(tx.accounts[0], spender, value);",
+      "        require(value <= balanceOf[from], \"insufficient balance\");",
+      "        require(value <= allowance[from][tx.accounts[0]], \"insufficient allowance\");",
+      "        allowance[from][tx.accounts[0]] -= value;"
+    ],
+    "removed": [
+      "        owner = msg.sender;",
+      "        require(balanceOf[msg.sender] >= value, \"Insufficient balance\");",
+      "        _transfer(msg.sender, to, value);",
+      "        require(to != address(0), \"Invalid address\");",
+      "        allowance[msg.sender][spender] = value;",
+      "        emit Approval(msg.sender, spender, value);",
+      "        require(value <= balanceOf[from], \"Insufficient balance\");",
+      "        require(value <= allowance[from][msg.sender], \"Allowance exceeded\");",
+      "        allowance[from][msg.sender] -= value;"
+    ]
+  }
+]

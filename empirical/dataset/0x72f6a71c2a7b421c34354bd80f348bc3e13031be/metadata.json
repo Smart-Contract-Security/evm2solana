@@ -1,0 +1,27 @@
+{
+  "address": "0x72f6a71c2a7b421c34354bd80f348bc3e13031be",
+  "contract_name": "DEFINEW2016",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "6aed1e4dbedc67b7a385624cc66b0e7b3f391eb2d7aa472ec8e6730d4ee02fb8",
+  "fetched_at": "2026-06-02T13:17:05.264446+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "runs": 200,
+      "enabled": false
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

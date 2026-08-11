@@ -1,0 +1,27 @@
+{
+  "address": "0xc8992c2552e1445d15c2e288f89a2a427994f542",
+  "contract_name": "PepeByDonRChristensen",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 7,
+  "source_sha256": "991c4894ae1744251c3db275bec0516b07a636dbc2da1734420710a8d4e510e7",
+  "fetched_at": "2026-06-03T11:54:49.161154+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

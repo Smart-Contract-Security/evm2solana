@@ -1,0 +1,28 @@
+{
+  "address": "0x543a292dee59bfcb3ecc0e5185814b2d80c94098",
+  "contract_name": "AaveV3Strategy",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 13,
+  "source_sha256": "c00a44642c1652de0a4488815d9bd28011663d8aee600964ccfaed4525a67ac4",
+  "fetched_at": "2026-06-03T04:50:02.992488+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": false,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

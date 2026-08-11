@@ -1,0 +1,8 @@
+{
+  "address": "0x3db3b827b303e401b98ec2e5e9eecad064d72cab",
+  "contract_name": "PermissionManager",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "4253bcf33ada184b80f34d79bfc690af438cb807a3eb70d7dbc589b93611aa62",
+  "fetched_at": "2026-06-04T11:00:55.422505+00:00"
+}

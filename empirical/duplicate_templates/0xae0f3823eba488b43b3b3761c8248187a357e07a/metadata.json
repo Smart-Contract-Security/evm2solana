@@ -1,0 +1,52 @@
+{
+  "address": "0xae0f3823eba488b43b3b3761c8248187a357e07a",
+  "contract_name": "ERC1967Proxy",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 8,
+  "source_sha256": "75bb698d89dc4fea52b7a008d89ad718f0e6dc064a30a79acbd3c1890a23150c",
+  "fetched_at": "2026-06-02T12:48:20.783476+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "v4-core/=lib/v4-core/src/",
+      "v4-periphery/=lib/v4-periphery/src/",
+      "@ensdomains/=lib/v4-core/node_modules/@ensdomains/",
+      "@uniswap/v4-core/=lib/v4-periphery/lib/v4-core/",
+      "ds-test/=lib/v4-core/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/v4-periphery/lib/permit2/lib/forge-gas-snapshot/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "hardhat/=lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/v4-core/lib/openzeppelin-contracts/",
+      "openzeppelin-foundry-upgrades/=lib/openzeppelin-foundry-upgrades/src/",
+      "permit2/=lib/v4-periphery/lib/permit2/",
+      "solmate/=lib/v4-core/lib/solmate/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

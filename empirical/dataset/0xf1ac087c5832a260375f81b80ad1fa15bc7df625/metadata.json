@@ -1,0 +1,26 @@
+{
+  "address": "0xf1ac087c5832a260375f81b80ad1fa15bc7df625",
+  "contract_name": "PRISMSTR",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 6,
+  "source_sha256": "5b013b0bcff44bba06588beb3887a541b8573504b9a76cd9645f13f179dfddd2",
+  "fetched_at": "2026-06-01T10:28:55.946653+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

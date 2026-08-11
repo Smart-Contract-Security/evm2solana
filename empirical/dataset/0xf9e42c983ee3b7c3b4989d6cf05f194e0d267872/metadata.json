@@ -1,0 +1,49 @@
+{
+  "address": "0xf9e42c983ee3b7c3b4989d6cf05f194e0d267872",
+  "contract_name": "AirdropperV2",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 2,
+  "source_sha256": "6cf4c8a0ea2f9b99c064e513f30b0a2bf0c31f83cd93db6dcabca66cfbed856f",
+  "fetched_at": "2026-06-04T05:31:00.617443+00:00",
+  "solc_settings": {
+    "remappings": [
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@uniswap/merkle-distributor/=lib/merkle-distributor/contracts/",
+      "@murky/=lib/murky/src/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "merkle-distributor/=lib/merkle-distributor/contracts/",
+      "murky/=lib/murky/",
+      "openzeppelin-foundry-upgrades/=lib/openzeppelin-foundry-upgrades/src/",
+      "solidity-stringutils/=lib/openzeppelin-foundry-upgrades/lib/solidity-stringutils/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

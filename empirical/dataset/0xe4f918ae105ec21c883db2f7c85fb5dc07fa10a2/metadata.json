@@ -1,0 +1,51 @@
+{
+  "address": "0xe4f918ae105ec21c883db2f7c85fb5dc07fa10a2",
+  "contract_name": "LidoAdapter",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 20,
+  "source_sha256": "8ecc0b691d6993b33b4f43cba2d8533cc110a28cde57dfa379d37676af1d2cad",
+  "fetched_at": "2026-06-03T12:39:12.528737+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+      "@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+      "openzeppelin-foundry-upgrades/=lib/openzeppelin-foundry-upgrades/src/",
+      "@aave-dao/=node_modules/@aave-dao/",
+      "contracts/shared/=contracts/shared/",
+      "contracts/ethereum/interfaces/lending/fluid/IFluid.sol=contracts/shared/interfaces/lending/fluid/IFluid.sol",
+      "@bgd-labs/=node_modules/@bgd-labs/",
+      "aave-v3-origin/=lib/aave-v3-origin/",
+      "ds-test/=lib/aave-v3-origin/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/aave-v3-origin/lib/solidity-utils/lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/aave-v3-origin/lib/solidity-utils/lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "hardhat/=node_modules/hardhat/",
+      "openzeppelin-contracts-upgradeable/=lib/aave-v3-origin/lib/solidity-utils/lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/aave-v3-origin/lib/solidity-utils/lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/",
+      "solidity-utils/=lib/aave-v3-origin/lib/solidity-utils/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

@@ -1,0 +1,105 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {IERC20} from "../IERC20.sol";
+import {IERC1363} from "../../../interfaces/IERC1363.sol";
+
+library SafeERC20 {
+    error SafeERC20FailedOperation(address token);
+    error SafeERC20FailedDecreaseAllowance(address spender, uint256 currentAllowance, uint256 requestedDecrease);
+
+    function safeTransfer(IERC20 token, address to, uint256 value) internal {
+        _callOptionalReturn(token, abi.encodeWithSelector(token.transfer.selector, to, value));
+    }
+
+    function safeTransferFrom(IERC20 token, address from, address to, uint256 value) internal {
+        _callOptionalReturn(token, abi.encodeWithSelector(token.transferFrom.selector, from, to, value));
+    }
+
+    function trySafeTransfer(IERC20 token, address to, uint256 value) internal returns (bool) {
+        return _callOptionalReturnBool(token, abi.encodeWithSelector(token.transfer.selector, to, value));
+    }
+
+    function trySafeTransferFrom(IERC20 token, address from, address to, uint256 value) internal returns (bool) {
+        return _callOptionalReturnBool(token, abi.encodeWithSelector(token.transferFrom.selector, from, to, value));
+    }
+
+    function safeIncreaseAllowance(IERC20 token, address spender, uint256 value) internal {
+        uint256 oldAllowance = token.allowance(address(this), spender);
+        forceApprove(token, spender, oldAllowance + value);
+    }
+
+    function safeDecreaseAllowance(IERC20 token, address spender, uint256 requestedDecrease) internal {
+        unchecked {
+            uint256 currentAllowance = token.allowance(address(this), spender);
+            if (currentAllowance < requestedDecrease) {
+                revert SafeERC20FailedDecreaseAllowance(spender, currentAllowance, requestedDecrease);
+            }
+            forceApprove(token, spender, currentAllowance - requestedDecrease);
+        }
+    }
+
+    function forceApprove(IERC20 token, address spender, uint256 value) internal {
+        bytes memory approvalCall = abi.encodeWithSelector(token.approve.selector, spender, value);
+
+        if (!_callOptionalReturnBool(token, approvalCall)) {
+            _callOptionalReturn(token, abi.encodeWithSelector(token.approve.selector, spender, 0));
+            _callOptionalReturn(token, approvalCall);
+        }
+    }
+
+    function transferAndCallRelaxed(IERC1363 token, address to, uint256 value, bytes memory data) internal {
+        if (to.code.length == 0) {
+            safeTransfer(token, to, value);
+        } else if (!token.transferAndCall(to, value, data)) {
+            revert SafeERC20FailedOperation(address(token));
+        }
+    }
+
+    function transferFromAndCallRelaxed(
+        IERC1363 token,
+        address from,
+        address to,
+        uint256 value,
+        bytes memory data
+    ) internal {
+        if (to.code.length == 0) {
+            safeTransferFrom(token, from, to, value);
+        } else if (!token.transferFromAndCall(from, to, value, data)) {
+            revert SafeERC20FailedOperation(address(token));
+        }
+    }
+
+    function approveAndCallRelaxed(IERC1363 token, address to, uint256 value, bytes memory data) internal {
+        if (to.code.length == 0) {
+            forceApprove(token, to, value);
+        } else if (!token.approveAndCall(to, value, data)) {
+            revert SafeERC20FailedOperation(address(token));
+        }
+    }
+
+    function _callOptionalReturn(IERC20 token, bytes memory data) private {
+        (bool success, bytes memory returndata) = address(token).call(data);
+        if (!success) {
+            if (returndata.length > 0) {
+                assembly {
+                    let returndata_size := mload(returndata)
+                    revert(add(32, returndata), returndata_size)
+                }
+            } else {
+                revert SafeERC20FailedOperation(address(token));
+            }
+        }
+        if (returndata.length == 0 ? address(token).code.length == 0 : abi.decode(returndata, (bool)) != true) {
+            revert SafeERC20FailedOperation(address(token));
+        }
+    }
+
+    function _callOptionalReturnBool(IERC20 token, bytes memory data) private returns (bool) {
+        (bool success, bytes memory returndata) = address(token).call(data);
+        if (!success) {
+            return false;
+        }
+        return (returndata.length == 0 ? address(token).code.length > 0 : abi.decode(returndata, (bool)) == true);
+    }
+}

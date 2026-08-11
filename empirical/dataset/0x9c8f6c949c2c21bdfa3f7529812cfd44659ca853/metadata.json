@@ -1,0 +1,28 @@
+{
+  "address": "0x9c8f6c949c2c21bdfa3f7529812cfd44659ca853",
+  "contract_name": "TermStrategyFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 47,
+  "source_sha256": "8934fe0dfb783262fe1b3e82c1aa6415f42cdef8498f21fe9edfa4d240ead253",
+  "fetched_at": "2026-06-03T05:11:22.445354+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

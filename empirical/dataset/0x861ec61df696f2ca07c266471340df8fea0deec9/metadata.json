@@ -1,0 +1,49 @@
+{
+  "address": "0x861ec61df696f2ca07c266471340df8fea0deec9",
+  "contract_name": "CIRC",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 100,
+  "source_sha256": "a50918b6a04ed0a7da60a303f94cf8b5bb3a973bca3472d9c3a3987d0b2cfed4",
+  "fetched_at": "2026-06-01T12:27:01.114964+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@uniswap/v4-core/=lib/v4-periphery/lib/v4-core/",
+      "v4-core/=lib/v4-periphery/lib/v4-core/",
+      "v4-periphery/=lib/v4-periphery/",
+      "permit2/=lib/v4-periphery/lib/permit2/",
+      "solmate/=lib/v4-periphery/lib/v4-core/lib/solmate/",
+      "forge-std/=lib/v4-periphery/lib/v4-core/lib/forge-std/src/",
+      "ds-test/=lib/v4-periphery/lib/v4-core/lib/forge-std/lib/ds-test/src/",
+      "@ensdomains/=lib/v4-core/node_modules/@ensdomains/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/v4-periphery/lib/permit2/lib/forge-gas-snapshot/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "hardhat/=lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

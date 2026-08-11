@@ -1,0 +1,27 @@
+{
+  "address": "0x07d7daeea5ce6ca3ec45792bb1e46811659df973",
+  "contract_name": "ZPatriot",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "47c93fb4c4ea35e8013cd98b23b1674f1bd8256ade3198a535fb977db51cfd34",
+  "fetched_at": "2026-06-01T04:43:07.615553+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

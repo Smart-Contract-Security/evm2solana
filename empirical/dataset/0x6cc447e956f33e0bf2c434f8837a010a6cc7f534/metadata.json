@@ -1,0 +1,27 @@
+{
+  "address": "0x6cc447e956f33e0bf2c434f8837a010a6cc7f534",
+  "contract_name": "Counter",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 1,
+  "source_sha256": "ef50b9053a74e7d51eb6d0cd6c37d4303accfa5446f700b72e6961405018d78d",
+  "fetched_at": "2026-06-01T10:43:43.712786+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

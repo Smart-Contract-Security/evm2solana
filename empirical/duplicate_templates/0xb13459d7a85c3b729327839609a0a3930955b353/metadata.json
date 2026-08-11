@@ -1,0 +1,27 @@
+{
+  "address": "0xb13459d7a85c3b729327839609a0a3930955b353",
+  "contract_name": "CrookedMilo",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "428554547b09cb98e86e0e6cc6ae305db0e2119a93982b7394a1dfe19d53b102",
+  "fetched_at": "2026-06-02T06:59:57.993566+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

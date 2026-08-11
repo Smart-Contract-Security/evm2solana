@@ -1,0 +1,26 @@
+{
+  "address": "0x01e658d3f5da72866a090b6a5102221d70639ef2",
+  "contract_name": "TYPHOONStaking",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 8,
+  "source_sha256": "8e13edf885aae4a57414e57f5d66058101ef00605bf83f63ac44357a1607856d",
+  "fetched_at": "2026-06-04T10:47:31.621456+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

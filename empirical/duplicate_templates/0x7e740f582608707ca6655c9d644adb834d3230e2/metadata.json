@@ -1,0 +1,27 @@
+{
+  "address": "0x7e740f582608707ca6655c9d644adb834d3230e2",
+  "contract_name": "ONI",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "3418225423c51ec104d04bd2ec6264b659d1a019dd6edd435e7230d6058f5f7d",
+  "fetched_at": "2026-06-04T04:38:41.375721+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

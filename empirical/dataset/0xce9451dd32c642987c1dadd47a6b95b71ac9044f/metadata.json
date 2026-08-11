@@ -1,0 +1,30 @@
+{
+  "address": "0xce9451dd32c642987c1dadd47a6b95b71ac9044f",
+  "contract_name": "DiamondCutFacet",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 3,
+  "source_sha256": "a4f729a451c03f861fed8d02738fa73beee63f5bd52b57bbcb48b027fdac8400",
+  "fetched_at": "2026-06-01T13:06:41.959346+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

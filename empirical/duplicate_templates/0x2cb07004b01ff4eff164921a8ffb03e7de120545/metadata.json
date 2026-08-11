@@ -1,0 +1,27 @@
+{
+  "address": "0x2cb07004b01ff4eff164921a8ffb03e7de120545",
+  "contract_name": "cut",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "2274e39a20231f64bf7d1181d40cd857040b31782cce53c88040839a8317a817",
+  "fetched_at": "2026-06-01T03:25:07.853260+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

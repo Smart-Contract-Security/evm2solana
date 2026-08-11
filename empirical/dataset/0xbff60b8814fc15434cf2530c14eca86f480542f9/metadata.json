@@ -1,0 +1,30 @@
+{
+  "address": "0xbff60b8814fc15434cf2530c14eca86f480542f9",
+  "contract_name": "ForgottenWorldsNFT",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 20,
+  "source_sha256": "9194ed2cbc1a903e9a08f7dc8510a2bbd3ca66088ecc30fc8049a7ab12e17a4f",
+  "fetched_at": "2026-06-01T08:34:28.917503+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/"
+    ]
+  }
+}

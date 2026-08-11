@@ -1,0 +1,26 @@
+{
+  "address": "0x86a5437eab5eb49da01efdf7c7f9575e63cec149",
+  "contract_name": "satoshi",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "538d901f33b0c53c62d21eec7366c8f8ca728a231a7b1bea64af809662146876",
+  "fetched_at": "2026-06-04T11:07:21.812294+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

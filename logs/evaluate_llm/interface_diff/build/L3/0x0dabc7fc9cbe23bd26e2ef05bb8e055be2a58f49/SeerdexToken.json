@@ -1,0 +1,283 @@
+{
+  "version": "0.0.1",
+  "name": "SeerdexToken",
+  "instructions": [
+    {
+      "name": "projectDevReserve",
+      "accounts": [],
+      "args": [],
+      "returns": "u128"
+    },
+    {
+      "name": "ecosystemRewardsReserve",
+      "accounts": [],
+      "args": [],
+      "returns": "u128"
+    },
+    {
+      "name": "marketingReserve",
+      "accounts": [],
+      "args": [],
+      "returns": "u128"
+    },
+    {
+      "name": "stakingReserve",
+      "accounts": [],
+      "args": [],
+      "returns": "u128"
+    },
+    {
+      "name": "liquidityReserve",
+      "accounts": [],
+      "args": [],
+      "returns": "u128"
+    },
+    {
+      "name": "new",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": true,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "name",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [],
+      "returns": "string"
+    },
+    {
+      "name": "symbol",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [],
+      "returns": "string"
+    },
+    {
+      "name": "decimals",
+      "accounts": [],
+      "args": [],
+      "returns": "u8"
+    },
+    {
+      "name": "totalSupply",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [],
+      "returns": "u128"
+    },
+    {
+      "name": "balanceOf",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "account",
+          "type": "publicKey"
+        }
+      ],
+      "returns": "u128"
+    },
+    {
+      "name": "transfer",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": true,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "to",
+          "type": "publicKey"
+        },
+        {
+          "name": "amount",
+          "type": "u128"
+        }
+      ],
+      "returns": "bool"
+    },
+    {
+      "name": "allowance",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "owner",
+          "type": "publicKey"
+        },
+        {
+          "name": "spender",
+          "type": "publicKey"
+        }
+      ],
+      "returns": "u128"
+    },
+    {
+      "name": "approve",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": true,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "spender",
+          "type": "publicKey"
+        },
+        {
+          "name": "amount",
+          "type": "u128"
+        }
+      ],
+      "returns": "bool"
+    },
+    {
+      "name": "transferFrom",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": true,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "from",
+          "type": "publicKey"
+        },
+        {
+          "name": "to",
+          "type": "publicKey"
+        },
+        {
+          "name": "amount",
+          "type": "u128"
+        }
+      ],
+      "returns": "bool"
+    },
+    {
+      "name": "burn",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": true,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u128"
+        }
+      ]
+    },
+    {
+      "name": "burnFrom",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": true,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "account",
+          "type": "publicKey"
+        },
+        {
+          "name": "amount",
+          "type": "u128"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "Transfer",
+      "fields": [
+        {
+          "name": "from",
+          "type": "publicKey",
+          "index": true
+        },
+        {
+          "name": "to",
+          "type": "publicKey",
+          "index": true
+        },
+        {
+          "name": "value",
+          "type": "u128",
+          "index": false
+        }
+      ]
+    },
+    {
+      "name": "Approval",
+      "fields": [
+        {
+          "name": "owner",
+          "type": "publicKey",
+          "index": true
+        },
+        {
+          "name": "spender",
+          "type": "publicKey",
+          "index": true
+        },
+        {
+          "name": "value",
+          "type": "u128",
+          "index": false
+        }
+      ]
+    }
+  ]
+}

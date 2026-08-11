@@ -1,0 +1,23 @@
+{
+  "address": "0x41874ce596ee47a21856e89aba9055da59b165f1",
+  "contract_name": "STA",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 20,
+  "source_sha256": "94a5b884ddb965160482eaca32b812199f2c51d4c4efe211baa40f7eb68eb773",
+  "fetched_at": "2026-06-03T05:21:30.117076+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/"
+    ]
+  }
+}

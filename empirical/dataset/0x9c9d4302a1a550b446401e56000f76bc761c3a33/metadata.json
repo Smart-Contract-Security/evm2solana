@@ -1,0 +1,27 @@
+{
+  "address": "0x9c9d4302a1a550b446401e56000f76bc761c3a33",
+  "contract_name": "eth",
+  "compiler_version": "v0.8.18+commit.87f61d96",
+  "file_count": 4,
+  "source_sha256": "dd62bbde1575d987509efb2bdd4a43beb2d9aebfeee97c66e49830b95a4ef824",
+  "fetched_at": "2026-06-04T11:45:13.958225+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

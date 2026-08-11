@@ -1,0 +1,31 @@
+{
+  "address": "0x0baa5bc45f8ec6d9f61f390ae569966dd965f0ee",
+  "contract_name": "CreationRegistry",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 29,
+  "source_sha256": "1690c2eda92b406e80b076a6ea98799633ef69bc96c75ee406bcdf999e56433f",
+  "fetched_at": "2026-06-03T12:36:59.010436+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/"
+    ],
+    "viaIR": true
+  }
+}

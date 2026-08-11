@@ -1,0 +1,8 @@
+{
+  "address": "0x3c9f53a0aef44a20a18f341e45a698ba36f102a4",
+  "contract_name": "WalletBasedAuth",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 1,
+  "source_sha256": "dbb6809680bdb038ae5891315d66452b623b1f2fdd2b5467a0e559905835e8c4",
+  "fetched_at": "2026-06-04T13:20:55.116944+00:00"
+}

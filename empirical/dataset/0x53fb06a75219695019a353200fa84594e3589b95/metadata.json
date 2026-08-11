@@ -1,0 +1,27 @@
+{
+  "address": "0x53fb06a75219695019a353200fa84594e3589b95",
+  "contract_name": "InterchainAccountRouter",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 27,
+  "source_sha256": "c3f562904be2dc8c27146d5b98544da482db2b3ad2f083c5b5d4e54cb1bee3f0",
+  "fetched_at": "2026-06-04T05:12:56.323886+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

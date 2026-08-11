@@ -1,0 +1,28 @@
+{
+  "address": "0x2c5d7c65f7276190c47c45300e71e93d8401836a",
+  "contract_name": "TermFlashLoanCentralReceiverFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 26,
+  "source_sha256": "be63b0d14949d5fe427c44064265cc9cec5978bcc89bb444609e1ecaedbc60fa",
+  "fetched_at": "2026-06-03T05:10:26.132542+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

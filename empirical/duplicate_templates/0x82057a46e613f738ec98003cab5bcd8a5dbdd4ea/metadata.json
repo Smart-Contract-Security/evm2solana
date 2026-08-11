@@ -1,0 +1,27 @@
+{
+  "address": "0x82057a46e613f738ec98003cab5bcd8a5dbdd4ea",
+  "contract_name": "BCC",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "397e6a31f08b9a94d853d3b4abdca97abee87d4cbd45741daa4ba0d8b4f92187",
+  "fetched_at": "2026-06-01T03:11:20.382482+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

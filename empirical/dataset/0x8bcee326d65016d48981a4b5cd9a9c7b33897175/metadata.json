@@ -1,0 +1,36 @@
+{
+  "address": "0x8bcee326d65016d48981a4b5cd9a9c7b33897175",
+  "contract_name": "OrderForwarderFactory",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 2,
+  "source_sha256": "9f2b9750c03e3c795d23f457fb5976d40d758905de1513622a6b557b2e23d52c",
+  "fetched_at": "2026-06-01T10:19:15.895195+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

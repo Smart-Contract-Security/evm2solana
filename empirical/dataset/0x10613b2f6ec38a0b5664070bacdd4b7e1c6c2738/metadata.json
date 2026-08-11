@@ -1,0 +1,24 @@
+{
+  "address": "0x10613b2f6ec38a0b5664070bacdd4b7e1c6c2738",
+  "contract_name": "TripperPunks",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 11,
+  "source_sha256": "67da24828b26b381150007214a04d803ff416466f370b9d3e09f616540175ecf",
+  "fetched_at": "2026-06-02T09:04:56.935489+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

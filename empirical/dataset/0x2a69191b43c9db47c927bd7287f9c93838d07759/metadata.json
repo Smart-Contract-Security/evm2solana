@@ -1,0 +1,36 @@
+{
+  "address": "0x2a69191b43c9db47c927bd7287f9c93838d07759",
+  "contract_name": "L1Migrator",
+  "compiler_version": "v0.8.9+commit.e5eed63a",
+  "file_count": 17,
+  "source_sha256": "5ed99cb8d955145d64ab42b154d6c069c3364e86ff385cbb9aa37bd7a8065b74",
+  "fetched_at": "2026-06-03T12:39:49.322984+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=lib/ds-test/src/",
+      "@openzeppelin/=node_modules/@openzeppelin/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "viaIR": false
+  }
+}

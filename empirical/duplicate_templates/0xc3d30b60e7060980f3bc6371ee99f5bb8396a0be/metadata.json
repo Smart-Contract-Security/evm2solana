@@ -1,0 +1,31 @@
+{
+  "address": "0xc3d30b60e7060980f3bc6371ee99f5bb8396a0be",
+  "contract_name": "PaymasterDeposit",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 4,
+  "source_sha256": "72fef6c728b7269afab055045f1569ebb202cca5e02391f3b77c19a41c53b50e",
+  "fetched_at": "2026-06-01T03:27:18.205262+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

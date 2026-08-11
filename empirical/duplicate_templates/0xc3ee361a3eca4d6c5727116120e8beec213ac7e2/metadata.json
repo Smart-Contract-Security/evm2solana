@@ -1,0 +1,27 @@
+{
+  "address": "0xc3ee361a3eca4d6c5727116120e8beec213ac7e2",
+  "contract_name": "BasementLabsERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "4aeec7dc795d4b834dcdae025763bece53c5a6f62c4447a52fd7fbf3245ad8b1",
+  "fetched_at": "2026-06-03T06:54:46.303833+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

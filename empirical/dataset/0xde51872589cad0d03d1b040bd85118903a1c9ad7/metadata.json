@@ -1,0 +1,67 @@
+{
+  "address": "0xde51872589cad0d03d1b040bd85118903a1c9ad7",
+  "contract_name": "MoonwellViewsV3",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 65,
+  "source_sha256": "2cbc5c9ab7f1d440611d12df9f34cf84e3c757bc190bf7942ba99f72d01ea160",
+  "fetched_at": "2026-06-03T05:31:59.762032+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@forge-std/=lib/forge-std/src/",
+      "@openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "@openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "@wormhole/=lib/wormhole/ethereum/contracts/",
+      "@protocol/=src/",
+      "@test/=test/",
+      "@proposals/=proposals/",
+      "@utils/=src/utils/",
+      "@zelt/=lib/zelt/",
+      "@deprecated/=deprecated/",
+      "@script/=script/",
+      "@crv-rewards/=crv-rewards/",
+      "wormhole-sdk/=lib/wormhole-solidity-sdk/src/",
+      "wormhole-solidity-sdk/=lib/wormhole-solidity-sdk/src/",
+      "@zelt-src/=lib/zelt/src/",
+      "@zelt-test/=lib/zelt/test/",
+      "IERC20/=lib/wormhole-solidity-sdk/src/interfaces/token/",
+      "SafeERC20/=lib/wormhole-solidity-sdk/src/libraries/",
+      "ds-test/=lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "solmate/=lib/solmate/src/",
+      "wormhole/=lib/wormhole/",
+      "zelt/=lib/zelt/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1,
+      "details": {}
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "debug": {
+      "revertStrings": "default"
+    }
+  }
+}

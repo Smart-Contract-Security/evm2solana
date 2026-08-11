@@ -1,0 +1,40 @@
+{
+  "address": "0xe3f21344f3fe184eaf2b403ad070c47583833295",
+  "contract_name": "MintableERC20",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 15,
+  "source_sha256": "a9a7a6b0e5b498bfc318436515853c8a8c7e0dce8ad03a11b28966da68081aa2",
+  "fetched_at": "2026-06-01T13:07:36.903554+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@onchain-id/=node_modules/@onchain-id/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "erc721a/=node_modules/erc721a/",
+      "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+      "forge-std/=lib/forge-std/src/",
+      "hardhat/=node_modules/hardhat/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "viaIR": false
+  }
+}

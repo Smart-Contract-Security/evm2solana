@@ -1,0 +1,27 @@
+{
+  "address": "0x1708b02e024af0d8c46fdab1c5ed4419f1a33cb4",
+  "contract_name": "ZippyWhaleToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "6b748353a9b71edf266286272fbeed74d823acd13a137789d83aaed3996d7b74",
+  "fetched_at": "2026-06-02T02:10:46.260688+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

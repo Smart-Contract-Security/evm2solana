@@ -1,0 +1,28 @@
+{
+  "address": "0xce33cf02ec5a9ec8b2a8f56708f5eb58be12a768",
+  "contract_name": "BICITY",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "06088736fb7bb8ce80a29f89a8b3bdc83f15cd0e0590e31dc064d01e87c4e14c",
+  "fetched_at": "2026-06-04T12:07:32.324132+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

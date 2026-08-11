@@ -1,0 +1,48 @@
+{
+  "address": "0x1047efc83e1ae3f0d0941ccb1f236cba67f80355",
+  "contract_name": "LSD",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 46,
+  "source_sha256": "312402c3f4a03bb2f7da3cdb08a1da16aa3dfc82e7f97e4b19cbc7bbb90e08bd",
+  "fetched_at": "2026-06-03T12:53:31.398057+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "@layerzerolabs/lz-evm-oapp-v2/=lib/LayerZero-v2/packages/layerzero-v2/evm/oapp/",
+      "@layerzerolabs/lz-evm-protocol-v2/=lib/LayerZero-v2/packages/layerzero-v2/evm/protocol/",
+      "@layerzerolabs/lz-evm-messagelib-v2/=lib/LayerZero-v2/packages/layerzero-v2/evm/messagelib/",
+      "solidity-bytes-utils/=lib/solidity-bytes-utils/",
+      "LayerZero-v2/=lib/LayerZero-v2/",
+      "ds-test/=lib/solidity-bytes-utils/lib/forge-std/lib/ds-test/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

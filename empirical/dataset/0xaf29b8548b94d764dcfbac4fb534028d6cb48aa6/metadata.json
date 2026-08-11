@@ -1,0 +1,8 @@
+{
+  "address": "0xaf29b8548b94d764dcfbac4fb534028d6cb48aa6",
+  "contract_name": "NonCustodialERC20OrderBook",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "7033114dc3039820acd32654016d6cc77ee52cb7393f11c3c6f910ae55f24990",
+  "fetched_at": "2026-06-02T02:20:00.993821+00:00"
+}

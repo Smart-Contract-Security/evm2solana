@@ -1,0 +1,27 @@
+{
+  "address": "0x5f08925750f5eb2bfde68f92dacc5346a1aff502",
+  "contract_name": "WenAirdropERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "3c1f3cb0aefce2c5047553c88bc791b6e0f69032e87629fa37cbc3ddfa7147ed",
+  "fetched_at": "2026-06-02T06:34:38.006658+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0x91cc15b5585c14e4d7fa2dd9c426bb0770150316",
+  "contract_name": "BUPE",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "f83e31bc456560f75b6654b48b0727bd9ce8a3bf97fcd5612ae08377c12c67c2",
+  "fetched_at": "2026-06-04T04:11:25.420797+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

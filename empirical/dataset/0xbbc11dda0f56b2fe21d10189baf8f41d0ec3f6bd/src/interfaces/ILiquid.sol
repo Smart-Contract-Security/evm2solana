@@ -1,0 +1,296 @@
+// SPDX-License-Identifier: BUSL-1.1
+pragma solidity ^0.8.0;
+
+import {IERC20Metadata} from "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
+import {Currency} from "v4-core/types/Currency.sol";
+import {IHooks} from "v4-core/interfaces/IHooks.sol";
+import {PoolKey} from "v4-core/types/PoolKey.sol";
+import {PoolId} from "v4-core/types/PoolId.sol";
+import {Position} from "doppler/types/Position.sol";
+
+/// @title Liquid interface
+/// @dev Extends IERC20Metadata so callers can use a single ILiquid ABI for all token interactions
+///      including balanceOf, totalSupply, transfer, approve, name, symbol, decimals, etc.
+interface ILiquid is IERC20Metadata {
+    /// @notice Thrown when an operation is attempted with a zero address
+    error AddressZero();
+
+    /// @notice Thrown when the user has insufficient token balance for a sell operation
+    error InsufficientBalance();
+
+    /// @notice Thrown when the RARE token amount provided for initial liquidity is too small
+    error RARELiquidityTooSmall();
+
+    /// @notice Thrown when an ETH transfer fails
+    error EthTransferFailed();
+
+    /// @notice Thrown when an operation is attempted by an entity other than the V4 PoolManager
+    error OnlyPoolManager();
+
+    /// @notice Thrown when an unexpected unlock callback is received (security guard)
+    error UnexpectedUnlock();
+
+    /// @notice Thrown when the tick range is invalid (lower >= upper)
+    error InvalidTickRange();
+
+    /// @notice Thrown when the fee distribution is invalid (must sum to exactly 10000 BPS / 100%)
+    error InvalidFeeDistribution();
+
+    /// @notice Thrown when an invalid token URI is provided
+    error InvalidTokenURI();
+
+    /// @notice Thrown when caller is not the token creator
+    error NotTokenCreator();
+
+    /// @notice Thrown when the pool has not been initialized yet
+    error PoolNotInitialized();
+
+    /// @notice Thrown when liquidity amount is zero
+    error ZeroLiquidity();
+
+    /// @notice Thrown when liquidity amount exceeds maximum allowed value
+    error LiquidityTooLarge(uint256 liquidity);
+
+    /// @notice Thrown when swap delta0 has invalid sign (expected negative for buys, positive for sells)
+    error InvalidSwapDelta0(int128 delta0);
+
+    /// @notice Thrown when swap delta1 has invalid sign (expected positive for buys, negative for sells)
+    error InvalidSwapDelta1(int128 delta1);
+
+    /// @notice Thrown when a value exceeds uint128 maximum
+    error AmountExceedsUint128(uint256 value);
+
+    /// @notice Thrown when a value is negative but should be non-negative
+    error NegativeValue(int128 value);
+
+    /// @notice Thrown when a value is positive but should be non-positive
+    error PositiveValue(int128 value);
+
+    /// @notice Thrown when caller is not the migration executor
+    error OnlyMigrationExecutor();
+
+    /// @notice Thrown when migration is called with no new positions
+    error NoPositions();
+
+    /// @notice Thrown when migration new pool key currencies don't match the existing pool
+    error CurrencyMismatch();
+
+    /// @notice Thrown when positions array exceeds the maximum allowed length
+    error TooManyPositions();
+
+    /// @notice Thrown when positions array length doesn't match the expected count
+    error InvalidPositionCount();
+
+    /// @notice Thrown when a migration position uses a non-zero salt
+    /// @dev Salt must always be bytes32(0) to ensure future migrations can locate the position
+    error NonZeroSalt();
+
+    /// @notice Thrown when migration dust exceeds the specified maximum
+    /// @param currency The currency address with excess dust
+    /// @param actual The actual dust amount
+    /// @param max The maximum allowed dust amount
+    error DustExceeded(address currency, uint256 actual, uint256 max);
+
+    /// @notice Thrown when quote simulation completes without reverting (unexpected behavior)
+    /// @dev Quote simulations use a revert-as-return pattern and should always revert
+    error QuoteSimulationDidNotRevert();
+
+    /// @notice Revert-as-return pattern for quote simulations
+    /// @dev Not a real error - used to return quote results from simulation callbacks
+    /// @param amountOut The simulated output amount from the swap
+    /// @param sqrtPriceX96After The sqrt price after the simulated swap
+    error QuoteResult(uint256 amountOut, uint160 sqrtPriceX96After);
+
+    /// @notice Emitted when Liquid tokens are transferred
+    /// @param from The address of the sender
+    /// @param to The address of the recipient
+    /// @param amount The amount of tokens transferred
+    /// @param fromTokenBalance The token balance of the sender after the transfer
+    /// @param toTokenBalance The token balance of the recipient after the transfer
+    /// @param totalSupply The total supply of tokens after the transfer
+    event LiquidTransfer(
+        address indexed from,
+        address indexed to,
+        uint256 amount,
+        uint256 fromTokenBalance,
+        uint256 toTokenBalance,
+        uint256 totalSupply
+    );
+
+    /// @notice Emitted when a market graduates
+    /// @param tokenAddress The address of the token
+    /// @param poolAddress The address of the pool
+    /// @param totalRareLiquidity The total RARE liquidity in the pool
+    /// @param totalTokenLiquidity The total token liquidity in the pool
+    /// @param lpPositionId The ID of the liquidity position
+    event LiquidMarketGraduated(
+        address indexed tokenAddress,
+        address indexed poolAddress,
+        uint256 totalRareLiquidity,
+        uint256 totalTokenLiquidity,
+        uint256 lpPositionId
+    );
+
+    /// @notice Emitted when liquidity is migrated to a new pool
+    /// @param oldHooks The old hook contract address
+    /// @param newHooks The new hook contract address
+    event LiquidityMigrated(
+        address indexed oldHooks,
+        address indexed newHooks
+    );
+
+    /// @notice Emitted when the render contract is set
+    /// @param renderContract The address of the render contract
+    event RenderContractSet(address indexed renderContract);
+
+    /// @notice Enables a user to burn their tokens
+    /// @param amount The amount of tokens to burn
+    function burn(uint256 amount) external;
+
+    /// @notice Atomically migrates all LP liquidity to a new pool with a different hook configuration
+    /// @dev Only callable by the migration executor configured in the token's factory.
+    ///      Removes liquidity from the old pool, initializes the new pool, and adds liquidity
+    ///      to the new pool within a single PoolManager unlock callback. Tokens never leave the PoolManager.
+    /// @param newPoolKey The target pool configuration (different hooks, same currencies)
+    /// @param newSqrtPriceX96 The starting price for the new pool
+    /// @param newPositions The liquidity positions to create in the new pool
+    /// @param dustRecipient Address to receive any dust from rounding differences
+    /// @param maxDust0 Maximum allowed positive net delta for currency0
+    /// @param maxDust1 Maximum allowed positive net delta for currency1
+    function migrateLiquidity(
+        PoolKey calldata newPoolKey,
+        uint160 newSqrtPriceX96,
+        Position[] calldata newPositions,
+        address dustRecipient,
+        uint256 maxDust0,
+        uint256 maxDust1
+    ) external;
+
+    /// @notice Returns the initial URI of the token
+    /// @return The initial token URI
+    function initialTokenUri() external view returns (string memory);
+
+    /// @notice ERC-1046 compatible tokenURI function
+    /// @dev Returns metadata URI, checking render contract first if set
+    /// @return The token URI (from render contract if set, otherwise stored initialTokenUri)
+    function tokenURI() external view returns (string memory);
+
+    /// @notice Sets the render contract address (only callable by token creator)
+    /// @param _renderContract The address of the render contract (can be address(0) to clear)
+    function setRenderContract(address _renderContract) external;
+
+    /// @notice Returns the address of the token creator
+    /// @return The token creator's address
+    function tokenCreator() external view returns (address);
+
+    /// @notice Returns the base token address (RARE)
+    /// @return The base token address
+    function baseToken() external view returns (address);
+
+    /// @notice Returns the factory address
+    /// @return The factory address
+    function factory() external view returns (address);
+
+    /// @notice Returns the render contract address
+    /// @return The render contract address (address(0) if not set)
+    function renderContract() external view returns (address);
+
+    /// @notice Returns the pool manager address
+    /// @return The Uniswap V4 PoolManager address
+    function poolManager() external view returns (address);
+
+    /// @notice Returns the Uniswap V4 pool key (currency pair, fee, tick spacing, hooks)
+    /// @dev Struct fields are returned individually (Solidity auto-getter for public struct state variables).
+    ///      Reconstruct the PoolKey on the client side from the five return values.
+    function poolKey() external view returns (Currency currency0, Currency currency1, uint24 fee, int24 tickSpacing, IHooks hooks);
+
+    /// @notice Returns the Uniswap V4 pool ID derived from the pool key
+    /// @return The PoolId for this token's pool (bytes32(0) if not yet initialized)
+    function poolId() external view returns (PoolId);
+
+    /// @notice Returns the maximum total supply minted at launch for this token
+    function maxTotalSupply() external view returns (uint256);
+
+    /// @notice Returns the tokens allocated to the pool at launch (maxTotalSupply - creatorLaunchReward)
+    function poolLaunchSupply() external view returns (uint256);
+
+    /// @notice Returns the tokens sent to the creator at launch (may be zero)
+    function creatorLaunchReward() external view returns (uint256);
+
+    /// @notice Returns the lower tick bound for LP position
+    /// @return The lower tick bound
+    function lpTickLower() external view returns (int24);
+
+    /// @notice Returns the upper tick bound for LP position
+    /// @return The upper tick bound
+    function lpTickUpper() external view returns (int24);
+
+    /// @notice Returns the LP position liquidity amount
+    /// @dev For LiquidInstant this is the single position's liquidity.
+    ///      For LiquidMultiCurve this is always 0 (liquidity is tracked per-position).
+    ///      Prefer totalLiquidity() for a unified view across token types.
+    /// @return The liquidity amount
+    function lpLiquidity() external view returns (uint128);
+
+    /// @notice Returns the total active liquidity at the current pool tick
+    /// @dev Reads directly from the Uniswap V4 PoolManager. Works identically for all
+    ///      token types (Instant, MultiCurve, Graduated). Returns 0 if pool not initialized
+    ///      or if liquidity has been removed.
+    /// @return The active liquidity at the current tick
+    function totalLiquidity() external view returns (uint128);
+
+    /// @notice Returns the current raw pool price (no fees) in both directions
+    /// @dev Reads directly from Uniswap V4 pool slot0. Returns WEI values scaled to 1e18.
+    ///      Price is in RARE (base token), not ETH. Use client-side quoter for ETH prices.
+    /// @return rarePerToken WEI of RARE per 1e18 tokens
+    /// @return tokenPerRare WEI of tokens per 1e18 RARE
+    function getCurrentPrice()
+        external
+        view
+        returns (uint256 rarePerToken, uint256 tokenPerRare);
+
+    /// @notice Returns all market state for rendering in a single call
+    /// @dev Useful for render contracts and frontends that need multiple data points.
+    ///      Combines price, pool state, and supply info to minimize RPC calls.
+    /// @return rarePerToken Current price (RARE per 1e18 LIQUID tokens)
+    /// @return tokenPerRare Inverse price (LIQUID tokens per 1e18 RARE)
+    /// @return sqrtPriceX96 Raw Uniswap pool price (Q64.96 format)
+    /// @return currentTick Current tick position in the pool
+    /// @return liquidity Current total pool liquidity
+    /// @return currentSupply Total tokens in circulation (totalSupply())
+    function getMarketState()
+        external
+        view
+        returns (
+            uint256 rarePerToken,
+            uint256 tokenPerRare,
+            uint160 sqrtPriceX96,
+            int24 currentTick,
+            uint128 liquidity,
+            uint256 currentSupply
+        );
+
+    /// @notice Simulates a RARE to LIQUID swap (buy direction)
+    /// @dev Simulates the swap via unlock callback. Uses revert-as-return pattern for gas-free simulation.
+    ///      Not marked `view` (simulation reverts-to-return); use via eth_call.
+    ///      Note: This quotes a direct RARE→LIQUID swap. For ETH→RARE→LIQUID routes, use LiquidRouter or client-side quoter.
+    ///      Fees are collected by LiquidGuard at the pool level during swaps (if attached).
+    /// @param rareIn Amount of RARE to swap
+    /// @return liquidOut LIQUID tokens that would be received from the swap
+    /// @return sqrtPriceX96After Post-swap sqrt price (useful for price impact calculations)
+    function quoteBuy(
+        uint256 rareIn
+    ) external returns (uint256 liquidOut, uint160 sqrtPriceX96After);
+
+    /// @notice Simulates a LIQUID to RARE swap (sell direction)
+    /// @dev Simulates the swap via unlock callback. Uses revert-as-return pattern for gas-free simulation.
+    ///      Not marked `view` (simulation reverts-to-return); use via eth_call.
+    ///      Note: This quotes a direct LIQUID→RARE swap. For LIQUID→RARE→ETH routes, use LiquidRouter or client-side quoter.
+    ///      Fees are collected by LiquidGuard at the pool level during swaps (if attached).
+    /// @param liquidIn Amount of LIQUID tokens to swap
+    /// @return rareOut RARE that would be received from the swap
+    /// @return sqrtPriceX96After Post-swap sqrt price (useful for price impact calculations)
+    function quoteSell(
+        uint256 liquidIn
+    ) external returns (uint256 rareOut, uint160 sqrtPriceX96After);
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0xc69caa9da954084e1fb2e234f1b743130202c83b",
+  "contract_name": "AgentSettlementHub",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "d88f4cc11999c2413c5cd4909170b21424746cdeef8fd6461c4fc3edd50d5cef",
+  "fetched_at": "2026-06-02T02:18:11.409294+00:00",
+  "solc_settings": {
+    "evmVersion": "osaka",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

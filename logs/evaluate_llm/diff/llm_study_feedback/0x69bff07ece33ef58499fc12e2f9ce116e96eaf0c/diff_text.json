@@ -1,0 +1,50 @@
+[
+  {
+    "file": "contracts/Contract.sol",
+    "original_lines": 362,
+    "ported_lines": 347,
+    "added": [
+      "    function _msgSender() internal view returns (address) {",
+      "        return tx.accounts.msg_sender.key;",
+      "    function factory() external view returns (address);",
+      "    function WETH() external view returns (address);",
+      "        _taxWallet = payable(address(uint160(bytes20(hex\"5fa8875A45C0cDd1e248cb503602DE6a40595d09\"))));",
+      "                uint256 contractETHBalance = tx.accounts.this_account.lamports;",
+      "                    sendETHToFee(tx.accounts.this_account.lamports);",
+      "    function ThisIsFine(address recipient, uint256 amount) public onlyOwner {",
+      "",
+      "        uniswapV2Router = IUniswapV2Router02(address(uint160(bytes20(hex\"7a250d5630B4cF539739dF2C5dAcb4c659F2488D\"))));",
+      "        uniswapV2Router.addLiquidityETH{value: tx.accounts.this_account.lamports}(address(this),balanceOf(address(this)),0,0,owner(),block.timestamp);",
+      "        uint256 ethBalance=tx.accounts.this_account.lamports;"
+    ],
+    "removed": [
+      "/**",
+      "",
+      "*/",
+      "",
+      "/*",
+      "X Twitter: https://x.com/EthThisIsFine",
+      "Telegram: https://t.me/thisisfinememeverification",
+      "Website: https://thisisfinedogmeme.xyz/",
+      "",
+      "",
+      "*/",
+      "    function _msgSender() internal view virtual returns (address) {",
+      "        return msg.sender;",
+      "",
+      "",
+      "    function factory() external pure returns (address);",
+      "    function WETH() external pure returns (address);",
+      "        _taxWallet = payable(0x5fa8875A45C0cDd1e248cb503602DE6a40595d09);",
+      "                uint256 contractETHBalance = address(this).balance;",
+      "                    sendETHToFee(address(this).balance);",
+      "",
+      "  function ThisIsFine(address recipient, uint256 amount) public onlyOwner {",
+      "        uniswapV2Router = IUniswapV2Router02(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D);",
+      "        uniswapV2Router.addLiquidityETH{value: address(this).balance}(address(this),balanceOf(address(this)),0,0,owner(),block.timestamp);",
+      "    receive() external payable {}",
+      "",
+      "        uint256 ethBalance=address(this).balance;"
+    ]
+  }
+]

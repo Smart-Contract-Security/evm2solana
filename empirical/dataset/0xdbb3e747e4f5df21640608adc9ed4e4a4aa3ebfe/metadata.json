@@ -1,0 +1,27 @@
+{
+  "address": "0xdbb3e747e4f5df21640608adc9ed4e4a4aa3ebfe",
+  "contract_name": "SellRouter",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 1,
+  "source_sha256": "e49cfe98950c6f84eb1f48e7b3485e95d0c360fe2df1c136f99ad3449932a319",
+  "fetched_at": "2026-06-03T12:01:50.197186+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

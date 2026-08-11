@@ -1,0 +1,28 @@
+{
+  "address": "0x6913324432cd3ac255c4bdc5cf8929597eaac05c",
+  "contract_name": "TermControllerFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 24,
+  "source_sha256": "2247f4bb2ae5ba7a354e44fa04b7add42b2066ed9d7416f191642d3b71db60d7",
+  "fetched_at": "2026-06-03T05:11:59.385964+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0x862a992c1402f2ceeff647501ac13453fc25b563",
+  "contract_name": "ForgottenWorldsRenderer",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "15c8dfd4c660b49f3507f602376c76d42ec350818ac375d7dc20b6045b85d7f7",
+  "fetched_at": "2026-06-01T08:34:32.804485+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

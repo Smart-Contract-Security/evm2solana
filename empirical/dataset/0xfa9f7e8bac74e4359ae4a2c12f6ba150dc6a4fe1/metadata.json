@@ -1,0 +1,27 @@
+{
+  "address": "0xfa9f7e8bac74e4359ae4a2c12f6ba150dc6a4fe1",
+  "contract_name": "TREMP",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 6,
+  "source_sha256": "9a2ab4d7f2f2f92cd11941f96529b1389a2e0675a26a5d2d9dd37189387a7017",
+  "fetched_at": "2026-06-04T11:57:18.989364+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

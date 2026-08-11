@@ -1,0 +1,30 @@
+{
+  "address": "0x889421a606229f8cd5bc277cf2307ee76667f904",
+  "contract_name": "ConstellationLightVault",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 5,
+  "source_sha256": "4b2e9540c0a2ec147c057a8c6b3ff4d0bce4769e3fb34461165acf4c6db76262",
+  "fetched_at": "2026-06-03T13:25:26.264480+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@4.8.3/"
+    ]
+  }
+}

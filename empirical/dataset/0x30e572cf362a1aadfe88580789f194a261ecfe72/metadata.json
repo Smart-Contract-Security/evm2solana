@@ -1,0 +1,45 @@
+{
+  "address": "0x30e572cf362a1aadfe88580789f194a261ecfe72",
+  "contract_name": "JustMarried",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 7,
+  "source_sha256": "c5efe55857adac6962e90b19b374ae3b7c337fe15043859f8fad0c160b4f6e51",
+  "fetched_at": "2026-06-04T03:21:59.096420+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@forge-std/=lib/forge-std/src/",
+      "@openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/",
+      "@src/=src/",
+      "@test/=test/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 100000000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "shanghai",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

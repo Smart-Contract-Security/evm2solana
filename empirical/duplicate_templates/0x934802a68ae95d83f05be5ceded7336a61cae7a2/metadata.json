@@ -1,0 +1,8 @@
+{
+  "address": "0x934802a68ae95d83f05be5ceded7336a61cae7a2",
+  "contract_name": "BridgeableFlashUSDT",
+  "compiler_version": "v0.8.7+commit.e28d00a7",
+  "file_count": 1,
+  "source_sha256": "0b14db0fb441e000fdd92d40eb6be07136329b61aac162d45664e41b054da8c4",
+  "fetched_at": "2026-06-04T02:50:19.535749+00:00"
+}

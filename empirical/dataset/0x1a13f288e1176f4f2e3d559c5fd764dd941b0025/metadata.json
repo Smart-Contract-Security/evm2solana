@@ -1,0 +1,27 @@
+{
+  "address": "0x1a13f288e1176f4f2e3d559c5fd764dd941b0025",
+  "contract_name": "MEOW",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "090f141580d808ee7a46ef630b638f460946bdd4c6e17a6c140d8e44e409350b",
+  "fetched_at": "2026-06-04T04:07:01.837788+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

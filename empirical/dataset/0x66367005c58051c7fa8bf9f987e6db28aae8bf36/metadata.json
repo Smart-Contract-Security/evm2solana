@@ -1,0 +1,28 @@
+{
+  "address": "0x66367005c58051c7fa8bf9f987e6db28aae8bf36",
+  "contract_name": "AscentMirror",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 7,
+  "source_sha256": "0912aaedfe5b58fa4b649a1e4f2933c4ee862104dbe5ceefaad616ba2d165d2e",
+  "fetched_at": "2026-06-01T10:20:47.177348+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

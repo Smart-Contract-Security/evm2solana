@@ -1,0 +1,41 @@
+{
+  "address": "0x9e16f09ef9d1b122d90cca704fdb9415207b2f8c",
+  "contract_name": "BurnBombMinnowV1_1",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 16,
+  "source_sha256": "ece099606182e54a4cb17303e645eb8e6b424f92024e5e9f1ca497bf3204f589",
+  "fetched_at": "2026-06-03T05:35:13.463364+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@chainlink/contracts/=npm/@chainlink/contracts@1.5.0/",
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@4.8.3/"
+    ],
+    "viaIR": true,
+    "libraries": {
+      "project/src/BurnBombMinnowV1_1.sol": {
+        "AdminLib": "0x5fda8df8731fe772b37bc7837d86525fce6a60a0",
+        "BulkWithdrawLib": "0x32c7d8841e3defae125cd19d8283985e2a2fe56e",
+        "LifecycleLib": "0xc281dc38777ef7ff9d67217ceeed8297fae05e48",
+        "SettlementLib": "0x3291c3a49e7b71a099f6f37daa59537efcf188fe",
+        "SupraLib": "0x6efbc56ef9142b8ed1701b2a623dadf7e2af0149"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0x7f615c70120aa1929841911968162f4326d10732",
+  "contract_name": "SCANAI",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 1,
+  "source_sha256": "3c9c7ee654e714bc13957be6163817f681d515316e82005cebc79902a596689f",
+  "fetched_at": "2026-06-04T13:39:58.191769+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "shanghai",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    },
+    "libraries": {}
+  }
+}

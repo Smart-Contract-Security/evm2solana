@@ -1,0 +1,30 @@
+{
+  "address": "0x63e345e394ed3a3b1a785c3d84ca1b82172f31d6",
+  "contract_name": "DpixProxy",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 10,
+  "source_sha256": "77c87b5f93c3db8a863f306c6e57fb72524f6637a68fef06503e22818bd18a57",
+  "fetched_at": "2026-06-02T07:37:40.681504+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "runs": 200,
+      "enabled": true
+    },
+    "evmVersion": "osaka",
+    "remappings": [
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/"
+    ],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

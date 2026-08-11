@@ -1,0 +1,32 @@
+{
+  "address": "0x32ed5b6c02553f88f21adaa5218c34f171fd0379",
+  "contract_name": "CompositePriceFeed",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 2,
+  "source_sha256": "630ce64a5c92a8f7475d9edf8bc52d8dee3d6915ffd4502afd1296802530f7ae",
+  "fetched_at": "2026-06-03T11:51:28.098371+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "metadata": {
+      "bytecodeHash": "none",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 10
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

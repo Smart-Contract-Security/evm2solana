@@ -1,0 +1,36 @@
+{
+  "address": "0xb0924fa60fc2b33dd01d876a14ad6637a0a1567b",
+  "contract_name": "NatGoldPresale",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 23,
+  "source_sha256": "22edc3dbb195019aa5fd3bc87d2bb5eca7abb2b0404bdccb1b55b328c2a2c5cb",
+  "fetched_at": "2026-06-03T05:27:23.534386+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "npm/@openzeppelin/contracts-upgradeable@5.4.0/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.4.0/",
+      "npm/@openzeppelin/contracts-upgradeable@5.4.0/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.4.0/",
+      "project/:@openzeppelin/contracts-upgradeable/=npm/@openzeppelin/contracts-upgradeable@5.4.0/",
+      "project/:@openzeppelin/contracts-upgradeable/=npm/@openzeppelin/contracts-upgradeable@5.4.0/",
+      "project/:@openzeppelin/contracts-upgradeable/=npm/@openzeppelin/contracts-upgradeable@5.4.0/",
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.4.0/",
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.4.0/",
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.4.0/",
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.4.0/",
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.4.0/"
+    ]
+  }
+}

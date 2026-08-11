@@ -1,0 +1,8 @@
+{
+  "address": "0x55bbe5a04d144d8d17dc6471f23e1a40b63333d4",
+  "contract_name": "SettlementManager",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "bb92097549685ab0d0fcda5d59f93dcd02d7b8e32f5300a7986c73bd9d9b567b",
+  "fetched_at": "2026-06-04T11:00:13.695242+00:00"
+}

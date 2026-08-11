@@ -1,0 +1,27 @@
+{
+  "address": "0x6a30217bccc1ffee755e346a634f633c9e63b6bb",
+  "contract_name": "AuroraToken",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "8782aecf4291a91297ea81388fbf66622b7f65f8eb8c93463f4925abadb3ce4e",
+  "fetched_at": "2026-06-01T10:25:42.871757+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

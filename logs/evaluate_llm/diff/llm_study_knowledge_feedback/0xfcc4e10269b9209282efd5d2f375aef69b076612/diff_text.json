@@ -1,0 +1,40 @@
+[
+  {
+    "file": "unisdev/UnisHookForge.sol",
+    "original_lines": 69,
+    "ported_lines": 64,
+    "added": [
+      "",
+      "import 'solana';",
+      "    uint64 public constant TARGET_FLAGS = 0x00C8;",
+      "    uint64 public constant FLAG_MASK    = 0x3FFF;",
+      "        uint64 maxIterations",
+      "        for (uint64 i = 0; i < maxIterations; ) {",
+      "            if (uint64(uint160(predicted)) & FLAG_MASK == TARGET_FLAGS) {",
+      "        revert(\"MineFailed\");",
+      "        return uint64(uint160(addr)) & FLAG_MASK == TARGET_FLAGS;",
+      "        bytes memory code = creationCodeWithArgs;",
+      "        hook = address(new UnisHookForge{salt: salt}(code));",
+      "        if (hook == address(0)) revert(\"CreateFailed\");"
+    ],
+    "removed": [
+      "pragma solidity 0.8.34;",
+      "    uint160 public constant TARGET_FLAGS = 0x00C8;",
+      "    uint160 public constant FLAG_MASK    = 0x3FFF;",
+      "",
+      "    error MineFailed();",
+      "    error CreateFailed();",
+      "        uint256 maxIterations",
+      "        for (uint256 i = 0; i < maxIterations; ) {",
+      "            if (uint160(predicted) & FLAG_MASK == TARGET_FLAGS) {",
+      "        revert MineFailed();",
+      "        return uint160(addr) & FLAG_MASK == TARGET_FLAGS;",
+      "        assembly {",
+      "            let p := mload(0x40)",
+      "            calldatacopy(p, creationCodeWithArgs.offset, creationCodeWithArgs.length)",
+      "            hook := create2(0, p, creationCodeWithArgs.length, salt)",
+      "        }",
+      "        if (hook == address(0)) revert CreateFailed();"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "address": "0x6c47125d3569207ee6e96e7b17e30d0d72255c61",
+  "contract_name": "EAGVaultFactory",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 22,
+  "source_sha256": "37aa59a2a50f1fc5a36edd7d34c3ff73743c51bd25666ed4856d5f19d616a678",
+  "fetched_at": "2026-06-03T04:07:35.943048+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

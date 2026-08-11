@@ -1,0 +1,43 @@
+{
+  "address": "0x951b7ae1bb26d12db37f01748e8fb62fef45a8b5",
+  "contract_name": "Bridge",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 43,
+  "source_sha256": "46ec8d680a284e2afddaee627f1d24fcc835cc5f962e69b7f78dd5445cde7615",
+  "fetched_at": "2026-06-04T11:47:40.539792+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+      "solady/=node_modules/solady/",
+      "forge-std/=node_modules/forge-std/",
+      "ds-test/=node_modules/ds-test/src/",
+      "p256-verifier/=node_modules/p256-verifier/",
+      "forge-safe/=node_modules/forge-safe/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

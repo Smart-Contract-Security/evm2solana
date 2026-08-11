@@ -1,0 +1,31 @@
+{
+  "address": "0x50a1fe9fbf2ff241ff173b16f31ccfda204e6cbf",
+  "contract_name": "SakazukiTabi",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 18,
+  "source_sha256": "70f75a549b90adfbf5f6628006cd156ae57f9e29700dfc2fdac32ff9643f50e3",
+  "fetched_at": "2026-06-03T04:52:41.306636+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@openzeppelin/contracts/=project/lib/openzeppelin-contracts/contracts/",
+      "project/:@openzeppelin/contracts/=project/lib/openzeppelin-contracts/contracts/"
+    ]
+  }
+}

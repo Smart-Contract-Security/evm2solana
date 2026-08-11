@@ -1,0 +1,48 @@
+{
+  "address": "0xe4bd4a83c58d93f370f10e4e172259e074c89dab",
+  "contract_name": "PriceFeed",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 4,
+  "source_sha256": "4ecc9f50a6da77314a03d1d2853d61e1e0b9fb0a3ccddfc8e2fb013e30e51e85",
+  "fetched_at": "2026-06-04T04:00:28.162969+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "@morpho/=lib/morpho-blue/src/",
+      "@pendle/=lib/pendle-core-v2-public/contracts/",
+      "@openzeppelin-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "ds-test/=lib/morpho-blue/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "morpho-blue/=lib/morpho-blue/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "pendle-core-v2-public/=lib/pendle-core-v2-public/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "file": "DOGS.sol",
+    "original_lines": 343,
+    "ported_lines": 335,
+    "added": [
+      "pragma solidity ^0.8.0;",
+      "    function _msgSender() internal view returns (address) {",
+      "    function factory() external view returns (address);",
+      "    function WETH() external view returns (address);",
+      "            if (!marketPair[from] && !marketPair[to] && from!= address(this) ) {"
+    ],
+    "removed": [
+      "/*",
+      "https://t.me/dogserc20portal",
+      "https://x.com/dogs_erc20",
+      "https://dogserc20.xyz/",
+      "*/",
+      "",
+      "pragma solidity 0.8.23;",
+      "    function _msgSender() internal view virtual returns (address) {",
+      "",
+      "    function factory() external pure returns (address);",
+      "    function WETH() external pure returns (address);",
+      "",
+      "\t    if (!marketPair[from] && !marketPair[to] && from!= address(this) ) {"
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "address": "0xf728cab5ec2aa2bd93a54b8046047673818dd5d5",
+  "contract_name": "SpriteDataHeadwear",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "d33996dc4b5f0a466fab1b5e10bfd1e4be0a0b0f12f623ca7983b57a36ba9281",
+  "fetched_at": "2026-06-03T11:48:54.574007+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    }
+  }
+}

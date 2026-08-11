@@ -1,0 +1,28 @@
+{
+  "address": "0x28cfbbca2cc71298ca72941536ad100a944d823c",
+  "contract_name": "MUDAI",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "d52216a7b650b239aab0a081859f1eb6b08b5f76e85059e84e6441ff6d85e49a",
+  "fetched_at": "2026-06-04T12:08:18.998862+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

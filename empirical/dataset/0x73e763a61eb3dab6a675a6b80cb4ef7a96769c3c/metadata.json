@@ -1,0 +1,8 @@
+{
+  "address": "0x73e763a61eb3dab6a675a6b80cb4ef7a96769c3c",
+  "contract_name": "PullTokenWrapperAllowImmutable",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "76bde6ce905db7e3c82681985d1753f69e0c94b4f3a233518c2ad3bfbab42982",
+  "fetched_at": "2026-06-03T05:13:36.342167+00:00"
+}

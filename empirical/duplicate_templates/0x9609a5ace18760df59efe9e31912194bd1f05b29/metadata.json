@@ -1,0 +1,27 @@
+{
+  "address": "0x9609a5ace18760df59efe9e31912194bd1f05b29",
+  "contract_name": "SaltyMike",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "b3eba2c8e8ec871fceb059ac3bf6bfb955e0f95b685b8798a557ab5e4e89c3d4",
+  "fetched_at": "2026-06-02T08:38:04.886268+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

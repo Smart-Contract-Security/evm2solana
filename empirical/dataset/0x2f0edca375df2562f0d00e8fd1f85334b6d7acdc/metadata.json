@@ -1,0 +1,29 @@
+{
+  "address": "0x2f0edca375df2562f0d00e8fd1f85334b6d7acdc",
+  "contract_name": "CMTAT_PROXY",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 37,
+  "source_sha256": "7f229393092b5067a9a966a55525fd97924a13d9846c3eb853597d31ed26a6a6",
+  "fetched_at": "2026-06-02T02:23:01.850470+00:00",
+  "solc_settings": {
+    "remappings": [],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "london",
+    "libraries": {},
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "address": "0xff79338b05f321730e67288a9d4acc13e7bb25a3",
+  "contract_name": "HookContainer",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 19,
+  "source_sha256": "9f658d58096b5714b51d031a18cd3f393cb45c70c3d9024e45b43e4fe38bc194",
+  "fetched_at": "2026-06-03T12:15:48.999371+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+      "@openzeppelin-contracts/=node_modules/@openzeppelin/contracts/",
+      "openzeppelin-foundry-upgrades/=node_modules/@openzeppelin/foundry-upgrades/",
+      "solidity-bytes-utils/=node_modules/solidity-bytes-utils/",
+      "@layerzerolabs/lz-evm-protocol-v2/=node_modules/@layerzerolabs/lz-evm-protocol-v2/",
+      "@layerzerolabs/lz-evm-messagelib-v2/=node_modules/@layerzerolabs/lz-evm-messagelib-v2/",
+      "@layerzerolabs/lz-evm-v1-0.7/=node_modules/@layerzerolabs/lz-evm-v1-0.7/",
+      "@layerzerolabs/oapp-evm/=node_modules/@layerzerolabs/oapp-evm/",
+      "@layerzerolabs/oapp-evm-upgradeable/=node_modules/@layerzerolabs/oapp-evm-upgradeable/",
+      "earn-v2-core/=node_modules/@concrete-xyz/earn-v2-core/",
+      "earn-v2-core-1.0.1/=node_modules/@blueprint-finance/earn-v2-core-1.0.1/",
+      "earn-v2-core-1.0.2/=node_modules/@blueprint-finance/earn-v2-core-1.0.2/",
+      "earn-v2-core-1.0.2-beta.0/=node_modules/@blueprint-finance/earn-v2-core-1.0.2-beta.0/",
+      "earn-v2-core-1.0.5/=node_modules/@blueprint-finance/earn-v2-core-1.0.5/",
+      "earn-v2-core-1.1.0/=node_modules/@blueprint-finance/earn-v2-core-1.1.0/",
+      "earn-v2-core-1.3.0/=node_modules/@concrete-xyz/earn-v2-core-1.3.0/",
+      "asset-cx/=node_modules/@concrete-xyz/asset-cx/",
+      "@concrete-xyz/asset-cx/=node_modules/@concrete-xyz/asset-cx/",
+      "@blueprint-finance/earn-v2-core/=node_modules/@concrete-xyz/earn-v2-core/",
+      "@concrete-xyz/earn-v2-core/=node_modules/@concrete-xyz/earn-v2-core/",
+      "@prb/math/=node_modules/@prb/math/",
+      "@aave/=node_modules/@aave/",
+      "@morpho-org/=node_modules/@morpho-org/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "@uniswap/=node_modules/@uniswap/",
+      "base64-sol/=node_modules/base64-sol/",
+      "clones-with-immutable-args/=node_modules/clones-with-immutable-args/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 190
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

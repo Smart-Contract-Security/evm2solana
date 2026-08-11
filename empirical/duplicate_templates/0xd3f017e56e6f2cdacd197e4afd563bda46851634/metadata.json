@@ -1,0 +1,27 @@
+{
+  "address": "0xd3f017e56e6f2cdacd197e4afd563bda46851634",
+  "contract_name": "Ponke",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 1,
+  "source_sha256": "1f58b78d64400b5fa5c0c21bb992f2d2efa788abc0e2ddf8bed64848745d7781",
+  "fetched_at": "2026-06-04T04:27:58.169462+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

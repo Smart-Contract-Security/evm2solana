@@ -1,0 +1,31 @@
+{
+  "address": "0xb01fbbcddcdf516876c39873d5f31be3e20ab284",
+  "contract_name": "MiozaicLending",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "bab2a0fa3d13d355c545db188c4bb50b171d4188d609326cc86d824604888077",
+  "fetched_at": "2026-06-02T07:39:39.205138+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

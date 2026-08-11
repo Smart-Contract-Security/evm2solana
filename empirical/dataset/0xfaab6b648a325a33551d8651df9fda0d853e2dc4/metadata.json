@@ -1,0 +1,8 @@
+{
+  "address": "0xfaab6b648a325a33551d8651df9fda0d853e2dc4",
+  "contract_name": "ERC1967Proxy",
+  "compiler_version": "v0.8.21+commit.d9974bed",
+  "file_count": 1,
+  "source_sha256": "99d8022ad7d3dfcff5dea1c140d5c5e09153ed38d3cc9604bcb2793d86a8b36b",
+  "fetched_at": "2026-06-01T14:17:05.766855+00:00"
+}

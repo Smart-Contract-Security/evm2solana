@@ -1,0 +1,41 @@
+{
+  "address": "0x76264869a3ebf51a59fca5aba84ee2867c7f190e",
+  "contract_name": "CommitStore",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 14,
+  "source_sha256": "dca602569269af06adc185b5d450af0fa10c3b97e4adee7209126ad7b3b30ce7",
+  "fetched_at": "2026-06-04T10:47:48.275010+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=foundry-lib/forge-std/lib/ds-test/src/",
+      "forge-std/=foundry-lib/forge-std/src/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "hardhat/=node_modules/hardhat/",
+      "@eth-optimism/=node_modules/@eth-optimism/",
+      "@scroll-tech/=node_modules/@scroll-tech/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 26000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "libraries": {}
+  }
+}

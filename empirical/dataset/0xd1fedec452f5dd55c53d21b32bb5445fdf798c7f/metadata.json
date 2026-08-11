@@ -1,0 +1,38 @@
+{
+  "address": "0xd1fedec452f5dd55c53d21b32bb5445fdf798c7f",
+  "contract_name": "BirdWatcher",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 16,
+  "source_sha256": "31401a53461367ecf2ede160ee2104103de823536ec72dbc0ac1d320c0809188",
+  "fetched_at": "2026-06-02T08:58:27.294790+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin-contracts-5.6.1/=dependencies/@openzeppelin-contracts-5.6.1/",
+      "@openzeppelin/contracts/=dependencies/@openzeppelin-contracts-5.6.1/",
+      "forge-std-1.14.0/=dependencies/forge-std-1.14.0/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": false
+  }
+}

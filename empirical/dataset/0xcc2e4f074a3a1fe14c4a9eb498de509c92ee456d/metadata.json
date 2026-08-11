@@ -1,0 +1,28 @@
+{
+  "address": "0xcc2e4f074a3a1fe14c4a9eb498de509c92ee456d",
+  "contract_name": "CurvePlainPoolAdapter",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 9,
+  "source_sha256": "757a2562787fd3df9dcf552231a6379638c2c989d674537fdcbc2ec8be844432",
+  "fetched_at": "2026-06-03T11:53:22.796015+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

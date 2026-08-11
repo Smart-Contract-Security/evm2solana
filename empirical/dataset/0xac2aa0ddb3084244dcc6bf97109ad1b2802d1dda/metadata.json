@@ -1,0 +1,30 @@
+{
+  "address": "0xac2aa0ddb3084244dcc6bf97109ad1b2802d1dda",
+  "contract_name": "TrancheBudgetController",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 11,
+  "source_sha256": "f1f8cd5e02c790937ac40bca841ff8c7d8c59149d65ee26c5db27270e4381991",
+  "fetched_at": "2026-06-01T13:08:13.730304+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

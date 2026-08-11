@@ -1,0 +1,31 @@
+{
+  "address": "0x7c061c5d2e08a39b0b8c649e0fdeeafd9ba8f87d",
+  "contract_name": "SatoshyPresale",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 17,
+  "source_sha256": "8f0b01fc6e5917d60feaeaf47f4fbea0fad1362a559b8554e86cd1b94c8d1d12",
+  "fetched_at": "2026-06-01T13:35:39.331295+00:00",
+  "solc_settings": {
+    "evmVersion": "shanghai",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

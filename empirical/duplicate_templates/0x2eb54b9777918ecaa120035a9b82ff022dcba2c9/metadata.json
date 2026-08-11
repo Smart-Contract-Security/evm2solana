@@ -1,0 +1,27 @@
+{
+  "address": "0x2eb54b9777918ecaa120035a9b82ff022dcba2c9",
+  "contract_name": "SHIRO",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "b714e870f9711b6bf63f5abf1931c9994c6a16533ff5aa64bf7225eccb91f96c",
+  "fetched_at": "2026-06-04T04:30:28.838799+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

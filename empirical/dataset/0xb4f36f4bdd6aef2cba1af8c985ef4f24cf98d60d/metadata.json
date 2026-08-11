@@ -1,0 +1,28 @@
+{
+  "address": "0xb4f36f4bdd6aef2cba1af8c985ef4f24cf98d60d",
+  "contract_name": "Check",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 19,
+  "source_sha256": "c76aa3dd68c91ee8b52a7f43e26a40b3ac030746ccffeeef08feded541858eeb",
+  "fetched_at": "2026-06-02T08:40:33.373313+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

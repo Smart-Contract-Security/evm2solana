@@ -1,0 +1,27 @@
+{
+  "address": "0x5da2f035def874b7cf6f75c129d3f4e01d60c076",
+  "contract_name": "VSTONE",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 17,
+  "source_sha256": "cabda9bae8ff6591557614a3df8f5aca6d5604589b528d33ab3f4a20455821c3",
+  "fetched_at": "2026-06-04T04:13:17.219839+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

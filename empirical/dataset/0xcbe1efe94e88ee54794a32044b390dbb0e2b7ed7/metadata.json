@@ -1,0 +1,48 @@
+{
+  "address": "0xcbe1efe94e88ee54794a32044b390dbb0e2b7ed7",
+  "contract_name": "DynamicYieldBasisLpFacet",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 52,
+  "source_sha256": "19a7c39ca0a5dde718d25ed1db8d095a73cb57e40132ff197acf4ff2370901e0",
+  "fetched_at": "2026-06-03T11:26:56.488176+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 500
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": false
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "libraries": {
+      "src/facets/account/yieldbasislp/DynamicYieldBasisLpFacet.sol": {
+        "DynamicYieldBasisCollateralManager": "0x26537bec1cdee15d600c131b1397b618ebc1e85a"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0xe227b4a2c45d2144af6f0ff4d75ee2c319f212fb",
+  "contract_name": "Storage",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "e6a3184eb5a29c305d1ef23b5087097ab4791e536f1ca1bd6a7292620859c18c",
+  "fetched_at": "2026-06-01T03:10:38.068360+00:00",
+  "solc_settings": {
+    "evmVersion": "osaka",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

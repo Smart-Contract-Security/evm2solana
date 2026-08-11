@@ -1,0 +1,31 @@
+{
+  "address": "0x63d09a2a75e0142053f5c426f82697654be2ba04",
+  "contract_name": "TeamVault",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 30,
+  "source_sha256": "9758c0e88c83bf48e356b6b4dd224d20c866f5a672a315e7ec1daa6a586f42e4",
+  "fetched_at": "2026-06-03T12:36:53.501704+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/"
+    ],
+    "viaIR": true
+  }
+}

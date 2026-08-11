@@ -1,0 +1,27 @@
+{
+  "address": "0xd3b912b46a9aadcaae687bf0560dc91c5564becc",
+  "contract_name": "DRAWClaim",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 11,
+  "source_sha256": "0ebbfade68ec69d07ec0bebe65cb16f0f2fd5d264164da926a92f9e31d81e254",
+  "fetched_at": "2026-06-01T04:39:20.797095+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

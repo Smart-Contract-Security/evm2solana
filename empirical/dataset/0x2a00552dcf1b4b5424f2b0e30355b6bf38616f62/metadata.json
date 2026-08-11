@@ -1,0 +1,27 @@
+{
+  "address": "0x2a00552dcf1b4b5424f2b0e30355b6bf38616f62",
+  "contract_name": "HousePoolV2",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 6,
+  "source_sha256": "154b2d20e525bf7f6f2feca69f7b905f288d14d68411a14e9e8e1c6978021db4",
+  "fetched_at": "2026-06-03T06:28:53.731865+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "address": "0x8f8ce39752ef02916a13422568aea6a4cc178d16",
+  "contract_name": "WithdrawQueue",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 29,
+  "source_sha256": "595eb0a7e7ac44229a54e1eaff5efc1b5b43352a42e6b013a8b475c759423f81",
+  "fetched_at": "2026-06-03T07:22:12.601331+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "@permit2/=lib/permit2/src/",
+      "solmate/=lib/solmate/",
+      "ds-test/=lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/openzeppelin-contracts/contracts/",
+      "permit2/=lib/permit2/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 2000000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

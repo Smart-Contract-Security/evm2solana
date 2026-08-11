@@ -1,0 +1,27 @@
+{
+  "address": "0xd0fa78e48806d40970225b8cfd5073556c28500f",
+  "contract_name": "ChangeMyName",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "0fc28ef83ab46ab6f65baed92e94ffcb43abf0a5111b2c8b503305cf2df67b53",
+  "fetched_at": "2026-06-03T07:08:16.443811+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

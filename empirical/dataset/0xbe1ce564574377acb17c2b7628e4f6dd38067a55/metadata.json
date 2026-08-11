@@ -1,0 +1,27 @@
+{
+  "address": "0xbe1ce564574377acb17c2b7628e4f6dd38067a55",
+  "contract_name": "DssVestTopUp",
+  "compiler_version": "v0.8.13+commit.abaa5c0e",
+  "file_count": 10,
+  "source_sha256": "a1e668a3669d6a03b8749e3a608434e553dcdd5dce20dc2967f65797727f911d",
+  "fetched_at": "2026-06-04T11:59:47.671714+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

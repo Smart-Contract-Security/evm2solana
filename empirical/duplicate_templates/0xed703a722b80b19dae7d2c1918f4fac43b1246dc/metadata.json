@@ -1,0 +1,27 @@
+{
+  "address": "0xed703a722b80b19dae7d2c1918f4fac43b1246dc",
+  "contract_name": "LABUBU",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "6c2c220eae1a5537345f88f2e9f592aa4ac02a429b9a9d3a8b0abd9a17f07b8e",
+  "fetched_at": "2026-06-04T05:04:06.579282+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

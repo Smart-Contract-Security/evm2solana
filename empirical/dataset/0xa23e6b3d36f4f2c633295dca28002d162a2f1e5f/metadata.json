@@ -1,0 +1,27 @@
+{
+  "address": "0xa23e6b3d36f4f2c633295dca28002d162a2f1e5f",
+  "contract_name": "TamaSwap",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 7,
+  "source_sha256": "dbbace8c7b7dc1856699f8318d3b07832a18ab16184b855829595f7a53c6c0c4",
+  "fetched_at": "2026-06-02T07:45:20.702154+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

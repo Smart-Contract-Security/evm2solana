@@ -1,0 +1,27 @@
+{
+  "address": "0x8d8a42fce8cfcfd6fad797653859e610c52a8957",
+  "contract_name": "RustyHank",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "0c4aba4daefa1d3b1b7de65fb8c14605e460844c5a9f3d34c45515774acccf78",
+  "fetched_at": "2026-06-03T11:23:45.094008+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

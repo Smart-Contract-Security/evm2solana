@@ -1,0 +1,42 @@
+import {IPriceOracle} from "../interfaces/IPriceOracle.sol";
+import {Errors} from "../lib/Errors.sol";
+
+/// @title BaseAdapter
+/// @custom:security-contact security@euler.xyz
+/// @author Euler Labs (https://www.eulerlabs.com/)
+/// @notice Abstract adapter with virtual bid/ask pricing.
+abstract contract BaseAdapter is IPriceOracle {
+    // @dev Addresses <= 0x00..00ffffffff are considered to have 18 decimals without dispatching a call.
+    // This avoids collisions between ISO 4217 representations and (future) precompiles.
+    uint64 internal constant ADDRESS_RESERVED_RANGE = 0xffffffff;
+
+    /// @inheritdoc IPriceOracle
+    function getQuote(uint64 inAmount, address base, address quote) external view returns (uint64) {
+        return _getQuote(inAmount, base, quote);
+    }
+
+    /// @inheritdoc IPriceOracle
+    /// @dev Does not support true bid/ask pricing.
+    function getQuotes(uint64 inAmount, address base, address quote) external view returns (uint64, uint64) {
+        uint64 outAmount = _getQuote(inAmount, base, quote);
+        return (outAmount, outAmount);
+    }
+
+    /// @notice Determine the decimals of an asset.
+    /// @param asset ERC20 token address or other asset.
+    /// @dev Oracles can use ERC-7535, ISO 4217 or other conventions to represent non-ERC20 assets as addresses.
+    /// Integrator Note: `_getDecimals` will return 18 if `asset` is:
+    /// - any address <= 0x00000000000000000000000000000000ffffffff (4294967295)
+    /// - an EOA or a to-be-deployed contract (which may implement `decimals()` after deployment).
+    /// - a contract that does not implement `decimals()`.
+    /// @return The decimals of the asset.
+    function _getDecimals(address asset) internal view returns (uint8) {
+        if (uint160(asset) <= ADDRESS_RESERVED_RANGE) return 18;
+        (bool success, bytes memory data) = asset.call{}(abi.encodeWithSignature("decimals()"));
+        return success && data.length == 32 ? abi.decode(data, (uint8)) : 18;
+    }
+
+    /// @notice Return the quote for the given price query.
+    /// @dev Must be overridden in the inheriting contract.
+    function _getQuote(uint64, address, address) internal view virtual returns (uint64);
+}

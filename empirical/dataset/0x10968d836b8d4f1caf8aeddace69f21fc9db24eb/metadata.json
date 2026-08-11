@@ -1,0 +1,28 @@
+{
+  "address": "0x10968d836b8d4f1caf8aeddace69f21fc9db24eb",
+  "contract_name": "PepeMinion",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 2,
+  "source_sha256": "5e884b58ea464d1f2975d6386c3459f1d7f6cde878d06286cd2d5f681468ec18",
+  "fetched_at": "2026-06-04T02:50:09.220737+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

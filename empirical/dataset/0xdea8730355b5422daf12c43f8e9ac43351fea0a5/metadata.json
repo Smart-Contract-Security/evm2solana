@@ -1,0 +1,46 @@
+{
+  "address": "0xdea8730355b5422daf12c43f8e9ac43351fea0a5",
+  "contract_name": "BurnProbe",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 25,
+  "source_sha256": "64e25119ff1ed5251d7540053100d27f61ca2cd286ca0aefe316fdbc88db9050",
+  "fetched_at": "2026-06-02T09:04:22.973187+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "solady/=lib/solady/",
+      "forge-std/=lib/forge-std/src/",
+      "v4-core/=lib/v4-core/",
+      "@ensdomains/=lib/v4-core/node_modules/@ensdomains/",
+      "ds-test/=lib/v4-core/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "hardhat/=lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "solmate/=lib/v4-core/lib/solmate/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

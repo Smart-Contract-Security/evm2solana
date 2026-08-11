@@ -1,0 +1,47 @@
+{
+  "address": "0x55108f3b776ff4f5976177d87e071f434d400bde",
+  "contract_name": "ERC721SeaDrop",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 19,
+  "source_sha256": "4e5ac2c09079fbd1b9521db28b2a08df3d52bef80bc5f75e1c9eae479db83fd0",
+  "fetched_at": "2026-06-03T07:36:22.037056+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ERC721A/=lib/ERC721A/contracts/",
+      "ERC721A-Upgradeable/=lib/ERC721A-Upgradeable/contracts/",
+      "ds-test/=lib/ds-test/src/",
+      "forge-std/=lib/forge-std/src/",
+      "murky/=lib/murky/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "operator-filter-registry/=lib/operator-filter-registry/src/",
+      "seadrop/=src/",
+      "solmate/=lib/solmate/src/",
+      "utility-contracts/=lib/utility-contracts/src/",
+      "create2-scripts/=lib/create2-helpers/script/",
+      "create2-helpers/=lib/create2-helpers/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "viaIR": false
+  }
+}

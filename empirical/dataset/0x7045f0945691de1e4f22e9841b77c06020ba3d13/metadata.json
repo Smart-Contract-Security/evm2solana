@@ -1,0 +1,28 @@
+{
+  "address": "0x7045f0945691de1e4f22e9841b77c06020ba3d13",
+  "contract_name": "TransferFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 30,
+  "source_sha256": "635903b1c2dbae4e1945d18fe818e3a78421e96e3e7d726f3c53d9b818590a61",
+  "fetched_at": "2026-06-03T05:11:41.954146+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

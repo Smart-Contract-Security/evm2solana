@@ -1,0 +1,27 @@
+{
+  "address": "0x494fa0f1e61925a232a807703680b5c7f725ec10",
+  "contract_name": "ILMT",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "1183e4a3d7afd1a242243697e69b1865d656012dc86eeb8c6af10602d7440923",
+  "fetched_at": "2026-06-04T02:49:07.593952+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

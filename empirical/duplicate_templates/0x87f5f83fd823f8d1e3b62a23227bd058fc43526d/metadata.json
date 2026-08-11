@@ -1,0 +1,27 @@
+{
+  "address": "0x87f5f83fd823f8d1e3b62a23227bd058fc43526d",
+  "contract_name": "LadyMoonbagERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "3898f9fcc452cf6eeefe419d01aec253fe7ad16657a3c37c6754c3e8d638bb10",
+  "fetched_at": "2026-06-03T03:32:25.073270+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

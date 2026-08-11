@@ -1,0 +1,28 @@
+{
+  "address": "0x36aa194111f2e324a76df8696b4ec452b228a195",
+  "contract_name": "MutationV2",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 6,
+  "source_sha256": "4cc3c360fcf2326179e24047bcb7c1403350e72844edf36a85c9952c0b98c917",
+  "fetched_at": "2026-06-02T04:17:00.024974+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

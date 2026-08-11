@@ -1,0 +1,50 @@
+{
+  "address": "0x409ffbe3e34c79dc886480ab45a68d31bd91a714",
+  "contract_name": "V2CleaningsSpell",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 9,
+  "source_sha256": "d88bfaec5d67210f6903c16b790a09421b7c18a450e759c8c044b81f8089479d",
+  "fetched_at": "2026-06-03T07:35:27.865615+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/halmos-cheatcodes/src/",
+      "@chimera/=lib/chimera/src/",
+      "safe-utils/=lib/safe-utils/src/",
+      "safe-smart-account/=lib/safe-utils/lib/safe-smart-account/contracts/",
+      "solidity-http/=lib/safe-utils/lib/solidity-http/src/",
+      "solidity-stringutils/=lib/safe-utils/lib/solidity-stringutils/src/",
+      "@recon/=lib/setup-helpers/src/",
+      "chimera/=lib/chimera/src/",
+      "ds-test/=lib/chimera/lib/forge-std/lib/ds-test/src/",
+      "setup-helpers/=lib/setup-helpers/src/",
+      "src/=src/",
+      "test/=test/",
+      "createx-forge/=lib/createx-forge/",
+      "enso-weiroll/=lib/enso-weiroll/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": true,
+      "bytecodeHash": "none",
+      "appendCBOR": false
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xa9b7552af66ffc40b5ea0b2a9afbc52dcdc2a5f1",
+  "contract_name": "FreaksAirdrop",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 23,
+  "source_sha256": "9026e39548173571b3c30e56496633be447be754f7f68c7489b2dd0c17f25844",
+  "fetched_at": "2026-06-02T06:44:17.813208+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

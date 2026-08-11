@@ -1,0 +1,27 @@
+{
+  "address": "0x5fda1b987c7c70c816e0309cd86b535dee36b79e",
+  "contract_name": "FrozenRavenToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "92534ec8e6452d6f9ba7f5695df3ed362741b26726b8fc4349c7cfdc09d00f18",
+  "fetched_at": "2026-06-03T08:25:15.576713+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

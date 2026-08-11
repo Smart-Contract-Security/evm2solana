@@ -1,0 +1,27 @@
+{
+  "address": "0x2fbb437aba880d66fe14be1795ae6bbf00937546",
+  "contract_name": "ExitLiquidityToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "8167d75ee65d806eb6003cf74c8e48811bcd9d49136ceefc822937f5e4ae1458",
+  "fetched_at": "2026-06-03T08:05:43.382107+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

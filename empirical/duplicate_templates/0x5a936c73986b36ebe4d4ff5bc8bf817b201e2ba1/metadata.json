@@ -1,0 +1,33 @@
+{
+  "address": "0x5a936c73986b36ebe4d4ff5bc8bf817b201e2ba1",
+  "contract_name": "PublicBridge",
+  "compiler_version": "v0.8.18+commit.87f61d96",
+  "file_count": 2,
+  "source_sha256": "fbe03773313a2639e13423ce2cefbc7fcb38bc414aea251a0a650ab2afe1466f",
+  "fetched_at": "2026-06-02T07:37:37.636544+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": [
+      ":forge-std/=lib/forge-std/src/"
+    ],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0x360acab2d40a72027ffa0e550fccff58cf176cb4",
+  "contract_name": "AscentHookDeployer",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 22,
+  "source_sha256": "0067edaf686fdc83b329b199c244ee959dee9c7a7613a3896e7d671c8dcca75b",
+  "fetched_at": "2026-06-01T10:20:50.828600+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

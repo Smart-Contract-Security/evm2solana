@@ -1,0 +1,25 @@
+{
+  "address": "0x7c679fd62e529f0a65cf5a95be03338beb7148e0",
+  "contract_name": "SpriteDataSpecies",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "978ab55b4fbfef60b55bafddc0a039d32670206fca7b23472377d1206de7f924",
+  "fetched_at": "2026-06-03T11:49:06.071147+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    }
+  }
+}

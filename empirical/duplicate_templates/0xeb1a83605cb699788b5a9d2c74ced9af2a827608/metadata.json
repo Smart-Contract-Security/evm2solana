@@ -1,0 +1,27 @@
+{
+  "address": "0xeb1a83605cb699788b5a9d2c74ced9af2a827608",
+  "contract_name": "MerkleTreeHook",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 17,
+  "source_sha256": "2e5a5b193fb479aff2f9f32f850dd41ba5150dedb698fe05252bfc0502a25323",
+  "fetched_at": "2026-06-04T05:13:25.500586+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

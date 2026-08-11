@@ -1,0 +1,27 @@
+{
+  "address": "0xd90093f610577c90312fc2d3410f02b45622c30a",
+  "contract_name": "DepositVaultFactory",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 12,
+  "source_sha256": "f81c4035f42b0994ff4617f17dfb7f4968e235282e8efe3e4438be5d9704e6ac",
+  "fetched_at": "2026-06-03T05:38:54.988816+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

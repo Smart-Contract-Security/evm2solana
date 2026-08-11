@@ -1,0 +1,33 @@
+{
+  "address": "0xc4a85d0cacb6233a831b36542688588fd1cf6cd2",
+  "contract_name": "OptimizedTransparentUpgradeableProxy",
+  "compiler_version": "v0.8.10+commit.fc410830",
+  "file_count": 8,
+  "source_sha256": "35d77d7fb20169e66f1fdf63acdaf9ee4528a90446a57dacf349fbe443197ae8",
+  "fetched_at": "2026-06-03T12:58:00.761940+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

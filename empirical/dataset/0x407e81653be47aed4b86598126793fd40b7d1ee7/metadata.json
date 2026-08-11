@@ -1,0 +1,30 @@
+{
+  "address": "0x407e81653be47aed4b86598126793fd40b7d1ee7",
+  "contract_name": "CatoToken",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 7,
+  "source_sha256": "16c1b7e75e3609462a6534701a71057f2460ae2efd86b709869520d788279f06",
+  "fetched_at": "2026-06-03T07:17:18.426430+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/"
+    ]
+  }
+}

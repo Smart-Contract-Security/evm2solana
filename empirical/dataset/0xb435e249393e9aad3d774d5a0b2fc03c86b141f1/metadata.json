@@ -1,0 +1,28 @@
+{
+  "address": "0xb435e249393e9aad3d774d5a0b2fc03c86b141f1",
+  "contract_name": "TermLoanIntentFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 48,
+  "source_sha256": "3bdd26e7ac557f9dbfe58813b780b1a3aac37bb22127fad5074e511303bcf869",
+  "fetched_at": "2026-06-03T05:11:00.724246+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

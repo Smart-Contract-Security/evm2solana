@@ -1,0 +1,44 @@
+{
+  "address": "0xbe73e2d9495fe950787cec06ab49628023cfe080",
+  "contract_name": "ZeitFiShareOFT",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 38,
+  "source_sha256": "c50d46e8b5f04039e1874d3b51aa952677c99d268e117668171ad591d610d892",
+  "fetched_at": "2026-06-03T12:12:36.306382+00:00",
+  "solc_settings": {
+    "evmVersion": "shanghai",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [
+      ":@layerzerolabs/lz-evm-messagelib-v2/=lib/LayerZero-v2/packages/layerzero-v2/evm/messagelib/",
+      ":@layerzerolabs/lz-evm-protocol-v2/=lib/LayerZero-v2/packages/layerzero-v2/evm/protocol/",
+      ":@layerzerolabs/oapp-evm/=lib/LayerZero-v2/packages/layerzero-v2/evm/oapp/contracts/",
+      ":@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      ":LayerZero-v2/=lib/LayerZero-v2/",
+      ":ds-test/=lib/forge-std/lib/ds-test/src/",
+      ":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      ":forge-std/=lib/forge-std/src/",
+      ":openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      ":openzeppelin/=lib/openzeppelin-contracts/contracts/",
+      ":solmate/=lib/solmate/src/"
+    ],
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

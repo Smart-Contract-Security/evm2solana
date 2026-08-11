@@ -1,0 +1,27 @@
+{
+  "address": "0xae827eb34e65f62d6db2e3383eb52234caa2a45c",
+  "contract_name": "BreezyLouERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "864af1029adfb7a54d72ed7fe16a8473b8fef598c51555cc836541ebbf1bfd9f",
+  "fetched_at": "2026-06-03T13:49:28.754458+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

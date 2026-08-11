@@ -1,0 +1,47 @@
+{
+  "address": "0x629c378be983e4acf77989599237fecfebbd5664",
+  "contract_name": "Flooring",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 38,
+  "source_sha256": "ad19d5adcedb60393679636efd767e6d3568e0dd87ec004389c4819449053b1d",
+  "fetched_at": "2026-06-04T12:03:29.657511+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "none",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 800
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {
+      "src/logic/Auction.sol": {
+        "AuctionLib": "0x4309483f46aad4a2c95d5cc5af3f0be2dc5243f7"
+      },
+      "src/logic/Collection.sol": {
+        "CollectionLib": "0x11943d370259dfe4c94f59dab2e52b6339597c61"
+      },
+      "src/logic/PrivateOffer.sol": {
+        "PrivateOfferLib": "0xe43da036d82e8d667ab2e8414a7017f6aa728d34"
+      },
+      "src/logic/Raffle.sol": {
+        "RaffleLib": "0x6afb8d582e306da5646adaa568a5f04281e08632"
+      },
+      "src/logic/User.sol": {
+        "UserLib": "0x45d08c50915ff84f41735cfe71c64d060cf458e7"
+      }
+    }
+  }
+}

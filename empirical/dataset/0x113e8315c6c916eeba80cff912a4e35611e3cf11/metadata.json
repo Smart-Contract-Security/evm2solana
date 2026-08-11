@@ -1,0 +1,30 @@
+{
+  "address": "0x113e8315c6c916eeba80cff912a4e35611e3cf11",
+  "contract_name": "DeployProxy",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 10,
+  "source_sha256": "1657eeb8937266d0dc073015244a869328381cd04dd3f456a32234d6b3f84e85",
+  "fetched_at": "2026-06-02T13:19:16.692760+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "@openzeppelin/contracts/=@openzeppelin/contracts@5.6.0/",
+      "@openzeppelin/contracts-upgradeable/=@openzeppelin/contracts-upgradeable@5.6.0/"
+    ]
+  }
+}

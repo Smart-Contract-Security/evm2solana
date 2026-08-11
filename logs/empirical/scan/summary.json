@@ -1,0 +1,183 @@
+{
+  "total_contract_projects": 1521,
+  "ast_failed": 17,
+  "pattern_counts": {
+    "2": 276475,
+    "11": 77750,
+    "13": 20271,
+    "23": 20193,
+    "3": 18424,
+    "15": 18424,
+    "37": 17536,
+    "22": 12085,
+    "6": 11186,
+    "21": 7545,
+    "17": 4773,
+    "34": 4085,
+    "16": 3563,
+    "30": 3141,
+    "12": 3131,
+    "4": 2598,
+    "20": 2459,
+    "1": 2188,
+    "35": 938,
+    "10": 604,
+    "18": 544,
+    "38": 468,
+    "27": 419,
+    "26": 353,
+    "24": 188,
+    "7": 178,
+    "8": 124,
+    "28": 68,
+    "29": 53,
+    "33": 29,
+    "25": 27,
+    "31": 23,
+    "36": 17,
+    "9": 15,
+    "32": 4
+  },
+  "per_pattern": {
+    "1": {
+      "occurrences": 2188,
+      "contract_projects": 520
+    },
+    "2": {
+      "occurrences": 276475,
+      "contract_projects": 1482
+    },
+    "3": {
+      "occurrences": 18424,
+      "contract_projects": 1147
+    },
+    "4": {
+      "occurrences": 2598,
+      "contract_projects": 792
+    },
+    "6": {
+      "occurrences": 11186,
+      "contract_projects": 1354
+    },
+    "7": {
+      "occurrences": 178,
+      "contract_projects": 154
+    },
+    "8": {
+      "occurrences": 124,
+      "contract_projects": 73
+    },
+    "9": {
+      "occurrences": 15,
+      "contract_projects": 11
+    },
+    "10": {
+      "occurrences": 604,
+      "contract_projects": 315
+    },
+    "11": {
+      "occurrences": 77750,
+      "contract_projects": 1433
+    },
+    "12": {
+      "occurrences": 3131,
+      "contract_projects": 849
+    },
+    "13": {
+      "occurrences": 20271,
+      "contract_projects": 842
+    },
+    "15": {
+      "occurrences": 18424,
+      "contract_projects": 1147
+    },
+    "16": {
+      "occurrences": 3563,
+      "contract_projects": 1372
+    },
+    "17": {
+      "occurrences": 4773,
+      "contract_projects": 971
+    },
+    "18": {
+      "occurrences": 544,
+      "contract_projects": 525
+    },
+    "20": {
+      "occurrences": 2459,
+      "contract_projects": 519
+    },
+    "21": {
+      "occurrences": 7545,
+      "contract_projects": 575
+    },
+    "22": {
+      "occurrences": 12085,
+      "contract_projects": 1104
+    },
+    "23": {
+      "occurrences": 20193,
+      "contract_projects": 1363
+    },
+    "24": {
+      "occurrences": 188,
+      "contract_projects": 103
+    },
+    "25": {
+      "occurrences": 27,
+      "contract_projects": 17
+    },
+    "26": {
+      "occurrences": 353,
+      "contract_projects": 310
+    },
+    "27": {
+      "occurrences": 419,
+      "contract_projects": 289
+    },
+    "28": {
+      "occurrences": 68,
+      "contract_projects": 18
+    },
+    "29": {
+      "occurrences": 53,
+      "contract_projects": 30
+    },
+    "30": {
+      "occurrences": 3141,
+      "contract_projects": 187
+    },
+    "31": {
+      "occurrences": 23,
+      "contract_projects": 19
+    },
+    "32": {
+      "occurrences": 4,
+      "contract_projects": 4
+    },
+    "33": {
+      "occurrences": 29,
+      "contract_projects": 23
+    },
+    "34": {
+      "occurrences": 4085,
+      "contract_projects": 841
+    },
+    "35": {
+      "occurrences": 938,
+      "contract_projects": 301
+    },
+    "36": {
+      "occurrences": 17,
+      "contract_projects": 8
+    },
+    "37": {
+      "occurrences": 17536,
+      "contract_projects": 1499
+    },
+    "38": {
+      "occurrences": 468,
+      "contract_projects": 160
+    }
+  }
+}

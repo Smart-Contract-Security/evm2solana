@@ -1,0 +1,27 @@
+{
+  "address": "0x0c9da8051b5c6990ca87fc75cfe2697bdda851b0",
+  "contract_name": "BackAlleySwap",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "60df441424d856cc4b6686c43d02c6f22adb09c61f9110b97baad2ea32234113",
+  "fetched_at": "2026-06-03T04:49:57.710730+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

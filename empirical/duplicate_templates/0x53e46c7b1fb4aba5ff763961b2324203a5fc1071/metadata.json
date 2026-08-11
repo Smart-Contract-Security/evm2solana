@@ -1,0 +1,33 @@
+{
+  "address": "0x53e46c7b1fb4aba5ff763961b2324203a5fc1071",
+  "contract_name": "DaemonWrapper",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 4,
+  "source_sha256": "99e55e4c652adf9661b3e667e653f4069c8acb93240869663bd13c482075b4f3",
+  "fetched_at": "2026-06-03T11:42:00.223201+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

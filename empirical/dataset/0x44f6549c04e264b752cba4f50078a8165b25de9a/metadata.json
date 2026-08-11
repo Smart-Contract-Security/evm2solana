@@ -1,0 +1,28 @@
+{
+  "address": "0x44f6549c04e264b752cba4f50078a8165b25de9a",
+  "contract_name": "HelloWorld",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 1,
+  "source_sha256": "cb52eb8e7098855ecd43120dc16b485358d25645d1de3ba29e18e464b5a8e951",
+  "fetched_at": "2026-06-04T03:23:28.746745+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [],
+    "evmVersion": "shanghai"
+  }
+}

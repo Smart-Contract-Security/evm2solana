@@ -1,0 +1,30 @@
+{
+  "address": "0x0d341dcdb39cd8262e536180132ce4990a2fce92",
+  "contract_name": "BridgeRouter",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 23,
+  "source_sha256": "46363b553c00253431dd93a7d3063b7744aaf9ce7108fa51959b2b9a008e0705",
+  "fetched_at": "2026-06-03T11:15:45.342663+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

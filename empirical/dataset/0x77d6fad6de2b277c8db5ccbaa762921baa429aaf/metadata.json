@@ -1,0 +1,27 @@
+{
+  "address": "0x77d6fad6de2b277c8db5ccbaa762921baa429aaf",
+  "contract_name": "YieldBasisArb",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 1,
+  "source_sha256": "e9d6673e8be37b1d3475fb2323545a7148b3b2a6bff0add2a43c61cdc8a5eb41",
+  "fetched_at": "2026-06-03T11:59:31.341752+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

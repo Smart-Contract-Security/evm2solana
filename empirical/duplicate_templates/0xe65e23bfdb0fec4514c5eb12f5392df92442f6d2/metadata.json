@@ -1,0 +1,27 @@
+{
+  "address": "0xe65e23bfdb0fec4514c5eb12f5392df92442f6d2",
+  "contract_name": "MainCharacterToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "ab54a68a25562ed55b6f20c0ade3795829bf530a91c08f61bd54fee0200e0e92",
+  "fetched_at": "2026-06-03T04:05:03.570530+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

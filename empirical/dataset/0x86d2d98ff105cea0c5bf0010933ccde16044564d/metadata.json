@@ -1,0 +1,27 @@
+{
+  "address": "0x86d2d98ff105cea0c5bf0010933ccde16044564d",
+  "contract_name": "ProjectCoin",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 8,
+  "source_sha256": "45d39f4443917cf1a2a9e43a1e69dea63b757b8365bff2564495348302cc26c2",
+  "fetched_at": "2026-06-03T12:35:30.250706+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 300
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "berlin"
+  }
+}

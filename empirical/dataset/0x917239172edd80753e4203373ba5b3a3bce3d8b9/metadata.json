@@ -1,0 +1,27 @@
+{
+  "address": "0x917239172edd80753e4203373ba5b3a3bce3d8b9",
+  "contract_name": "HypXERC20Lockbox",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 47,
+  "source_sha256": "5296c12928d403e1bdfbc7e37e59a997f390b1ef5d2c458a40edc3276be50a5a",
+  "fetched_at": "2026-06-02T07:36:00.418344+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

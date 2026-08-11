@@ -1,0 +1,27 @@
+{
+  "address": "0xddd514738b977b2557c32acd5b287f5d0d7dbe5e",
+  "contract_name": "ECTPairFactory",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 19,
+  "source_sha256": "cdeeef28dc3a123c8813faf9d84d56f335c6259f2de82b0ab1926052cfa750f7",
+  "fetched_at": "2026-06-03T12:53:45.806443+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

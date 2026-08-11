@@ -1,0 +1,896 @@
+{
+  "summary": {
+    "total_projects": 100,
+    "total_success": 8,
+    "total_failed": 83,
+    "total_infra_failed": 9,
+    "total_error_messages": 1019,
+    "unique_error_messages": 307
+  },
+  "tier_summary": {
+    "L1": {
+      "total": 25,
+      "success": 5,
+      "failed": 15,
+      "infra_failed": 5
+    },
+    "L2": {
+      "total": 25,
+      "success": 0,
+      "failed": 25,
+      "infra_failed": 0
+    },
+    "L3": {
+      "total": 25,
+      "success": 3,
+      "failed": 20,
+      "infra_failed": 2
+    },
+    "L4": {
+      "total": 25,
+      "success": 0,
+      "failed": 23,
+      "infra_failed": 2
+    }
+  },
+  "top_errors_by_occurrence": [
+    {
+      "message": "unknown function or type 'IERC20'",
+      "count": 51
+    },
+    {
+      "message": "accounts are required for calling a contract. You can either provide the accounts with the {accounts: ...} call argument or change this function's visibility to external",
+      "count": 44
+    },
+    {
+      "message": "unrecognized account",
+      "count": 31
+    },
+    {
+      "message": "contracts are not allowed as types on Solana",
+      "count": 28
+    },
+    {
+      "message": "implicit conversion would truncate from uint256 to uint64",
+      "count": 27
+    },
+    {
+      "message": "struct 'AccountInfo' field 'key' is readonly",
+      "count": 25
+    },
+    {
+      "message": "array subscript must be an unsigned integer, not 'address'",
+      "count": 24
+    },
+    {
+      "message": "unknown function or type 'IERC1363'",
+      "count": 24
+    },
+    {
+      "message": "builtin 'mload' is not available for target Solana. Please, open a GitHub issue at https://github.com/hyperledger-solang/solang/issues if there is need to support this function",
+      "count": 20
+    },
+    {
+      "message": "unknown function or type 'IDEL'",
+      "count": 18
+    },
+    {
+      "message": "function declared 'view' but this expression writes to state",
+      "count": 17
+    },
+    {
+      "message": "unknown function or type 'IUniswapV2Router02'",
+      "count": 16
+    },
+    {
+      "message": "unknown function or type 'getUint64Slot'",
+      "count": 16
+    },
+    {
+      "message": "Solana Cross Program Invocation (CPI) cannot transfer native value. See https://solang.readthedocs.io/en/latest/language/functions.html#value_transfer",
+      "count": 16
+    },
+    {
+      "message": "conversion to uint64 from bytes32 not allowed",
+      "count": 14
+    },
+    {
+      "message": "unknown function or type 'IPool'",
+      "count": 14
+    },
+    {
+      "message": "conversion to bytes32 from uint64 not allowed",
+      "count": 12
+    },
+    {
+      "message": "implicit conversion would truncate from bytes8 to bytes4",
+      "count": 12
+    },
+    {
+      "message": "unknown modifier 'onlyRole'",
+      "count": 11
+    },
+    {
+      "message": "function 'tload' overrides function in same contract",
+      "count": 10
+    },
+    {
+      "message": "'liquidityLocker' not found",
+      "count": 9
+    },
+    {
+      "message": "'address.code' is not supported on Solana",
+      "count": 9
+    },
+    {
+      "message": "unknown function or type 'IBeacon'",
+      "count": 9
+    },
+    {
+      "message": "unknown function or type 'ICreatorTokenTransferValidator'",
+      "count": 9
+    },
+    {
+      "message": "conversion from bytes4 to function_selector not possible",
+      "count": 8
+    },
+    {
+      "message": "unknown function or type 'IERC1822Proxiable'",
+      "count": 8
+    },
+    {
+      "message": "type 'AccountMeta' not found",
+      "count": 8
+    },
+    {
+      "message": "'_addressStorage' not found",
+      "count": 8
+    },
+    {
+      "message": "slice not supported yet",
+      "count": 8
+    },
+    {
+      "message": "unknown function or type 'ISeaDrop'",
+      "count": 8
+    },
+    {
+      "message": "unknown function or type 'ComptrollerInterface'",
+      "count": 8
+    },
+    {
+      "message": "'lamports' not found",
+      "count": 7
+    },
+    {
+      "message": "unknown function or type 'ITermRepoServicer'",
+      "count": 7
+    },
+    {
+      "message": "conversion from string to bytes not possible",
+      "count": 6
+    },
+    {
+      "message": "unknown function or type 'IERC20Minimal'",
+      "count": 6
+    },
+    {
+      "message": "'ERC721' not found",
+      "count": 6
+    },
+    {
+      "message": "unknown function or type 'IERC4626'",
+      "count": 6
+    },
+    {
+      "message": "implicit conversion to bytes32 from address not allowed",
+      "count": 6
+    },
+    {
+      "message": "cannot find overloaded function which matches signature",
+      "count": 6
+    },
+    {
+      "message": "ethereum address literal '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D' not supported on target Solana",
+      "count": 5
+    },
+    {
+      "message": "function 'defaultHook' is overloaded",
+      "count": 5
+    },
+    {
+      "message": "'emitter' not found",
+      "count": 5
+    },
+    {
+      "message": "value 420690000000000000000 does not fit into type uint64.",
+      "count": 4
+    },
+    {
+      "message": "unknown function or type 'IERC721'",
+      "count": 4
+    },
+    {
+      "message": "method 'transfer' not available on Solana. Use the lamports field from the AccountInfo struct directly to operate on balances.",
+      "count": 4
+    },
+    {
+      "message": "unknown function or type 'IBeaconUpgradeable'",
+      "count": 4
+    },
+    {
+      "message": "revert with custom errors not supported on Solana",
+      "count": 4
+    },
+    {
+      "message": "'accounts' takes array of AccountMeta, not 'address[2]'",
+      "count": 4
+    },
+    {
+      "message": "destucturing statement needed for function that returns multiple values",
+      "count": 4
+    },
+    {
+      "message": "'Upgraded' not found",
+      "count": 4
+    }
+  ],
+  "top_errors_by_tier": {
+    "L1": [
+      {
+        "message": "struct 'AccountInfo' field 'key' is readonly",
+        "count": 11
+      },
+      {
+        "message": "unknown function or type 'IDEL'",
+        "count": 6
+      },
+      {
+        "message": "unknown function or type 'IERC721'",
+        "count": 3
+      },
+      {
+        "message": "unknown function or type 'AggregatorV3Interface'",
+        "count": 2
+      },
+      {
+        "message": "address literal MandaliaStorage invalid character 'l'",
+        "count": 1
+      },
+      {
+        "message": "contract requires at least 3128 bytes of space",
+        "count": 1
+      },
+      {
+        "message": "address literal SessionKeyManager1111111111111111111111111 incorrect length of 31",
+        "count": 1
+      },
+      {
+        "message": "value 420690000000000000000 does not fit into type uint64.",
+        "count": 1
+      },
+      {
+        "message": "unknown function or type 'IUniswapV2Router02'",
+        "count": 1
+      },
+      {
+        "message": "address literal SmileShare11111111111111111111111111111111 invalid character 'l'",
+        "count": 1
+      },
+      {
+        "message": "annotations not allowed on import",
+        "count": 1
+      },
+      {
+        "message": "unrecognized account",
+        "count": 1
+      },
+      {
+        "message": "function declared 'view' but this expression writes to state",
+        "count": 1
+      },
+      {
+        "message": "value 100000000000000000000000000 does not fit into type uint64.",
+        "count": 1
+      },
+      {
+        "message": "conversion from bytes4 to function_selector not possible",
+        "count": 1
+      },
+      {
+        "message": "value 1500000000000000000000000000000 does not fit into type uint64.",
+        "count": 1
+      },
+      {
+        "message": "contracts are not allowed as types on Solana",
+        "count": 1
+      }
+    ],
+    "L2": [
+      {
+        "message": "unrecognized account",
+        "count": 22
+      },
+      {
+        "message": "unknown function or type 'IUniswapV2Router02'",
+        "count": 15
+      },
+      {
+        "message": "'liquidityLocker' not found",
+        "count": 9
+      },
+      {
+        "message": "unknown function or type 'IERC20'",
+        "count": 7
+      },
+      {
+        "message": "struct 'AccountInfo' field 'key' is readonly",
+        "count": 7
+      },
+      {
+        "message": "conversion to uint64 from bytes32 not allowed",
+        "count": 6
+      },
+      {
+        "message": "ethereum address literal '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D' not supported on target Solana",
+        "count": 5
+      },
+      {
+        "message": "'lamports' not found",
+        "count": 5
+      },
+      {
+        "message": "array subscript must be an unsigned integer, not 'address'",
+        "count": 5
+      },
+      {
+        "message": "contracts are not allowed as types on Solana",
+        "count": 4
+      },
+      {
+        "message": "unknown function or type 'getUint64Slot'",
+        "count": 4
+      },
+      {
+        "message": "value 420690000000000000000 does not fit into type uint64.",
+        "count": 3
+      },
+      {
+        "message": "unknown function or type 'IERC20Upgradeable'",
+        "count": 3
+      },
+      {
+        "message": "'skindex' not found",
+        "count": 3
+      },
+      {
+        "message": "method 'transfer' not available on Solana. Use the lamports field from the AccountInfo struct directly to operate on balances.",
+        "count": 2
+      },
+      {
+        "message": "conversion to bytes32 from uint64 not allowed",
+        "count": 2
+      },
+      {
+        "message": "method 'transfer_lamports' does not exist",
+        "count": 2
+      },
+      {
+        "message": "unknown function or type 'IBeaconUpgradeable'",
+        "count": 2
+      },
+      {
+        "message": "conversion from bytes4 to function_selector not possible",
+        "count": 2
+      },
+      {
+        "message": "accounts are required for calling a contract. You can either provide the accounts with the {accounts: ...} call argument or change this function's visibility to external",
+        "count": 2
+      },
+      {
+        "message": "unknown function or type 'IPermit2'",
+        "count": 1
+      },
+      {
+        "message": "address literal baskai_program_id invalid character '_'",
+        "count": 1
+      },
+      {
+        "message": "method 'accountInfo' does not exist",
+        "count": 1
+      },
+      {
+        "message": "unknown annotation signer for constructor",
+        "count": 1
+      },
+      {
+        "message": "conversion from bool to uint256 not possible",
+        "count": 1
+      },
+      {
+        "message": "unknown function or type 'IPriceOracle'",
+        "count": 1
+      },
+      {
+        "message": "missing call arguments",
+        "count": 1
+      },
+      {
+        "message": "implicit conversion would truncate from uint256 to uint64",
+        "count": 1
+      },
+      {
+        "message": "value 100000000000000000000000000000000 does not fit into type uint64.",
+        "count": 1
+      },
+      {
+        "message": "unknown function or type 'IUniswapV2Factory'",
+        "count": 1
+      },
+      {
+        "message": "array subscript must be an unsigned integer, not 'address storage'",
+        "count": 1
+      },
+      {
+        "message": "'_owner' not found",
+        "count": 1
+      },
+      {
+        "message": "builtin 'revert' is not available for target Solana. Please, open a GitHub issue at https://github.com/hyperledger-solang/solang/issues if there is need to support this function",
+        "count": 1
+      },
+      {
+        "message": "unknown function or type 'IERC1822ProxiableUpgradeable'",
+        "count": 1
+      },
+      {
+        "message": "method 'transfer' does not exist",
+        "count": 1
+      },
+      {
+        "message": "array subscript must be an unsigned integer, not 'address payable'",
+        "count": 1
+      },
+      {
+        "message": "method 'lamports' does not exist",
+        "count": 1
+      },
+      {
+        "message": "unknown function or type 'IR4'",
+        "count": 1
+      },
+      {
+        "message": "conversion from bytes to bytes not possible",
+        "count": 1
+      },
+      {
+        "message": "function 'transfer' overrides function which is not virtual",
+        "count": 1
+      },
+      {
+        "message": "Solana Cross Program Invocation (CPI) cannot transfer native value. See https://solang.readthedocs.io/en/latest/language/functions.html#value_transfer",
+        "count": 1
+      },
+      {
+        "message": "unknown function or type 'IERC20PermitUpgradeable'",
+        "count": 1
+      },
+      {
+        "message": "contract requires at least 4168 bytes of space",
+        "count": 1
+      },
+      {
+        "message": "builtin 'mstore8' is not available for target Solana. Please, open a GitHub issue at https://github.com/hyperledger-solang/solang/issues if there is need to support this function",
+        "count": 1
+      },
+      {
+        "message": "builtin 'tx.data' does not exist",
+        "count": 1
+      }
+    ],
+    "L3": [
+      {
+        "message": "accounts are required for calling a contract. You can either provide the accounts with the {accounts: ...} call argument or change this function's visibility to external",
+        "count": 22
+      },
+      {
+        "message": "unknown function or type 'IERC20'",
+        "count": 19
+      },
+      {
+        "message": "unknown function or type 'IERC1363'",
+        "count": 12
+      },
+      {
+        "message": "unknown function or type 'IDEL'",
+        "count": 12
+      },
+      {
+        "message": "unknown function or type 'getUint64Slot'",
+        "count": 12
+      },
+      {
+        "message": "function declared 'view' but this expression writes to state",
+        "count": 11
+      },
+      {
+        "message": "Solana Cross Program Invocation (CPI) cannot transfer native value. See https://solang.readthedocs.io/en/latest/language/functions.html#value_transfer",
+        "count": 7
+      },
+      {
+        "message": "contracts are not allowed as types on Solana",
+        "count": 7
+      },
+      {
+        "message": "conversion from string to bytes not possible",
+        "count": 6
+      },
+      {
+        "message": "implicit conversion would truncate from bytes8 to bytes4",
+        "count": 6
+      },
+      {
+        "message": "'_addressStorage' not found",
+        "count": 6
+      },
+      {
+        "message": "unknown function or type 'IERC20Minimal'",
+        "count": 6
+      },
+      {
+        "message": "'address.code' is not supported on Solana",
+        "count": 5
+      },
+      {
+        "message": "unknown function or type 'IERC1822Proxiable'",
+        "count": 5
+      },
+      {
+        "message": "unrecognized account",
+        "count": 5
+      },
+      {
+        "message": "unknown function or type 'IBeacon'",
+        "count": 5
+      },
+      {
+        "message": "revert with custom errors not supported on Solana",
+        "count": 4
+      },
+      {
+        "message": "conversion from bytes4 to function_selector not possible",
+        "count": 4
+      },
+      {
+        "message": "destucturing statement needed for function that returns multiple values",
+        "count": 4
+      },
+      {
+        "message": "conversion to bytes32 from uint64 not allowed",
+        "count": 4
+      },
+      {
+        "message": "'data' not found",
+        "count": 4
+      },
+      {
+        "message": "unknown function or type 'IAaveV3Pool'",
+        "count": 4
+      },
+      {
+        "message": "'accounts' takes array of AccountMeta, not 'struct AccountInfo[]'",
+        "count": 4
+      },
+      {
+        "message": "conversion to bytes32 from uint8 not allowed",
+        "count": 3
+      },
+      {
+        "message": "unknown function or type 'IAccessController'",
+        "count": 3
+      },
+      {
+        "message": "'endpoint' not found",
+        "count": 3
+      },
+      {
+        "message": "'Upgraded' not found",
+        "count": 3
+      },
+      {
+        "message": "'AdminChanged' not found",
+        "count": 3
+      },
+      {
+        "message": "'BeaconUpgraded' not found",
+        "count": 3
+      },
+      {
+        "message": "implicit conversion would truncate from 'uint256' to 'uint64'",
+        "count": 3
+      },
+      {
+        "message": "'ProtocolPhase' not found",
+        "count": 3
+      },
+      {
+        "message": "unknown function or type 'IGateCoin'",
+        "count": 3
+      },
+      {
+        "message": "'lamports' not found",
+        "count": 2
+      },
+      {
+        "message": "unknown function or type 'IVault'",
+        "count": 2
+      },
+      {
+        "message": "'accounts' takes array of AccountMeta, not 'address[2]'",
+        "count": 2
+      },
+      {
+        "message": "'accounts' takes array of AccountMeta, not 'address[3]'",
+        "count": 2
+      },
+      {
+        "message": "unrecognised token 'instance', expected \"!=\", \"%\", \"%=\", \"&\", \"&&\", \"&=\", \"(\", \"*\", \"**\", \"*=\", \"+\", \"++\", \"+=\", \"-\", \"--\", \"-=\", \".\", \"/\", \"/=\", \";\", \"<\", \"<<\", \"<<=\", \"<=\", \"=\", \"==\", \">\", \">=\", \">>\", \">>=\", \"?\", \"[\", \"^\", \"^=\", \"calldata\", \"case\", \"default\", \"leave\", \"memory\", \"revert\", \"storage\", \"switch\", \"{\", \"|\", \"|=\", \"||\", identifier",
+        "count": 2
+      },
+      {
+        "message": "unrecognised token 'instance', expected \"!\", \"(\", \"+\", \"++\", \"-\", \"--\", \"[\", \"address\", \"bool\", \"byte\", \"bytes\", \"case\", \"default\", \"delete\", \"false\", \"function\", \"leave\", \"mapping\", \"new\", \"payable\", \"revert\", \"string\", \"switch\", \"true\", \"type\", \"~\", Bytes, Int, Uint, address, hexnumber, hexstring, identifier, number, rational, string",
+        "count": 2
+      },
+      {
+        "message": "unrecognised token ')', expected \"!=\", \"%\", \"%=\", \"&\", \"&&\", \"&=\", \"*\", \"**\", \"*=\", \"+\", \"++\", \"+=\", \"-\", \"--\", \"-=\", \".\", \"/\", \"/=\", \";\", \"<\", \"<<\", \"<<=\", \"<=\", \"=\", \"==\", \">\", \">=\", \">>\", \">>=\", \"?\", \"[\", \"^\", \"^=\", \"calldata\", \"case\", \"default\", \"leave\", \"memory\", \"revert\", \"storage\", \"switch\", \"|\", \"|=\", \"||\", identifier",
+        "count": 2
+      },
+      {
+        "message": "unrecognised token 'instance', expected \"!\", \"(\", \"+\", \"++\", \"-\", \"--\", \";\", \"[\", \"address\", \"bool\", \"byte\", \"bytes\", \"case\", \"default\", \"delete\", \"false\", \"function\", \"leave\", \"mapping\", \"new\", \"payable\", \"revert\", \"string\", \"switch\", \"true\", \"type\", \"~\", Bytes, Int, Uint, address, hexnumber, hexstring, identifier, number, rational, string",
+        "count": 2
+      },
+      {
+        "message": "type 'AccountMeta' not found",
+        "count": 2
+      },
+      {
+        "message": "function 'supportsInterface' override list does not contain 'ERC165'",
+        "count": 2
+      },
+      {
+        "message": "struct 'AccountInfo' field 'key' is readonly",
+        "count": 2
+      },
+      {
+        "message": "conversion to uint64 from bytes32 not allowed",
+        "count": 2
+      },
+      {
+        "message": "unknown function or type 'IPriceOracle'",
+        "count": 2
+      },
+      {
+        "message": "account 'authority' already defined",
+        "count": 2
+      },
+      {
+        "message": "array subscript must be an unsigned integer, not 'address'",
+        "count": 2
+      },
+      {
+        "message": "implicit conversion would truncate from uint256 to uint64",
+        "count": 2
+      },
+      {
+        "message": "method 'transfer' not available on Solana. Use the lamports field from the AccountInfo struct directly to operate on balances.",
+        "count": 2
+      },
+      {
+        "message": "conversion from uint64 to uint64[] not possible",
+        "count": 2
+      }
+    ],
+    "L4": [
+      {
+        "message": "unknown function or type 'IERC20'",
+        "count": 25
+      },
+      {
+        "message": "implicit conversion would truncate from uint256 to uint64",
+        "count": 24
+      },
+      {
+        "message": "accounts are required for calling a contract. You can either provide the accounts with the {accounts: ...} call argument or change this function's visibility to external",
+        "count": 20
+      },
+      {
+        "message": "builtin 'mload' is not available for target Solana. Please, open a GitHub issue at https://github.com/hyperledger-solang/solang/issues if there is need to support this function",
+        "count": 19
+      },
+      {
+        "message": "array subscript must be an unsigned integer, not 'address'",
+        "count": 17
+      },
+      {
+        "message": "contracts are not allowed as types on Solana",
+        "count": 16
+      },
+      {
+        "message": "unknown function or type 'IPool'",
+        "count": 14
+      },
+      {
+        "message": "unknown function or type 'IERC1363'",
+        "count": 12
+      },
+      {
+        "message": "unknown modifier 'onlyRole'",
+        "count": 11
+      },
+      {
+        "message": "function 'tload' overrides function in same contract",
+        "count": 10
+      },
+      {
+        "message": "unknown function or type 'ICreatorTokenTransferValidator'",
+        "count": 9
+      },
+      {
+        "message": "slice not supported yet",
+        "count": 8
+      },
+      {
+        "message": "Solana Cross Program Invocation (CPI) cannot transfer native value. See https://solang.readthedocs.io/en/latest/language/functions.html#value_transfer",
+        "count": 8
+      },
+      {
+        "message": "unknown function or type 'ISeaDrop'",
+        "count": 8
+      },
+      {
+        "message": "unknown function or type 'ComptrollerInterface'",
+        "count": 8
+      },
+      {
+        "message": "unknown function or type 'ITermRepoServicer'",
+        "count": 7
+      },
+      {
+        "message": "implicit conversion would truncate from bytes8 to bytes4",
+        "count": 6
+      },
+      {
+        "message": "type 'AccountMeta' not found",
+        "count": 6
+      },
+      {
+        "message": "'ERC721' not found",
+        "count": 6
+      },
+      {
+        "message": "unknown function or type 'IERC4626'",
+        "count": 6
+      },
+      {
+        "message": "conversion to bytes32 from uint64 not allowed",
+        "count": 6
+      },
+      {
+        "message": "conversion to uint64 from bytes32 not allowed",
+        "count": 6
+      },
+      {
+        "message": "implicit conversion to bytes32 from address not allowed",
+        "count": 6
+      },
+      {
+        "message": "cannot find overloaded function which matches signature",
+        "count": 6
+      },
+      {
+        "message": "function 'defaultHook' is overloaded",
+        "count": 5
+      },
+      {
+        "message": "function declared 'view' but this expression writes to state",
+        "count": 5
+      },
+      {
+        "message": "struct 'AccountInfo' field 'key' is readonly",
+        "count": 5
+      },
+      {
+        "message": "'emitter' not found",
+        "count": 5
+      },
+      {
+        "message": "builtin 'sload' is not available for target Solana. Please, open a GitHub issue at https://github.com/hyperledger-solang/solang/issues if there is need to support this function",
+        "count": 4
+      },
+      {
+        "message": "unknown function or type 'IBeacon'",
+        "count": 4
+      },
+      {
+        "message": "'ERC721A' not found",
+        "count": 4
+      },
+      {
+        "message": "unknown function or type 'InterestRateModel'",
+        "count": 4
+      },
+      {
+        "message": "'InsufficientBalance' not found",
+        "count": 4
+      },
+      {
+        "message": "'address.code' is not supported on Solana",
+        "count": 4
+      },
+      {
+        "message": "expression of type bytes1 not allowed",
+        "count": 4
+      },
+      {
+        "message": "unknown function or type 'ITermEventEmitter'",
+        "count": 4
+      },
+      {
+        "message": "conversion from string to string storage not possible",
+        "count": 4
+      },
+      {
+        "message": "method 'read32' does not exist",
+        "count": 4
+      },
+      {
+        "message": "builtin 'mstore' is not available for target Solana. Please, open a GitHub issue at https://github.com/hyperledger-solang/solang/issues if there is need to support this function",
+        "count": 4
+      },
+      {
+        "message": "builtin 'sstore' is not available for target Solana. Please, open a GitHub issue at https://github.com/hyperledger-solang/solang/issues if there is need to support this function",
+        "count": 3
+      },
+      {
+        "message": "type 'IERC20' not found",
+        "count": 3
+      },
+      {
+        "message": "'IERC20' not found",
+        "count": 3
+      },
+      {
+        "message": "unknown function or type 'IEAGVaultFactory'",
+        "count": 3
+      },
+      {
+        "message": "unknown function or type 'ERC721A__IERC721Receiver'",
+        "count": 3
+      },
+      {
+        "message": "conversion to uint256 from bytes1 not allowed",
+        "count": 3
+      },
+      {
+        "message": "unknown function or type 'IERC1822Proxiable'",
+        "count": 3
+      },
+      {
+        "message": "address literal AddressOfTermAuctionRevealedBid invalid character 'O'",
+        "count": 3
+      },
+      {
+        "message": "type 'TermAuctionOfferSubmission' not found",
+        "count": 3
+      },
+      {
+        "message": "'accounts' takes array of AccountMeta, not 'address[1]'",
+        "count": 3
+      },
+      {
+        "message": "ethereum address literal '0x86b77F2ed584e6Ed3478C1F14e6D7b47D0AB0cc7' not supported on target Solana",
+        "count": 3
+      }
+    ]
+  }
+}

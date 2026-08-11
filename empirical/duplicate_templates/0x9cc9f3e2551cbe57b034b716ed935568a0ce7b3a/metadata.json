@@ -1,0 +1,27 @@
+{
+  "address": "0x9cc9f3e2551cbe57b034b716ed935568a0ce7b3a",
+  "contract_name": "TRC20",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "130f0ceacc651d3cf41ad0d46ceaf68a0fb640c17ddfcd7900b3db75b4e43045",
+  "fetched_at": "2026-06-03T06:48:12.137106+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

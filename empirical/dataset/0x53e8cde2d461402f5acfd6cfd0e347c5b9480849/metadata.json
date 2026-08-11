@@ -1,0 +1,40 @@
+{
+  "address": "0x53e8cde2d461402f5acfd6cfd0e347c5b9480849",
+  "contract_name": "DaemonWrapper",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 32,
+  "source_sha256": "7a73d53321c9a1f171399fa1aa8405067af3a0dbb55c5c76bb1a9c4134428cf4",
+  "fetched_at": "2026-06-02T11:18:29.333845+00:00",
+  "solc_settings": {
+    "remappings": [
+      "project/=src/project/",
+      "solady/=src/npm/solady@0.1.26/",
+      "@uniswap/v4-core/=src/npm/@uniswap/v4-core@1.0.2/",
+      "@openzeppelin/uniswap-hooks/=src/npm/@openzeppelin/uniswap-hooks@1.1.1/",
+      "@openzeppelin/contracts/=src/npm/@openzeppelin/contracts@5.6.1/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

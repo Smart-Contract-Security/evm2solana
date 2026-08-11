@@ -1,0 +1,37 @@
+[
+  {
+    "file": "CutiesStaking.sol",
+    "original_lines": 235,
+    "ported_lines": 237,
+    "added": [
+      "        require(tx.accounts[0].key == owner, \"not owner\");",
+      "        owner = tx.accounts[0].key;",
+      "        emit OwnershipTransferred(address(0), tx.accounts[0].key);",
+      "        address sender = tx.accounts[0].key;",
+      "            IERC721(collection).safeTransferFrom(sender, address(this), tokenId);",
+      "            stakes[collection][tokenId] = Stake({owner: sender, stakedAt: nowTs});",
+      "            uint256[] storage list = _userTokens[sender][collection];",
+      "            _userTokenIndex[sender][collection][tokenId] = list.length; // 1-based",
+      "            emit Staked(sender, collection, tokenId, nowTs);",
+      "        address sender = tx.accounts[0].key;",
+      "            require(s.owner == sender, \"not staker\");",
+      "            _removeFromUserList(sender, collection, tokenId);",
+      "            IERC721(collection).safeTransferFrom(address(this), sender, tokenId);",
+      "            emit Unstaked(sender, collection, tokenId, uint64(block.timestamp));"
+    ],
+    "removed": [
+      "        require(msg.sender == owner, \"not owner\");",
+      "        owner = msg.sender;",
+      "        emit OwnershipTransferred(address(0), msg.sender);",
+      "            IERC721(collection).safeTransferFrom(msg.sender, address(this), tokenId);",
+      "            stakes[collection][tokenId] = Stake({owner: msg.sender, stakedAt: nowTs});",
+      "            uint256[] storage list = _userTokens[msg.sender][collection];",
+      "            _userTokenIndex[msg.sender][collection][tokenId] = list.length; // 1-based",
+      "            emit Staked(msg.sender, collection, tokenId, nowTs);",
+      "            require(s.owner == msg.sender, \"not staker\");",
+      "            _removeFromUserList(msg.sender, collection, tokenId);",
+      "            IERC721(collection).safeTransferFrom(address(this), msg.sender, tokenId);",
+      "            emit Unstaked(msg.sender, collection, tokenId, uint64(block.timestamp));"
+    ]
+  }
+]

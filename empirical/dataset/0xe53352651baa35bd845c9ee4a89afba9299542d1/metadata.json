@@ -1,0 +1,60 @@
+{
+  "address": "0xe53352651baa35bd845c9ee4a89afba9299542d1",
+  "contract_name": "Deployer",
+  "compiler_version": "v0.8.21+commit.d9974bed",
+  "file_count": 39,
+  "source_sha256": "bce791c7bf7d5af9ac7227b7ce166bbc194068d91209d849224d85dd48fcd92f",
+  "fetched_at": "2026-06-04T10:33:22.162304+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@solmate/=lib/solmate/src/",
+      "@forge-std/=lib/forge-std/src/",
+      "@ds-test/=lib/forge-std/lib/ds-test/src/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "@uniswap/v3-periphery/=lib/v3-periphery/",
+      "@uniswap/v3-core/=lib/v3-core/",
+      "@chainlink/=lib/chainlink/",
+      "@uniswapV3P/=lib/v3-periphery/contracts/",
+      "@uniswapV3C/=lib/v3-core/contracts/",
+      "@balancer/=lib/balancer-v2-monorepo/pkg/",
+      "@swaap-v2/=lib/swaap-v2-monorepo/pkg/",
+      "script/=script/",
+      "@balancer-labs/=lib/swaap-v2-monorepo/../../node_modules/@balancer-labs/",
+      "@balancer-labs/v2-vault/=lib/swaap-v2-monorepo/./pkg/vault/",
+      "balancer-v2-monorepo/=lib/balancer-v2-monorepo/",
+      "chainlink/=lib/chainlink/integration-tests/contracts/ethereum/src/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "pendle-core-v2-public/=lib/pendle-core-v2-public/contracts/",
+      "solmate/=lib/solmate/src/",
+      "swaap-v2-monorepo/=lib/swaap-v2-monorepo/",
+      "v3-core/=lib/v3-core/contracts/",
+      "v3-periphery/=lib/v3-periphery/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "shanghai",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "SessionKeyManager.sol",
+    "original_lines": 48,
+    "ported_lines": 44,
+    "added": [
+      "@program_id(\"SessionKeyManager1111111111111111111111111\")",
+      "        uint64 expiry;",
+      "    event SessionKeyAdded(address user, address sessionKey, uint64 expiry);",
+      "    event SessionKeyRevoked(address user, address sessionKey);",
+      "    function addSessionKey(address sessionKey, uint64 expiry) public {",
+      "        SessionKey storage key = sessionKeys[tx.accounts.dataAccount.key];",
+      "        key.user = tx.accounts.dataAccount.key;",
+      "        emit SessionKeyAdded(tx.accounts.dataAccount.key, sessionKey, expiry);",
+      "        SessionKey storage key = sessionKeys[tx.accounts.dataAccount.key];",
+      "        emit SessionKeyRevoked(tx.accounts.dataAccount.key, key.sessionKey);",
+      "    function getSessionKeyDetails(address user) public view returns (address, uint64, bool) {"
+    ],
+    "removed": [
+      "// SPDX-License-Identifier: GPL-3.0",
+      "// OneBalance Session Key Manager Contract",
+      "// Part of the OneBalance Framework for managing session keys",
+      "pragma solidity ^0.8.0;",
+      "",
+      "        uint256 expiry;",
+      "    event SessionKeyAdded(address indexed user, address sessionKey, uint256 expiry);",
+      "    event SessionKeyRevoked(address indexed user, address sessionKey);",
+      "    function addSessionKey(address sessionKey, uint256 expiry) public {",
+      "        SessionKey storage key = sessionKeys[msg.sender];",
+      "        key.user = msg.sender;",
+      "        emit SessionKeyAdded(msg.sender, sessionKey, expiry);",
+      "        SessionKey storage key = sessionKeys[msg.sender];",
+      "        emit SessionKeyRevoked(msg.sender, key.sessionKey);",
+      "    function getSessionKeyDetails(address user) public view returns (address, uint256, bool) {"
+    ]
+  }
+]

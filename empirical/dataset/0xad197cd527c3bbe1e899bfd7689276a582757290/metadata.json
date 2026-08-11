@@ -1,0 +1,24 @@
+{
+  "address": "0xad197cd527c3bbe1e899bfd7689276a582757290",
+  "contract_name": "AdaptiveToken",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 6,
+  "source_sha256": "dbc9ea3ccb89eaffb797a47715b19c43a086c62fd73ba9ff92aa2ca7291b1413",
+  "fetched_at": "2026-06-04T12:26:39.458991+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0xbc39eaf5b938e7eb74d606b45e2082acdc6c79c1",
+  "contract_name": "Tweet",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 1,
+  "source_sha256": "3e8f64b304cc0db94e433bd040e9e55b6b9f34b0f4c923271937b36b951ad6a6",
+  "fetched_at": "2026-06-04T04:48:06.641828+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

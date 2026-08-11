@@ -1,0 +1,31 @@
+{
+  "address": "0x688f0c32c112e92b6b058bc95d09f47fdd9bd888",
+  "contract_name": "KusamaBridge",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "4de98404d102910797e27f3dba0e2581d0bed3299e3269598f1e55edd888e43d",
+  "fetched_at": "2026-06-02T13:21:36.105450+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

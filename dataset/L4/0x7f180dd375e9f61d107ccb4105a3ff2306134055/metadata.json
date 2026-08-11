@@ -1,0 +1,31 @@
+{
+  "address": "0x7f180dd375e9f61d107ccb4105a3ff2306134055",
+  "contract_name": "WCLPunkMint",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 23,
+  "source_sha256": "1d0f40f3e5f10e043ddc5752612b1f83afcc69752ddc16a0dbab50c3f9e027d6",
+  "fetched_at": "2026-06-03T03:14:53.301031+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "runs": 200,
+      "enabled": true
+    },
+    "evmVersion": "cancun",
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

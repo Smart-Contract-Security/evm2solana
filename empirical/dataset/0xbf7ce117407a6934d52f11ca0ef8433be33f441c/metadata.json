@@ -1,0 +1,27 @@
+{
+  "address": "0xbf7ce117407a6934d52f11ca0ef8433be33f441c",
+  "contract_name": "InterchainAccountIsm",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 12,
+  "source_sha256": "098d15cf7cd4d73ec5f7d334fe6c748689bece0f6c35e444979d394bbca30754",
+  "fetched_at": "2026-06-04T05:13:09.381880+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

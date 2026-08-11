@@ -1,0 +1,28 @@
+{
+  "address": "0x5cc966453378d05302e1dcb4f8f272aa3c264aa4",
+  "contract_name": "ZkLighterVerifier",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 2,
+  "source_sha256": "7dc063d9b23feba7aeb389131a623a330360ee3b96ca70820a9278d16c369306",
+  "fetched_at": "2026-06-03T06:37:20.114310+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

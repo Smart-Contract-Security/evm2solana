@@ -1,0 +1,27 @@
+{
+  "address": "0x315e5410295c52bdae6bb2406bca7fe944d86c0e",
+  "contract_name": "ChillyMax",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "84a931bb1f63e619936dfad4b768b5a1b2ee12ac1d6fbe4b48bb6e11f53aa26f",
+  "fetched_at": "2026-06-02T08:38:33.018499+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

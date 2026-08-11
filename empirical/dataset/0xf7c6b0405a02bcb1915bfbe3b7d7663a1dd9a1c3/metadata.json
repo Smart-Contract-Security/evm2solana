@@ -1,0 +1,45 @@
+{
+  "address": "0xf7c6b0405a02bcb1915bfbe3b7d7663a1dd9a1c3",
+  "contract_name": "TransparentUpgradeableProxy",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 8,
+  "source_sha256": "57ff78230c0ad9f2fa21a9d1d510fc0722cac14b43303887f3d874124364e33b",
+  "fetched_at": "2026-06-03T04:45:48.507203+00:00",
+  "solc_settings": {
+    "remappings": [
+      "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+      "forge-tests/=forge-tests/",
+      "lib/=lib/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "@uniswap/=node_modules/@uniswap/",
+      "forge-std/=lib/forge-std/src/",
+      "hardhat-deploy/=node_modules/hardhat-deploy/",
+      "hardhat/=node_modules/hardhat/",
+      "solidity-bytes-utils/=node_modules/solidity-bytes-utils/",
+      "truffle/=node_modules/truffle/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

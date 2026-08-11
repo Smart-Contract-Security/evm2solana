@@ -1,0 +1,37 @@
+{
+  "address": "0x9485d36b0bd495c25b9f3b7c910649a1ee7d3b63",
+  "contract_name": "ZuCitySystem",
+  "compiler_version": "v0.8.29+commit.ab55807c",
+  "file_count": 13,
+  "source_sha256": "97ec42133298eefef8e06f55689f885754de88ef838f32dd1e69f7822c7dd9b6",
+  "fetched_at": "2026-06-03T04:12:48.415221+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "solady/=lib/solady/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 20000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x9ce3ff12ca5a01e4577920bd326b2e073a04590c",
+  "contract_name": "ReentrancyAttacker",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "94e8e81bad78bc45cae50bdf058b9e40e1416d71e33f6d0f5c56ea0220eea1d6",
+  "fetched_at": "2026-06-01T02:57:06.472771+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

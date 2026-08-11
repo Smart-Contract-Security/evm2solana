@@ -1,0 +1,27 @@
+{
+  "address": "0xc8e86a14a51cecae771f75e7c8cd4bffecf9fc5d",
+  "contract_name": "ProjectSale",
+  "compiler_version": "v0.8.16+commit.07a7930e",
+  "file_count": 30,
+  "source_sha256": "1a25b7cfd394c0dce88f96afed02246fc07057b6e498044380f7ad6236fc7dee",
+  "fetched_at": "2026-06-04T05:51:51.249188+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "address": "0x37810a38af723dbb2f6fc718d01ddff71a3812b9",
+  "contract_name": "PendleAPXUSDAssetsProvider",
+  "compiler_version": "v0.8.29+commit.ab55807c",
+  "file_count": 9,
+  "source_sha256": "712a1ad3b638cf6754ddefb8aca40dc817fd9c1ac947f57553966d426f169f99",
+  "fetched_at": "2026-06-03T12:45:50.670710+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts@5.0.2/=node_modules/@openzeppelin/contracts-5.0.2/",
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+      "@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable-4.9.4/",
+      "@openzeppelin/contracts@5.0.2/=node_modules/@openzeppelin/contracts-5.0.2/",
+      "@metamorpho/src/=lib/metamorpho/src/",
+      "forge-std/src/=lib/forge-std/src/",
+      "forge-std/=lib/forge-std/src/",
+      "@superearn/=src/superearn/",
+      "@yearn-vaults/=src/yearn-vaults/",
+      "@mock/=src/mock/",
+      "@external/=src/external/",
+      "@runespear/=src/superearn/v2/messaging/runespear/",
+      "solady/=node_modules/solady/",
+      "@bisonai/orakl-contracts/=node_modules/@bisonai/orakl-contracts/",
+      "@arbitrum/=node_modules/@arbitrum/",
+      "@chainlink/=node_modules/@chainlink/",
+      "@eth-optimism/=node_modules/@chainlink/contracts/node_modules/@eth-optimism/",
+      "@offchainlabs/=node_modules/@offchainlabs/",
+      "@scroll-tech/=node_modules/@scroll-tech/",
+      "@uniswap/=node_modules/@uniswap/",
+      "@zksync/=node_modules/@zksync/",
+      "base64-sol/=node_modules/base64-sol/",
+      "chainlink-evm/=lib/chainlink-evm/",
+      "ds-test/=lib/metamorpho/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/metamorpho/lib/erc4626-tests/",
+      "forge-gas-snapshot/=node_modules/@uniswap/v4-periphery/lib/permit2/lib/forge-gas-snapshot/",
+      "hardhat/=node_modules/hardhat/",
+      "metamorpho/=lib/metamorpho/src/",
+      "morpho-blue/=lib/metamorpho/lib/morpho-blue/",
+      "murky/=lib/metamorpho/lib/universal-rewards-distributor/lib/murky/src/",
+      "openzeppelin-contracts/=lib/metamorpho/lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/metamorpho/lib/universal-rewards-distributor/lib/openzeppelin-contracts/contracts/",
+      "permit2/=node_modules/@uniswap/v4-periphery/lib/permit2/",
+      "solmate/=node_modules/@uniswap/v4-core/lib/solmate/",
+      "universal-rewards-distributor/=lib/metamorpho/lib/universal-rewards-distributor/src/",
+      "v4-core/=node_modules/@uniswap/v4-periphery/lib/v4-core/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 250
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

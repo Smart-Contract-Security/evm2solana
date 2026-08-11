@@ -1,0 +1,35 @@
+{
+  "address": "0x68cd646329d89b51be884632cec99f169c78e3fb",
+  "contract_name": "PolicyManager",
+  "compiler_version": "v0.8.14+commit.80d49f37",
+  "file_count": 21,
+  "source_sha256": "989d840f1e1b8c2cc2307f396b4d73b1c03f39c2e4e4b0c0f533dda9cb4fac63",
+  "fetched_at": "2026-06-04T10:57:24.279483+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "none",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 126
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {
+      "contracts/lib/PolicyStorage.sol": {
+        "PolicyStorage": "0xb59dfad09e8706151951e51bb44fe8666682b05b"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x5706cb3434fb3d7564623b7e3665b86b45a07b71",
+  "contract_name": "flashtoken",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "908719095a805974d4a6835d54ade6820832c9354a21399fbcfbba94e7cf1740",
+  "fetched_at": "2026-06-01T08:38:35.972181+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0xfb5ff916c9b9e7c0ae7456e56da5fe053c92ee36",
+  "contract_name": "OracleInverter",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 7,
+  "source_sha256": "260d06d0d216c51f51e3ebad6e9d41d26629d800a9ebbd4293cc75d02b7a9327",
+  "fetched_at": "2026-06-03T06:47:07.248299+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true,
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

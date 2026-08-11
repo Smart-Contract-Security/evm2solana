@@ -1,0 +1,28 @@
+{
+  "address": "0xe0b19f49baacb91c08fa4c5bf4f88ce39f43d9af",
+  "contract_name": "UntitledDrop",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 25,
+  "source_sha256": "a2810a7df820c83798866951f296b22b3c73062f1b3238e96b31573a6a487243",
+  "fetched_at": "2026-06-03T11:31:48.954536+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 800
+    },
+    "viaIR": false,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

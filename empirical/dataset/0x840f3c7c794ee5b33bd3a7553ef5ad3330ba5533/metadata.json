@@ -1,0 +1,28 @@
+{
+  "address": "0x840f3c7c794ee5b33bd3a7553ef5ad3330ba5533",
+  "contract_name": "FeeCalculator",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 7,
+  "source_sha256": "90738fce41d27f4ef572074c270347b9af10b0cdf21c3cbe4b295d3069051aa6",
+  "fetched_at": "2026-06-01T08:39:37.490781+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

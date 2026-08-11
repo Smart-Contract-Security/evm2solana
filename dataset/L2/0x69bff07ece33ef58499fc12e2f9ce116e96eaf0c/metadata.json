@@ -1,0 +1,28 @@
+{
+  "address": "0x69bff07ece33ef58499fc12e2f9ce116e96eaf0c",
+  "contract_name": "FINE",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "cb9c4b54e0284d8f688b2b5a76e422c213daf7ea0c6256247c8c28bb051ba036",
+  "fetched_at": "2026-06-04T02:33:42.246692+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

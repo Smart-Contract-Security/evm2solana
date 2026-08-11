@@ -1,0 +1,26 @@
+{
+  "address": "0xa1548597e26d675ad10aa484b6972aac38ba1ea3",
+  "contract_name": "HinkalWrapper",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 24,
+  "source_sha256": "0a9703d84a3422c7e509cc41893c8a3a2cee96ccc26302e5801972ae1eacb83b",
+  "fetched_at": "2026-06-03T03:21:53.187226+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 500
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

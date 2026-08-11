@@ -1,0 +1,27 @@
+{
+  "address": "0x1f8b50c9dce0b5b0f3fd6a5577bbb05614822b77",
+  "contract_name": "America250",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "9c0b0e63bee5e25d0e9afed3b71cc091a29ca0ad605a153530470a21f8a61d7e",
+  "fetched_at": "2026-06-01T03:23:29.890494+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

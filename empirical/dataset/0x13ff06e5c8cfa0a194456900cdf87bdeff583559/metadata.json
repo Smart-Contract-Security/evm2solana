@@ -1,0 +1,32 @@
+{
+  "address": "0x13ff06e5c8cfa0a194456900cdf87bdeff583559",
+  "contract_name": "ChainDreamsMetadata",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 4,
+  "source_sha256": "e9b668d612e9b5e0be380db7cf8214f4e301e126631b65b52c8c4448d6eee74a",
+  "fetched_at": "2026-06-03T11:27:13.911058+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "remappings": [],
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

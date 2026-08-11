@@ -1,0 +1,27 @@
+{
+  "address": "0xc7a45c7565c2cf0203ff61b4adb884fae73a3816",
+  "contract_name": "ERC721_burnable_mintable_pausable",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 31,
+  "source_sha256": "2349bee22b962f22666e3ea905746a9f561f6be27a13e04e69b9a867f36dcd52",
+  "fetched_at": "2026-06-03T05:46:02.789674+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

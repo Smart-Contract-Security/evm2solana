@@ -1,0 +1,26 @@
+{
+  "address": "0x4727e8b4b592afdda9c067280d7009bf6d422fbf",
+  "contract_name": "OPENSOURCE",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 1,
+  "source_sha256": "9a9ee33161c9047df788a4e8e50b8d7be91768b2e37ba3d39c5df7cf45537727",
+  "fetched_at": "2026-06-03T03:19:45.694774+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

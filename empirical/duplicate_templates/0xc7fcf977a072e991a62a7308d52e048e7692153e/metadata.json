@@ -1,0 +1,45 @@
+{
+  "address": "0xc7fcf977a072e991a62a7308d52e048e7692153e",
+  "contract_name": "ERC1967Proxy",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 8,
+  "source_sha256": "b879b7aa298bb7de10c7f10702f4430c667141ca927b4fa1add6050ff2836079",
+  "fetched_at": "2026-06-03T12:29:04.263382+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@ensdomains/ens-contracts/=lib/ens-contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "@aragon/osx-commons-contracts/src/=src/common/",
+      "ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
+      "ens-contracts/=lib/ens-contracts/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 2000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "viaIR": false
+  }
+}

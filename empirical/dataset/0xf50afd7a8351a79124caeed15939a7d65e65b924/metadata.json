@@ -1,0 +1,27 @@
+{
+  "address": "0xf50afd7a8351a79124caeed15939a7d65e65b924",
+  "contract_name": "AAI",
+  "compiler_version": "v0.8.12+commit.f00d7308",
+  "file_count": 1,
+  "source_sha256": "37aeb9946bf59fa7e11accebd13b5e80b9aa42d5e0547e2de520620572b7b368",
+  "fetched_at": "2026-06-04T03:53:54.459640+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

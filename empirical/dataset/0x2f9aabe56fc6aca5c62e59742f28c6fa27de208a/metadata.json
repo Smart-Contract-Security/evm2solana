@@ -1,0 +1,37 @@
+{
+  "address": "0x2f9aabe56fc6aca5c62e59742f28c6fa27de208a",
+  "contract_name": "DEL",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 11,
+  "source_sha256": "01d139b15ae2b8b8d205235fd9d762b7773ada7b24a22e28e68587c575aa0322",
+  "fetched_at": "2026-06-03T12:54:56.341988+00:00",
+  "solc_settings": {
+    "remappings": [
+      "solady/=lib/solady/src/",
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

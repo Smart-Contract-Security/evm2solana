@@ -1,0 +1,48 @@
+{
+  "address": "0xd48997214b31c7f55c52f5fa2dfd2116e009c588",
+  "contract_name": "ClaimAgent",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "6c0b80f67263362707471ddb5e6794b4a62db8ae1312fcb8c622d6f3215a6ba0",
+  "fetched_at": "2026-06-04T02:30:43.775874+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "erc721a-upgradeable/=lib/ERC721A-Upgradeable/",
+      "@1inch/spot-price-aggregator/=lib/spot-price-aggregator/contracts/",
+      "ERC721A-Upgradeable/=lib/ERC721A-Upgradeable/contracts/",
+      "chainlink/=lib/chainlink/",
+      "spot-price-aggregator/=lib/spot-price-aggregator/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 20
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

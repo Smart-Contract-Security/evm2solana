@@ -1,0 +1,27 @@
+{
+  "address": "0x9be4819dea98b0078d094533ba8a1e2fa3c47d59",
+  "contract_name": "Staking",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 18,
+  "source_sha256": "dea7941f1a8a39e9cc9eefdb2f13d1dd09baa2b6dc4f8a3ebc31fd81b0898fd7",
+  "fetched_at": "2026-06-03T05:45:27.886375+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

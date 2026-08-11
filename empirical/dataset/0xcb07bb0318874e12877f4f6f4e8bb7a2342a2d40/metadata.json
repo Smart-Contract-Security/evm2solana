@@ -1,0 +1,28 @@
+{
+  "address": "0xcb07bb0318874e12877f4f6f4e8bb7a2342a2d40",
+  "contract_name": "OCCV2MetadataGeneratorV2",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 9,
+  "source_sha256": "d782b69cd2192e3d61dec6392ae77241882cd1a65d72b79e9d1c4235d52ab2d4",
+  "fetched_at": "2026-06-03T05:34:26.296466+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

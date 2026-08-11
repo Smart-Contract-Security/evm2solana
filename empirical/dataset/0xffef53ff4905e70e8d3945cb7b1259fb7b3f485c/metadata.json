@@ -1,0 +1,31 @@
+{
+  "address": "0xffef53ff4905e70e8d3945cb7b1259fb7b3f485c",
+  "contract_name": "MyToken",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "6991c32bbea0569d2b7baa45bf15162c9373f5617db203e7a931b3a50735847e",
+  "fetched_at": "2026-06-01T10:04:22.817347+00:00",
+  "solc_settings": {
+    "evmVersion": "osaka",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

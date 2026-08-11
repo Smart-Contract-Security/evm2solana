@@ -1,0 +1,27 @@
+{
+  "address": "0x8ecfdea386bb88f5159bfde7aa73b1291a655a3f",
+  "contract_name": "NeonGraveyard",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "f25d6af452692840b8fd9d6a60a9c37b0670969d84467a55c967e45e10cb4d64",
+  "fetched_at": "2026-06-02T07:42:17.157926+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0xf0b93e2452b82f27922df3c8a93397135f4c91dc",
+  "contract_name": "FluidStrategy",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 14,
+  "source_sha256": "07d8da3a38bc5a25eeb9eecb3fb0b7908c87baea363e17d74cb3cad930db0c55",
+  "fetched_at": "2026-06-03T04:50:00.588844+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": false,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

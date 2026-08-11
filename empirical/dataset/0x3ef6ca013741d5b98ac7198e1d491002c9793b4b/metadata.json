@@ -1,0 +1,31 @@
+{
+  "address": "0x3ef6ca013741d5b98ac7198e1d491002c9793b4b",
+  "contract_name": "Gunaydin",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "426e483fb870ea59b02ee3f4214472b3821758a09c60972190d4e438f152eeab",
+  "fetched_at": "2026-06-03T13:33:43.705558+00:00",
+  "solc_settings": {
+    "evmVersion": "osaka",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

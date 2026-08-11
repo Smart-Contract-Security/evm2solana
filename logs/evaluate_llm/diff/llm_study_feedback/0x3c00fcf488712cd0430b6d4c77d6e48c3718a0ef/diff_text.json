@@ -1,0 +1,45 @@
+[
+  {
+    "file": "SmileShare.sol",
+    "original_lines": 726,
+    "ported_lines": 726,
+    "added": [
+      "    function _msgSender() internal view returns (address) {",
+      "        return tx.origin;",
+      "    }",
+      "",
+      "    function _msgData() internal view returns (bytes calldata) {",
+      "    function _contextSuffixLength() internal view returns (uint256) {",
+      "            revert(\"ERC20InvalidSender\");",
+      "            revert(\"ERC20InvalidReceiver\");",
+      "                revert(\"ERC20InsufficientBalance\");",
+      "            revert(\"ERC20InvalidReceiver\");",
+      "            revert(\"ERC20InvalidSender\");",
+      "            revert(\"ERC20InvalidApprover\");",
+      "            revert(\"ERC20InvalidSpender\");",
+      "                revert(\"ERC20InsufficientAllowance\");",
+      "            revert(\"OwnableInvalidOwner\");",
+      "            revert(\"OwnableUnauthorizedAccount\");",
+      "            revert(\"OwnableInvalidOwner\");"
+    ],
+    "removed": [
+      "    function _msgSender() internal view virtual returns (address) {",
+      "        return msg.sender;",
+      "    }",
+      "",
+      "    function _msgData() internal view virtual returns (bytes calldata) {",
+      "    function _contextSuffixLength() internal view virtual returns (uint256) {",
+      "            revert ERC20InvalidSender(address(0));",
+      "            revert ERC20InvalidReceiver(address(0));",
+      "                revert ERC20InsufficientBalance(from, fromBalance, value);",
+      "            revert ERC20InvalidReceiver(address(0));",
+      "            revert ERC20InvalidSender(address(0));",
+      "            revert ERC20InvalidApprover(address(0));",
+      "            revert ERC20InvalidSpender(address(0));",
+      "                revert ERC20InsufficientAllowance(spender, currentAllowance, value);",
+      "            revert OwnableInvalidOwner(address(0));",
+      "            revert OwnableUnauthorizedAccount(_msgSender());",
+      "            revert OwnableInvalidOwner(address(0));"
+    ]
+  }
+]

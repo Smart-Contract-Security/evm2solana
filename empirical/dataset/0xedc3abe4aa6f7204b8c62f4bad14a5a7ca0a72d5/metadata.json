@@ -1,0 +1,28 @@
+{
+  "address": "0xedc3abe4aa6f7204b8c62f4bad14a5a7ca0a72d5",
+  "contract_name": "MethConverter",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 3,
+  "source_sha256": "6dbcd910e78a9a10707332967a07ef5e2e1f3aa17f196205269d3566917bab69",
+  "fetched_at": "2026-06-02T08:40:25.705040+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

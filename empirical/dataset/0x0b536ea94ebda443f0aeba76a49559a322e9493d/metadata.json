@@ -1,0 +1,32 @@
+{
+  "address": "0x0b536ea94ebda443f0aeba76a49559a322e9493d",
+  "contract_name": "MockPresaleNFT",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 16,
+  "source_sha256": "6bfd93c7112c37bdd158d42bb37dc0bc224fe90b111547c71f0431f4de5f5285",
+  "fetched_at": "2026-06-03T11:51:25.261595+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "metadata": {
+      "bytecodeHash": "none",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 10
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

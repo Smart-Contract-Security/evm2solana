@@ -1,0 +1,27 @@
+{
+  "address": "0xe263aa02a5d70bbdb0b0bf6158aace0e6efca66e",
+  "contract_name": "ERC",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "81a9dbdf81126f6df659fed3ed2d5963a3efb906da473fde3913ba4cb3601fc1",
+  "fetched_at": "2026-06-04T03:57:37.720735+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

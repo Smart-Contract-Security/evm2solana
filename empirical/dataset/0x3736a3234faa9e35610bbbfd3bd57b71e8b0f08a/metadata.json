@@ -1,0 +1,27 @@
+{
+  "address": "0x3736a3234faa9e35610bbbfd3bd57b71e8b0f08a",
+  "contract_name": "Chippy",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 1,
+  "source_sha256": "add7bff3001f80d87fa417a907bd3cb3bd99ae7354a77582e5e63458e9ee98ed",
+  "fetched_at": "2026-06-04T05:54:11.452479+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xada24ab671ae7e52b77f32edca467cfa4cc7f646",
+  "contract_name": "Tac",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 1,
+  "source_sha256": "d4d9bca76c87850eb80e417e87f64a3a3c0779471f354efd888346df98210b0d",
+  "fetched_at": "2026-06-02T02:12:42.679757+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

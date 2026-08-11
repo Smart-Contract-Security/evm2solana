@@ -1,0 +1,31 @@
+{
+  "address": "0x68632abada759d179009858cece3afb472dbba9d",
+  "contract_name": "Splitter",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 1,
+  "source_sha256": "abaf92f3fc1cf838d08b51ac2d5e9c2379811542a77dff70b4e27b7ad0c913e2",
+  "fetched_at": "2026-06-01T10:17:14.749151+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

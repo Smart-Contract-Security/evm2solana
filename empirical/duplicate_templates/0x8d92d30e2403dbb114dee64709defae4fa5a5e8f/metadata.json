@@ -1,0 +1,27 @@
+{
+  "address": "0x8d92d30e2403dbb114dee64709defae4fa5a5e8f",
+  "contract_name": "LastCandleToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "5e8c6b2913b2dd6abd3d02f3f79ae6c53f76cded2435bc91cf650846e04d388a",
+  "fetched_at": "2026-06-03T06:58:42.221213+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

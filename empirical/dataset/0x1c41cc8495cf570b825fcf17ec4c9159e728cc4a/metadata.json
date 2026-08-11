@@ -1,0 +1,32 @@
+{
+  "address": "0x1c41cc8495cf570b825fcf17ec4c9159e728cc4a",
+  "contract_name": "TermEventEmitter",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 28,
+  "source_sha256": "e78938897156258a81c256f9d117ab1d3f8383e80296e653cff7208782e03285",
+  "fetched_at": "2026-06-03T05:28:00.111452+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "remappings": [],
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

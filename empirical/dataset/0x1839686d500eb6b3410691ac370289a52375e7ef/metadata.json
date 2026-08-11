@@ -1,0 +1,27 @@
+{
+  "address": "0x1839686d500eb6b3410691ac370289a52375e7ef",
+  "contract_name": "DRAWToken",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 7,
+  "source_sha256": "e69c4daa6981a27ad3fdfeb7c0c651d125a6cb58f936dd4a5e3383d4506f13ae",
+  "fetched_at": "2026-06-01T04:39:23.553879+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

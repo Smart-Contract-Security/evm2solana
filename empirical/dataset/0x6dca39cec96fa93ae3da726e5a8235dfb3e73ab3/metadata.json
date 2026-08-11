@@ -1,0 +1,31 @@
+{
+  "address": "0x6dca39cec96fa93ae3da726e5a8235dfb3e73ab3",
+  "contract_name": "DropFactory",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 31,
+  "source_sha256": "dc5d6e01874513eb9e89322af330e8fc761fb3dfefa18212af679675ffd9d2dd",
+  "fetched_at": "2026-06-04T06:00:03.994846+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    },
+    "libraries": {}
+  }
+}

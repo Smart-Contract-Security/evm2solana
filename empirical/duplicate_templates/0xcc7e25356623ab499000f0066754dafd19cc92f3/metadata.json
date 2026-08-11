@@ -1,0 +1,27 @@
+{
+  "address": "0xcc7e25356623ab499000f0066754dafd19cc92f3",
+  "contract_name": "DarkForestToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "64356007b390e59643cc13efe10c1a9849f580c7362d308a074d7b7acf7b10a7",
+  "fetched_at": "2026-06-03T04:58:22.313864+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

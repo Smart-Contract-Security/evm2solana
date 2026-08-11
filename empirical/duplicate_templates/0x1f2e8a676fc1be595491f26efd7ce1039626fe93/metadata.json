@@ -1,0 +1,8 @@
+{
+  "address": "0x1f2e8a676fc1be595491f26efd7ce1039626fe93",
+  "contract_name": "Stellar",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "5a0486ee39affb14eeaf0441f3f46cd1084943adf80797e06b1b85674b310661",
+  "fetched_at": "2026-06-02T09:03:34.058678+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "address": "0x771200261c99ff4e0a072b0484b76c56c826229d",
+  "contract_name": "pnETH",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 26,
+  "source_sha256": "a5ed479a7271f133f7a572de69580a3380717f5b2e917abafb8c372c457a37a3",
+  "fetched_at": "2026-06-02T07:01:40.520513+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/halmos-cheatcodes/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

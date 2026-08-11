@@ -1,0 +1,35 @@
+{
+  "address": "0x960f5674df27485cb10adf0a3d3e30e34293ca4f",
+  "contract_name": "MockSwapper",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 7,
+  "source_sha256": "f136e807da21d1d1de65aabf22480f94951a21d653b2798ed8b4eab89e9befb8",
+  "fetched_at": "2026-06-03T08:56:30.975644+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [
+      ":@openzeppelin/=lib/openzeppelin-contracts/",
+      ":forge-std/=lib/forge-std/src/",
+      ":openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

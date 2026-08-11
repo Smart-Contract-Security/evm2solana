@@ -1,0 +1,58 @@
+{
+  "address": "0x2d013247fac65e83da1efbc166271a6a62b41de6",
+  "contract_name": "BeaconBlockhashVerifier",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 1,
+  "source_sha256": "68a70ca60cbcc0f6c51423f058990f33d7a328fb8daaa3fd8d5a2172884cea77",
+  "fetched_at": "2026-06-01T13:01:47.032190+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/creator-token-standards/lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin-v5/contracts/=lib/openzeppelin-contracts/contracts/",
+      "solady/=lib/solady/",
+      "forge-std/=lib/forge-std/src/",
+      "v4-core/=lib/v4-core/",
+      "@limitbreak/creator-token-standards/=lib/creator-token-standards/",
+      "@limitbreak/permit-c/=lib/creator-token-standards/lib/PermitC/src/",
+      "@ensdomains/=lib/v4-core/node_modules/@ensdomains/",
+      "@opensea/tstorish/=lib/creator-token-standards/lib/tstorish/src/",
+      "@rari-capital/solmate/=lib/creator-token-standards/lib/PermitC/lib/solmate/",
+      "ERC721A/=lib/creator-token-standards/lib/ERC721A/contracts/",
+      "PermitC/=lib/creator-token-standards/lib/PermitC/",
+      "creator-token-standards/=lib/creator-token-standards/",
+      "ds-test/=lib/v4-core/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/creator-token-standards/lib/PermitC/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "erc721a/=lib/creator-token-standards/lib/ERC721A/",
+      "forge-gas-metering/=lib/creator-token-standards/lib/PermitC/lib/forge-gas-metering/",
+      "hardhat/=lib/v4-core/node_modules/hardhat/",
+      "murky/=lib/creator-token-standards/lib/murky/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/creator-token-standards/lib/PermitC/lib/openzeppelin-contracts/contracts/",
+      "solmate/=lib/v4-core/lib/solmate/",
+      "tstorish/=lib/creator-token-standards/lib/tstorish/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

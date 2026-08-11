@@ -1,0 +1,27 @@
+{
+  "address": "0x112c551103deeaefba165f7177e46af4a35c5441",
+  "contract_name": "SovereignDripToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "c34e1c575b82bd59b6fdec7c3374880d04200a2331488bb1f7ba1ee97bb3d672",
+  "fetched_at": "2026-06-02T06:10:29.103902+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

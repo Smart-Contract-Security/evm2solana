@@ -1,0 +1,28 @@
+{
+  "address": "0x40891af81acad2836bf5a6941f8b0b4fa2430669",
+  "contract_name": "LagoonV06",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 31,
+  "source_sha256": "bb8f47df1aa852ed87205b3dd8acef22fbc282cba0a868c2a63f57433599b85f",
+  "fetched_at": "2026-06-03T06:24:11.230615+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "address": "0x4a08de940e7790f3df1a8911fb4da9143be9a94d",
+  "contract_name": "SOUL",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "9f40855eea47ad0a95e16b68f002a6395aa9989cd13753ce71f8cee8399cb264",
+  "fetched_at": "2026-06-01T04:56:16.190095+00:00",
+  "solc_settings": {
+    "remappings": [
+      "v4-core/=lib/v4-core/src/",
+      "v4-periphery/=lib/v4-periphery/src/",
+      "solmate/=lib/solmate/src/",
+      "forge-std/=lib/forge-std/src/",
+      "permit2/=lib/v4-periphery/lib/permit2/",
+      "openzeppelin-contracts/=lib/v4-core/lib/openzeppelin-contracts/",
+      "@ensdomains/=lib/v4-core/node_modules/@ensdomains/",
+      "@openzeppelin/=lib/v4-core/lib/openzeppelin-contracts/",
+      "@uniswap/v4-core/=lib/v4-periphery/lib/v4-core/",
+      "ds-test/=lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/v4-core/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/v4-periphery/lib/permit2/lib/forge-gas-snapshot/src/",
+      "hardhat/=lib/v4-core/node_modules/hardhat/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

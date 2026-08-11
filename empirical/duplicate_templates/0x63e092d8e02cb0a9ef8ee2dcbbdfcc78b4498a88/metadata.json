@@ -1,0 +1,27 @@
+{
+  "address": "0x63e092d8e02cb0a9ef8ee2dcbbdfcc78b4498a88",
+  "contract_name": "LOFI",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "be49918488006a98867a7367a4429b4995146ad44dcfe32f8453f241024d47ec",
+  "fetched_at": "2026-06-04T04:21:47.364787+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

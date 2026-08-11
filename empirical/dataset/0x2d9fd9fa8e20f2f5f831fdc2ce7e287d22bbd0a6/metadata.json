@@ -1,0 +1,27 @@
+{
+  "address": "0x2d9fd9fa8e20f2f5f831fdc2ce7e287d22bbd0a6",
+  "contract_name": "Proof",
+  "compiler_version": "v0.8.21+commit.d9974bed",
+  "file_count": 1,
+  "source_sha256": "3a796574f40c26156429db84b8374c207b89c3faf73f066becdd6e78e574bf2c",
+  "fetched_at": "2026-06-01T10:44:44.667011+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

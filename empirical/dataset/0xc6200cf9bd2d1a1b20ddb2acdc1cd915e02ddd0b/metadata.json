@@ -1,0 +1,26 @@
+{
+  "address": "0xc6200cf9bd2d1a1b20ddb2acdc1cd915e02ddd0b",
+  "contract_name": "Onchainimals",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 17,
+  "source_sha256": "0da9ddc9dff2ee78362b63931b01a6ae9000c90e48c3ad737c6c8694d38b8885",
+  "fetched_at": "2026-06-03T11:47:32.510286+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

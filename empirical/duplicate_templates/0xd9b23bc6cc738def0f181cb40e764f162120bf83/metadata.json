@@ -1,0 +1,27 @@
+{
+  "address": "0xd9b23bc6cc738def0f181cb40e764f162120bf83",
+  "contract_name": "TouchGrass",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "9bdcc5a68bc28062a0cd7eee85573647416e687c3dd128684a77ffdba5b9c7b3",
+  "fetched_at": "2026-06-03T07:25:42.827344+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "file": "MockUSDT_ERC20.sol",
+    "original_lines": 182,
+    "ported_lines": 178,
+    "added": [
+      "import 'solana';",
+      "",
+      "    @payer(payer)",
+      "    @space(512 + 32)",
+      "        owner = tx.accounts.payer.key;",
+      "        balanceOf[tx.accounts.payer.key] = initialSupply;",
+      "        emit Transfer(address(0), tx.accounts.payer.key, initialSupply);",
+      "        (bool success, ) = _token.call{accounts: []}("
+    ],
+    "removed": [
+      "/**",
+      " * @title MockUSDT_ERC20",
+      " * @notice Token ERC20 identique à USDT (Ţether USD) pour audit",
+      " * @dev 100 milliards de supply, decimals = 6, blacklist, pause, mint/burn",
+      " */",
+      "    /**",
+      "     * @dev 100 milliards USDT mintés au déployeur",
+      "     */",
+      "        owner = msg.sender;",
+      "        balanceOf[msg.sender] = initialSupply;",
+      "        emit Transfer(address(0), msg.sender, initialSupply);",
+      "        (bool success, ) = _token.call("
+    ]
+  }
+]

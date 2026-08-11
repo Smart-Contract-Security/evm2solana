@@ -1,0 +1,30 @@
+{
+  "address": "0xbc2cd22f8f40b8ff2d71857825f696abffecb758",
+  "contract_name": "JudgmentObligationController",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 12,
+  "source_sha256": "565c85b7de4ac7fbc1721e8201e8c9e23fae9b89d8ac5bb88ea20b1e52442918",
+  "fetched_at": "2026-06-01T13:07:13.293357+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

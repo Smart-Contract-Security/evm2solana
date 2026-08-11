@@ -1,0 +1,8 @@
+{
+  "address": "0x44846b0ba090413bd9781237ce03f9a166a155f1",
+  "contract_name": "WETH",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "2f3e4a528a1aca25c9977310d698eafb55aec7e50c9ecec1b8f2f75d445d0c3c",
+  "fetched_at": "2026-06-04T13:49:25.820593+00:00"
+}

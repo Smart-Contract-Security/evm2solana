@@ -1,0 +1,36 @@
+{
+  "address": "0xf35bbabde0218c5170f9164bcf13d7de8b693eb5",
+  "contract_name": "Token",
+  "compiler_version": "v0.8.18+commit.87f61d96",
+  "file_count": 1,
+  "source_sha256": "e61f55b7a4e742fe780600c234ac626eb9fd8d80f3514f439155f52858e3cd3c",
+  "fetched_at": "2026-06-02T07:38:06.746642+00:00",
+  "solc_settings": {
+    "viaIR": false,
+    "metadata": {
+      "appendCBOR": true,
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": false
+    },
+    "optimizer": {
+      "runs": 200,
+      "enabled": false
+    },
+    "evmVersion": "paris",
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

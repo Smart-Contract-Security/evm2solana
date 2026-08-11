@@ -1,0 +1,27 @@
+{
+  "address": "0x606fd40c16da78b8edfdb5478ba427676ccda136",
+  "contract_name": "GigaSeasonERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "81d02539e4d70964e9aea23e6b3f0c721ff5a30d94241aa3d13fd097857a001d",
+  "fetched_at": "2026-06-03T05:03:10.454032+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

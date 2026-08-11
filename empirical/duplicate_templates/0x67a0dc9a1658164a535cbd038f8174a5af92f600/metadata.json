@@ -1,0 +1,27 @@
+{
+  "address": "0x67a0dc9a1658164a535cbd038f8174a5af92f600",
+  "contract_name": "GLADIAS",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "78b3c1c701bc2d2c25f91471b0bfdbc7f6bdc99e7262a9d1b56bc37065f537ab",
+  "fetched_at": "2026-06-01T11:41:24.894516+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

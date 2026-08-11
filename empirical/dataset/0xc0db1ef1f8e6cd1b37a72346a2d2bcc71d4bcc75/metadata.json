@@ -1,0 +1,27 @@
+{
+  "address": "0xc0db1ef1f8e6cd1b37a72346a2d2bcc71d4bcc75",
+  "contract_name": "RequestManager",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 18,
+  "source_sha256": "d1d5e8b954b47d6e639e7444aff20b8da9684d6a45992b9fcce38c3b66077cbe",
+  "fetched_at": "2026-06-03T13:08:30.081524+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

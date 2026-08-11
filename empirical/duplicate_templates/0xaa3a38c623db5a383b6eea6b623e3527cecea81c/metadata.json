@@ -1,0 +1,28 @@
+{
+  "address": "0xaa3a38c623db5a383b6eea6b623e3527cecea81c",
+  "contract_name": "Token",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 6,
+  "source_sha256": "0e22b1cc98295d5d9bde0e04e56b9032db4b3bdc529c7a3d8b0a95624dd2c8a2",
+  "fetched_at": "2026-06-04T03:14:06.752800+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

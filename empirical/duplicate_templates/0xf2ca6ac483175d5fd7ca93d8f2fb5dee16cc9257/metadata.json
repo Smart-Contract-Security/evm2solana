@@ -1,0 +1,31 @@
+{
+  "address": "0xf2ca6ac483175d5fd7ca93d8f2fb5dee16cc9257",
+  "contract_name": "ArgentSocialRecovery",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "9f92ee30f661217357b0788cfba8a5ba013110e2d070cab1746ae95f11089f51",
+  "fetched_at": "2026-06-02T01:55:25.971239+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

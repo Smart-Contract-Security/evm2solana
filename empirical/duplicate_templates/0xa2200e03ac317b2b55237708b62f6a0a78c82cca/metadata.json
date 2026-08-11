@@ -1,0 +1,27 @@
+{
+  "address": "0xa2200e03ac317b2b55237708b62f6a0a78c82cca",
+  "contract_name": "ETHERIUS",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "8440c11058b257cbf4d790b9f8ca6c20a4f38372372c858cc1ec422a3c0150c8",
+  "fetched_at": "2026-06-01T03:19:35.465098+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

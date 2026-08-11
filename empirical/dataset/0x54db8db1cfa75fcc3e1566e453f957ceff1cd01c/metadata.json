@@ -1,0 +1,27 @@
+{
+  "address": "0x54db8db1cfa75fcc3e1566e453f957ceff1cd01c",
+  "contract_name": "RecoverWETH",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "f4756c82318ef43caf5a15bc96a0c0d3414002d0b064047d6a4e9dcff88db2d5",
+  "fetched_at": "2026-06-03T03:29:25.389079+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

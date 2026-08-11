@@ -1,0 +1,63 @@
+{
+  "address": "0x63d650672696b103d3d2c24a758f2331584d6c74",
+  "contract_name": "HeraldiaRendererV4",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 45,
+  "source_sha256": "bd34f6550cea70975393e679e402b3309ad4d11986984c19acbde8296cc40c49",
+  "fetched_at": "2026-06-03T07:20:40.422740+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "solady/=lib/solady/src/",
+      "forge-std/=lib/forge-std/src/",
+      "@limitbreak/creator-token-standards/=lib/creator-token-standards/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "@limitbreak/permit-c/=lib/creator-token-standards/lib/PermitC/src/",
+      "@opensea/tstorish/=lib/creator-token-standards/lib/tstorish/src/",
+      "@rari-capital/solmate/=lib/creator-token-standards/lib/PermitC/lib/solmate/",
+      "ERC721A/=lib/creator-token-standards/lib/ERC721A/contracts/",
+      "PermitC/=lib/creator-token-standards/lib/PermitC/",
+      "creator-token-standards/=lib/creator-token-standards/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "erc721a/=lib/creator-token-standards/lib/ERC721A/",
+      "forge-gas-metering/=lib/creator-token-standards/lib/PermitC/lib/forge-gas-metering/",
+      "murky/=lib/creator-token-standards/lib/murky/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/openzeppelin-contracts/contracts/",
+      "solmate/=lib/creator-token-standards/lib/PermitC/lib/solmate/src/",
+      "tstorish/=lib/creator-token-standards/lib/tstorish/src/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200,
+      "details": {
+        "constantOptimizer": true,
+        "yul": true
+      }
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true,
+    "libraries": {
+      "src/HeraldiaRendererV4.sol": {
+        "HeraldiaPreviewV2": "0x0b81f862e895426b15fc85f27313b161601fcb84"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xfeeee5498e1130c2325cf69e9783325091347477",
+  "contract_name": "NFTFactory",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 28,
+  "source_sha256": "e1048f8e8e2b14491f0fd50e35a8125c82c9111f67a0c6570e7601b0ac736546",
+  "fetched_at": "2026-06-03T12:51:58.536422+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

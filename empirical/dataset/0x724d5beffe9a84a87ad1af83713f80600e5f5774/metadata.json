@@ -1,0 +1,44 @@
+{
+  "address": "0x724d5beffe9a84a87ad1af83713f80600e5f5774",
+  "contract_name": "Talismans",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 35,
+  "source_sha256": "4e2f43025113cf895b0b827028e5b5d1604e53d9bfc4fe16f532d5709ff328c4",
+  "fetched_at": "2026-06-03T05:38:11.898709+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=lib/solidity-trigonometry/lib/forge-std/lib/ds-test/src/",
+      "forge-std/=lib/forge-std/src/",
+      "prb-math/=lib/solidity-trigonometry/lib/prb-math/contracts/",
+      "solady/=lib/solady/src/",
+      "solidity-trigonometry/=lib/solidity-trigonometry/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

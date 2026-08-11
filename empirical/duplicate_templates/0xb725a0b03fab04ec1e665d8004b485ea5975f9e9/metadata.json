@@ -1,0 +1,24 @@
+{
+  "address": "0xb725a0b03fab04ec1e665d8004b485ea5975f9e9",
+  "contract_name": "TokenLockTreasury",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 11,
+  "source_sha256": "5c6b0bf073209983b2cf1f8f03655d753ce35999c586facfff47b2b5f5df4230",
+  "fetched_at": "2026-06-04T12:19:27.393510+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

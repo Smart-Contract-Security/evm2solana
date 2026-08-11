@@ -1,0 +1,27 @@
+{
+  "address": "0x6d153a7bba511fe87ec00755f60d20ae9611e3c9",
+  "contract_name": "CryptoTimeLock",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "8196b48de0945bc318d78298b4a3b5d3b5ca2e8471c54c8c5e57f30feaa22a59",
+  "fetched_at": "2026-06-03T03:22:51.816963+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

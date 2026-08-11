@@ -1,0 +1,51 @@
+{
+  "address": "0x019a8c2b40d3912a9c1af7374f318ad6abd7ee37",
+  "contract_name": "WancaiRenderer",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 3,
+  "source_sha256": "c526ace84b921cbe86c832ae01033103d7ef2e4503fa010848fc3483f229cc6b",
+  "fetched_at": "2026-06-03T11:32:14.106774+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "seadrop/=lib/seadrop/src/",
+      "ERC721A/=lib/seadrop/lib/ERC721A/contracts/",
+      "ERC721A-Upgradeable/=lib/seadrop/lib/ERC721A-Upgradeable/contracts/",
+      "openzeppelin-contracts/=lib/seadrop/lib/openzeppelin-contracts/contracts/",
+      "openzeppelin-contracts-upgradeable/=lib/seadrop/lib/openzeppelin-contracts-upgradeable/contracts/",
+      "operator-filter-registry/=lib/seadrop/lib/operator-filter-registry/src/",
+      "solmate/=lib/seadrop/lib/solmate/src/",
+      "utility-contracts/=lib/seadrop/lib/utility-contracts/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "erc721a/contracts/=lib/seadrop/lib/ERC721A/contracts/",
+      "create2-helpers/=lib/seadrop/lib/create2-helpers/",
+      "create2-scripts/=lib/seadrop/lib/create2-helpers/script/",
+      "ds-test/=lib/seadrop/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "murky/=lib/seadrop/lib/murky/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "viaIR": true
+  }
+}

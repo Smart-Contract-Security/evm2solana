@@ -1,0 +1,27 @@
+{
+  "address": "0x628f4cf9937af7fc3090619d40362aa10d40e2b4",
+  "contract_name": "Assist",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "c64a3c4abcbad538e17ab1633f76d90975db3f39e145da9c342fec02627013da",
+  "fetched_at": "2026-06-02T02:17:55.382081+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "address": "0x3a0d4a524aa53a29959aaef1cff899f35cc7f766",
+  "contract_name": "AuthorityWithDailyRateLimitV2",
+  "compiler_version": "v0.8.31+commit.fd3a2265",
+  "file_count": 4,
+  "source_sha256": "3587f3e240667285b83dd160fd2938ece0f6f4895d083d180f143b10ea0c64e4",
+  "fetched_at": "2026-06-03T05:23:52.373465+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": false
+  }
+}

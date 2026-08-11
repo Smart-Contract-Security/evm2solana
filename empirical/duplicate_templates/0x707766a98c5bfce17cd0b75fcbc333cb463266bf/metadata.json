@@ -1,0 +1,27 @@
+{
+  "address": "0x707766a98c5bfce17cd0b75fcbc333cb463266bf",
+  "contract_name": "ZeroxPixel",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 20,
+  "source_sha256": "a93555f2e77cd565e6c47be7c4c1df3f4478202671b16f4d9b11403173a196ae",
+  "fetched_at": "2026-06-01T08:38:08.804772+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

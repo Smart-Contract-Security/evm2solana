@@ -1,0 +1,31 @@
+{
+  "address": "0xc05e0e564c9292abdb52f843acedb093b78b0f45",
+  "contract_name": "ERC420",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "895e0f4925e76d0351f3e7c58c439bdb9f106d765fecf61d992527d6b7593fb5",
+  "fetched_at": "2026-06-02T13:18:38.390500+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

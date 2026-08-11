@@ -1,0 +1,27 @@
+{
+  "address": "0x822dc21b7ec82dfb76a4ae7bdd1463a2029ac307",
+  "contract_name": "OneMoreBagERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "58c9c2791e01e6edcd45f6c6c44a97410a6289bfbc7bcf9e715d7b1575b694e0",
+  "fetched_at": "2026-06-03T13:29:37.970847+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

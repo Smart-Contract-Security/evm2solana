@@ -1,0 +1,27 @@
+{
+  "address": "0xd70bf7202d2f9f8792bac302ff9321fe8d2bb555",
+  "contract_name": "UsrCompensationDistributor",
+  "compiler_version": "v0.8.29+commit.ab55807c",
+  "file_count": 19,
+  "source_sha256": "d6f4310ec4be7378399d568140d75485f365ad145d2387f3980476a917c7cdda",
+  "fetched_at": "2026-06-03T12:28:41.464229+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 20000
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

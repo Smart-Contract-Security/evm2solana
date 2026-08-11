@@ -1,0 +1,32 @@
+{
+  "address": "0x7f8c574610b1ea0c333e5d2681e2916403284fff",
+  "contract_name": "FeeVerifier",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 7,
+  "source_sha256": "86e6a0b356ebccbe94a50bff3cf7a246fcd5c3c6439f0fb7f0cc584e37afd7b1",
+  "fetched_at": "2026-06-01T16:04:34.107552+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "metadata": {
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 20000
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [],
+    "viaIR": true
+  }
+}

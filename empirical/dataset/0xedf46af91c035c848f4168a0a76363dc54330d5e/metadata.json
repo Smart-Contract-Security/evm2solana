@@ -1,0 +1,29 @@
+{
+  "address": "0xedf46af91c035c848f4168a0a76363dc54330d5e",
+  "contract_name": "RewardManager",
+  "compiler_version": "v0.8.0+commit.c7dfd78e",
+  "file_count": 10,
+  "source_sha256": "17a82bad4c29291428b8e8ed999e6c37761fae71d2d7736cf5f1d5a91cfdd161",
+  "fetched_at": "2026-06-04T11:41:51.208144+00:00",
+  "solc_settings": {
+    "remappings": [],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "byzantium",
+    "libraries": {},
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

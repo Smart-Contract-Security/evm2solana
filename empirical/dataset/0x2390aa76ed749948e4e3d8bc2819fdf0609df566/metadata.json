@@ -1,0 +1,27 @@
+{
+  "address": "0x2390aa76ed749948e4e3d8bc2819fdf0609df566",
+  "contract_name": "HelloVerify",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 1,
+  "source_sha256": "697a5ce10be376542b18647e82bb5ea4c78fdc5aed60d539c0f94d9814a93d5f",
+  "fetched_at": "2026-06-03T03:19:43.123470+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

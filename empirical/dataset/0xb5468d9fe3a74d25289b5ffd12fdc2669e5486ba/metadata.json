@@ -1,0 +1,31 @@
+{
+  "address": "0xb5468d9fe3a74d25289b5ffd12fdc2669e5486ba",
+  "contract_name": "MorphoApxSdolaFlashLeverage",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "49cfefeb52b2046c4468aba0095fc54fa018232c746d71ec0d1cfe8fc0579ddd",
+  "fetched_at": "2026-06-02T02:20:52.425244+00:00",
+  "solc_settings": {
+    "evmVersion": "osaka",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

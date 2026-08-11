@@ -1,0 +1,26 @@
+{
+  "address": "0x9f3ffcc15c9b7cd1dd9d416df871910869327a20",
+  "contract_name": "BOLBYTOKEN",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "3a16c128dd4ad68d9c9c9d6084efeab04e37b153d8284aa85c429c89a4e0c8ab",
+  "fetched_at": "2026-06-04T13:27:43.526317+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

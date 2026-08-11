@@ -1,0 +1,31 @@
+{
+  "address": "0x261e5f140bba8c54c45196418646dd9a16abebe6",
+  "contract_name": "BridgeToken",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 15,
+  "source_sha256": "f3244f9cbf9516cf972b4ae8a81c149da35937bd14f762fa6c5dc6a9d6e0a3f7",
+  "fetched_at": "2026-06-04T10:52:36.004339+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

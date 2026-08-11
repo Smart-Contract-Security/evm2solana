@@ -1,0 +1,8 @@
+{
+  "address": "0x44e1d7674b8a09109eae6bd8121e20dd28f887ac",
+  "contract_name": "SimpleERC20",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "508ca9c56ab272ea9c334455e96258022a6f1040ab3e4611b43b2738a4e90277",
+  "fetched_at": "2026-06-04T13:21:40.780002+00:00"
+}

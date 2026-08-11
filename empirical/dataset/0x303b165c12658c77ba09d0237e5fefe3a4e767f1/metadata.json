@@ -1,0 +1,28 @@
+{
+  "address": "0x303b165c12658c77ba09d0237e5fefe3a4e767f1",
+  "contract_name": "YieldGPU",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 26,
+  "source_sha256": "58b235a76f7aa2fa4e462db82fabd65834ed16b7523221ae84146aa2c3b070b5",
+  "fetched_at": "2026-06-02T15:28:32.115818+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1100
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

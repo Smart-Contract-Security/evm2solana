@@ -1,0 +1,45 @@
+{
+  "address": "0x7d85544213e61595f8757ebe0d0bf903bafb789d",
+  "contract_name": "WNFTV2Envelop721",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 31,
+  "source_sha256": "cb4ededc3e75dbaed8ac24101518eb5452c9a7d25338ad6581d5800fcdab6843",
+  "fetched_at": "2026-06-03T07:05:54.813938+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "@Uopenzeppelin/=lib/openzeppelin-contracts-upgradeable/",
+      "@pythnetwork/pyth-sdk-solidity/=lib/pyth-sdk-solidity/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin-foundry-upgrades/=lib/openzeppelin-foundry-upgrades/src/",
+      "pyth-sdk-solidity/=lib/pyth-sdk-solidity/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

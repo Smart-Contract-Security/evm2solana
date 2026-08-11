@@ -1,0 +1,31 @@
+{
+  "address": "0x5bf0899731aa0cfe5e34b1c1c34b37412cab29f6",
+  "contract_name": "BabylonStakingPool",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "84108b52d9d8487828cea85c121dff716c8735871493488b1997bcc9a4ad6d5c",
+  "fetched_at": "2026-06-01T12:16:06.384317+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

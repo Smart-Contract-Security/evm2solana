@@ -1,0 +1,12 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../ERC20.sol";
+import {Pausable} from "../../../utils/Pausable.sol";
+
+abstract contract ERC20Pausable is ERC20, Pausable {
+    function _update(address from, address to, uint256 value) internal virtual override(ERC20, Pausable) {
+        require(!paused(), "Pausable: paused");
+        super._update(from, to, value);
+    }
+}

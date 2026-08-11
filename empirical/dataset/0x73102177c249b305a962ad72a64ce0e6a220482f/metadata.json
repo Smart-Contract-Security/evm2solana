@@ -1,0 +1,51 @@
+{
+  "address": "0x73102177c249b305a962ad72a64ce0e6a220482f",
+  "contract_name": "NYX",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 23,
+  "source_sha256": "9e682d5493feccfac0cc6e0af8429e4de823a81681ba2c9619ef905e548f4075",
+  "fetched_at": "2026-06-02T08:52:58.852295+00:00",
+  "solc_settings": {
+    "remappings": [
+      "uniswap-hooks/=lib/uniswap-hooks/",
+      "@uniswap/v4-core/=lib/uniswap-hooks/lib/v4-core/",
+      "@uniswap/v4-periphery/=lib/uniswap-hooks/lib/v4-periphery/",
+      "@openzeppelin/contracts/=lib/uniswap-hooks/lib/openzeppelin-contracts/contracts/",
+      "@ensdomains/=lib/v4-core/node_modules/@ensdomains/",
+      "ds-test/=lib/v4-core/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/v4-periphery/lib/permit2/lib/forge-gas-snapshot/src/",
+      "forge-std/=lib/uniswap-hooks/lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "hardhat/=lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "permit2/=lib/v4-periphery/lib/permit2/",
+      "solmate/=lib/v4-core/lib/solmate/",
+      "v4-core/=lib/v4-core/src/",
+      "v4-periphery/=lib/v4-periphery/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 800
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

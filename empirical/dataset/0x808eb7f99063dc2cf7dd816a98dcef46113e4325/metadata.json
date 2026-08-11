@@ -1,0 +1,28 @@
+{
+  "address": "0x808eb7f99063dc2cf7dd816a98dcef46113e4325",
+  "contract_name": "TermLoanIntentHookFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 52,
+  "source_sha256": "bcfadef796a4324483b37a35149efa653670095cc3f165fd95c11eec6b5a8126",
+  "fetched_at": "2026-06-03T05:10:53.503039+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "runs": 1,
+      "enabled": true
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

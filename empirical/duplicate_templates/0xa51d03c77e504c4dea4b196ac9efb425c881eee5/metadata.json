@@ -1,0 +1,27 @@
+{
+  "address": "0xa51d03c77e504c4dea4b196ac9efb425c881eee5",
+  "contract_name": "ChomperRex",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "64cbed2680e6b750d958ca22dfa6867640314415b33e0ccabb0d26d2ad17e66e",
+  "fetched_at": "2026-06-03T04:46:29.225820+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

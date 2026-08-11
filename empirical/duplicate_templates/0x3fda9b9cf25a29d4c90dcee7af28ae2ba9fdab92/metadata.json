@@ -1,0 +1,27 @@
+{
+  "address": "0x3fda9b9cf25a29d4c90dcee7af28ae2ba9fdab92",
+  "contract_name": "EmberShark",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "405fa239c3839e5d1755fc14532ce6684295d0a2125204b6ff3091eb2f84ac83",
+  "fetched_at": "2026-06-03T11:33:54.985584+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

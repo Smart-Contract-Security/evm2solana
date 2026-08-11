@@ -1,0 +1,25 @@
+{
+  "address": "0x8d9ed8a78682a70a3e68c48d19749fe24b455ef5",
+  "contract_name": "SpriteDataWeapons",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "fe0808001eeb21b661001862ca724d9b3a0b295e009943a1194b351acda3e8e1",
+  "fetched_at": "2026-06-03T11:48:47.683579+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    }
+  }
+}

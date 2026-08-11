@@ -1,0 +1,31 @@
+{
+  "address": "0x20d09e34c68b055677e06ed2495b58b299fae713",
+  "contract_name": "FraxlendPair",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "7a179a807c56b12694cb57271de6fff680ae93f0b53a509663600b7284abb746",
+  "fetched_at": "2026-06-02T08:39:28.177564+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

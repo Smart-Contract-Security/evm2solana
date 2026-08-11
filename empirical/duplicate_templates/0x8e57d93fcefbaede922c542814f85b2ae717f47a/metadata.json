@@ -1,0 +1,27 @@
+{
+  "address": "0x8e57d93fcefbaede922c542814f85b2ae717f47a",
+  "contract_name": "WallyTheDipToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "47e0ee7a6a7a88cd38c42b2631fdf4ad7cf531ecc367af99369218ccf945961d",
+  "fetched_at": "2026-06-03T08:31:38.017185+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

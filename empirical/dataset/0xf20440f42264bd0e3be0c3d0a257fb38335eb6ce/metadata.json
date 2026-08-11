@@ -1,0 +1,31 @@
+{
+  "address": "0xf20440f42264bd0e3be0c3d0a257fb38335eb6ce",
+  "contract_name": "BridgeTokenFactory",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 30,
+  "source_sha256": "fc6ada29be4f82d19b727ba336b1eb2fe97f7484632d8955de4110f3c2586028",
+  "fetched_at": "2026-06-04T10:52:20.870525+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

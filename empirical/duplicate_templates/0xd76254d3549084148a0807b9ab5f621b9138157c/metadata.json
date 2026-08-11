@@ -1,0 +1,27 @@
+{
+  "address": "0xd76254d3549084148a0807b9ab5f621b9138157c",
+  "contract_name": "T250",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "eac774e562bdf61f4b1ad1f06720ffbce1c16140522ecb4cd73ad1982b1596ea",
+  "fetched_at": "2026-06-02T12:43:53.550772+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

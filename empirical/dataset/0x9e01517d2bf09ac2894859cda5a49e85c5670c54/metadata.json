@@ -1,0 +1,41 @@
+{
+  "address": "0x9e01517d2bf09ac2894859cda5a49e85c5670c54",
+  "contract_name": "StablecoinSwap",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 13,
+  "source_sha256": "95613ca9693e01ec57bcdfddea80b7363dd475a90a283011b2930961df3ef307",
+  "fetched_at": "2026-06-04T03:31:06.949295+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

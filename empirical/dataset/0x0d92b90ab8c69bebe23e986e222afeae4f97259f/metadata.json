@@ -1,0 +1,28 @@
+{
+  "address": "0x0d92b90ab8c69bebe23e986e222afeae4f97259f",
+  "contract_name": "StrategyCurveConvex",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 16,
+  "source_sha256": "ef29ff76b6e400fb5d6d75a37612bdbe9faae26f65faaca0c6c25a01e145ba1b",
+  "fetched_at": "2026-06-03T11:32:50.257233+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

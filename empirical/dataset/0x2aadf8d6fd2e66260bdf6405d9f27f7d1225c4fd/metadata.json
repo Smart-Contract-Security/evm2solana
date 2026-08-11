@@ -1,0 +1,32 @@
+{
+  "address": "0x2aadf8d6fd2e66260bdf6405d9f27f7d1225c4fd",
+  "contract_name": "Treasury",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 31,
+  "source_sha256": "803a4c0d2a09cd9f6f2f08da1c37c0ed2448e4b70a9e6ffc3a7069387c077f22",
+  "fetched_at": "2026-06-02T02:10:30.172845+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

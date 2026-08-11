@@ -1,0 +1,33 @@
+{
+  "address": "0x12f8393f4b00edac6393a1254d5d9b205cebdf4b",
+  "contract_name": "DaemonV4Router",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 3,
+  "source_sha256": "5b784d6408439e6fa1bd4e860a66c727e810b011166d61e3fcb13dbe8a309283",
+  "fetched_at": "2026-06-03T11:43:44.512811+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

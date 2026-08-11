@@ -1,0 +1,27 @@
+{
+  "address": "0xc57aafc1f3cd99ef3a157e8a0e624c535becc2a7",
+  "contract_name": "S342Vesting",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 11,
+  "source_sha256": "3369f50db895919b0fcc3903873e1d5ec23611b4ab2c0725f4c03495bd5f7765",
+  "fetched_at": "2026-06-03T04:54:12.211724+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

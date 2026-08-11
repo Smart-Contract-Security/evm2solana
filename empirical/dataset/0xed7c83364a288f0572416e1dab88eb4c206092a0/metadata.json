@@ -1,0 +1,26 @@
+{
+  "address": "0xed7c83364a288f0572416e1dab88eb4c206092a0",
+  "contract_name": "SendAll",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 11,
+  "source_sha256": "1822b99762e161bd23b29e229c92e9901909555cc6018fd143d88115a73528f3",
+  "fetched_at": "2026-06-04T11:41:40.852309+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

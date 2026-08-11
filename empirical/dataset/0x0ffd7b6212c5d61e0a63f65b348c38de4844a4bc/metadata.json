@@ -1,0 +1,27 @@
+{
+  "address": "0x0ffd7b6212c5d61e0a63f65b348c38de4844a4bc",
+  "contract_name": "AllocationProvider",
+  "compiler_version": "v0.8.16+commit.07a7930e",
+  "file_count": 5,
+  "source_sha256": "06964d9431219421438e0a681a6b373c7b380c8f0258fb8d45e44ec5a9ad14f4",
+  "fetched_at": "2026-06-04T05:51:54.741502+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

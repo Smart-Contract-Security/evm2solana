@@ -1,0 +1,28 @@
+{
+  "address": "0xfc6770cc460711418c691aa6f1f910dd51e4442f",
+  "contract_name": "MindHookDeployer",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 22,
+  "source_sha256": "bff84927263adab031ca7942ced69bbd667cf8cc99653e8ac73a73065760ef42",
+  "fetched_at": "2026-06-01T10:03:42.969629+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

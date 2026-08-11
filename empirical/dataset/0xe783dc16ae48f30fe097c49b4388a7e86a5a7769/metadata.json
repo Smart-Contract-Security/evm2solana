@@ -1,0 +1,63 @@
+{
+  "address": "0xe783dc16ae48f30fe097c49b4388a7e86a5a7769",
+  "contract_name": "NestVaultOFT",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 97,
+  "source_sha256": "38d8816c94dc0d2dc3e4df7635d75b538cdcd4a9d724696d161ab2f88ec2fbac",
+  "fetched_at": "2026-06-03T06:29:51.406748+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=node_modules/forge-std/src/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "@openzeppelin-4.9.3/=script/vendor/openzeppelin-4.9.3/",
+      "@solmate/=node_modules/solmate/src/",
+      "@boring-vault/=node_modules/boring-vault/",
+      "src/=node_modules/boring-vault/src/",
+      "@predicate/=node_modules/@predicate/contracts/",
+      "@pendle/=node_modules/@pendle/",
+      "createx/=node_modules/createx/src/",
+      "solidity-bytes-utils/contracts/=node_modules/@layerzerolabs/toolbox-foundry/lib/solidity-bytes-utils/",
+      "@layerzerolabs/=node_modules/@layerzerolabs/",
+      "@uniswap/permit2/=node_modules/@uniswap/permit2/src/",
+      "@morpho/=node_modules/morpho/src/",
+      "boring-vault/=node_modules/boring-vault/",
+      "ds-test/=node_modules/@layerzerolabs/toolbox-foundry/lib/ds-test/",
+      "hardhat-deploy/=node_modules/hardhat-deploy/",
+      "hardhat/=node_modules/hardhat/",
+      "morpho/=node_modules/morpho/",
+      "solmate/=node_modules/solmate/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": true,
+    "libraries": {
+      "contracts/NestVaultOFT.sol": {
+        "NestVaultAdminLogic": "0xad9aacd63d58c0a29c7155d39e94c9116c925aa4",
+        "NestVaultDepositLogic": "0x54697e12b0dd793471b5a802dde48118bb928fee",
+        "NestVaultOperatorLogic": "0x948b817221068df243b55b72d7ab95d8b2007f30",
+        "NestVaultRedeemLogic": "0xe44818a436117a2fa3d85fd98ac66f4b80e7c0a7",
+        "NestVaultTransferLogic": "0x95c272fb5c27abe0dbf546d472ad46948a05b401"
+      }
+    }
+  }
+}

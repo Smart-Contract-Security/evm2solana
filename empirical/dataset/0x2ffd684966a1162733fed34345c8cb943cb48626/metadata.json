@@ -1,0 +1,31 @@
+{
+  "address": "0x2ffd684966a1162733fed34345c8cb943cb48626",
+  "contract_name": "DefaultHook",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 15,
+  "source_sha256": "e4ed7b306b315f233e0203a99649eb5daafb855dc0bfa4a72db861b8b839d7cf",
+  "fetched_at": "2026-06-03T03:27:01.864550+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

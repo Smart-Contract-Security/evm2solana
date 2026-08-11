@@ -1,0 +1,27 @@
+{
+  "address": "0x73f25bef0e52d3133cda78ecf3952344c2809c13",
+  "contract_name": "MadamYieldToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "41ca60fcc2ed0850e00443f6f4fa17cc57af9b12de44bc269cba75d497bc164a",
+  "fetched_at": "2026-06-03T07:02:20.659935+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

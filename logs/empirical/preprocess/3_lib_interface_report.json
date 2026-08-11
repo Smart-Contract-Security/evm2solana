@@ -1,0 +1,23 @@
+{
+  "total": 2533,
+  "pure_lib_or_interface": 15,
+  "remaining": 2518,
+  "dry_run": false,
+  "deleted_addresses": [
+    "0x8648cdca423d3872fcfdc37e4c8f68a471b70d76",
+    "0xb59dfad09e8706151951e51bb44fe8666682b05b",
+    "0x4dfb03cdf61e6085767972617ceb6e9130ab1ae0",
+    "0x3c3bc6a25cefe588b38d9f8555db17a33d1ba93d",
+    "0x6efbc56ef9142b8ed1701b2a623dadf7e2af0149",
+    "0xce9d9d50c4ac650556097409dc98df494645177e",
+    "0x7176e39992b874ab6835de3282434b10552d5a9a",
+    "0x447a5a2ea4c6d4d15c177f1cff185febdc66efce",
+    "0x7c30300a05f1964c88798351b2eb6d3f678dece4",
+    "0x5fda8df8731fe772b37bc7837d86525fce6a60a0",
+    "0xc29c07cbfabd7e2a592e4b735ef08473a4b4a09a",
+    "0x3291c3a49e7b71a099f6f37daa59537efcf188fe",
+    "0x32c7d8841e3defae125cd19d8283985e2a2fe56e",
+    "0xc281dc38777ef7ff9d67217ceeed8297fae05e48",
+    "0xe13d7b01932c8db35d8a85aedd019dbeb4324c2c"
+  ]
+}

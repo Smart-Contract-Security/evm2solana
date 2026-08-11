@@ -1,0 +1,28 @@
+{
+  "address": "0x00129ff22037068918c3d56811f6ad31f8f2fece",
+  "contract_name": "THESPIRIT",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "43f008e7cb7a022855f8e179ce2524362f54a014338abddc85b2f513d6932a5a",
+  "fetched_at": "2026-06-04T03:11:42.767616+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

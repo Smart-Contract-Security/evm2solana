@@ -1,0 +1,45 @@
+{
+  "address": "0x8058aff32bef3c17ade5f531be0fa8f82c892bf9",
+  "contract_name": "PortfolioTokenManager",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 29,
+  "source_sha256": "276046dd01b35ca06743e70e0cd66a96fe39c898b7afce99b24cc3a7f35d2d2b",
+  "fetched_at": "2026-06-03T04:45:51.142763+00:00",
+  "solc_settings": {
+    "remappings": [
+      "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+      "forge-tests/=forge-tests/",
+      "lib/=lib/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "@uniswap/=node_modules/@uniswap/",
+      "forge-std/=lib/forge-std/src/",
+      "hardhat-deploy/=node_modules/hardhat-deploy/",
+      "hardhat/=node_modules/hardhat/",
+      "solidity-bytes-utils/=node_modules/solidity-bytes-utils/",
+      "truffle/=node_modules/truffle/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

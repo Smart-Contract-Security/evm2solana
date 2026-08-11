@@ -1,0 +1,30 @@
+{
+  "address": "0xcbb82e509913d3da357cff252f68796648b573a4",
+  "contract_name": "ReferralManager",
+  "compiler_version": "v0.8.10+commit.fc410830",
+  "file_count": 35,
+  "source_sha256": "d1847df18d7714012b14f070ced7891d9f392bd204c73b6700e9079e47f77b9c",
+  "fetched_at": "2026-06-04T12:08:01.982997+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

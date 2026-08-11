@@ -1,0 +1,27 @@
+{
+  "address": "0x6f84c9ef4362359e50253e9890c71007318873ff",
+  "contract_name": "TITAN",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "a8bfec67b505728ccc60ce82cfc03ca0d2d75999e54d0034d407b7d28f8a5483",
+  "fetched_at": "2026-06-01T03:20:01.921006+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

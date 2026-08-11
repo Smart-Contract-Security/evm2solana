@@ -1,0 +1,26 @@
+{
+  "address": "0xc00d801ef56ecf277481136f02464701591c3a15",
+  "contract_name": "ScanAi",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 1,
+  "source_sha256": "d83ab180c225369aff634786ee03af2e7c1ddd968c8289cbad3bb17e6a7de3fa",
+  "fetched_at": "2026-06-04T13:37:28.216761+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

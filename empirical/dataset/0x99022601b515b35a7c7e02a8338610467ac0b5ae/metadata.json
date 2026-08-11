@@ -1,0 +1,37 @@
+{
+  "address": "0x99022601b515b35a7c7e02a8338610467ac0b5ae",
+  "contract_name": "DELHTMLRenderer",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 10,
+  "source_sha256": "f1acaf5d2b5c9d779210ceba65e5cb4ca91991edb10c5a330c62bc0101c725b0",
+  "fetched_at": "2026-06-03T12:54:59.539980+00:00",
+  "solc_settings": {
+    "remappings": [
+      "solady/=lib/solady/src/",
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

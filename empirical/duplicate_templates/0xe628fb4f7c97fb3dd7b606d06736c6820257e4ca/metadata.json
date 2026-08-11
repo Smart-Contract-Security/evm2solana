@@ -1,0 +1,33 @@
+{
+  "address": "0xe628fb4f7c97fb3dd7b606d06736c6820257e4ca",
+  "contract_name": "DaemonRenderer",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 3,
+  "source_sha256": "23d9a786d14ff41c890bf75a23658ef78bf1243ebe0b06c5f6803504039857b8",
+  "fetched_at": "2026-06-03T11:42:02.698855+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

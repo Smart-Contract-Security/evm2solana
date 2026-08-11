@@ -1,0 +1,27 @@
+{
+  "address": "0x9781f6da06d8cbd228c39437140b3cf968fe453f",
+  "contract_name": "MarketingVesting",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 7,
+  "source_sha256": "856222ed50166783f2bef65b347bcf26751ea678db041c49add1de7f6a5bf4f1",
+  "fetched_at": "2026-06-01T10:38:40.207804+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

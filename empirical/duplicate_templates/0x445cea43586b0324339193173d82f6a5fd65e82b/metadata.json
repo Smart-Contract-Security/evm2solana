@@ -1,0 +1,31 @@
+{
+  "address": "0x445cea43586b0324339193173d82f6a5fd65e82b",
+  "contract_name": "AjnaPool",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 4,
+  "source_sha256": "f2377b04325f9a2f6d5a87dc39e16e9be8307352ea4c61639702967c1f8ccc86",
+  "fetched_at": "2026-06-01T08:32:16.791567+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

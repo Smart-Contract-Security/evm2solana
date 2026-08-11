@@ -1,0 +1,33 @@
+{
+  "address": "0x79f76e5a84ede60f02fb516693cad28710fcfd4e",
+  "contract_name": "DaemonLiquidityManager",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 3,
+  "source_sha256": "8d6ba26dda90db7ead0cfaf97b4435c3804558c40924ef93b64fe4ec8e10bc16",
+  "fetched_at": "2026-06-02T11:20:25.662200+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

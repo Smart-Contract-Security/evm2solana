@@ -1,0 +1,27 @@
+{
+  "address": "0x25c930dfbeb5c6c76754ef0e1c3c5f6752452301",
+  "contract_name": "CopperToad",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "95bd567f851928ca9a62842a6c5cc56e0fbe2d534ebed315218c69b98417c02a",
+  "fetched_at": "2026-06-01T15:18:20.032965+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xf69d6cbb0358202640401299d0ecb3ba896f303d",
+  "contract_name": "DaemonToken",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "71e3ef603d9fd629f8cc18f4242d48b336e01b2ff28d086511268dba9296d0de",
+  "fetched_at": "2026-06-03T06:24:46.371195+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

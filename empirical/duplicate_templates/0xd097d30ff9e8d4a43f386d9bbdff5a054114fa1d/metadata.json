@@ -1,0 +1,28 @@
+{
+  "address": "0xd097d30ff9e8d4a43f386d9bbdff5a054114fa1d",
+  "contract_name": "LullProtocol",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 26,
+  "source_sha256": "ec3eb08bb43c57e59b28d670a60657b0d428c988a0113d55a3cc9446990cf9ac",
+  "fetched_at": "2026-06-02T15:10:54.794935+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1700
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

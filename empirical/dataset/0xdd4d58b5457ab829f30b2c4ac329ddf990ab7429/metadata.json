@@ -1,0 +1,27 @@
+{
+  "address": "0xdd4d58b5457ab829f30b2c4ac329ddf990ab7429",
+  "contract_name": "BondingCurve",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 16,
+  "source_sha256": "e13c304c565540a5e77af3be73eed95ded9140df60f77aae5486ab54dbc1c949",
+  "fetched_at": "2026-06-03T12:54:33.582693+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

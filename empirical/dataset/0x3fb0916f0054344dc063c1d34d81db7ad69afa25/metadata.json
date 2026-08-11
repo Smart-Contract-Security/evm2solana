@@ -1,0 +1,27 @@
+{
+  "address": "0x3fb0916f0054344dc063c1d34d81db7ad69afa25",
+  "contract_name": "ProxyAdmin",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 12,
+  "source_sha256": "f960634a8a0624f935c10de7fe50047bfe6944b95bea2cdf9e1f42651210dc41",
+  "fetched_at": "2026-06-04T03:24:55.457951+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

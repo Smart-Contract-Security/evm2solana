@@ -1,0 +1,31 @@
+{
+  "address": "0x2d3d2e3f567b590ca2b32ab264f6bdbe02ec974d",
+  "contract_name": "FoxyMarketplace",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "a855fc9b040f558f61796139dd24b5301abd602781fae465a10c478d64c08875",
+  "fetched_at": "2026-06-03T11:06:57.311586+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

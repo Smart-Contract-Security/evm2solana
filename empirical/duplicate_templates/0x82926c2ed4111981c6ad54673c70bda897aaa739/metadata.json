@@ -1,0 +1,31 @@
+{
+  "address": "0x82926c2ed4111981c6ad54673c70bda897aaa739",
+  "contract_name": "OndoAttestationAggregator",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 7,
+  "source_sha256": "3799d49e2ddc246555a2d0fd0d7b3915a25c17369110b44a4b57b2438b01118c",
+  "fetched_at": "2026-06-02T15:33:05.620368+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 20
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

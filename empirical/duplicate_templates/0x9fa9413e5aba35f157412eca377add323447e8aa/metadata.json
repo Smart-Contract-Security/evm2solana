@@ -1,0 +1,31 @@
+{
+  "address": "0x9fa9413e5aba35f157412eca377add323447e8aa",
+  "contract_name": "FloorDaoStaking",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "c0d6b2accb68a577d9a40b2f754e1bd41cdf097dde7972d89e1261f4a9c11e33",
+  "fetched_at": "2026-06-03T11:57:28.400863+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

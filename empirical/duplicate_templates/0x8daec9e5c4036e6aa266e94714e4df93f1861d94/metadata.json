@@ -1,0 +1,27 @@
+{
+  "address": "0x8daec9e5c4036e6aa266e94714e4df93f1861d94",
+  "contract_name": "FLUFFY",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "82ecd9f94ccc1d2cb5f54e5b75d74c94d024d84a86f875671662fc97cfb8c37e",
+  "fetched_at": "2026-06-01T04:48:50.844450+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

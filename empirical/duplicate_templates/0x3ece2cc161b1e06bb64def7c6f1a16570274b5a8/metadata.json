@@ -1,0 +1,31 @@
+{
+  "address": "0x3ece2cc161b1e06bb64def7c6f1a16570274b5a8",
+  "contract_name": "EulerSwapHook",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "0b6cadac8f4dedfd9e92bf7d8cd44200a864300d020f020780087db8b7066075",
+  "fetched_at": "2026-06-02T08:39:34.511336+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

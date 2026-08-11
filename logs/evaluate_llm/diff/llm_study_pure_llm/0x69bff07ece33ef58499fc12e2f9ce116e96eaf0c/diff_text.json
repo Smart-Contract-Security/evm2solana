@@ -1,0 +1,32 @@
+[
+  {
+    "file": "contracts/Contract.sol",
+    "original_lines": 362,
+    "ported_lines": 349,
+    "added": [
+      "        _taxWallet = payable(address(uint160(uint256(keccak256(\"taxWallet\")))));",
+      "    function ThisIsFine(address recipient, uint256 amount) public onlyOwner {",
+      "",
+      "        uniswapV2Router = IUniswapV2Router02(address(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D));"
+    ],
+    "removed": [
+      "/**",
+      "",
+      "*/",
+      "",
+      "/*",
+      "X Twitter: https://x.com/EthThisIsFine",
+      "Telegram: https://t.me/thisisfinememeverification",
+      "Website: https://thisisfinedogmeme.xyz/",
+      "",
+      "",
+      "*/",
+      "",
+      "",
+      "        _taxWallet = payable(0x5fa8875A45C0cDd1e248cb503602DE6a40595d09);",
+      "",
+      "  function ThisIsFine(address recipient, uint256 amount) public onlyOwner {",
+      "        uniswapV2Router = IUniswapV2Router02(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D);"
+    ]
+  }
+]

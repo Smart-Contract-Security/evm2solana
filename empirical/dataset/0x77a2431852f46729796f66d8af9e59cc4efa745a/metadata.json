@@ -1,0 +1,27 @@
+{
+  "address": "0x77a2431852f46729796f66d8af9e59cc4efa745a",
+  "contract_name": "CotinToken",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 9,
+  "source_sha256": "acc4e5cd9e9f13fa6e7bc272f63f83603fdd2ea9352685e553a8d2421dae9d38",
+  "fetched_at": "2026-06-04T11:04:23.147122+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

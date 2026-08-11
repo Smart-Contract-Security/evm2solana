@@ -1,0 +1,40 @@
+{
+  "address": "0x0a8fa92dfc78423e4f76f8aaecf253776aae42e1",
+  "contract_name": "WaterfallDistributor",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 12,
+  "source_sha256": "648c651e6d5cec1dac8bcb2408ede8f9ae94c0340b76cf697afc9d0dd69662d3",
+  "fetched_at": "2026-06-02T08:40:12.892988+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

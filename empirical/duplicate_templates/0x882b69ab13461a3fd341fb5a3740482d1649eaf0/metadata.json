@@ -1,0 +1,27 @@
+{
+  "address": "0x882b69ab13461a3fd341fb5a3740482d1649eaf0",
+  "contract_name": "Bagels",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "30130826d4a945d506e6c0ac52270524001a0a44719ec544de74d5c2ba2a5c14",
+  "fetched_at": "2026-06-01T03:15:43.447585+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

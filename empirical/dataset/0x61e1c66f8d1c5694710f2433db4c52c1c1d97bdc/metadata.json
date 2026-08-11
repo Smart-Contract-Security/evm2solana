@@ -1,0 +1,27 @@
+{
+  "address": "0x61e1c66f8d1c5694710f2433db4c52c1c1d97bdc",
+  "contract_name": "NoisiesStaking",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "6037869cfcf2742ed17bdccbbda7ae72d4448d0a4b42dbce5a254dc0f3241411",
+  "fetched_at": "2026-06-01T10:24:17.260528+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

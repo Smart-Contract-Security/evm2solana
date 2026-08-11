@@ -1,0 +1,26 @@
+{
+  "address": "0xf90671d634455bc143f0c044bcb70ef2822e3699",
+  "contract_name": "TEW",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 1,
+  "source_sha256": "665a6c1dff968e031a0cf8fce6a7e85cebfc1483ff941e9b01659bbf6890e8e0",
+  "fetched_at": "2026-06-04T10:28:36.553951+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

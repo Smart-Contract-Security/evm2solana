@@ -1,0 +1,26 @@
+{
+  "address": "0xc6a04d4874624005aa77c480c738ae4e0d11b479",
+  "contract_name": "EternalStorageProxy",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "d09da936544cbecda569a2bac1321d3a3e5027ab3cb7fa515c127808b1fba912",
+  "fetched_at": "2026-06-03T12:27:51.821621+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

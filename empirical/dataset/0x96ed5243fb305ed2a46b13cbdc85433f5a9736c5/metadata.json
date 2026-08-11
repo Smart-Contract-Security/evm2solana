@@ -1,0 +1,30 @@
+{
+  "address": "0x96ed5243fb305ed2a46b13cbdc85433f5a9736c5",
+  "contract_name": "GreenAcres",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 15,
+  "source_sha256": "6e356892eca82c61dbe0a2195beca9be21c5ae91086e75941a881416e56876f6",
+  "fetched_at": "2026-06-03T07:22:27.783182+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:@openzeppelin/contracts/=npm/@openzeppelin/contracts@4.8.3/",
+      "project/:erc721a/=npm/erc721a@4.3.0/"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "address": "0xc0081eca65aa79f10a336d4c60a448302c1e477b",
+  "contract_name": "ERC4626InterfaceFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 41,
+  "source_sha256": "150dac1007361c68ee10cdcabf82a15a7b6066ce79505b92384b72cbb2e4bee2",
+  "fetched_at": "2026-06-03T05:11:26.898955+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "remappings": [],
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

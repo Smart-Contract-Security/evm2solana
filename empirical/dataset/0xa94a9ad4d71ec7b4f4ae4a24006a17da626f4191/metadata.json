@@ -1,0 +1,27 @@
+{
+  "address": "0xa94a9ad4d71ec7b4f4ae4a24006a17da626f4191",
+  "contract_name": "DiamondDronesFilm",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 9,
+  "source_sha256": "390bc0c4c5309dc920b308a1aad1d6ab4fa2ca88acadfc66ad6f218ab0266053",
+  "fetched_at": "2026-06-01T10:32:28.780038+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

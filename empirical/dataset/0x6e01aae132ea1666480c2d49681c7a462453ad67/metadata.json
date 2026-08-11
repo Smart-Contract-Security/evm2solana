@@ -1,0 +1,26 @@
+{
+  "address": "0x6e01aae132ea1666480c2d49681c7a462453ad67",
+  "contract_name": "Brains",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 22,
+  "source_sha256": "2bfe379d58a06ee09842c4958fe83316fcf7385667cf9106d2698481ccfeb274",
+  "fetched_at": "2026-06-04T10:32:44.048697+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 800
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

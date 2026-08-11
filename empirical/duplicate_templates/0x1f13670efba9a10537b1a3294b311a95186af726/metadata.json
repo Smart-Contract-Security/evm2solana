@@ -1,0 +1,31 @@
+{
+  "address": "0x1f13670efba9a10537b1a3294b311a95186af726",
+  "contract_name": "TezosBakerPool",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 4,
+  "source_sha256": "3be9457c8254916ef81f8c456fa502ab0367ab5a5ca3a35c6fa47c96b93daf13",
+  "fetched_at": "2026-06-01T08:33:07.504461+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

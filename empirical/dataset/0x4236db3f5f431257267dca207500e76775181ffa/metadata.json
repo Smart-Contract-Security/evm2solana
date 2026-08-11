@@ -1,0 +1,28 @@
+{
+  "address": "0x4236db3f5f431257267dca207500e76775181ffa",
+  "contract_name": "GemAiSubscriptionService",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 15,
+  "source_sha256": "52a6b93876295e87f0303a0551193c99aa7ef2d9c4735481ac1d32078bf77037",
+  "fetched_at": "2026-06-04T12:32:06.606475+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

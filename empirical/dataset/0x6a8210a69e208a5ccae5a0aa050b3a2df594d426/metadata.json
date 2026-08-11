@@ -1,0 +1,28 @@
+{
+  "address": "0x6a8210a69e208a5ccae5a0aa050b3a2df594d426",
+  "contract_name": "StablehouseTimelock",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 14,
+  "source_sha256": "3e8bcb86336e5f4cc67f9bb7f45a04cb21ed44a78d583f53c25a23749c54075b",
+  "fetched_at": "2026-06-01T08:39:45.302765+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "address": "0x51a6262916c1fdd5dd25e3ba11cbf76427a126a3",
+  "contract_name": "ApprovalFlashLoan",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 13,
+  "source_sha256": "2a3218336e7196a0908655ab38875135661dec6ad2a0354f71af58b220296ee0",
+  "fetched_at": "2026-06-01T16:03:27.548020+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "metadata": {
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 20000
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [],
+    "viaIR": true
+  }
+}

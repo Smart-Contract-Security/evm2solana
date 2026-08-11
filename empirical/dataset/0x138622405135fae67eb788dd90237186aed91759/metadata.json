@@ -1,0 +1,28 @@
+{
+  "address": "0x138622405135fae67eb788dd90237186aed91759",
+  "contract_name": "MettaPayEscrowFactory",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 18,
+  "source_sha256": "cf2487d0ef443b6efab591028880abf0152769434cd5b575cf2b2e02e04726ef",
+  "fetched_at": "2026-06-03T12:29:56.609810+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

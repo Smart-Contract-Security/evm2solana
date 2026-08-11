@@ -1,0 +1,27 @@
+{
+  "address": "0xa30b19adaaa93a8c67f8fd3d98dcbcc6866fafa3",
+  "contract_name": "ZOE2",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 1,
+  "source_sha256": "ebe94bbc552509fee3db2e8c427d2d4b756db4533c0fa6e50958031daabc2aff",
+  "fetched_at": "2026-06-02T02:15:30.081710+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

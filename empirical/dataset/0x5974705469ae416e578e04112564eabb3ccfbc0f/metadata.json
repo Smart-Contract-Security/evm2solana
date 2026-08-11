@@ -1,0 +1,8 @@
+{
+  "address": "0x5974705469ae416e578e04112564eabb3ccfbc0f",
+  "contract_name": "HelloERC20",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "be8e51abd79e90d59de312091a720689597046eb030ebefbef66f07a088efec4",
+  "fetched_at": "2026-06-04T13:24:02.232508+00:00"
+}

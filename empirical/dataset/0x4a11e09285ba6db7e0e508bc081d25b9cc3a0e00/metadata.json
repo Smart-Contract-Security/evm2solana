@@ -1,0 +1,27 @@
+{
+  "address": "0x4a11e09285ba6db7e0e508bc081d25b9cc3a0e00",
+  "contract_name": "Veridia",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 7,
+  "source_sha256": "64a44920b4dcefda9663b03f513713d4090ca4ef8ae41a008444c7c617f35705",
+  "fetched_at": "2026-06-03T05:24:41.016237+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

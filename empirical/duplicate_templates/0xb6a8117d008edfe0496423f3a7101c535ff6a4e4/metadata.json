@@ -1,0 +1,27 @@
+{
+  "address": "0xb6a8117d008edfe0496423f3a7101c535ff6a4e4",
+  "contract_name": "Boris",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "4483bd05972712f7025c9bfe78653f7591e4e5b58bc341e57b51988b73378b6b",
+  "fetched_at": "2026-06-04T04:46:42.849650+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

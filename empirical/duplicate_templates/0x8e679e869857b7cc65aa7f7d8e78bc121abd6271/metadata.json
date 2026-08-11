@@ -1,0 +1,31 @@
+{
+  "address": "0x8e679e869857b7cc65aa7f7d8e78bc121abd6271",
+  "contract_name": "RadiantLendingPool",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "fec663f1ad5e59a24ece86e107998cf1960a60fe5a5c176c49e612a51402ba18",
+  "fetched_at": "2026-06-03T11:33:48.182863+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

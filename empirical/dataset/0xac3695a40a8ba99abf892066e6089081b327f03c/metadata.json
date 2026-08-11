@@ -1,0 +1,27 @@
+{
+  "address": "0xac3695a40a8ba99abf892066e6089081b327f03c",
+  "contract_name": "CashAppResolver",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 4,
+  "source_sha256": "5fa0119e6534042dd4a8ffd65f7b34240d7e5c1895e428a782fcb10c2aa8c5b5",
+  "fetched_at": "2026-06-01T02:59:25.923957+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

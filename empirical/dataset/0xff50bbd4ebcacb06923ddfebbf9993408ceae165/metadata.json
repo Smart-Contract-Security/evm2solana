@@ -1,0 +1,27 @@
+{
+  "address": "0xff50bbd4ebcacb06923ddfebbf9993408ceae165",
+  "contract_name": "LaunchToken",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 1,
+  "source_sha256": "5620bd9d0c61375bfa8465246aa2efe3a74082860beb1bcff874924b003146b4",
+  "fetched_at": "2026-06-02T11:59:43.847034+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

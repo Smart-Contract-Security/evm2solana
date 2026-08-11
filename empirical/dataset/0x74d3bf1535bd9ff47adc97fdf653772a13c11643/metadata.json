@@ -1,0 +1,28 @@
+{
+  "address": "0x74d3bf1535bd9ff47adc97fdf653772a13c11643",
+  "contract_name": "CompoundV3Strategy",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 13,
+  "source_sha256": "35fb3e39117b71fcf3a75e07738d25bd58564e01e09777ebdb2027f88d77c8c0",
+  "fetched_at": "2026-06-03T04:50:10.277710+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": false,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

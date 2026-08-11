@@ -1,0 +1,36 @@
+[
+  {
+    "file": "ONI_Main.sol",
+    "original_lines": 363,
+    "ported_lines": 364,
+    "added": [
+      "/// @notice 4,444 Fully On-Chain Generative Low Poly Demons · Solana",
+      "//  4,444 On-Chain Low Poly Demons · Solana",
+      "    uint256 private _mintPrice  = 100000000000000; // 0.0001 SOL in lamports",
+      "            'data:application/json,{\"name\":\"ONI\",\"description\":\"4,444 fully on-chain generative low poly demons on Solana. No IPFS. No servers. Pure on-chain art.\",\"external_link\":\"https://oni.xyz\",\"seller_fee_basis_points\":',",
+      "            ',\"fee_recipient\":\"',_toHex(_owner),'\"}'));",
+      "    }",
+      "",
+      "    function _toHex(address v) internal pure returns (string memory) {",
+      "        uint160 val = uint160(v);",
+      "            uint8 b = uint8(val >> (8 * (19 - i)));",
+      "        else if (index == 4) _r3b = renderer;",
+      "        else if (index == 5) _r4 = renderer;",
+      "            '\",\"description\":\"4,444 fully on-chain generative low poly demons on Solana. No IPFS. No servers.\",\"image\":\"data:image/svg+xml,',"
+    ],
+    "removed": [
+      "/// @notice 4,444 Fully On-Chain Generative Low Poly Demons · Ethereum",
+      "//  4,444 On-Chain Low Poly Demons · Ethereum",
+      "    uint256 private _mintPrice  = 0.0001 ether;",
+      "            'data:application/json,{\"name\":\"ONI\",\"description\":\"4,444 fully on-chain generative low poly demons on Ethereum. No IPFS. No servers. Pure on-chain art.\",\"external_link\":\"https://oni.xyz\",\"seller_fee_basis_points\":',",
+      "            ',\"fee_recipient\":\"0x',_toHex(uint160(_owner)),'\"}'));",
+      "    }",
+      "",
+      "    function _toHex(uint160 v) internal pure returns (string memory) {",
+      "            uint8 b = uint8(v >> (8 * (19 - i)));",
+      "        else if (index == 3) _r3b = renderer;",
+      "        else if (index == 4) _r4 = renderer;",
+      "            '\",\"description\":\"4,444 fully on-chain generative low poly demons on Ethereum. No IPFS. No servers.\",\"image\":\"data:image/svg+xml,',"
+    ]
+  }
+]

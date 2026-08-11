@@ -1,0 +1,31 @@
+{
+  "address": "0x80f9ce47555e525cb2dd57d40f8fbf9139afa236",
+  "contract_name": "DebridgeDln",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 4,
+  "source_sha256": "eddcb31ba761ae73a874a622a8705549798d0343cefb99e9d255a5b6c5ba637d",
+  "fetched_at": "2026-06-01T03:27:21.791318+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "file": "Token.sol",
+    "original_lines": 44,
+    "ported_lines": 49,
+    "added": [
+      "// Solana port of Token contract using Solang",
+      "",
+      "import 'solana';",
+      "",
+      "",
+      "    @payer(payer)",
+      "    @space(512 + 32 * 3)",
+      "    constructor(address payer) {",
+      "        balances[tx.accounts.payer.key] = totalSupply;",
+      "",
+      "    function balanceOf(address owner) public view returns(uint) {",
+      "",
+      "        require(balances[tx.accounts.transaction_authority.key] >= value, 'balance too low');",
+      "        balances[tx.accounts.transaction_authority.key] -= value;",
+      "        emit Transfer(tx.accounts.transaction_authority.key, to, value);",
+      "",
+      "        require(balances[from] >= value, 'balance too low');",
+      "        require(allowance[from][tx.accounts.transaction_authority.key] >= value, 'allowance too low');",
+      "        return true;",
+      "",
+      "        allowance[tx.accounts.transaction_authority.key][spender] = value;",
+      "        emit Approval(tx.accounts.transaction_authority.key, spender, value);",
+      "        return true;"
+    ],
+    "removed": [
+      "    ",
+      "    ",
+      "    constructor() {",
+      "        balances[msg.sender] = totalSupply;",
+      "    ",
+      "    function balanceOf(address owner) public returns(uint) {",
+      "    ",
+      "        require(balanceOf(msg.sender) >= value, 'balance too low');",
+      "        balances[msg.sender] -= value;",
+      "       emit Transfer(msg.sender, to, value);",
+      "    ",
+      "        require(balanceOf(from) >= value, 'balance too low');",
+      "        require(allowance[from][msg.sender] >= value, 'allowance too low');",
+      "        return true;   ",
+      "    ",
+      "        allowance[msg.sender][spender] = value;",
+      "        emit Approval(msg.sender, spender, value);",
+      "        return true;   "
+    ]
+  }
+]

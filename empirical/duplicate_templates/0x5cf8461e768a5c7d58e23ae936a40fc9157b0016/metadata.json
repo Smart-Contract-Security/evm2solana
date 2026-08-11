@@ -1,0 +1,27 @@
+{
+  "address": "0x5cf8461e768a5c7d58e23ae936a40fc9157b0016",
+  "contract_name": "PISSPORT",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "dabdafb8dbeb7f49c5cfdfac9e66ad0dddea3d4018f41aa60d8d6bb86edf92e8",
+  "fetched_at": "2026-06-04T04:06:25.799359+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x44e6daa3fb787d97c44ff4492343a62e357f9347",
+  "contract_name": "Mirror",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 5,
+  "source_sha256": "36218c83713e1273de3a2bf863339da8851f8da3c437a8b7914780d03c891776",
+  "fetched_at": "2026-06-01T03:03:08.566037+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

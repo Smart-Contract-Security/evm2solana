@@ -1,0 +1,32 @@
+{
+  "address": "0xb8b30e5497aaa6f4fba9bf373cf8831fe15a1662",
+  "contract_name": "LenderRegistry",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 9,
+  "source_sha256": "a5ed82831085dbc552b449be36df4db4cd76c0c223a50aa8c805fff571def16c",
+  "fetched_at": "2026-06-01T16:02:15.747131+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "metadata": {
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 20000
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [],
+    "viaIR": true
+  }
+}

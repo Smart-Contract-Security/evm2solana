@@ -1,0 +1,27 @@
+{
+  "address": "0x8e27e4c80191126b687c1520492febe64dc5e1be",
+  "contract_name": "HypNative",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 26,
+  "source_sha256": "8d2b1de35b4778fa18d1b71dc6e50d9057376309f0b2de5493ea9ad144785934",
+  "fetched_at": "2026-06-04T03:46:04.352670+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

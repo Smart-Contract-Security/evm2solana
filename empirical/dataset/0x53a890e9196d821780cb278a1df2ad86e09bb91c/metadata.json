@@ -1,0 +1,27 @@
+{
+  "address": "0x53a890e9196d821780cb278a1df2ad86e09bb91c",
+  "contract_name": "WIF",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 1,
+  "source_sha256": "69912b8a76fde5590798b3692f9d9dac96c4c94177da42b1b4dd5ffa673ea7e4",
+  "fetched_at": "2026-06-04T13:46:35.297465+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

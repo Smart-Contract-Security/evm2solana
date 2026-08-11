@@ -1,0 +1,27 @@
+{
+  "address": "0xaf5a45dd3cb9c31c6312e45e2608f3092840ef95",
+  "contract_name": "DukeOfDegen",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "f7aca191906dc647e9b6704aebe30ae233ac0924426a6db9ef4c039ef7b90cea",
+  "fetched_at": "2026-06-03T08:07:45.326135+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

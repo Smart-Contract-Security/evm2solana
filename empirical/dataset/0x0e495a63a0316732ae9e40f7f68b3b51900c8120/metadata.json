@@ -1,0 +1,28 @@
+{
+  "address": "0x0e495a63a0316732ae9e40f7f68b3b51900c8120",
+  "contract_name": "Unidraw",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 20,
+  "source_sha256": "998a0274a53b269087bd579c96ba1c5bb13a1c45507f650db7fd14968f8d6a6d",
+  "fetched_at": "2026-06-02T02:05:55.851935+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0xe060ab5483448b961fd0cf987c09574545e07bce",
+  "contract_name": "BOMBAdapter",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 39,
+  "source_sha256": "a13359140d111a29f649b97e63dbb75031240a857f160d55ac6a01384d84b206",
+  "fetched_at": "2026-06-04T05:13:55.575508+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    },
+    "libraries": {}
+  }
+}

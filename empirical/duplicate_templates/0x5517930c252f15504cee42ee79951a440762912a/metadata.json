@@ -1,0 +1,27 @@
+{
+  "address": "0x5517930c252f15504cee42ee79951a440762912a",
+  "contract_name": "BullishForeverToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "f5c532dc14e88011ad661f2a83e9ccdd1935293aca7f281510087f8cc9f0a0ca",
+  "fetched_at": "2026-06-03T12:30:10.992666+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

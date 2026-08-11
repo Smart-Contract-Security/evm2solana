@@ -1,0 +1,31 @@
+{
+  "address": "0xf85cd59e86a4b5459ea71877a66cada4184738aa",
+  "contract_name": "SpookySwapMasterChef",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "0fc469db3ef7c5fc835f52386e053a65f5b727f6a5280051111f7e0c29454a0c",
+  "fetched_at": "2026-06-02T11:25:34.792127+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

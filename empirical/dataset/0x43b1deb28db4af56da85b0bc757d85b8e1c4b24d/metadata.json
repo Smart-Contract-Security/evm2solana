@@ -1,0 +1,27 @@
+{
+  "address": "0x43b1deb28db4af56da85b0bc757d85b8e1c4b24d",
+  "contract_name": "IDOVesting",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 11,
+  "source_sha256": "10082e41bf134a6aede41a17a4c79d1856e8169e539faa9d290aa0548ac2f42d",
+  "fetched_at": "2026-06-04T03:55:32.740128+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

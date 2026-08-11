@@ -1,0 +1,27 @@
+{
+  "address": "0xe7b0dac2e0455da399c05a29b678691aed56f343",
+  "contract_name": "IronFrogToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "fcc47f675e585f3d45764024669d399d3b7fd93bc44a5f622bb9d36c77ff59ec",
+  "fetched_at": "2026-06-03T11:28:39.652389+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

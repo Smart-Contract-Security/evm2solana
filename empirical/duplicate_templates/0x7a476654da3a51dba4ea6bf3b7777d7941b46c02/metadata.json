@@ -1,0 +1,31 @@
+{
+  "address": "0x7a476654da3a51dba4ea6bf3b7777d7941b46c02",
+  "contract_name": "DigitalEyesMarket",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "858231856da33d7f1fe34477bda3ba5455acf5cb4948bcc92702ed0173e839cc",
+  "fetched_at": "2026-06-03T11:10:05.034778+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

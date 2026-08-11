@@ -1,0 +1,40 @@
+{
+  "address": "0x196b0f475b0af7b5c8398bdc1b3d1049f2ccdaa1",
+  "contract_name": "BurnerDelegate",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 9,
+  "source_sha256": "c455bfd5c629fd9cfeebfec97cd96f9a2218fac7b16bf5ab4507928aa51fdff9",
+  "fetched_at": "2026-06-02T15:04:52.254894+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

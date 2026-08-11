@@ -1,0 +1,27 @@
+{
+  "address": "0x4624f1ead3061a3f7c75a9d90e4b78e622444ee2",
+  "contract_name": "CCPTRUMP",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 8,
+  "source_sha256": "db36905fa3d9a1e0a1157193ea5f647848ec9398828c7d710a4c30d0dc62d3e6",
+  "fetched_at": "2026-06-03T11:27:18.175592+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

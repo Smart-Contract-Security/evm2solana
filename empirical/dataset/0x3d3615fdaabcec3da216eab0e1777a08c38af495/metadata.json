@@ -1,0 +1,28 @@
+{
+  "address": "0x3d3615fdaabcec3da216eab0e1777a08c38af495",
+  "contract_name": "ArtvybeMarketplace",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 23,
+  "source_sha256": "2e6dca96a12ab13985e2b1bd6abdb932c12693749f619cdeb308ed705d9c926c",
+  "fetched_at": "2026-06-03T08:12:37.879652+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

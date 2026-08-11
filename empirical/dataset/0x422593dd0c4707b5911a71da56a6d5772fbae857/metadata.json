@@ -1,0 +1,24 @@
+{
+  "address": "0x422593dd0c4707b5911a71da56a6d5772fbae857",
+  "contract_name": "SKAINETIncentives",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 4,
+  "source_sha256": "5fc0c10ec17f488ecf1d59fd61841bb719c2af38ca09f30eeed3a8250419c347",
+  "fetched_at": "2026-06-04T12:42:00.920271+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "address": "0x99c4db0720542388660bf54f77ee26fcae853274",
+  "contract_name": "Sphere",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 5,
+  "source_sha256": "00fba46306d787aed6199211d9059d91b07e4dfddce4fa56bda7676353b5f185",
+  "fetched_at": "2026-06-01T08:21:12.900666+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@uniswap/v4-core/=lib/v4-core/",
+      "@uniswap/v4-periphery/=lib/v4-periphery/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "solmate/=lib/solmate/",
+      "permit2/=lib/permit2/",
+      "forge-std/=lib/forge-std/src/",
+      "forge-gas-snapshot/=lib/forge-gas-snapshot/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 800
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

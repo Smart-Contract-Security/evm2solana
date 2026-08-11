@@ -1,0 +1,32 @@
+{
+  "address": "0x869409772da8b7f1479aac21cece04e68a766f68",
+  "contract_name": "OmniAaveAdapter",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 9,
+  "source_sha256": "3feb8cac3514b04ce451b22723841af6024c727269f0ca96b59be7e2e7e41920",
+  "fetched_at": "2026-06-02T13:17:40.707855+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

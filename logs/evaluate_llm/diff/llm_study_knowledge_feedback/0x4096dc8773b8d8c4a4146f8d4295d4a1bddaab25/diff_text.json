@@ -1,0 +1,37 @@
+[
+  {
+    "file": "OneBalanceResourceLockManager.sol",
+    "original_lines": 56,
+    "ported_lines": 52,
+    "added": [
+      "@program_id(\"1Ba1ResLockMgr11111111111111111111111111111\")",
+      "        uint64 amount;",
+      "        uint64 expiry;",
+      "    event ResourceLockCreated(address owner, bytes32 lockId, uint64 amount, bytes32 conditions, uint64 expiry);",
+      "    event ResourceLockFulfilled(address owner, bytes32 lockId);",
+      "    function createResourceLock(uint64 amount, bytes32 conditions, uint64 expiry) public returns (bytes32) {",
+      "        bytes32 lockId = keccak256(abi.encodePacked(tx.accounts.dataAccount.key, amount, conditions, expiry, block.timestamp));",
+      "        newLock.owner = tx.accounts.dataAccount.key;",
+      "        emit ResourceLockCreated(tx.accounts.dataAccount.key, lockId, amount, conditions, expiry);",
+      "        require(lock.owner == tx.accounts.dataAccount.key, \"Only the owner can fulfill the lock\");",
+      "    function getLockDetails(bytes32 lockId) public view returns (address, uint64, bytes32, uint64, bool) {"
+    ],
+    "removed": [
+      "// SPDX-License-Identifier: GPL-3.0",
+      "// OneBalance Resource Lock Manager Contract",
+      "// Part of the OneBalance Framework for managing resource locks",
+      "pragma solidity ^0.8.0;",
+      "",
+      "        uint256 amount;",
+      "        uint256 expiry;",
+      "    event ResourceLockCreated(address indexed owner, bytes32 lockId, uint256 amount, bytes32 conditions, uint256 expiry);",
+      "    event ResourceLockFulfilled(address indexed owner, bytes32 lockId);",
+      "    function createResourceLock(uint256 amount, bytes32 conditions, uint256 expiry) public returns (bytes32) {",
+      "        bytes32 lockId = keccak256(abi.encodePacked(msg.sender, amount, conditions, expiry, block.timestamp));",
+      "        newLock.owner = msg.sender;",
+      "        emit ResourceLockCreated(msg.sender, lockId, amount, conditions, expiry);",
+      "        require(lock.owner == msg.sender, \"Only the owner can fulfill the lock\");",
+      "    function getLockDetails(bytes32 lockId) public view returns (address, uint256, bytes32, uint256, bool) {"
+    ]
+  }
+]

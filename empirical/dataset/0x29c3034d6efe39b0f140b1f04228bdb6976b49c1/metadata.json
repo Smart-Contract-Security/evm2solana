@@ -1,0 +1,31 @@
+{
+  "address": "0x29c3034d6efe39b0f140b1f04228bdb6976b49c1",
+  "contract_name": "MagicRecoverWETH",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "a91dcef8bc946ee90588ba62ac06f2e81134a0b2305a1601f3597d0a9b9370f6",
+  "fetched_at": "2026-06-03T03:28:22.547850+00:00",
+  "solc_settings": {
+    "evmVersion": "osaka",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

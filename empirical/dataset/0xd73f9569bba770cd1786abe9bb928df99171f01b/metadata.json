@@ -1,0 +1,27 @@
+{
+  "address": "0xd73f9569bba770cd1786abe9bb928df99171f01b",
+  "contract_name": "CREATE2Factory",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "314fcf9ab43e3b1dbab063c085c2d7537504807911ff88ab91050d8780d07277",
+  "fetched_at": "2026-06-01T10:15:15.841417+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

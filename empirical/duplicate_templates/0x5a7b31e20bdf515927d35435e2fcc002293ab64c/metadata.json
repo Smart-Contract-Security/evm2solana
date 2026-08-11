@@ -1,0 +1,27 @@
+{
+  "address": "0x5a7b31e20bdf515927d35435e2fcc002293ab64c",
+  "contract_name": "ShadyVernToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "6eff604f376502ecb5b2cd8eed0c600697208a7f6fd1294dffa1309be775e536",
+  "fetched_at": "2026-06-03T12:03:53.531451+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

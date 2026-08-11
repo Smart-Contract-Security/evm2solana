@@ -1,0 +1,31 @@
+{
+  "address": "0x277738bd5b68f7220379283a05872f02c3b23f4c",
+  "contract_name": "SymmetryBaskets",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "f876ad9e3576f2359172f2a1db209d9342238857405ae89317ad6b097147f6d0",
+  "fetched_at": "2026-06-03T11:37:51.615372+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "address": "0xd044eda54908d8bbede38293f351e34a85b12102",
+  "contract_name": "RushClaim",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 10,
+  "source_sha256": "5e80aff3d3c64839a7f2213c03538c5ac7be7254c8735cb4e7a8ed49086562e6",
+  "fetched_at": "2026-06-03T06:40:51.824280+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

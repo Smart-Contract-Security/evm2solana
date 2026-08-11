@@ -1,0 +1,58 @@
+{
+  "address": "0x99780b31caf8fe3bfcee6761128562abd64a363a",
+  "contract_name": "HeraldiaAutoRevolve",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 32,
+  "source_sha256": "691bf8ca8516da20901ca4505724b2a723e5ee7b08efe7d5f151b39557a1706d",
+  "fetched_at": "2026-06-03T07:16:05.963122+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "solady/=lib/solady/src/",
+      "forge-std/=lib/forge-std/src/",
+      "@limitbreak/creator-token-standards/=lib/creator-token-standards/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "@limitbreak/permit-c/=lib/creator-token-standards/lib/PermitC/src/",
+      "@opensea/tstorish/=lib/creator-token-standards/lib/tstorish/src/",
+      "@rari-capital/solmate/=lib/creator-token-standards/lib/PermitC/lib/solmate/",
+      "ERC721A/=lib/creator-token-standards/lib/ERC721A/contracts/",
+      "PermitC/=lib/creator-token-standards/lib/PermitC/",
+      "creator-token-standards/=lib/creator-token-standards/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "erc721a/=lib/creator-token-standards/lib/ERC721A/",
+      "forge-gas-metering/=lib/creator-token-standards/lib/PermitC/lib/forge-gas-metering/",
+      "murky/=lib/creator-token-standards/lib/murky/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/openzeppelin-contracts/contracts/",
+      "solmate/=lib/creator-token-standards/lib/PermitC/lib/solmate/src/",
+      "tstorish/=lib/creator-token-standards/lib/tstorish/src/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200,
+      "details": {
+        "constantOptimizer": true,
+        "yul": true
+      }
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

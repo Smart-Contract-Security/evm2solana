@@ -1,0 +1,27 @@
+{
+  "address": "0x0b916df615b5d38390a5feb9975a17d0c020820c",
+  "contract_name": "VelvetFoxToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "565b2df96c222d23d057e2283668c62ea7dd0baab6b36f9ac3f4fde744b1d90b",
+  "fetched_at": "2026-06-03T05:22:02.918883+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

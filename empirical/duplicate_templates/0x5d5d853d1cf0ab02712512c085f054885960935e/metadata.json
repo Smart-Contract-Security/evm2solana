@@ -1,0 +1,27 @@
+{
+  "address": "0x5d5d853d1cf0ab02712512c085f054885960935e",
+  "contract_name": "BaronVolt",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "28261b34f29d3831a516a3f8b59306e22e8a30a055c754eca5c4962827ae5773",
+  "fetched_at": "2026-06-03T06:48:51.449463+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

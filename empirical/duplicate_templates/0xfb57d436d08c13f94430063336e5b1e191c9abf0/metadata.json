@@ -1,0 +1,27 @@
+{
+  "address": "0xfb57d436d08c13f94430063336e5b1e191c9abf0",
+  "contract_name": "GreasyPalmer",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "f50a5f4aa56c0c426698f6711ad92e9b6ca59c81d4eebc112290ee4d467878de",
+  "fetched_at": "2026-06-03T12:23:33.089992+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

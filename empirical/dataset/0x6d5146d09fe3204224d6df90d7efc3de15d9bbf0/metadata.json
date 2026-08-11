@@ -1,0 +1,28 @@
+{
+  "address": "0x6d5146d09fe3204224d6df90d7efc3de15d9bbf0",
+  "contract_name": "TermMorphoInterfaceFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 48,
+  "source_sha256": "b7b7f0185bc811dd4f1888051fa2837a3391132ac66aafad046fd6d6c361f506",
+  "fetched_at": "2026-06-03T05:11:05.000531+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

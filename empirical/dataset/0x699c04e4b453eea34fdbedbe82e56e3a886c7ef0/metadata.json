@@ -1,0 +1,28 @@
+{
+  "address": "0x699c04e4b453eea34fdbedbe82e56e3a886c7ef0",
+  "contract_name": "MiningEthSystem",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 17,
+  "source_sha256": "d0df3b76770e0021426c7b149727417288625a73779e0b4fa84de7f565c83f5a",
+  "fetched_at": "2026-06-02T08:40:22.265967+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

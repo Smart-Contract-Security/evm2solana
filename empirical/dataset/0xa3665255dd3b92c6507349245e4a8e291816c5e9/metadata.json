@@ -1,0 +1,45 @@
+{
+  "address": "0xa3665255dd3b92c6507349245e4a8e291816c5e9",
+  "contract_name": "ProxyAdmin",
+  "compiler_version": "v0.8.16+commit.07a7930e",
+  "file_count": 12,
+  "source_sha256": "7e92b37433ea9a286b29ba58544623beb750ff37e381f4b637120deac24cff5a",
+  "fetched_at": "2026-06-04T03:51:32.593824+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+      "@arbitrum/=node_modules/@arbitrum/",
+      "@ensdomains/=node_modules/@ensdomains/",
+      "@offchainlabs/=node_modules/@offchainlabs/",
+      "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+      "hardhat-deploy/=node_modules/hardhat-deploy/",
+      "hardhat/=node_modules/hardhat/",
+      "nitro-contracts/=lib/nitro-contracts/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 100
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "libraries": {}
+  }
+}

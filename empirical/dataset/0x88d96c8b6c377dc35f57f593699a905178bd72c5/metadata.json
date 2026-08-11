@@ -1,0 +1,49 @@
+{
+  "address": "0x88d96c8b6c377dc35f57f593699a905178bd72c5",
+  "contract_name": "GitGeekToken",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 6,
+  "source_sha256": "2fd986b4122c4ec1bd7774dd63d5889655f802d99a4cdbcc2d688deeb6bfc862",
+  "fetched_at": "2026-06-01T10:21:37.462140+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/uniswap-hooks/=lib/uniswap-hooks/",
+      "@uniswap/v4-core/=lib/v4-core/",
+      "solmate/=lib/v4-core/lib/solmate/",
+      "ds-test/=lib/v4-core/lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/uniswap-hooks/lib/v4-periphery/lib/permit2/lib/forge-gas-snapshot/src/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "permit2/=lib/uniswap-hooks/lib/v4-periphery/lib/permit2/",
+      "uniswap-hooks/=lib/uniswap-hooks/src/",
+      "v4-core/=lib/v4-core/src/",
+      "v4-periphery/=lib/uniswap-hooks/lib/v4-periphery/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

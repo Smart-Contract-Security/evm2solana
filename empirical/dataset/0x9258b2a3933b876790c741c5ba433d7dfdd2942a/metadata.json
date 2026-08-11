@@ -1,0 +1,30 @@
+{
+  "address": "0x9258b2a3933b876790c741c5ba433d7dfdd2942a",
+  "contract_name": "PythEthUsdJudgmentOracleAdapter",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 6,
+  "source_sha256": "7a481074e378a2bbeafec281d1a4f886dc998dcfcba16ad35e80c7a93c675819",
+  "fetched_at": "2026-06-01T13:06:56.405601+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

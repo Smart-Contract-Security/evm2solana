@@ -1,0 +1,24 @@
+{
+  "address": "0x2e202a3ab69c97beac2c2407a792f2fad60005f5",
+  "contract_name": "SimpleLPLocker",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "06955f5a0fec11872090217eb5c6ad2dbe075976929519b91216a4e8e7e2e616",
+  "fetched_at": "2026-06-02T02:19:58.168198+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0x1a6bb2c6ab8b325fcb920e5f49a70a12106e38d0",
+  "contract_name": "GalaxyNFT",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 34,
+  "source_sha256": "2d7799f820801ec2c517b9a7ccba22ca67ca9ad9b3cc36b877fd8620161cda74",
+  "fetched_at": "2026-06-01T08:33:47.596029+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

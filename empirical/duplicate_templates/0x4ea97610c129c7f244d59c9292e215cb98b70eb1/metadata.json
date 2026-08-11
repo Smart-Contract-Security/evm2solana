@@ -1,0 +1,27 @@
+{
+  "address": "0x4ea97610c129c7f244d59c9292e215cb98b70eb1",
+  "contract_name": "CaptainLiquidityToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "93e11cf42064cc151fc7def3fcf02d73a478ae38af5c5e97aa4a1bf242c5970f",
+  "fetched_at": "2026-06-03T11:15:59.488569+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

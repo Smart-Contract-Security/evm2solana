@@ -1,0 +1,36 @@
+{
+  "address": "0xb18465a46d5a1561cdafb0652d55d7b25c4e7f43",
+  "contract_name": "TransparentUpgradeableProxy",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 13,
+  "source_sha256": "e74cf40f6639b9f8c9416585835d93adbc394d3316b47b0e1b8220c591c2f3bf",
+  "fetched_at": "2026-06-03T04:06:41.465315+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

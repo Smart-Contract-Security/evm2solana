@@ -1,0 +1,27 @@
+{
+  "address": "0x99cc0ad58c1cbae54486ebf4c78f6926975f5b53",
+  "contract_name": "TwilightMarketERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "c43ab709ecbe09f069fc0ea5a74aa3d79fbe068611816fd34496bb6b2abe2d16",
+  "fetched_at": "2026-06-02T13:21:39.359003+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

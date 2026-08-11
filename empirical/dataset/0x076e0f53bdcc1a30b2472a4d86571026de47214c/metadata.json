@@ -1,0 +1,49 @@
+{
+  "address": "0x076e0f53bdcc1a30b2472a4d86571026de47214c",
+  "contract_name": "PrividiumTransactionFilterer",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 24,
+  "source_sha256": "8f070782a219d2cf3ab6cd0c8877d92aee3b776d419f6fb413b5321b7959a008",
+  "fetched_at": "2026-06-03T11:25:39.082961+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@ensdomains/=node_modules/@ensdomains/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+      "forge-std/=lib/forge-std/src/",
+      "hardhat/=node_modules/hardhat/",
+      "murky/=lib/murky/src/",
+      "foundry-test/=test/foundry/",
+      "l2-contracts/=../l2-contracts/contracts/",
+      "@openzeppelin/contracts-v4/=lib/openzeppelin-contracts-v4/contracts/",
+      "@openzeppelin/contracts-upgradeable-v4/=lib/openzeppelin-contracts-upgradeable-v4/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable-v4/lib/erc4626-tests/",
+      "openzeppelin-contracts-upgradeable-v4/=lib/openzeppelin-contracts-upgradeable-v4/",
+      "openzeppelin-contracts-v4/=lib/openzeppelin-contracts-v4/",
+      "openzeppelin-contracts/=lib/murky/lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 28000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

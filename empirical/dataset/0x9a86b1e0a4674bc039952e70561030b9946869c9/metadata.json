@@ -1,0 +1,30 @@
+{
+  "address": "0x9a86b1e0a4674bc039952e70561030b9946869c9",
+  "contract_name": "MintFeeOracle",
+  "compiler_version": "v0.8.10+commit.fc410830",
+  "file_count": 20,
+  "source_sha256": "096a12dd5313e5ae4add2a4ba96017faed2ab9087209e7c0c85b68a33bb35db3",
+  "fetched_at": "2026-06-04T10:55:07.418303+00:00",
+  "solc_settings": {
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

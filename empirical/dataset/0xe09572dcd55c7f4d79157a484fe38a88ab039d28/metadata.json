@@ -1,0 +1,28 @@
+{
+  "address": "0xe09572dcd55c7f4d79157a484fe38a88ab039d28",
+  "contract_name": "MainframeToken",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 16,
+  "source_sha256": "e04de96693a31bc6da3ab55c601c9347dcf9b23fc538aa83355483f725fb302f",
+  "fetched_at": "2026-06-04T05:42:01.100936+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

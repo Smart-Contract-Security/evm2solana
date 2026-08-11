@@ -1,0 +1,30 @@
+{
+  "address": "0x140e34b18b916b7b5362501445c3c213385d57bb",
+  "contract_name": "EthgasTokenLock",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 11,
+  "source_sha256": "60d67b7e9c65767da16e9387aad9a5b46eff50943ff755480a9e03788369f41c",
+  "fetched_at": "2026-06-03T12:58:53.133132+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 20000
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0x907c096f17de318590fa8f1514157caf738a95fd",
+  "contract_name": "FlashUSDT",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "e353af5c15bfd00a0f9db916511b7f00c3a91e244c83f01208148cafeba008b9",
+  "fetched_at": "2026-06-02T08:40:13.994963+00:00",
+  "solc_settings": {
+    "evmVersion": "osaka",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

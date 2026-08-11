@@ -1,0 +1,29 @@
+{
+  "address": "0x9f353738154fafcbb79c9f60ac68b5d24d1831f1",
+  "contract_name": "StakingPoolAirdrop",
+  "compiler_version": "v0.8.0+commit.c7dfd78e",
+  "file_count": 14,
+  "source_sha256": "fd1f3576ce02e0c12024a33a97f83d9b5ee8c45bccabc871cc10cb51003c2a75",
+  "fetched_at": "2026-06-04T11:36:05.990004+00:00",
+  "solc_settings": {
+    "remappings": [],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "byzantium",
+    "libraries": {},
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

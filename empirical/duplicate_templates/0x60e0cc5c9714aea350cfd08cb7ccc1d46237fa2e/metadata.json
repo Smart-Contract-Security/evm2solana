@@ -1,0 +1,27 @@
+{
+  "address": "0x60e0cc5c9714aea350cfd08cb7ccc1d46237fa2e",
+  "contract_name": "GhostLiquidityERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "ec13e90ef66494718dc036e238673b2cb1f025c47e539a323a5726b2bebc22b9",
+  "fetched_at": "2026-06-01T10:15:59.327644+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

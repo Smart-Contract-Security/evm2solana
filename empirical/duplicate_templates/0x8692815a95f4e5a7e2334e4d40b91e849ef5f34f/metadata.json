@@ -1,0 +1,27 @@
+{
+  "address": "0x8692815a95f4e5a7e2334e4d40b91e849ef5f34f",
+  "contract_name": "UpOnlyToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "c69d846373a2606f56727047586543b10d0750e35efbeabadaa2a983f348e5a7",
+  "fetched_at": "2026-06-01T15:06:23.445474+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

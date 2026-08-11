@@ -1,0 +1,28 @@
+{
+  "address": "0x3e2102dde91a9bb0ee9fd1fb634b6008e7619812",
+  "contract_name": "BSCCollector",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "cbcf4d378ac193630b0f41a95c7adb89cebd0415a18353b8187a7def94121e11",
+  "fetched_at": "2026-06-03T11:18:58.849212+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [],
+    "evmVersion": "paris"
+  }
+}

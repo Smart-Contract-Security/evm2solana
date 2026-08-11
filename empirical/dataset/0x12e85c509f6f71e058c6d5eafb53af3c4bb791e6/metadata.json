@@ -1,0 +1,28 @@
+{
+  "address": "0x12e85c509f6f71e058c6d5eafb53af3c4bb791e6",
+  "contract_name": "TermAuctionOfferLocker",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 48,
+  "source_sha256": "c38f8302498b8843fe5eb1dbabe75cd96809ecf270ec55aa0453dadd4fdb6f03",
+  "fetched_at": "2026-06-03T05:24:52.281077+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

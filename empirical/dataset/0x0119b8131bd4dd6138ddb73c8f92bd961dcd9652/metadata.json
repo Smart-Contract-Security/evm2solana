@@ -1,0 +1,27 @@
+{
+  "address": "0x0119b8131bd4dd6138ddb73c8f92bd961dcd9652",
+  "contract_name": "MorphoVaultStrategyMainnet_SHHY_USDC_V2",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 21,
+  "source_sha256": "3534d84d79dc45242e64f6d4548d3644184f73f3bbeec3f1347bc8f1c2fbc599",
+  "fetched_at": "2026-06-03T12:50:09.574125+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0x4d9a5257cb61b3d309f4e436f79c43a524c363e5",
+  "contract_name": "EnergyWebFlex",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "535cb42ac9ef80288957461304142a62b9fc29f40287fd6d2acf489127501b42",
+  "fetched_at": "2026-06-03T11:57:09.224656+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

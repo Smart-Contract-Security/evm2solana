@@ -1,0 +1,28 @@
+{
+  "address": "0x9d2b6a3d172e5e098dd5bf6ba89062149bdbd181",
+  "contract_name": "TermRouterFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 53,
+  "source_sha256": "3470acd0f71d732f8693c3574f7213e634574054389895c53c890f7587d9e6ba",
+  "fetched_at": "2026-06-03T05:11:33.550781+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "runs": 1,
+      "enabled": true
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

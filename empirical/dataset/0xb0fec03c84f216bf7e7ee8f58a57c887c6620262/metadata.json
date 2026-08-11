@@ -1,0 +1,27 @@
+{
+  "address": "0xb0fec03c84f216bf7e7ee8f58a57c887c6620262",
+  "contract_name": "Moonphase",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 13,
+  "source_sha256": "bbc02d63de00d4f4e6d8a20c95f27aa1c82b28d33a832fda33e128e284c4a7b2",
+  "fetched_at": "2026-06-03T05:31:04.899092+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x2f2701a9d14fed5e4dc4e3210f9112441258733d",
+  "contract_name": "VerdictMarketFactory",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 2,
+  "source_sha256": "f4c4d9f5920b240af2340d1a6347a242386abdb0980de6550d2ee65e62a98a96",
+  "fetched_at": "2026-06-01T04:35:36.569700+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

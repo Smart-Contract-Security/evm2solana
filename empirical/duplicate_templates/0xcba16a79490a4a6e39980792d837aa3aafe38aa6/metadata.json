@@ -1,0 +1,31 @@
+{
+  "address": "0xcba16a79490a4a6e39980792d837aa3aafe38aa6",
+  "contract_name": "RedKiteLaunchpad",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "34c2a22c6387209f1a89ef15a3a709c881c6167194d1adcec1784a98df956a07",
+  "fetched_at": "2026-06-02T01:55:20.804803+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0x2103154710a5f033eb37d1a4f4f1771f8bd6ae3e",
+  "contract_name": "Chrings",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 27,
+  "source_sha256": "b9e5638df0cbbe8755f90d00402f2c6c8ff97cde743fab590c9ff6ffbee20138",
+  "fetched_at": "2026-06-02T08:45:53.585650+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

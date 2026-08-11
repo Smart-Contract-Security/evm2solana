@@ -1,0 +1,27 @@
+{
+  "address": "0x7cb05645e27b644cc4d2a3480bb2453d57223c14",
+  "contract_name": "PikachewedDecoy",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 1,
+  "source_sha256": "d710298c4c14341cc751dc463020a5be6d229d0e5e75885eaab12ec85f4c2a31",
+  "fetched_at": "2026-06-03T12:18:08.119068+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

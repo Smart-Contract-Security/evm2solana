@@ -1,0 +1,33 @@
+Role:
+You are a smart-contract analyst with expertise in Solidity, Solang, and the Solana blockchain.
+
+Objective:
+Extract incompatibility patterns between EVM-targeted Solidity and Solang's Solana target, as documented in the official source listed below. Aim to be as comprehensive as you can across the relevant documentation pages, but do not invent items beyond what the documentation states.
+
+Authoritative Source:
+Solang documentation, version 0.3.4: https://solang.readthedocs.io/en/v0.3.4/
+Traverse the sub-pages of this site that describe the Solana target and language-level differences between Solidity and Solang on Solana. The web pages under this URL are the ONLY permitted source of information.
+
+Independence (independent coding protection):
+This task is one participant in an independent dual-coding study. Your facts must come exclusively from web pages fetched at runtime under the Authoritative Source URL above. You MUST NOT rely on:
+- your own memory or pre-training knowledge of Solidity, Solang, or Solana;
+- any file in this project / workspace other than this prompt file itself (in particular, do NOT read any spreadsheet, prior agent output, summary, notes, or any other prompt in this directory or anywhere else in the repository);
+- any other website or external source.
+You MUST actually fetch the documentation pages at runtime using the available web-fetching tools; do not substitute prior knowledge for unread documentation. Your only inputs are: (a) this prompt file, and (b) the web pages under the Authoritative Source URL above.
+
+Requirements:
+1. Grounding. Every extracted pattern must be directly traceable to the documentation above. Describe only the facts stated by the documentation; quote the original wording whenever possible. Do not infer underlying causes, do not speculate.
+2. Scope. Restrict the analysis strictly to incompatibilities between Solidity (EVM) and Solang's Solana target. Do NOT include:
+   - features, builtins, or behavior specific to other Solang targets such as Polkadot or Soroban;
+   - differences between Solang and any non-Solidity language;
+   - compiler warnings;
+   - performance notes / efficiency caveats;
+   - any other content that is not a hard incompatibility between Solidity (EVM) and Solang on Solana.
+3. Schema. Represent each pattern as an object with the following fields:
+   - id: any unique identifier of your choice (you decide the format; just keep it unique within the output).
+   - name: a concise pattern name, in English.
+   - description: a precise factual statement of the incompatibility, in English, preferably quoting the documentation.
+   - source: the full web URL of the documentation page (and anchor, if applicable) from which the pattern was derived.
+
+Output:
+Write the result as JSON Lines (one JSON object per line) to a file named 'agent_output.jsonl' located in the same directory as this prompt file.

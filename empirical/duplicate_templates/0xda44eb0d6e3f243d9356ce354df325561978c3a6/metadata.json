@@ -1,0 +1,27 @@
+{
+  "address": "0xda44eb0d6e3f243d9356ce354df325561978c3a6",
+  "contract_name": "SilentMarshERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "52a8fff190967b521ccfa795dc0dfb45e918d5c84bf56d01c1451a0e51fd2d17",
+  "fetched_at": "2026-06-03T08:52:24.895523+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

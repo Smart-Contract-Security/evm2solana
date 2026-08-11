@@ -1,0 +1,27 @@
+{
+  "address": "0x91b6da069db598c1569ffae5c315dad02cffc842",
+  "contract_name": "ECTRouterV3",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 17,
+  "source_sha256": "d06d417db7dc2cda556e10ff16d7f3ec77d648f4ac718d963a4e156e9993e4cf",
+  "fetched_at": "2026-06-03T12:52:44.850445+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

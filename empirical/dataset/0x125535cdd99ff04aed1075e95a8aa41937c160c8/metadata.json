@@ -1,0 +1,50 @@
+{
+  "address": "0x125535cdd99ff04aed1075e95a8aa41937c160c8",
+  "contract_name": "BlupetsEvolution",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 4,
+  "source_sha256": "7ebf9fa1717315975772b2d48845f6403fd13ebbf8099182e3402b17489edf48",
+  "fetched_at": "2026-06-01T08:29:50.218691+00:00",
+  "solc_settings": {
+    "remappings": [
+      "ERC721A/=lib/seadrop/lib/ERC721A/contracts/",
+      "@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/",
+      "chainlink-brownie-contracts/=lib/chainlink-brownie-contracts/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/seadrop/lib/openzeppelin-contracts/contracts/",
+      "seadrop/=lib/seadrop/src/",
+      "solady/=lib/solady/src/",
+      "solmate/=lib/seadrop/lib/solmate/src/",
+      "utility-contracts/=lib/seadrop/lib/utility-contracts/src/",
+      "ERC721A-Upgradeable/=lib/seadrop/lib/ERC721A-Upgradeable/contracts/",
+      "create2-helpers/=lib/seadrop/lib/create2-helpers/",
+      "create2-scripts/=lib/seadrop/lib/create2-helpers/script/",
+      "ds-test/=lib/seadrop/lib/ds-test/src/",
+      "murky/=lib/seadrop/lib/murky/src/",
+      "openzeppelin-contracts-upgradeable/=lib/seadrop/lib/openzeppelin-contracts-upgradeable/",
+      "operator-filter-registry/=lib/seadrop/lib/operator-filter-registry/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "viaIR": true
+  }
+}

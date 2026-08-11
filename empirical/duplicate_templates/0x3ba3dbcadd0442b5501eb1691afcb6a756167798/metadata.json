@@ -1,0 +1,27 @@
+{
+  "address": "0x3ba3dbcadd0442b5501eb1691afcb6a756167798",
+  "contract_name": "RandomCoinERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "20055b7d00bbaf435341df034919e984dd7d847c46c57d9fe06a8900ab4e2c80",
+  "fetched_at": "2026-06-03T07:10:27.301768+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

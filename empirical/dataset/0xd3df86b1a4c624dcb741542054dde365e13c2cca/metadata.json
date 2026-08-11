@@ -1,0 +1,27 @@
+{
+  "address": "0xd3df86b1a4c624dcb741542054dde365e13c2cca",
+  "contract_name": "GhostRoot",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 28,
+  "source_sha256": "2c508fa3ce0edd5656429911f86136f0aeb596d45161a7a5ba356129d5197993",
+  "fetched_at": "2026-06-01T03:09:18.584627+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

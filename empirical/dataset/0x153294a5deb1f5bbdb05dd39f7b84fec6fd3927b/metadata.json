@@ -1,0 +1,43 @@
+{
+  "address": "0x153294a5deb1f5bbdb05dd39f7b84fec6fd3927b",
+  "contract_name": "CryptoartNFT",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 36,
+  "source_sha256": "dd2dccb19cced4faf6aa08cc51d06a8794e390cac608f93d5a2aeaf24d4687ea",
+  "fetched_at": "2026-06-03T13:33:35.732130+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=dependencies/forge-std/src/",
+      "@openzeppelin/contracts/=dependencies/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=dependencies/openzeppelin-contracts-upgradeable/contracts/",
+      "openzeppelin-foundry-upgrades/=dependencies/openzeppelin-foundry-upgrades/src/",
+      "erc4626-tests/=dependencies/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "halmos-cheatcodes/=dependencies/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=dependencies/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=dependencies/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

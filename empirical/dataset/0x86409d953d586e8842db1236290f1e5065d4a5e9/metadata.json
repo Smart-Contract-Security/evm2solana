@@ -1,0 +1,38 @@
+{
+  "address": "0x86409d953d586e8842db1236290f1e5065d4a5e9",
+  "contract_name": "MockERC20",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 6,
+  "source_sha256": "987c730bb1e463ff97d60101b01f1c9b31d0fe328b3c270288e5750d4a72bc60",
+  "fetched_at": "2026-06-03T08:56:38.446052+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

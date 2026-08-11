@@ -1,0 +1,27 @@
+{
+  "address": "0xa2e50fc18938581ffbb66459109ffaff30a0e653",
+  "contract_name": "VelvetWolfERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "a834cbb7230e54baa5e657df32c27e24fca9cf806116326aaff18f23eee1b271",
+  "fetched_at": "2026-06-02T13:19:01.084293+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

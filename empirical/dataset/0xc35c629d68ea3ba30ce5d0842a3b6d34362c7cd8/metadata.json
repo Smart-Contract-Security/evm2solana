@@ -1,0 +1,40 @@
+{
+  "address": "0xc35c629d68ea3ba30ce5d0842a3b6d34362c7cd8",
+  "contract_name": "MureDistribution",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 35,
+  "source_sha256": "8fe3de1a8c4f3359a332f42a92583a2899cf495332915719fd0b06608d65803e",
+  "fetched_at": "2026-06-03T12:23:31.693878+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+      "@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/",
+      "forge-std/=node_modules/forge-std/src/",
+      "@axelar-network/axelar-gmp-sdk-solidity/contracts/=node_modules/@axelar-network/axelar-gmp-sdk-solidity/contracts/",
+      "solady/=node_modules/solady/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

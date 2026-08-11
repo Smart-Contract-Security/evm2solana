@@ -1,0 +1,31 @@
+{
+  "address": "0xce3dff867e092c7d8d81d22c0a17fb2b932f206d",
+  "contract_name": "BasicMath",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "50059e657844310ee733d2c188809d572fb7091a95fbe7e962549929361497df",
+  "fetched_at": "2026-06-04T11:26:26.294210+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

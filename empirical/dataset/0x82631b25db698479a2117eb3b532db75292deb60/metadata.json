@@ -1,0 +1,27 @@
+{
+  "address": "0x82631b25db698479a2117eb3b532db75292deb60",
+  "contract_name": "OndoAttestationAggregator",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 7,
+  "source_sha256": "f90002fcb0c07695ff448a639ab77c13b519f0a04d08f5dc23ceb9f87e295cbf",
+  "fetched_at": "2026-06-02T15:34:14.618228+00:00",
+  "solc_settings": {
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 20
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x58aaa627f237f0751a57bd7bf2fb4592b3bdd2ca",
+  "contract_name": "WhaleCoin",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 1,
+  "source_sha256": "208998f95f65c9171f24b8a1b82a415a58f71f6eb6601d9dd33f5efa66997e5e",
+  "fetched_at": "2026-06-01T11:10:17.665276+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

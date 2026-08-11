@@ -1,0 +1,33 @@
+{
+  "address": "0xbdb7189105bbe8bc8f003883f6c18e8c5947d364",
+  "contract_name": "StakingRewards",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 4,
+  "source_sha256": "61bb36772c42a589fd0cb1c85dacc1e5f4c571a8e3c3367bf762919cf27dfa39",
+  "fetched_at": "2026-06-04T13:06:32.814934+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

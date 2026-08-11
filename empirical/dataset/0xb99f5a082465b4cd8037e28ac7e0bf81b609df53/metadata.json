@@ -1,0 +1,28 @@
+{
+  "address": "0xb99f5a082465b4cd8037e28ac7e0bf81b609df53",
+  "contract_name": "TermRepoCollateralManager",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 70,
+  "source_sha256": "95c472a3687067134132b26ee7b6091c49532854e43f17abb53f51827a99ca10",
+  "fetched_at": "2026-06-03T05:25:23.004079+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

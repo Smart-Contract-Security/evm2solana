@@ -1,0 +1,54 @@
+{
+  "address": "0x46c287a95bcf523e516e398e9469f302533a8f06",
+  "contract_name": "TransparentUpgradeableProxy",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 12,
+  "source_sha256": "3f1dd4b364ba024463728afcac0891e684778ed59a7d0dfe70fffebc4d15d583",
+  "fetched_at": "2026-06-03T03:33:25.026460+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "openzeppelin-foundry-upgrades/=lib/openzeppelin-foundry-upgrades/src/",
+      "@shift-defi/core/=lib/shift-defi-platform/contracts/",
+      "@layer-zero/devtools/packages/oapp-evm/=lib/devtools/packages/oapp-evm/contracts/",
+      "@layerzerolabs/oapp-evm/=lib/devtools/packages/oapp-evm/",
+      "@layerzerolabs/oft-evm/=lib/devtools/packages/oft-evm/",
+      "@layerzerolabs/lz-evm-protocol-v2/=lib/LayerZero-v2/packages/layerzero-v2/evm/protocol/",
+      "@layerzerolabs/lz-evm-messagelib-v2/=lib/LayerZero-v2/packages/layerzero-v2/evm/messagelib/",
+      "solidity-bytes-utils/=lib/solidity-bytes-utils/",
+      "LayerZero-v2/=lib/LayerZero-v2/",
+      "devtools/=lib/devtools/packages/toolbox-foundry/src/",
+      "ds-test/=lib/solidity-bytes-utils/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/",
+      "shift-defi-platform/=lib/shift-defi-platform/contracts/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

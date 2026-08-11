@@ -1,0 +1,27 @@
+{
+  "address": "0x9c63593eabfc0f4e23fc729eabe9948e1d173afa",
+  "contract_name": "PayoutDistributor",
+  "compiler_version": "v0.8.29+commit.ab55807c",
+  "file_count": 19,
+  "source_sha256": "8e1102dede2ede67bd261dcc37dbdcc973ca690b10a809de7d9bbc8c77055f94",
+  "fetched_at": "2026-06-03T12:28:55.454680+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 20000
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

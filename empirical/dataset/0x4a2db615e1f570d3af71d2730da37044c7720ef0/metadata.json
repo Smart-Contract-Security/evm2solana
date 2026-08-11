@@ -1,0 +1,27 @@
+{
+  "address": "0x4a2db615e1f570d3af71d2730da37044c7720ef0",
+  "contract_name": "PumpOnEth",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 8,
+  "source_sha256": "80f37b085af015e7d7f27f25302fbb084f760e6732f2f8fd5cda6796040ea85f",
+  "fetched_at": "2026-06-03T11:52:30.140684+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

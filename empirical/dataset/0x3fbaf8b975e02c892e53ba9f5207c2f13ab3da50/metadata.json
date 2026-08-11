@@ -1,0 +1,27 @@
+{
+  "address": "0x3fbaf8b975e02c892e53ba9f5207c2f13ab3da50",
+  "contract_name": "StratoNativeRepresentationToken",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 19,
+  "source_sha256": "8470523b9afc4a705e299436d5f1730733638b62454193fc7cf6628f81239823",
+  "fetched_at": "2026-06-01T10:15:38.521967+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "address": "0x3bba82207d4e0e22d2c3066f126afc4e65202a18",
+  "contract_name": "MoonBaseAlpha",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "e7cce640bebb0fee1e75176542900ec9869ba858ac3d8c9178f0a90f0e0292a6",
+  "fetched_at": "2026-06-03T08:51:29.472553+00:00",
+  "solc_settings": {
+    "evmVersion": "osaka",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

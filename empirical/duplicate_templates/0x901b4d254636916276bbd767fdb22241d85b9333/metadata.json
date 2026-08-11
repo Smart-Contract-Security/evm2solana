@@ -1,0 +1,27 @@
+{
+  "address": "0x901b4d254636916276bbd767fdb22241d85b9333",
+  "contract_name": "GildedFrog",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "9c0beb0fedbcb3426f55e30a55e3e44559017b06ad51526374d66ce801365950",
+  "fetched_at": "2026-06-03T03:18:16.414840+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

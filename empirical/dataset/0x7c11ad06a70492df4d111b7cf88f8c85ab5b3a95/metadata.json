@@ -1,0 +1,55 @@
+{
+  "address": "0x7c11ad06a70492df4d111b7cf88f8c85ab5b3a95",
+  "contract_name": "Treasury",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 14,
+  "source_sha256": "1acf6d280dd045b4704f1cb14bdf3347a0a3d5d540f2e4373107efa394158615",
+  "fetched_at": "2026-06-01T10:33:22.693486+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@uniswap/v4-core/=lib/v4-core/",
+      "v4-core/=lib/v4-core/src/",
+      "v4-periphery/=lib/v4-periphery/src/",
+      "permit2/=lib/permit2/",
+      "universal-router/=lib/universal-router/contracts/",
+      "@ensdomains/=lib/v4-core/node_modules/@ensdomains/",
+      "@uniswap/v2-core/=lib/universal-router/node_modules/@uniswap/v2-core/",
+      "@uniswap/v3-core/=lib/universal-router/node_modules/@uniswap/v3-core/",
+      "@uniswap/v3-periphery/=lib/universal-router/lib/v3-periphery/",
+      "@uniswap/v4-periphery/=lib/universal-router/lib/v4-periphery/",
+      "ds-test/=lib/universal-router/lib/solmate/lib/ds-test/src/",
+      "erc4626-tests/=lib/v4-core/lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/permit2/lib/forge-gas-snapshot/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "hardhat/=lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "solmate/=lib/universal-router/lib/solmate/",
+      "v3-periphery/=lib/universal-router/lib/v3-periphery/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "address": "0x02d05d3725b540a4b2ba263fdd38c9cfad6a6347",
+  "contract_name": "Permit2Facet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 25,
+  "source_sha256": "02c7cdcf9232a6a475319b8d1fce53617f35d386da99c42d46dae69e67f3546f",
+  "fetched_at": "2026-06-03T05:11:46.442672+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

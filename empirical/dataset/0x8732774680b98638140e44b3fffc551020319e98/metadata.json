@@ -1,0 +1,32 @@
+{
+  "address": "0x8732774680b98638140e44b3fffc551020319e98",
+  "contract_name": "FreeToken",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 7,
+  "source_sha256": "9009cc11f9c391330d85b628afefa7e4adacdebbac2448cfa61c54e835fefe5d",
+  "fetched_at": "2026-06-03T12:02:01.181390+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

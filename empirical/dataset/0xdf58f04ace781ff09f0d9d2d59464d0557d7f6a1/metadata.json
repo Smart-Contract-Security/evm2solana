@@ -1,0 +1,28 @@
+{
+  "address": "0xdf58f04ace781ff09f0d9d2d59464d0557d7f6a1",
+  "contract_name": "OCCV2TraitSeederV2",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 4,
+  "source_sha256": "4b346c3bf2e36fb33c8d1dfee428162e3122ee2beb7a40b1110fb048a07d8d4f",
+  "fetched_at": "2026-06-03T05:34:29.381506+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

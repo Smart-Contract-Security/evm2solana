@@ -1,0 +1,28 @@
+{
+  "address": "0xef8559c44574287a37922ddb52971fe53a8d6cda",
+  "contract_name": "WorldCupBall",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 24,
+  "source_sha256": "9b7d799c86c274a1891c3406e85de32762284e9b41332f71975158ab956ea56f",
+  "fetched_at": "2026-06-03T11:13:18.342988+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

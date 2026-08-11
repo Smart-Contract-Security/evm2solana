@@ -1,0 +1,49 @@
+{
+  "address": "0xb788a95d4843f13da2a118eac25c90b92d12abfb",
+  "contract_name": "RewardPool",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 6,
+  "source_sha256": "27e6ce98d3ab95c0f9330193b35dee67f1797b39ed10387ce31e2676fb0e7618",
+  "fetched_at": "2026-06-02T03:48:48.482107+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@ensdomains/=lib/v4-core/node_modules/@ensdomains/",
+      "@uniswap/v4-core/=lib/v4-periphery/lib/v4-core/",
+      "ds-test/=lib/v4-core/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/v4-periphery/lib/permit2/lib/forge-gas-snapshot/src/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "hardhat/=lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "permit2/=lib/v4-periphery/lib/permit2/",
+      "solmate/=lib/v4-core/lib/solmate/",
+      "v4-core/=lib/v4-core/src/",
+      "v4-periphery/=lib/v4-periphery/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

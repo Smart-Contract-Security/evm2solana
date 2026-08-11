@@ -1,0 +1,28 @@
+{
+  "address": "0xa072a7d9c50bdc0eaa6d31e9464e3e5bc7eb2f06",
+  "contract_name": "MettaPayMilestoneEscrow",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 10,
+  "source_sha256": "75c207a45741ee8a59a03c6089e9f6473c9ca266b3fbce27dd5e17e929c656bc",
+  "fetched_at": "2026-06-03T12:30:03.192843+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

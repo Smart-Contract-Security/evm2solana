@@ -1,0 +1,27 @@
+{
+  "address": "0xb12cfa935cdf9dbd7e3ae9926ac5ba193de77098",
+  "contract_name": "DBCCurve",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 4,
+  "source_sha256": "6272985d5b8b3e0c144685231bffea5ee5ba97961533baeafe52e3ea6a23daa9",
+  "fetched_at": "2026-06-03T12:00:17.884549+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

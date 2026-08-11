@@ -1,0 +1,28 @@
+{
+  "address": "0x2499630bca68cf98107b7dc2955e0f68b4b99a38",
+  "contract_name": "Create2Deployer",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 1,
+  "source_sha256": "396f87047126fb3536451e46f209cf09902983328ca3389d81991363fb986d6c",
+  "fetched_at": "2026-06-03T07:15:46.631982+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

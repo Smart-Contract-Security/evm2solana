@@ -1,0 +1,26 @@
+{
+  "address": "0xf059a97b6da100cf63790f21b06555f91e5d30ed",
+  "contract_name": "FeeTokenFast",
+  "compiler_version": "v0.8.17+commit.8df45f5f",
+  "file_count": 3,
+  "source_sha256": "59233b78b4e66d624eb793d8cdc9393f74be7b1decf880d6eecb5c15ee81f254",
+  "fetched_at": "2026-06-03T05:02:15.182753+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

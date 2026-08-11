@@ -1,0 +1,33 @@
+{
+  "address": "0xc83e1034253114b6cbd85024a127b5e1fcc124c4",
+  "contract_name": "ProxyAdmin",
+  "compiler_version": "v0.8.10+commit.fc410830",
+  "file_count": 11,
+  "source_sha256": "9429161d0b7aed10232b3c379f1057510b638ce419fffde30cd3ec2bda5257fa",
+  "fetched_at": "2026-06-02T15:35:13.664600+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

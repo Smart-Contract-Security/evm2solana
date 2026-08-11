@@ -1,0 +1,27 @@
+{
+  "address": "0x41adb5f3ed47d2d28e3d87d36b26186a84813650",
+  "contract_name": "Genesis",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "f53c0e50d73528a0787be427548d706351aea113ee137e1bbdd663ff74b05769",
+  "fetched_at": "2026-06-01T14:12:00.529044+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "address": "0xf3bb458ee4f655cd69b6b933adfc05d96223b14f",
+  "contract_name": "CutiesStaking",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 1,
+  "source_sha256": "c9a9cd726cb188a4d9cdf56d66fbe5d91dad7de5cab1adfc3fc5bd2aad847ab2",
+  "fetched_at": "2026-06-01T05:46:33.287677+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

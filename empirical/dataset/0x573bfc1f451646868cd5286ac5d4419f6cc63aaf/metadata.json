@@ -1,0 +1,26 @@
+{
+  "address": "0x573bfc1f451646868cd5286ac5d4419f6cc63aaf",
+  "contract_name": "YUMEPUTINS",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 7,
+  "source_sha256": "13e886b3465de17a42d041144e112420044a08f134102741daa1246b592c9d86",
+  "fetched_at": "2026-06-04T10:35:38.757824+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

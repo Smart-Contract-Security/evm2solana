@@ -1,0 +1,8 @@
+{
+  "address": "0x9ce1c60c8fa2d5d09300b6c8d1a1e0f91253bbc8",
+  "contract_name": "Zcash",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "69eaa48e7acab979c59c50a8cf194e6765bcdbf03f962b134e773dad7314301b",
+  "fetched_at": "2026-06-02T08:54:31.988276+00:00"
+}

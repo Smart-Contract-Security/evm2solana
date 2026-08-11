@@ -1,0 +1,27 @@
+{
+  "address": "0x4cab2412f47ae393af6b049f48ee66ddf44855f8",
+  "contract_name": "AllowancePuller",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "bd96dcdb647713a8eb78faecde7aac5b574cde507b1b0571946b1ba1a3a009ae",
+  "fetched_at": "2026-06-02T07:44:13.339908+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "runs": 200,
+      "enabled": false
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

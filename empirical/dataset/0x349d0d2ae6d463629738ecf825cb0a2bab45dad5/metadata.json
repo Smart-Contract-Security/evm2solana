@@ -1,0 +1,27 @@
+{
+  "address": "0x349d0d2ae6d463629738ecf825cb0a2bab45dad5",
+  "contract_name": "SwapAndCrossV1",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 20,
+  "source_sha256": "8c90465f70ff05078f03a83f2c595f0f46bc97c6eb028de98cd902d5961cc41d",
+  "fetched_at": "2026-06-03T04:39:44.604124+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

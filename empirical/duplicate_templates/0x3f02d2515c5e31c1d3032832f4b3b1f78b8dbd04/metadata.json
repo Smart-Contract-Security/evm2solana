@@ -1,0 +1,31 @@
+{
+  "address": "0x3f02d2515c5e31c1d3032832f4b3b1f78b8dbd04",
+  "contract_name": "MerlinChainBridge",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "e07cfee9fb7992b739e88a75ab8f12049890848b7b3b292dc9a0ecacb2b2a601",
+  "fetched_at": "2026-06-03T12:10:08.009327+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

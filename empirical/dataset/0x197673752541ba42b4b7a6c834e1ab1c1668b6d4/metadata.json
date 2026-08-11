@@ -1,0 +1,37 @@
+{
+  "address": "0x197673752541ba42b4b7a6c834e1ab1c1668b6d4",
+  "contract_name": "Counter",
+  "compiler_version": "v0.8.21+commit.d9974bed",
+  "file_count": 1,
+  "source_sha256": "2881e57350879486b906bdfc196025d71e333c324863d4fc74494e3e9cde0ca2",
+  "fetched_at": "2026-06-04T12:04:06.041035+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

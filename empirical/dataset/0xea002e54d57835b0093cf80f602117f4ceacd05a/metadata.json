@@ -1,0 +1,30 @@
+{
+  "address": "0xea002e54d57835b0093cf80f602117f4ceacd05a",
+  "contract_name": "AceDataQuality",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 15,
+  "source_sha256": "629cee9c3348e25d37f3db6df37d3921cfba3f597a0a8dae01d2d9a7df6318eb",
+  "fetched_at": "2026-06-03T12:04:05.645556+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

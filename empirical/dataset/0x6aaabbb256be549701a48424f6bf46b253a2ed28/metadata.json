@@ -1,0 +1,27 @@
+{
+  "address": "0x6aaabbb256be549701a48424f6bf46b253a2ed28",
+  "contract_name": "UNIFISH",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 8,
+  "source_sha256": "fb03c2b6295b00d25f3b7b1916c27757b663123d7e949ec47984ac3f5a7f77a6",
+  "fetched_at": "2026-06-03T05:28:23.476453+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

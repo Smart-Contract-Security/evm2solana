@@ -1,0 +1,28 @@
+{
+  "address": "0x26161b2ca6a8a8718d71a192a1f669e2726c8b23",
+  "contract_name": "NEYNAR",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "0c68963d24eaf345634821d383e22980b49158d7e1359d60feb9bc67e564959d",
+  "fetched_at": "2026-06-04T12:06:54.761607+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

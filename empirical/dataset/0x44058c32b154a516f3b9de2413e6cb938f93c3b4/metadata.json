@@ -1,0 +1,32 @@
+{
+  "address": "0x44058c32b154a516f3b9de2413e6cb938f93c3b4",
+  "contract_name": "TermRepoDeployerFactory",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 100,
+  "source_sha256": "36bcd857b591414d10d79847e64266dc15ad1bf270116ed41c6b7d7145bc54ac",
+  "fetched_at": "2026-06-03T05:27:34.427386+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "remappings": [],
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

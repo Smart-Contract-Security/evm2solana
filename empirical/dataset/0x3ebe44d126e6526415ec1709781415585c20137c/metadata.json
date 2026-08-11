@@ -1,0 +1,33 @@
+{
+  "address": "0x3ebe44d126e6526415ec1709781415585c20137c",
+  "contract_name": "BUNFT",
+  "compiler_version": "v0.8.21+commit.d9974bed",
+  "file_count": 18,
+  "source_sha256": "4f9275618487d48147f9b02bf1d23435915e5238da2a59a82eab575799dbc29c",
+  "fetched_at": "2026-06-04T10:42:01.943417+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "libraries": {},
+    "metadata": {
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

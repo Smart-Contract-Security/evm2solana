@@ -1,0 +1,31 @@
+{
+  "address": "0x5b0ead200936a1b8408460daf78b3b16f422cb0e",
+  "contract_name": "BedrockUniBTC",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "129c56add7c36573be9ab75e7dcc1c65a964bac52fc3304f1cd72faead6fe013",
+  "fetched_at": "2026-06-03T04:16:00.809525+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

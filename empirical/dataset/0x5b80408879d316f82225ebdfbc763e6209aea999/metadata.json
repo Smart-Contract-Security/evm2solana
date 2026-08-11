@@ -1,0 +1,51 @@
+{
+  "address": "0x5b80408879d316f82225ebdfbc763e6209aea999",
+  "contract_name": "LeveragedVaultRecovery",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 79,
+  "source_sha256": "bfa27f0cd307e899628f7c15d5d96943a5fe7e15624ab7223ee671e958fdcecd",
+  "fetched_at": "2026-06-03T03:30:24.980380+00:00",
+  "solc_settings": {
+    "remappings": [
+      "openzeppelin/=lib/V2-gov/lib/openzeppelin-contracts/",
+      "@openzeppelin/contracts-upgradeable/=lib/oz-contracts-upgradeable/",
+      "@chimera/=lib/V2-gov/lib/chimera/src/",
+      "@ensdomains/=lib/V2-gov/lib/v4-core/node_modules/@ensdomains/",
+      "Solady/=lib/Solady/src/",
+      "V2-gov/=lib/V2-gov/",
+      "chimera/=lib/V2-gov/lib/chimera/src/",
+      "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/V2-gov/lib/v4-core/lib/forge-gas-snapshot/src/",
+      "forge-std/=lib/forge-std/src/",
+      "hardhat/=lib/V2-gov/lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "oz-contracts-upgradeable/=lib/oz-contracts-upgradeable/",
+      "solmate/=lib/V2-gov/lib/v4-core/lib/solmate/src/",
+      "v4-core/=lib/V2-gov/lib/v4-core/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

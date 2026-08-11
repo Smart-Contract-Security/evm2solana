@@ -1,0 +1,28 @@
+{
+  "address": "0xbe91dd27d13229402fac717483877ec1024bee02",
+  "contract_name": "PercentDistributor",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "875a23a7d38b21f3cbc41f3b1c627e4a0aab26a545d2847a4d61ab6de1e1f0ac",
+  "fetched_at": "2026-06-04T02:42:28.323782+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

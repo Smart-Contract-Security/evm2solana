@@ -1,0 +1,40 @@
+{
+  "address": "0xd72529f8b54fcb59010f2141fc328ada5aa72abb",
+  "contract_name": "Allowlist",
+  "compiler_version": "v0.8.16+commit.07a7930e",
+  "file_count": 11,
+  "source_sha256": "ed125d980ea0f33ace3f7d3f643d188116cd04ecbb693ac9e0be3eb77e619fee",
+  "fetched_at": "2026-06-03T06:48:00.203813+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": [
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/",
+      "project/:contracts/=project/contracts/"
+    ]
+  }
+}

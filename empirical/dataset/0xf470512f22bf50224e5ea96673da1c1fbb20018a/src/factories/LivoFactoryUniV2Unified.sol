@@ -1,0 +1,97 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.28;
+
+import {AntiSniperConfigs} from "src/tokens/SniperProtection.sol";
+import {TaxConfigInit} from "src/interfaces/ILivoTaxableToken.sol";
+import {LivoFactoryAbstract} from "src/factories/LivoFactoryAbstract.sol";
+
+/// @notice Unified factory for the Uniswap V2 token family. Dispatches between four token
+///         implementations based on whether `TaxConfigInit` and `AntiSniperConfigs` are
+///         configured.
+///
+///         Replaces `LivoFactoryUniV2` and `LivoFactoryUniV2SniperProtected`, and now also
+///         covers the new tax variants (`LivoTaxableTokenUniV2`, `LivoTaxableTokenUniV2SniperProtected`).
+///
+///         Ownership rule: all V2-family tokens are deployed with `tokenOwner = address(0)`.
+///         Tax cap: 5% (vs V4's 4%) — the V2 swap-back path needs more headroom to amortise per-sell
+///         router gas, so a slightly higher cap keeps the tax slice meaningful.
+contract LivoFactoryUniV2Unified is LivoFactoryAbstract {
+    constructor(
+        address launchpad,
+        address tokenImplBase,
+        address tokenImplAntiSniper,
+        address tokenImplTax,
+        address tokenImplTaxAntiSniper,
+        address bondingCurve,
+        address graduator,
+        address masterFeeHandler
+    )
+        LivoFactoryAbstract(
+            launchpad,
+            tokenImplBase,
+            tokenImplAntiSniper,
+            tokenImplTax,
+            tokenImplTaxAntiSniper,
+            bondingCurve,
+            graduator,
+            masterFeeHandler
+        )
+    {}
+
+    /// @inheritdoc LivoFactoryAbstract
+    function MAX_TAX_BPS() public pure override returns (uint256) {
+        return 500;
+    }
+
+    /////////////////////// EXTERNAL FUNCTIONS /////////////////////////
+
+    /// @notice Deploys a V2-family Livo token and registers it in the launchpad.
+    ///         Dispatches between four implementations based on `taxCfg` and `antiSniperCfg`.
+    ///         The per-token fee config is registered with the master fee handler at deploy time.
+    ///         If `msg.value > 0`, buys supply and distributes it across `supplyShares`.
+    function createToken(
+        string calldata name,
+        string calldata symbol,
+        bytes32 salt,
+        FeeShare[] calldata feeReceivers,
+        SupplyShare[] calldata supplyShares,
+        TaxConfigInit calldata taxCfg,
+        AntiSniperConfigs calldata antiSniperCfg
+    ) external payable returns (address token) {
+        // V2-family tokens are always deployed ownerless. Routes through the shared `_createToken`
+        // umbrella so this overload and the struct-based overload below share the same internal flow.
+        // `LpFeeBpsSet` is emitted only by the V4 factory — V2 has no LP-fee concept.
+        TokenSetup memory tokenSetup = TokenSetup({name: name, symbol: symbol, salt: salt, feeShares: feeReceivers});
+        token = _createToken(tokenSetup, address(0), supplyShares, taxCfg, antiSniperCfg);
+    }
+
+    /// @notice Struct-based overload. Equivalent to the positional `createToken` above; exists to
+    ///         keep the ABI extensible without hitting stack-too-deep when new features add inputs.
+    ///         Inputs and behaviour are identical to the positional form.
+    function createToken(
+        TokenSetup calldata tokenSetup,
+        TaxConfigInit calldata taxConfigs,
+        SupplyShare[] calldata buyOnDeployShares,
+        AntiSniperConfigs calldata antiSniperConfigs
+    ) external payable returns (address token) {
+        // V2-family tokens are always deployed ownerless; V2 never emits `LpFeeBpsSet`.
+        token = _createToken(tokenSetup, address(0), buyOnDeployShares, taxConfigs, antiSniperConfigs);
+    }
+
+    /// @notice Returns which token implementation `createToken(...)` would clone for the given inputs.
+    /// @dev Mirrors the full `createToken` input set minus the identity fields (`name`, `symbol`,
+    ///      `salt`) so the ABI stays stable when future features change which inputs participate in
+    ///      dispatch. Today only `taxCfg.taxDurationSeconds` and `antiSniperCfg.protectionWindowSeconds`
+    ///      matter for dispatch; disabled configs must have all other tax/anti-sniper fields
+    ///      empty/zero. Used by frontends to compute the initcode hash before mining a salt.
+    function previewTokenImplementation(
+        FeeShare[] calldata, /* feeReceivers */
+        SupplyShare[] calldata, /* supplyShares */
+        TaxConfigInit calldata taxCfg,
+        AntiSniperConfigs calldata antiSniperCfg
+    ) external view returns (address) {
+        _validateAntiSniperConfig(antiSniperCfg);
+        _validateTaxConfig(taxCfg);
+        return _previewTokenImplementation(taxCfg, antiSniperCfg);
+    }
+}

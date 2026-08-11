@@ -1,0 +1,30 @@
+{
+  "address": "0xe37d879f7c76e7d25565382c7599029e653080ba",
+  "contract_name": "PythDerivedJudgmentOracleAdapter",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 6,
+  "source_sha256": "fc3d9ac323248c4cd9d5e6624e3b6614db3e89da2c4c3b62bdeb8c251d2e836d",
+  "fetched_at": "2026-06-03T12:04:20.249718+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

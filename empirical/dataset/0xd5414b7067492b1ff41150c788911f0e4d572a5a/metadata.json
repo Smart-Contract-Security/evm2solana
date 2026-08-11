@@ -1,0 +1,27 @@
+{
+  "address": "0xd5414b7067492b1ff41150c788911f0e4d572a5a",
+  "contract_name": "TenThousandV2",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 21,
+  "source_sha256": "3f382ac0fdd918ac1719706b7643d81c60bc31adf9f5e56a041bce4100826b05",
+  "fetched_at": "2026-06-01T03:14:58.177014+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 800
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

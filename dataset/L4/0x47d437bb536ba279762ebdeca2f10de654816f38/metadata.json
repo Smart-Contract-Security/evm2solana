@@ -1,0 +1,28 @@
+{
+  "address": "0x47d437bb536ba279762ebdeca2f10de654816f38",
+  "contract_name": "TermPriceConsumerV3",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 37,
+  "source_sha256": "3dd8747f447c56e6e23c9e73ad92665d5af1e3f99ca48b5678a70ce4d9b097b4",
+  "fetched_at": "2026-06-03T05:27:47.983585+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xef2b48deff3782f920f2af96b539d1a6cdaa9a6a",
+  "contract_name": "MAXXING",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 7,
+  "source_sha256": "9b181ecb016860152faa18538553bddaebe9568cbf685e2599dfbddfca990df7",
+  "fetched_at": "2026-06-03T12:02:52.924363+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

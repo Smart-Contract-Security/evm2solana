@@ -1,0 +1,31 @@
+{
+  "address": "0x7b5ddd2eb0e113976fae5d3d89bd473d0eb1e31a",
+  "contract_name": "SVGRenderer",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 4,
+  "source_sha256": "2005ac5c2dbcca7e0e9f44227d6da74682b61f6f24a8ecc9fbb6dcb89f7f4f03",
+  "fetched_at": "2026-06-01T03:09:53.898927+00:00",
+  "solc_settings": {
+    "evmVersion": "osaka",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

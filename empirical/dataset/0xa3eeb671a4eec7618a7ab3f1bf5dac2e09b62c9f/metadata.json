@@ -1,0 +1,27 @@
+{
+  "address": "0xa3eeb671a4eec7618a7ab3f1bf5dac2e09b62c9f",
+  "contract_name": "UniversalFactory",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "d32096c0672c7aa1bbdd997f2ad2611a530cd2a59d3e8554835cf4d0d254b199",
+  "fetched_at": "2026-06-03T12:48:09.548699+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "address": "0x9284d0f8d1b201f8506776a6d963577ea904e527",
+  "contract_name": "NormlGenesisOrchestrator",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 18,
+  "source_sha256": "08411d925cf3a31864f5b48265c1bad813b6be93f5403824d17d4e576457b846",
+  "fetched_at": "2026-06-02T11:47:54.375668+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

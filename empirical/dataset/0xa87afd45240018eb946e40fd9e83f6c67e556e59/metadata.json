@@ -1,0 +1,52 @@
+{
+  "address": "0xa87afd45240018eb946e40fd9e83f6c67e556e59",
+  "contract_name": "AssetLock",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 14,
+  "source_sha256": "a5604dda45b6d859ec86041e8330d6a37715b0a4ccb679700b85f686dc1bb729",
+  "fetched_at": "2026-06-03T12:18:39.182225+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/src/=lib/openzeppelin-contracts/contracts/",
+      "test/=test/",
+      "@layerzerolabs/oft-evm/=lib/devtools/packages/oft-evm/",
+      "@layerzerolabs/oapp-evm/=lib/devtools/packages/oapp-evm/",
+      "@layerzerolabs/lz-evm-protocol-v2/=lib/LayerZero-v2/packages/layerzero-v2/evm/protocol/",
+      "@layerzerolabs/lz-evm-messagelib-v2/=lib/LayerZero-v2/packages/layerzero-v2/evm/messagelib/",
+      "@layerzerolabs/test-devtools-evm-foundry/=lib/devtools/packages/test-devtools-evm-foundry/",
+      "solidity-bytes-utils/=lib/solidity-bytes-utils/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "LayerZero-v2/=lib/LayerZero-v2/",
+      "createx-forge/=lib/createx-forge/",
+      "devtools/=lib/devtools/packages/toolbox-foundry/src/",
+      "ds-test/=lib/createx-forge/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

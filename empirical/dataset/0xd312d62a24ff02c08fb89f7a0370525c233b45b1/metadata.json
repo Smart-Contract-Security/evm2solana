@@ -1,0 +1,50 @@
+{
+  "address": "0xd312d62a24ff02c08fb89f7a0370525c233b45b1",
+  "contract_name": "Flux",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 7,
+  "source_sha256": "d6d877ea10d781f2c9542bec31b6d52e670991448fd9c1730f218272bf96b59b",
+  "fetched_at": "2026-06-03T12:01:36.547901+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "v4-core/=lib/v4-core/",
+      "v4-periphery/=lib/v4-periphery/",
+      "@uniswap/v4-core/=lib/v4-core/",
+      "@uniswap/v4-periphery/=lib/v4-periphery/",
+      "solmate/=lib/v4-core/lib/solmate/",
+      "permit2/=lib/v4-periphery/lib/permit2/",
+      "@ensdomains/=lib/v4-core/node_modules/@ensdomains/",
+      "ds-test/=lib/v4-core/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-gas-snapshot/=lib/v4-periphery/lib/permit2/lib/forge-gas-snapshot/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "hardhat/=lib/v4-core/node_modules/hardhat/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 800
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

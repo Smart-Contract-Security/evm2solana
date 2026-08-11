@@ -1,0 +1,26 @@
+{
+  "address": "0x4150e60f0a92c7ee2114e4440ea5084aa8ef6fd1",
+  "contract_name": "CHESTER",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 1,
+  "source_sha256": "1ffc11f1e80466d82141c597e361259e000718f2d83ae8aa9e24102651421302",
+  "fetched_at": "2026-06-04T12:14:47.140782+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "address": "0x1a8790201415565b294b4de10f5a18cc1de6f07e",
+  "contract_name": "EVMBridgeSubscription",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "17c571728430fe8aae9a92814c7f13e4059112ba9063fdf1fb70003b55097f8b",
+  "fetched_at": "2026-06-03T11:28:54.069570+00:00"
+}

@@ -1,0 +1,36 @@
+{
+  "address": "0x420f4eb3701410077fea9208782fdf7896fd44fe",
+  "contract_name": "NormlForMeDeployer",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 5,
+  "source_sha256": "d010f4a177faad0212aed34f4dc3214606169adc3446422d1e5fdff71af403dd",
+  "fetched_at": "2026-06-02T11:48:13.392784+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

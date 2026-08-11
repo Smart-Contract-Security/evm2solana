@@ -1,0 +1,27 @@
+{
+  "address": "0xe603173230c70ea6faf34943013a585e89a88530",
+  "contract_name": "ProbablyNothingERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "11e3a3ea2df9660dfb76237c105c46bdf00183c876c37d598eb18ce6952c55d4",
+  "fetched_at": "2026-06-03T04:56:09.396719+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

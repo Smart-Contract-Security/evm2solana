@@ -1,0 +1,27 @@
+{
+  "address": "0xdb5206e06a7509b9181f0594752cd42cbd7ed371",
+  "contract_name": "BANPRegistry",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 19,
+  "source_sha256": "8ae04173302cc94be0276ad7ba41074f5c2f5bcdedb3e599d0a0bcd3c9b02364",
+  "fetched_at": "2026-06-03T12:07:04.505876+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

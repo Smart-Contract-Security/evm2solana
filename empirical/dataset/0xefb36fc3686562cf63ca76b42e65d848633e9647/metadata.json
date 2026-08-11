@@ -1,0 +1,44 @@
+{
+  "address": "0xefb36fc3686562cf63ca76b42e65d848633e9647",
+  "contract_name": "ProxyBatchDelegation",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 55,
+  "source_sha256": "73bcde97d6619abcff54e2d6ce6749fb31ca8b8909fb76d9ebb6aca7baa857bd",
+  "fetched_at": "2026-06-04T13:08:25.927812+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/@openzeppelin/",
+      "account-abstraction/=lib/account-abstraction/contracts/",
+      "base64/=lib/base64/",
+      "ds-test/=lib/ds-test/src/",
+      "forge-std/=lib/forge-std/src/",
+      "hardhat-deploy/=lib/hardhat-deploy/",
+      "@prb/math/=lib/@prb/math/src/",
+      "@prb/test/=lib/@prb/test/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": false
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

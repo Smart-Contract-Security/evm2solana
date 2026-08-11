@@ -1,0 +1,27 @@
+{
+  "address": "0x63110a7bb49533d3f35f01caa65da9a98c165b05",
+  "contract_name": "uDOGEToken",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 8,
+  "source_sha256": "25d7dddc7c0ea9393a0c27860dec50cb02b9c51f99ac87d40d3166d1614ad148",
+  "fetched_at": "2026-06-03T07:04:06.533785+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

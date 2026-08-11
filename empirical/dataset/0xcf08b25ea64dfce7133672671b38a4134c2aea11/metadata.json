@@ -1,0 +1,38 @@
+{
+  "address": "0xcf08b25ea64dfce7133672671b38a4134c2aea11",
+  "contract_name": "SpcxSaleCollector",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 25,
+  "source_sha256": "12948afc7411dd9d06ce01550d2a6e7fd7446f112cc26cdc5de1a5d28654647c",
+  "fetched_at": "2026-06-01T10:08:35.590074+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "address": "0xd771e3b84bd25297c777bef50aeeca0aa1b76a06",
+  "contract_name": "ONIRenderer1",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "6dc01f501c7bf13842778d458434a93d200907e3a294fdf79aaf6601c3e50fba",
+  "fetched_at": "2026-06-03T05:46:34.429940+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    }
+  }
+}

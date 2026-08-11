@@ -1,0 +1,36 @@
+{
+  "address": "0x5298130de26d497fc0373c25d2e351978da6ab34",
+  "contract_name": "NormlAssets",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 3,
+  "source_sha256": "5e76ecfa577a8b1aea647e571ac94819c94d4ac3786992579c9cbf48f529b847",
+  "fetched_at": "2026-06-03T07:41:57.049648+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

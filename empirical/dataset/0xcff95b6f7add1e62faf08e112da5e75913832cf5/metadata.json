@@ -1,0 +1,27 @@
+{
+  "address": "0xcff95b6f7add1e62faf08e112da5e75913832cf5",
+  "contract_name": "Escrow",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 21,
+  "source_sha256": "9bd48225aa3b3dbf3167856ee8e3e5d18641e1b96378bd21e1b2bfcf6b0c82fb",
+  "fetched_at": "2026-06-02T02:11:31.279791+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1337
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

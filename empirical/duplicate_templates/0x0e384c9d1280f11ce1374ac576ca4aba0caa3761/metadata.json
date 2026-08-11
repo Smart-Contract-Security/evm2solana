@@ -1,0 +1,27 @@
+{
+  "address": "0x0e384c9d1280f11ce1374ac576ca4aba0caa3761",
+  "contract_name": "Ydoge",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "72f069b4c2cb05adf8538410ba31af4132da82c3896fbc42898b4a141d17df15",
+  "fetched_at": "2026-06-01T04:44:58.320906+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

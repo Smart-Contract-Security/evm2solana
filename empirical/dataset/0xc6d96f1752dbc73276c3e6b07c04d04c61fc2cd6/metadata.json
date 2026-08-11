@@ -1,0 +1,32 @@
+{
+  "address": "0xc6d96f1752dbc73276c3e6b07c04d04c61fc2cd6",
+  "contract_name": "TermInitializer",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 96,
+  "source_sha256": "267c8c8700cfa3366349c4a13bf52e19fe8ee355b57c083288a5ac0ad3a3cbfa",
+  "fetched_at": "2026-06-03T05:28:14.012832+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "remappings": [],
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

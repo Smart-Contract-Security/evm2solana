@@ -1,0 +1,28 @@
+{
+  "address": "0xd4c8b6e37ad28ce61442908f100993c234e06756",
+  "contract_name": "MarketPlace",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 8,
+  "source_sha256": "870ca525e27fafca7bf2be407564d1925eda84262d497ca9e14be3f18fff2c2b",
+  "fetched_at": "2026-06-02T08:40:11.546724+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

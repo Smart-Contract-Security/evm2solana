@@ -1,0 +1,45 @@
+{
+  "address": "0x3f7fa45fe79184b87e160ec5013344fc2098015d",
+  "contract_name": "PortfolioTokenRegistrar",
+  "compiler_version": "v0.8.33+commit.64118f21",
+  "file_count": 15,
+  "source_sha256": "127df70ec4fc3aa2a8693060ab0a0945bfea08d1eb942b529e20ee973f2d8a9f",
+  "fetched_at": "2026-06-03T04:45:40.033108+00:00",
+  "solc_settings": {
+    "remappings": [
+      "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+      "forge-tests/=forge-tests/",
+      "lib/=lib/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "@uniswap/=node_modules/@uniswap/",
+      "forge-std/=lib/forge-std/src/",
+      "hardhat-deploy/=node_modules/hardhat-deploy/",
+      "hardhat/=node_modules/hardhat/",
+      "solidity-bytes-utils/=node_modules/solidity-bytes-utils/",
+      "truffle/=node_modules/truffle/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": false
+  }
+}

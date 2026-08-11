@@ -1,0 +1,28 @@
+{
+  "address": "0x8cb9f79090f7c8109ed6c55b6294b4a2a2cca8f2",
+  "contract_name": "RatorCoin",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 22,
+  "source_sha256": "dfb2827f553513c78df15a657fbdc51eeb6489d8c65f509840d0fe3e35732b9c",
+  "fetched_at": "2026-06-04T03:12:40.759817+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

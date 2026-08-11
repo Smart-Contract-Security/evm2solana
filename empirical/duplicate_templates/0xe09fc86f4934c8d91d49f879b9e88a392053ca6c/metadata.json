@@ -1,0 +1,27 @@
+{
+  "address": "0xe09fc86f4934c8d91d49f879b9e88a392053ca6c",
+  "contract_name": "ColdWalletGang",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "f58c2734ccd8c8875f7180b1c2851a545cf1ea8e45152dfd825648f03122178a",
+  "fetched_at": "2026-06-03T08:56:42.344294+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

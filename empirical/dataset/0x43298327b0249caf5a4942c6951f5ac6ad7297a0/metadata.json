@@ -1,0 +1,45 @@
+{
+  "address": "0x43298327b0249caf5a4942c6951f5ac6ad7297a0",
+  "contract_name": "DaemonToken",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 19,
+  "source_sha256": "35a306e582e176583382d7542a07797c123e925e0f82c91b822eec287d48037d",
+  "fetched_at": "2026-06-02T11:19:15.211763+00:00",
+  "solc_settings": {
+    "remappings": [
+      "project/=src/project/",
+      "solady/=src/npm/solady@0.1.26/",
+      "@uniswap/v4-core/=src/npm/@uniswap/v4-core@1.0.2/",
+      "@openzeppelin/uniswap-hooks/=src/npm/@openzeppelin/uniswap-hooks@1.1.1/",
+      "@openzeppelin/contracts/=src/npm/@openzeppelin/contracts@5.6.1/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "libraries": {
+      "src/project/contracts/daemons/DaemonToken.sol": {
+        "DaemonTraits": "0x7176e39992b874ab6835de3282434b10552d5a9a"
+      }
+    }
+  }
+}

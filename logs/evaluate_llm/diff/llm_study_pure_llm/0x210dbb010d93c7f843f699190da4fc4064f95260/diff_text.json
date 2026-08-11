@@ -1,0 +1,18 @@
+[
+  {
+    "file": "SessionKeyManager.sol",
+    "original_lines": 48,
+    "ported_lines": 45,
+    "added": [
+      "",
+      ""
+    ],
+    "removed": [
+      "// OneBalance Session Key Manager Contract",
+      "// Part of the OneBalance Framework for managing session keys",
+      "",
+      "    ",
+      "    "
+    ]
+  }
+]

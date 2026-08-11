@@ -1,0 +1,123 @@
+{
+  "version": "0.0.1",
+  "name": "EVMBridgeSubscription",
+  "instructions": [
+    {
+      "name": "owner",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [],
+      "returns": "publicKey"
+    },
+    {
+      "name": "new",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": true,
+          "isSigner": false,
+          "isOptional": false
+        },
+        {
+          "name": "payer",
+          "isMut": true,
+          "isSigner": true,
+          "isOptional": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "payer",
+          "type": "publicKey"
+        }
+      ]
+    },
+    {
+      "name": "executeSync",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "tokenaddress",
+          "type": "publicKey"
+        },
+        {
+          "name": "fromuser",
+          "type": "publicKey"
+        },
+        {
+          "name": "tobridgec",
+          "type": "publicKey"
+        },
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ],
+      "returns": "bool"
+    },
+    {
+      "name": "transferOwnership",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": true,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "newowner",
+          "type": "publicKey"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "SubscriptionProcessed",
+      "fields": [
+        {
+          "name": "user",
+          "type": "publicKey",
+          "index": false
+        },
+        {
+          "name": "targetBridge",
+          "type": "publicKey",
+          "index": false
+        },
+        {
+          "name": "amount",
+          "type": "u64",
+          "index": false
+        }
+      ]
+    }
+  ]
+}

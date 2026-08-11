@@ -1,0 +1,27 @@
+{
+  "address": "0xe121f00d5019422d01d68dd19df66f7f54cd9edc",
+  "contract_name": "CountMoonshot",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "0d62314b6337a959c77858ecf1fb8aee70b62051039afc43891fdb7d12a47f73",
+  "fetched_at": "2026-06-02T07:36:32.142243+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

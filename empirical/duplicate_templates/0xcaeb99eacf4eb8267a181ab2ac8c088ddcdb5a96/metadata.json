@@ -1,0 +1,27 @@
+{
+  "address": "0xcaeb99eacf4eb8267a181ab2ac8c088ddcdb5a96",
+  "contract_name": "IvoryQuarterToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "1ae590692a49f59b24a593374af8a834e541ebb1604aa5d53b4e07d5dc18e128",
+  "fetched_at": "2026-06-03T08:22:33.008564+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

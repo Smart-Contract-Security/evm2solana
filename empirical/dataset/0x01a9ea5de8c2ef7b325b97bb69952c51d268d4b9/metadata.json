@@ -1,0 +1,40 @@
+{
+  "address": "0x01a9ea5de8c2ef7b325b97bb69952c51d268d4b9",
+  "contract_name": "ERC721RedeemMinter",
+  "compiler_version": "v0.8.16+commit.07a7930e",
+  "file_count": 48,
+  "source_sha256": "f797b6272feaf1eecb2c2981c966f79251b368057b93baf876d115e81453e5b5",
+  "fetched_at": "2026-06-02T09:05:00.226156+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "sol2string/=node_modules/sol2string/",
+      "sol-uriencode/=node_modules/sol-uriencode/",
+      "forge-std/=node_modules/forge-std/src/",
+      "ds-test/=node_modules/ds-test/src/",
+      "micro-onchain-metadata-utils/=node_modules/micro-onchain-metadata-utils/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 500000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "london",
+    "viaIR": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x505348e10069d5083842532f5f5fa432631d109e",
+  "contract_name": "DroneBlondes",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 12,
+  "source_sha256": "deb3334f5313ee7bacb5c91433e69a5fa158228f81607c97b986d2cdca1b524d",
+  "fetched_at": "2026-06-02T11:14:54.477974+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

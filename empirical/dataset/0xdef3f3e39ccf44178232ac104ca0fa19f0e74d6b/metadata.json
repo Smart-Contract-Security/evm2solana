@@ -1,0 +1,37 @@
+{
+  "address": "0xdef3f3e39ccf44178232ac104ca0fa19f0e74d6b",
+  "contract_name": "ReceiptRenderer",
+  "compiler_version": "v0.8.29+commit.ab55807c",
+  "file_count": 17,
+  "source_sha256": "6ab372f1ae3aef289e4761aecc2b1c2379a5f3988d64e68ff512541f02e52fd4",
+  "fetched_at": "2026-06-03T04:12:19.098988+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "solady/=lib/solady/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 20000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

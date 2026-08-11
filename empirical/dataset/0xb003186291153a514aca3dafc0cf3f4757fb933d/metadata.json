@@ -1,0 +1,27 @@
+{
+  "address": "0xb003186291153a514aca3dafc0cf3f4757fb933d",
+  "contract_name": "BVM",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "f3b027599ef32d558ae6767e2cdb581629f7da881aabaf26d2f703179b5bf478",
+  "fetched_at": "2026-06-03T12:41:52.589696+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

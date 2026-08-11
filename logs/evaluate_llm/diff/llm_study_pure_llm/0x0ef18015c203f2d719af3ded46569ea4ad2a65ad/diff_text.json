@@ -1,0 +1,41 @@
+[
+  {
+    "file": "unisdev/UnisDomains.sol",
+    "original_lines": 227,
+    "ported_lines": 227,
+    "added": [
+      "///         charges a fee that scales with the name length. Domains",
+      "    // Fee schedule (lamports, scales with name length):",
+      "    //  3 chars : 0.30 SOL",
+      "    //  4 chars : 0.10 SOL",
+      "    //  5 chars : 0.03 SOL",
+      "    //  6+      : 0.005 SOL",
+      "    uint256 public fee3   = 300_000_000; // 0.30 SOL in lamports",
+      "    uint256 public fee4   = 100_000_000; // 0.10 SOL",
+      "    uint256 public fee5   = 30_000_000;  // 0.03 SOL",
+      "    uint256 public feeGen = 5_000_000;   // 0.005 SOL",
+      "    error TransferFailed();",
+      "            (bool ok,) = treasury.call{value: msg.value}(\"\");",
+      "            if (!ok) revert TransferFailed();",
+      "            (bool ok,) = treasury.call{value: msg.value}(\"\");",
+      "            if (!ok) revert TransferFailed();"
+    ],
+    "removed": [
+      "///         charges an ETH fee that scales with the name length. Domains",
+      "    // Fee schedule (ETH, scales with name length):",
+      "    //  3 chars : 0.30 ETH",
+      "    //  4 chars : 0.10 ETH",
+      "    //  5 chars : 0.03 ETH",
+      "    //  6+      : 0.005 ETH",
+      "    uint256 public fee3   = 0.30 ether;",
+      "    uint256 public fee4   = 0.10 ether;",
+      "    uint256 public fee5   = 0.03 ether;",
+      "    uint256 public feeGen = 0.005 ether;",
+      "    error EthForwardFailed();",
+      "            (bool ok,) = payable(treasury).call{value: msg.value}(\"\");",
+      "            if (!ok) revert EthForwardFailed();",
+      "            (bool ok,) = payable(treasury).call{value: msg.value}(\"\");",
+      "            if (!ok) revert EthForwardFailed();"
+    ]
+  }
+]

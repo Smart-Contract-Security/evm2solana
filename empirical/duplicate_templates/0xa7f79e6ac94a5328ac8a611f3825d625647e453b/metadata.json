@@ -1,0 +1,28 @@
+{
+  "address": "0xa7f79e6ac94a5328ac8a611f3825d625647e453b",
+  "contract_name": "SEAT",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "fc168f0d5b29bfff55c4da1efc10017b0e16aecd3d8d32512a79696af7cfaf5f",
+  "fetched_at": "2026-06-04T12:07:41.696834+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

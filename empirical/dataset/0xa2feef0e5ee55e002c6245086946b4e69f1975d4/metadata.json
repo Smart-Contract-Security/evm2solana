@@ -1,0 +1,27 @@
+{
+  "address": "0xa2feef0e5ee55e002c6245086946b4e69f1975d4",
+  "contract_name": "StaticAggregationIsmFactory",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 16,
+  "source_sha256": "6bf381776838fee41a635dd6c8004ced1b3ba067584f9e95b73dd47100cff4a7",
+  "fetched_at": "2026-06-04T05:14:40.403780+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

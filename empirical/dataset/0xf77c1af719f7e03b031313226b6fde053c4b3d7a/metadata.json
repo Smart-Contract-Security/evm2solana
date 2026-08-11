@@ -1,0 +1,24 @@
+{
+  "address": "0xf77c1af719f7e03b031313226b6fde053c4b3d7a",
+  "contract_name": "SkAITokenLocker",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 4,
+  "source_sha256": "ec89b23970794ccb996f9900923cdd9a9614ae0a236fb96f072bce2adf1509a6",
+  "fetched_at": "2026-06-04T12:39:55.331235+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

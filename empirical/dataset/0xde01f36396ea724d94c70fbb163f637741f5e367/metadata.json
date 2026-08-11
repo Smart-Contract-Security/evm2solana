@@ -1,0 +1,27 @@
+{
+  "address": "0xde01f36396ea724d94c70fbb163f637741f5e367",
+  "contract_name": "CherrySakuraRedbull",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "5f46d5baff89cbc379769f627a398d5876e2894fc90aff6152176b3b262b5b5d",
+  "fetched_at": "2026-06-02T09:03:25.871528+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

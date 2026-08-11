@@ -1,0 +1,27 @@
+{
+  "address": "0x1216a49bf402cb767b30a7742026921a101bddc6",
+  "contract_name": "Arctics",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "f2df45bff0d640f305e131ba5cb6d3e3e2fefc846e5cf3fe0a3b3596df6761bf",
+  "fetched_at": "2026-06-03T05:21:00.051314+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

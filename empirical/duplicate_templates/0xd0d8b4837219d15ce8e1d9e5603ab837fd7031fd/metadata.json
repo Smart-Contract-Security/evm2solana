@@ -1,0 +1,27 @@
+{
+  "address": "0xd0d8b4837219d15ce8e1d9e5603ab837fd7031fd",
+  "contract_name": "DaemonHusks",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "a1aef11668457c6ad482b3d1f9d80f2b1b02b8336f3079e870aab3c6b68a590a",
+  "fetched_at": "2026-06-03T06:24:36.561260+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

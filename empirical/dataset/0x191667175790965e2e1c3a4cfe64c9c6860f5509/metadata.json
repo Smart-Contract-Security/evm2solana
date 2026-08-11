@@ -1,0 +1,26 @@
+{
+  "address": "0x191667175790965e2e1c3a4cfe64c9c6860f5509",
+  "contract_name": "TweetDeploy",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "63bcd2e08f147d5c6f5c3301c6614d82bf77a9ac23c249d629f67a7ef745c784",
+  "fetched_at": "2026-06-01T14:32:01.800179+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+abstract contract ReentrancyGuardUpgradeable {
+    uint256 private constant NOT_ENTERED = 1;
+    uint256 private constant ENTERED = 2;
+
+    struct ReentrancyGuardStorage {
+        uint256 _status;
+    }
+
+    bytes32 private constant ReentrancyGuardStorageLocation = 0x9b779b17422d0df92223018b32b4d1fa46e071723d6817e2486d003becc55f00;
+
+    function _getReentrancyGuardStorage() private pure returns (ReentrancyGuardStorage storage $) {
+        assembly {
+            $.slot := ReentrancyGuardStorageLocation
+        }
+    }
+
+    error ReentrancyGuardReentrantCall();
+
+    bool private _initializing;
+    bool private _initialized;
+
+    modifier onlyInitializing() {
+        require(_initializing, "Not initializing");
+        _;
+    }
+
+    function __ReentrancyGuard_init() internal onlyInitializing {
+        __ReentrancyGuard_init_unchained();
+    }
+
+    function __ReentrancyGuard_init_unchained() internal onlyInitializing {
+        ReentrancyGuardStorage storage $ = _getReentrancyGuardStorage();
+        $._status = NOT_ENTERED;
+    }
+
+    modifier nonReentrant() {
+        _nonReentrantBefore();
+        _;
+        _nonReentrantAfter();
+    }
+
+    function _nonReentrantBefore() private {
+        ReentrancyGuardStorage storage $ = _getReentrancyGuardStorage();
+        if ($._status == ENTERED) {
+            revert("ReentrancyGuard: reentrant call");
+        }
+        $._status = ENTERED;
+    }
+
+    function _nonReentrantAfter() private {
+        ReentrancyGuardStorage storage $ = _getReentrancyGuardStorage();
+        $._status = NOT_ENTERED;
+    }
+
+    function _reentrancyGuardEntered() internal view returns (bool) {
+        ReentrancyGuardStorage storage $ = _getReentrancyGuardStorage();
+        return $._status == ENTERED;
+    }
+}

@@ -1,0 +1,259 @@
+{
+  "version": "0.0.1",
+  "name": "MyToken",
+  "instructions": [
+    {
+      "name": "name",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [],
+      "returns": "string"
+    },
+    {
+      "name": "symbol",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [],
+      "returns": "string"
+    },
+    {
+      "name": "decimals",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [],
+      "returns": "u8"
+    },
+    {
+      "name": "totalSupply",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [],
+      "returns": "u64"
+    },
+    {
+      "name": "balanceOf",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "arg0",
+          "type": "publicKey"
+        }
+      ],
+      "returns": "u64"
+    },
+    {
+      "name": "allowance",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "arg0",
+          "type": "publicKey"
+        },
+        {
+          "name": "arg1",
+          "type": "publicKey"
+        }
+      ],
+      "returns": "u64"
+    },
+    {
+      "name": "owner",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [],
+      "returns": "publicKey"
+    },
+    {
+      "name": "new",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": true,
+          "isSigner": true,
+          "isOptional": false
+        },
+        {
+          "name": "payer",
+          "isMut": true,
+          "isSigner": true,
+          "isOptional": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "initialsupply",
+          "type": "u64"
+        },
+        {
+          "name": "payer",
+          "type": "publicKey"
+        }
+      ]
+    },
+    {
+      "name": "transfer",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": true,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "to",
+          "type": "publicKey"
+        },
+        {
+          "name": "value",
+          "type": "u64"
+        }
+      ],
+      "returns": "bool"
+    },
+    {
+      "name": "approve",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": true,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "spender",
+          "type": "publicKey"
+        },
+        {
+          "name": "value",
+          "type": "u64"
+        }
+      ],
+      "returns": "bool"
+    },
+    {
+      "name": "transferFrom",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": true,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "from",
+          "type": "publicKey"
+        },
+        {
+          "name": "to",
+          "type": "publicKey"
+        },
+        {
+          "name": "value",
+          "type": "u64"
+        }
+      ],
+      "returns": "bool"
+    }
+  ],
+  "events": [
+    {
+      "name": "Transfer",
+      "fields": [
+        {
+          "name": "from",
+          "type": "publicKey",
+          "index": true
+        },
+        {
+          "name": "to",
+          "type": "publicKey",
+          "index": true
+        },
+        {
+          "name": "value",
+          "type": "u64",
+          "index": false
+        }
+      ]
+    },
+    {
+      "name": "Approval",
+      "fields": [
+        {
+          "name": "owner",
+          "type": "publicKey",
+          "index": true
+        },
+        {
+          "name": "spender",
+          "type": "publicKey",
+          "index": true
+        },
+        {
+          "name": "value",
+          "type": "u64",
+          "index": false
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "address": "11111111111111111111111111111111"
+  }
+}

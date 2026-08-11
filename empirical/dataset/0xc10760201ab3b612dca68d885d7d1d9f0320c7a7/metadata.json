@@ -1,0 +1,28 @@
+{
+  "address": "0xc10760201ab3b612dca68d885d7d1d9f0320c7a7",
+  "contract_name": "TokenDistributor",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 5,
+  "source_sha256": "a2c2b82a2c81517fe2728e9e8802fb596f1c095970745c429f55a6b36cc51b47",
+  "fetched_at": "2026-06-02T08:40:30.537612+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

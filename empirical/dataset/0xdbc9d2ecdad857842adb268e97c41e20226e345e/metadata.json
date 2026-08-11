@@ -1,0 +1,27 @@
+{
+  "address": "0xdbc9d2ecdad857842adb268e97c41e20226e345e",
+  "contract_name": "FixedToken",
+  "compiler_version": "v0.8.12+commit.f00d7308",
+  "file_count": 5,
+  "source_sha256": "4cfb536805cfc535f2904d1b2b758d37a9ea7789f8831151367b57a9873dcf8d",
+  "fetched_at": "2026-06-04T03:04:21.504185+00:00",
+  "solc_settings": {
+    "evmVersion": "istanbul",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

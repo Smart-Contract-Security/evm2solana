@@ -1,0 +1,27 @@
+{
+  "address": "0xf58bb18679136ea9a98dd319d61071ac00b4b73d",
+  "contract_name": "GoldenWasteToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "a55645886e06a0165d7fac3eab02cc85e226d98fac3c85795ec687988485fcd8",
+  "fetched_at": "2026-06-03T04:07:39.349941+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

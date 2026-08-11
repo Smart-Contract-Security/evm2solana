@@ -1,0 +1,52 @@
+{
+  "address": "0xa212055d008c89107d514be14b9e84c74d9a98cf",
+  "contract_name": "PunksMarketWrapRouter",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 2,
+  "source_sha256": "aa0fc744aab6634a78874886a8a301fa4f4515022d8acd7d3e0b35080ead3a64",
+  "fetched_at": "2026-06-01T05:20:13.230161+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@solady/=lib/solady/",
+      "solady/=lib/solady/src/",
+      "@uniswap/v4-core/=lib/v4-core/",
+      "@uniswap/v4-periphery/=lib/v4-periphery/",
+      "@v4/=lib/v4-core/",
+      "v4-core/=lib/v4-core/src/",
+      "v4-periphery/=lib/v4-periphery/src/",
+      "v4-router/=lib/v4-router/src/",
+      "@v4-periphery/=lib/v4-periphery/",
+      "@permit2/=lib/v4-periphery/lib/permit2/src/",
+      "permit2/=lib/v4-periphery/lib/permit2/",
+      "solmate/=lib/v4-core/lib/solmate/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "@openzeppelin/uniswap-hooks/=lib/openzeppelin-contracts/uniswap-hooks/",
+      "ds-test/=lib/v4-core/lib/forge-std/lib/ds-test/src/",
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

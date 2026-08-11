@@ -1,0 +1,27 @@
+{
+  "address": "0x28ea2ffafaf4217104233fe46711d54f94f2285e",
+  "contract_name": "EclipseWhaleToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "b53e62b22a63efceb0616614f7176911b56816dc15b8b2cac00b49608b9fc5d9",
+  "fetched_at": "2026-06-01T06:18:45.721211+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

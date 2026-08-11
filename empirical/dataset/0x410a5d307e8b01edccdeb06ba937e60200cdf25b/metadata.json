@@ -1,0 +1,28 @@
+{
+  "address": "0x410a5d307e8b01edccdeb06ba937e60200cdf25b",
+  "contract_name": "FlashloanArbitrage",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 5,
+  "source_sha256": "bd654c727c44f89d621fd3276ee2b6d3f632bb3e3e631145e79ad8ac92df49c6",
+  "fetched_at": "2026-06-04T02:41:46.179454+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

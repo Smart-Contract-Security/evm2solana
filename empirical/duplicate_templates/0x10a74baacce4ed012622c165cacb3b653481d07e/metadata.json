@@ -1,0 +1,27 @@
+{
+  "address": "0x10a74baacce4ed012622c165cacb3b653481d07e",
+  "contract_name": "AltSeasonERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "40ed339ea2988e03119c3d617c4125129bb91323f3807310362bf3141655b6dc",
+  "fetched_at": "2026-06-01T08:18:46.516297+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

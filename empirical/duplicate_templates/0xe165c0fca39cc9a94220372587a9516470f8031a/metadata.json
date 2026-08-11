@@ -1,0 +1,27 @@
+{
+  "address": "0xe165c0fca39cc9a94220372587a9516470f8031a",
+  "contract_name": "ViceroyMoonERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "fcf7e745c3df35acc37786447fe9b03d2c3359e120fd83958d50f9bcbd9c6b4c",
+  "fetched_at": "2026-06-01T13:30:24.675255+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

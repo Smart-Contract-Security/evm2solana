@@ -1,0 +1,40 @@
+{
+  "address": "0x7110cb04e7be2a246b8339d7a75fe45f8d48a341",
+  "contract_name": "MintCollection",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 21,
+  "source_sha256": "59a64e65655f5b647873b6fb4811ab12ca88c8c37ee03502b84f771b307aa893",
+  "fetched_at": "2026-06-02T15:04:55.292696+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

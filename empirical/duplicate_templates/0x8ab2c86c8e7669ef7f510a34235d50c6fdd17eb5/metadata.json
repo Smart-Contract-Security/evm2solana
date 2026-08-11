@@ -1,0 +1,50 @@
+{
+  "address": "0x8ab2c86c8e7669ef7f510a34235d50c6fdd17eb5",
+  "contract_name": "TransparentUpgradeableProxy",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 12,
+  "source_sha256": "1f5a80a8c2643ee0c810dd0b6adc555fe1b910fd52ae235036995aeea759b9ef",
+  "fetched_at": "2026-06-02T01:55:49.956685+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@chainlink/contracts-ccip/=lib/chainlink-local/lib/chainlink-ccip/chains/evm/",
+      "@chainlink/contracts/=lib/chainlink-local/lib/chainlink-evm/contracts/",
+      "@chainlink/local/src/=lib/chainlink-local/src/",
+      "@openzeppelin/contracts@4.8.3/=lib/chainlink-local/src/vendor/openzeppelin-solidity/v4.8.3/contracts/",
+      "@openzeppelin/contracts@5.0.2/=lib/chainlink-local/src/vendor/openzeppelin-solidity/v5.0.2/contracts/",
+      "chainlink-ccip/=lib/chainlink-ccip/chains/evm/contracts/vendor/optimism/interop-lib/v0/src/",
+      "chainlink-evm/=lib/chainlink-evm/contracts/cre/src/",
+      "chainlink-local/=lib/chainlink-local/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

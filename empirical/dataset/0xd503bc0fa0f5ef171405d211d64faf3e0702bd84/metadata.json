@@ -1,0 +1,27 @@
+{
+  "address": "0xd503bc0fa0f5ef171405d211d64faf3e0702bd84",
+  "contract_name": "TrumpAccounts",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "7d8dcb1491f447a89b34bc0f3cd17e937138879b953aa0aa10d8df9b9a825f43",
+  "fetched_at": "2026-06-01T10:31:32.765106+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 2000
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

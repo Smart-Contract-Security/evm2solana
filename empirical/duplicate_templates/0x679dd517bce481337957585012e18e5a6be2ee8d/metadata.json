@@ -1,0 +1,41 @@
+{
+  "address": "0x679dd517bce481337957585012e18e5a6be2ee8d",
+  "contract_name": "NAVOracle",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 20,
+  "source_sha256": "885b44dccc1cd3f5fe7751e6efd1e3a140e70099e18f11eebdad2a0f69e4b69a",
+  "fetched_at": "2026-06-02T15:42:55.083062+00:00",
+  "solc_settings": {
+    "evmVersion": "london",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "remappings": [
+      ":@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      ":@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      ":erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+      ":forge-std/=lib/forge-std/src/",
+      ":halmos-cheatcodes/=lib/openzeppelin-contracts-upgradeable/lib/halmos-cheatcodes/src/",
+      ":openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+      ":openzeppelin-contracts/=lib/openzeppelin-contracts/contracts/",
+      ":oz-v5/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/"
+    ],
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

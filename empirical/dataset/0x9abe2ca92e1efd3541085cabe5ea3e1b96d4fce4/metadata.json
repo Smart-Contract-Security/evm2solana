@@ -1,0 +1,61 @@
+{
+  "address": "0x9abe2ca92e1efd3541085cabe5ea3e1b96d4fce4",
+  "contract_name": "Erc20TvlAdapter",
+  "compiler_version": "v0.8.21+commit.d9974bed",
+  "file_count": 3,
+  "source_sha256": "396c7bc96c5e7dc083bd65428bef22751243f049c1a277be2f916606645625a6",
+  "fetched_at": "2026-06-01T10:24:12.822879+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@solmate/=lib/solmate/src/",
+      "@forge-std/=lib/forge-std/src/",
+      "@ds-test/=lib/forge-std/lib/ds-test/src/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "@ccip/=lib/ccip/",
+      "@oapp-auth/=lib/OAppAuth/src/",
+      "@devtools-oapp-evm/=lib/OAppAuth/lib/devtools/packages/oapp-evm/contracts/oapp/",
+      "@layerzerolabs/lz-evm-messagelib-v2/=lib/OAppAuth/node_modules/@layerzerolabs/lz-evm-messagelib-v2/",
+      "@layerzerolabs/lz-evm-protocol-v2/=lib/OAppAuth/lib/LayerZero-V2/packages/layerzero-v2/evm/protocol/",
+      "@layerzerolabs/oapp-evm/=lib/OAppAuth/lib/devtools/packages/oapp-evm/",
+      "@lz-oapp-evm/=lib/OAppAuth/lib/LayerZero-V2/packages/layerzero-v2/evm/oapp/contracts/oapp/",
+      "@sbu/=lib/OAppAuth/lib/solidity-bytes-utils/",
+      "LayerZero-V2/=lib/OAppAuth/lib/",
+      "LayerZero-v2/=lib/LayerZero-v2/",
+      "OAppAuth/=lib/OAppAuth/",
+      "ccip/=lib/ccip/contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/OAppAuth/lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "morpho-blue/=lib/morpho-blue/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "solidity-bytes-utils/=lib/OAppAuth/node_modules/solidity-bytes-utils/",
+      "solmate/=lib/solmate/src/",
+      "v3-core/=lib/v3-core/contracts/",
+      "v3-periphery/=lib/v3-periphery/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "shanghai",
+    "viaIR": false
+  }
+}

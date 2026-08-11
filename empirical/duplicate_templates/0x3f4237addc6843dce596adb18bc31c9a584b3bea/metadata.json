@@ -1,0 +1,31 @@
+{
+  "address": "0x3f4237addc6843dce596adb18bc31c9a584b3bea",
+  "contract_name": "TransparentUpgradeableProxy",
+  "compiler_version": "v0.8.29+commit.ab55807c",
+  "file_count": 12,
+  "source_sha256": "56cd5d7215e64a5c868c9796c311c44d6ee113aa34922f18b6e13cb2d434fae3",
+  "fetched_at": "2026-06-03T03:19:12.049027+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

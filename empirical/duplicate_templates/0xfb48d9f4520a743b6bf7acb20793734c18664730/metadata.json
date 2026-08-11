@@ -1,0 +1,27 @@
+{
+  "address": "0xfb48d9f4520a743b6bf7acb20793734c18664730",
+  "contract_name": "Susdt",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "3d152dee0dc9d08867650bc92b2578ecbaffe389bcca3f280a2f579da1a2dc8b",
+  "fetched_at": "2026-06-01T02:57:44.925166+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xd1d76b060c47c6b256431bee7d985af5f8ccc4df",
+  "contract_name": "NovaPandaERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "dcc81540ebb35aaccca76e0dc815c180edc4f42fb5e2c3ae00ee49cc022f0354",
+  "fetched_at": "2026-06-03T13:48:33.290909+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

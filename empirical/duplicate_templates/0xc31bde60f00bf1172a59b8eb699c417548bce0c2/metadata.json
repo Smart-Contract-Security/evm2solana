@@ -1,0 +1,27 @@
+{
+  "address": "0xc31bde60f00bf1172a59b8eb699c417548bce0c2",
+  "contract_name": "PositionManager",
+  "compiler_version": "v0.8.15+commit.e14f2714",
+  "file_count": 15,
+  "source_sha256": "77275ee77631205a93ed3a91bde779762d713e36cbccd4ea3ee7e443d9199822",
+  "fetched_at": "2026-06-04T13:09:29.795351+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

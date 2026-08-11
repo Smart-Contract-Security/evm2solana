@@ -1,0 +1,27 @@
+{
+  "address": "0x085d710b87ab04cf6e7f55f7931b73d48ec19de8",
+  "contract_name": "TrustedRelayerIsm",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 16,
+  "source_sha256": "ae57d7d4cb71fcb31f84ba296b89c92c4f8b58e381b1e0c05a3d05d1434aa201",
+  "fetched_at": "2026-06-04T05:13:34.115317+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

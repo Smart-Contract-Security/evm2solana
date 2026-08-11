@@ -1,0 +1,27 @@
+{
+  "address": "0x9dfca5704eab276e32d3be366a57bcb6d29551ca",
+  "contract_name": "uDOGEStaking",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 6,
+  "source_sha256": "82bc23608a7f4cf6e0e9dedec02a8df179ee7f4e60dbf8802d7158753ce64583",
+  "fetched_at": "2026-06-03T07:03:46.683046+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

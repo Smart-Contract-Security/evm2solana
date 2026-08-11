@@ -1,0 +1,27 @@
+{
+  "address": "0xde70c0e9c88926aea8165e8161f158967e63d16b",
+  "contract_name": "The_Long_Drift_html",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 4,
+  "source_sha256": "ea550ba774daa63a066d50ae8f9787839ff0a1b5a293c3fd214c70bab93be0b5",
+  "fetched_at": "2026-06-03T07:40:10.919361+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

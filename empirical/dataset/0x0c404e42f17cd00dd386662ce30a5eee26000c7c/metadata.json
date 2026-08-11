@@ -1,0 +1,27 @@
+{
+  "address": "0x0c404e42f17cd00dd386662ce30a5eee26000c7c",
+  "contract_name": "MorphoVaultV2DeployHelper",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 10,
+  "source_sha256": "1b62373934623250866098c84dbf90388f8c8767e389b95c4c2d940478b9d345",
+  "fetched_at": "2026-06-02T12:04:35.248071+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "address": "0xbbc11dda0f56b2fe21d10189baf8f41d0ec3f6bd",
+  "contract_name": "LiquidMultiCurve",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 49,
+  "source_sha256": "e201c9fee519266cc32f915cb020c4786563d07814eae3806c813aeb0a990f53",
+  "fetched_at": "2026-06-03T12:27:50.705322+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/",
+      "@openzeppelin-upgradeable/contracts/=lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "v4-core/=lib/v4-core/src/",
+      "v4-periphery/=lib/v4-periphery/src/",
+      "@uniswap/v4-core/=lib/v4-core/",
+      "@uniswap/v4-periphery/=lib/v4-periphery/src/",
+      "continuous-clearing-auction/=lib/continuous-clearing-auction/src/",
+      "liquid-editions/=src/",
+      "liquid-editions-test/=test/",
+      "script/=script/",
+      "doppler/=lib/doppler/src/",
+      "solady/=lib/continuous-clearing-auction/lib/solady/src/",
+      "@v4-core/=lib/v4-core/src/",
+      "@v4-periphery/=lib/v4-periphery/src/",
+      "@solady/=lib/doppler/lib/solady/src/",
+      "src/libraries/=lib/doppler/src/libraries/",
+      "src/types/=lib/doppler/src/types/",
+      "lib/v4-periphery/:@uniswap/v4-core/=lib/v4-core/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

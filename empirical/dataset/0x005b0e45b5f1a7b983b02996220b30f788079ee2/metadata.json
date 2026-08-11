@@ -1,0 +1,31 @@
+{
+  "address": "0x005b0e45b5f1a7b983b02996220b30f788079ee2",
+  "contract_name": "MapoBridgeRouter",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "4a1864b340a2060d5b65f1cf35324a444a22b8e0ee3d689ed02042f5671639e9",
+  "fetched_at": "2026-06-03T04:04:16.418754+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 400
+    },
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "viaIR": false,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

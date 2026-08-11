@@ -1,0 +1,27 @@
+{
+  "address": "0x34b401534c754dc6eea0f4fbe76a24226ea5f8bb",
+  "contract_name": "Chsp",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "f2a81d80fc92ed937ea447c09c30871729916c4dc60a05ef0c07a1518cbe87a7",
+  "fetched_at": "2026-06-01T04:43:36.747433+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

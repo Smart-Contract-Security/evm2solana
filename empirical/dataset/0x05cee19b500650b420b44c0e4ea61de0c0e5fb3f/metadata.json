@@ -1,0 +1,27 @@
+{
+  "address": "0x05cee19b500650b420b44c0e4ea61de0c0e5fb3f",
+  "contract_name": "ResurrectTwiceAgain",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "4204d78faee4ee8877341a05fc2f5305d1e29376a3eda67b127ffba963790fc9",
+  "fetched_at": "2026-06-01T04:49:25.542682+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0x678ba7f0aab85810acf5bf06ba4d691bd8c18d5d",
+  "contract_name": "DIPSHIT",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 1,
+  "source_sha256": "5ed9996f0fdef6fe27eebdb7812f53faf3e2b776d9ba2ce413c8a801efc1e066",
+  "fetched_at": "2026-06-04T02:50:54.986557+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

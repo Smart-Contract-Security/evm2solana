@@ -1,0 +1,27 @@
+{
+  "address": "0x261fe9eedf1bc3d32487e216ab6694720d558f4f",
+  "contract_name": "Rename",
+  "compiler_version": "v0.8.34+commit.80d5c536",
+  "file_count": 1,
+  "source_sha256": "1df9ba3feafbbdcd1748b76fe768e45bd262c5008f827e2f4d3b09ebc02bb017",
+  "fetched_at": "2026-06-03T11:24:43.277001+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

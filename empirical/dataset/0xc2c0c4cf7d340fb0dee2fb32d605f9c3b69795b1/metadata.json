@@ -1,0 +1,30 @@
+{
+  "address": "0xc2c0c4cf7d340fb0dee2fb32d605f9c3b69795b1",
+  "contract_name": "AceArenaFacet",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 9,
+  "source_sha256": "49f42cb98a9be2ca5ed1932c8f7040e5f7e914d3f7bb1012a3a3925fb76df56c",
+  "fetched_at": "2026-06-03T12:04:09.603669+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

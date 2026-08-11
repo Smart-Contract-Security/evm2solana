@@ -1,0 +1,29 @@
+{
+  "address": "0x6af4dd992054f3ee3ef9bcea8d50d0dfffd17513",
+  "contract_name": "StakingPoolFactory",
+  "compiler_version": "v0.8.0+commit.c7dfd78e",
+  "file_count": 14,
+  "source_sha256": "c774c083bcf4bcfd7a9e89039ac1f2d61158dbd5331dfd80c51db9cd94914af5",
+  "fetched_at": "2026-06-04T11:41:20.777698+00:00",
+  "solc_settings": {
+    "remappings": [],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "byzantium",
+    "libraries": {},
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

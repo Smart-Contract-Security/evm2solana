@@ -1,0 +1,28 @@
+{
+  "address": "0xd7f2f42188932513dcaa4f9c9b241f34a1f70e92",
+  "contract_name": "DiamondLoupeFacet",
+  "compiler_version": "v0.8.22+commit.4fc1097e",
+  "file_count": 3,
+  "source_sha256": "f3fb09dcb72835489e0a58f37e24bebd5224ccc81f5592a1954e6ff6e06e2f68",
+  "fetched_at": "2026-06-03T05:12:03.655034+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 1
+    },
+    "viaIR": true
+  }
+}

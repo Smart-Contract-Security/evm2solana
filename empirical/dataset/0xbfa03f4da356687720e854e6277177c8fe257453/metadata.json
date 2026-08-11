@@ -1,0 +1,28 @@
+{
+  "address": "0xbfa03f4da356687720e854e6277177c8fe257453",
+  "contract_name": "MindMirror",
+  "compiler_version": "v0.8.26+commit.8a97fa7a",
+  "file_count": 7,
+  "source_sha256": "ee8c4db550c398cc155ab58f75d9635d48e86a1db1f9526ae88aac723f6b9c20",
+  "fetched_at": "2026-06-01T10:03:28.706161+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

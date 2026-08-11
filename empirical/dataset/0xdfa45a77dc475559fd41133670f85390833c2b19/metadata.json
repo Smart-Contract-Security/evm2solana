@@ -1,0 +1,41 @@
+{
+  "address": "0xdfa45a77dc475559fd41133670f85390833c2b19",
+  "contract_name": "StemsValidator",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 1,
+  "source_sha256": "0d79ac1cfea5b04d2944809d11658827be2d96ccd334dd07159b127e79413113",
+  "fetched_at": "2026-06-01T08:40:32.467030+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1,
+      "details": {
+        "peephole": true,
+        "inliner": true,
+        "jumpdestRemover": true,
+        "orderLiterals": true,
+        "deduplicate": true,
+        "cse": true,
+        "constantOptimizer": true,
+        "yul": true,
+        "yulDetails": {
+          "stackAllocation": true
+        }
+      }
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris"
+  }
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "file": "FCFAFaucet.sol",
+    "original_lines": 90,
+    "ported_lines": 94,
+    "added": [
+      "",
+      "import 'solana';",
+      "@program_id(\"FCFAFaucet111111111111111111111111111111111\")",
+      "    address public tokenInstance;",
+      "    @payer(payer)",
+      "        owner = tx.accounts.payer.key;",
+      "        tokenInstance = _tokenAddress;",
+      "        require(tx.accounts.payer.key == owner, \"Authorization denied: sender is not owner\");",
+      "        require(block.timestamp >= lastClaimTimestamp[tx.accounts.payer.key] + cooldownPeriod, \"Rate limit transgression: 24h cooldown is active\");",
+      "        require(IERC20(tokenInstance).balanceOf(address(this)) >= amount, \"Insufficiency: faucet reservoir is dry\");",
+      "        lastClaimTimestamp[tx.accounts.payer.key] = block.timestamp;",
+      "        require(IERC20(tokenInstance).transfer(tx.accounts.payer.key, amount), \"EVM Transaction Error: transfer failed\");",
+      "        emit ClaimsIssued(tx.accounts.payer.key, amount, block.timestamp);",
+      "        tokenInstance = _newTokenAddress;",
+      "        uint256 bal = IERC20(tokenInstance).balanceOf(address(this));",
+      "        require(IERC20(tokenInstance).transfer(owner, amount), \"Transfer failed\");"
+    ],
+    "removed": [
+      "    IERC20 public tokenInstance;",
+      "        owner = msg.sender;",
+      "        tokenInstance = IERC20(_tokenAddress);",
+      "        require(msg.sender == owner, \"Authorization denied: sender is not owner\");",
+      "        require(block.timestamp >= lastClaimTimestamp[msg.sender] + cooldownPeriod, \"Rate limit transgression: 24h cooldown is active\");",
+      "        require(tokenInstance.balanceOf(address(this)) >= amount, \"Insufficiency: faucet reservoir is dry\");",
+      "        lastClaimTimestamp[msg.sender] = block.timestamp;",
+      "        require(tokenInstance.transfer(msg.sender, amount), \"EVM Transaction Error: transfer failed\");",
+      "        emit ClaimsIssued(msg.sender, amount, block.timestamp);",
+      "        tokenInstance = IERC20(_newTokenAddress);",
+      "        uint256 bal = tokenInstance.balanceOf(address(this));",
+      "        require(tokenInstance.transfer(owner, amount), \"Transfer failed\");"
+    ]
+  }
+]

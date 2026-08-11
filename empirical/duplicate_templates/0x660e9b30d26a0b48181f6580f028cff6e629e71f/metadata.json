@@ -1,0 +1,27 @@
+{
+  "address": "0x660e9b30d26a0b48181f6580f028cff6e629e71f",
+  "contract_name": "ObsidianCoveToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "108104a1a200862f31fe425872c408715c4c14d4f9fc199034508ba788c5c8bb",
+  "fetched_at": "2026-06-03T07:19:00.157946+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

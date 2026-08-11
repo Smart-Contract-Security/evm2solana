@@ -1,0 +1,41 @@
+{
+  "address": "0x6b42f6eda9d7d8099a635d5bc7a5e7574cc63a6b",
+  "contract_name": "SAVETRUMP",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 9,
+  "source_sha256": "5d4fcc2a9468c64b6e45eb1e81826f7284f55cde0500cbe9c832a670eb6f0cd2",
+  "fetched_at": "2026-06-04T12:07:00.724822+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": true,
+    "libraries": {}
+  }
+}

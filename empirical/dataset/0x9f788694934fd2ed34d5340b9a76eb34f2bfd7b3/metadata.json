@@ -1,0 +1,34 @@
+{
+  "address": "0x9f788694934fd2ed34d5340b9a76eb34f2bfd7b3",
+  "contract_name": "Solana_Adapter",
+  "compiler_version": "v0.8.23+commit.f704f362",
+  "file_count": 10,
+  "source_sha256": "995fed8edd56ab45be353ac88355cd73c7e27d1a9ccb7d0cb4c43377f9767ae7",
+  "fetched_at": "2026-06-04T05:54:13.905595+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000000
+    },
+    "viaIR": true,
+    "debug": {
+      "revertStrings": "strip"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    },
+    "libraries": {}
+  }
+}

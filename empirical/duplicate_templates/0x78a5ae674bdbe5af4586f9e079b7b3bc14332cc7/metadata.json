@@ -1,0 +1,27 @@
+{
+  "address": "0x78a5ae674bdbe5af4586f9e079b7b3bc14332cc7",
+  "contract_name": "NeonSharkERC20",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "27dd8303785b8db7d2077663659435de10df477b26919c9238e05486cce04c88",
+  "fetched_at": "2026-06-02T15:55:30.424424+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

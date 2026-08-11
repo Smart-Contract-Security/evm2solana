@@ -1,0 +1,41 @@
+{
+  "address": "0xc1eab73855155d4e021f7eb4f866996bac2fe25e",
+  "contract_name": "ClearMacroForwarderV1WithPermit2",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 51,
+  "source_sha256": "446bc461cca86e51c1d213158c1148bcf999c584b21e96e3882125197419b9b9",
+  "fetched_at": "2026-06-03T11:47:30.808152+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@superfluid-finance/ethereum-contracts/contracts/=packages/ethereum-contracts/contracts/",
+      "@superfluid-finance/solidity-semantic-money/src/=packages/solidity-semantic-money/src/",
+      "@openzeppelin-v5/=lib/openzeppelin-contracts/",
+      "aave-v3/=lib/aave-v3/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

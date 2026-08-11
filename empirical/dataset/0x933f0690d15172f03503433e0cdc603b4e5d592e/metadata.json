@@ -1,0 +1,28 @@
+{
+  "address": "0x933f0690d15172f03503433e0cdc603b4e5d592e",
+  "contract_name": "AssetRegistry",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 5,
+  "source_sha256": "de23e44fdd93cccaca247df5a08142b9e56834c1eeabc6c43f615f5b42e7e7ed",
+  "fetched_at": "2026-06-01T08:39:41.651570+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

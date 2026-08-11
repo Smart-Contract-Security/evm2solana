@@ -1,0 +1,27 @@
+{
+  "address": "0xa609a5ba30671f6ec3a935c4b595e1d43fb6fa63",
+  "contract_name": "CIL",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "c34b0978572bac7b06db314123e23d4f22be408e95edd40e39abc38e05433328",
+  "fetched_at": "2026-06-02T08:41:28.553673+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

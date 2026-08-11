@@ -1,0 +1,27 @@
+{
+  "address": "0xcf0212018f9349e8ea85ad5b1ce177d56db4bc4b",
+  "contract_name": "FeeManager",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 3,
+  "source_sha256": "4010d5bfd5515a83e1973c4585c228b0ede621ac6db9fd364dd4e93aedbfd93c",
+  "fetched_at": "2026-06-03T08:49:49.002875+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

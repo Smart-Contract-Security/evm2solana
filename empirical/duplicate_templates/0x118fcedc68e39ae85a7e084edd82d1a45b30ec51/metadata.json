@@ -1,0 +1,27 @@
+{
+  "address": "0x118fcedc68e39ae85a7e084edd82d1a45b30ec51",
+  "contract_name": "BuyTheDip",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "94a89ea5af156cd498461b4ada2909d88d337f65798cbd9371008be7d5ef4afa",
+  "fetched_at": "2026-06-03T08:12:30.486686+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

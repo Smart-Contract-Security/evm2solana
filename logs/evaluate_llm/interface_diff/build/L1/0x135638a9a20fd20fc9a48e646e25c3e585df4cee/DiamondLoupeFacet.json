@@ -1,0 +1,123 @@
+{
+  "version": "0.0.1",
+  "name": "DiamondLoupeFacet",
+  "instructions": [
+    {
+      "name": "new",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": true,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "facets",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [],
+      "returns": {
+        "vec": {
+          "defined": "Facet"
+        }
+      }
+    },
+    {
+      "name": "facetFunctionSelectors",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "facet",
+          "type": "publicKey"
+        }
+      ],
+      "returns": {
+        "vec": {
+          "array": [
+            "u8",
+            4
+          ]
+        }
+      }
+    },
+    {
+      "name": "facetAddresses",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [],
+      "returns": {
+        "vec": "publicKey"
+      }
+    },
+    {
+      "name": "facetAddress",
+      "accounts": [
+        {
+          "name": "dataAccount",
+          "isMut": false,
+          "isSigner": false,
+          "isOptional": false
+        }
+      ],
+      "args": [
+        {
+          "name": "selector",
+          "type": {
+            "array": [
+              "u8",
+              4
+            ]
+          }
+        }
+      ],
+      "returns": "publicKey"
+    }
+  ],
+  "types": [
+    {
+      "name": "Facet",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "facetAddress",
+            "type": "publicKey"
+          },
+          {
+            "name": "functionSelectors",
+            "type": {
+              "vec": {
+                "array": [
+                  "u8",
+                  4
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

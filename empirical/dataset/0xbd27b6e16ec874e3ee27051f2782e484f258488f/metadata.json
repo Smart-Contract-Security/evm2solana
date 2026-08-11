@@ -1,0 +1,27 @@
+{
+  "address": "0xbd27b6e16ec874e3ee27051f2782e484f258488f",
+  "contract_name": "MerchantRegistry",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 3,
+  "source_sha256": "4f99fdf37970f6b8c575d1079199a48fa51e968363b6551714a90fc8e351592a",
+  "fetched_at": "2026-06-03T08:49:45.695848+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

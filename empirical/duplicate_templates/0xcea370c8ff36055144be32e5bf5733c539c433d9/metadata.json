@@ -1,0 +1,27 @@
+{
+  "address": "0xcea370c8ff36055144be32e5bf5733c539c433d9",
+  "contract_name": "MarchionessVolt",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "5a1923b1883022b846523bf742ce87ac35b266a851fff79d741bee5ad129ca58",
+  "fetched_at": "2026-06-03T12:21:49.601029+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

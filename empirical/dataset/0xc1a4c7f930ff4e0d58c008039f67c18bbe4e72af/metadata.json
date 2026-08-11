@@ -1,0 +1,38 @@
+{
+  "address": "0xc1a4c7f930ff4e0d58c008039f67c18bbe4e72af",
+  "contract_name": "Vault",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 21,
+  "source_sha256": "b61dbc5136dfc5e1fb67b9041d59a34afa6e4076cd8707ad292362572ed23052",
+  "fetched_at": "2026-06-03T08:55:27.610736+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "address": "0xaee0feb94c2e24e9c190cd66a43400c91e2b5f20",
+  "contract_name": "USDT",
+  "compiler_version": "v0.8.0+commit.c7dfd78e",
+  "file_count": 1,
+  "source_sha256": "ba7f3cdf4257de96ec04a228680b8d68eb77170c58f8140de02daf162b904567",
+  "fetched_at": "2026-06-01T02:58:51.034092+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

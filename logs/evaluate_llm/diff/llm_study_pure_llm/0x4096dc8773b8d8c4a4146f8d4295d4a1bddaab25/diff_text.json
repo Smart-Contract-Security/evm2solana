@@ -1,0 +1,26 @@
+[
+  {
+    "file": "OneBalanceResourceLockManager.sol",
+    "original_lines": 56,
+    "ported_lines": 55,
+    "added": [
+      "        resourceLocks[lockId] = ResourceLock({",
+      "            owner: msg.sender,",
+      "            amount: amount,",
+      "            conditions: conditions,",
+      "            expiry: expiry,",
+      "            fulfilled: false",
+      "        });"
+    ],
+    "removed": [
+      "// OneBalance Resource Lock Manager Contract",
+      "// Part of the OneBalance Framework for managing resource locks",
+      "        ResourceLock storage newLock = resourceLocks[lockId];",
+      "        newLock.owner = msg.sender;",
+      "        newLock.amount = amount;",
+      "        newLock.conditions = conditions;",
+      "        newLock.expiry = expiry;",
+      "        newLock.fulfilled = false;"
+    ]
+  }
+]

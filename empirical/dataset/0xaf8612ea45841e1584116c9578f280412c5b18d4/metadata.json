@@ -1,0 +1,79 @@
+{
+  "address": "0xaf8612ea45841e1584116c9578f280412c5b18d4",
+  "contract_name": "Executor",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 2,
+  "source_sha256": "b1cfad2d9937e9a4df27ce4bd5509b43e3df117b6180e8ea7c826d44ba5b2d78",
+  "fetched_at": "2026-06-02T06:54:20.548806+00:00",
+  "solc_settings": {
+    "viaIR": true,
+    "metadata": {
+      "appendCBOR": true,
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": false
+    },
+    "optimizer": {
+      "runs": 200,
+      "enabled": true
+    },
+    "evmVersion": "cancun",
+    "remappings": [
+      "@solmate/=lib/solmate/src/",
+      "@forge-std/=lib/forge-std/src/",
+      "forge-std/=lib/forge-std/src/",
+      "@ds-test/=lib/forge-std/lib/ds-test/src/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "@ion-protocol/=lib/nucleus-boring-vault/lib/ion-protocol/src/",
+      "@layerzerolabs/=node_modules/@layerzerolabs/",
+      "@executooor/=lib/executooor/contracts/",
+      "@uniswap-core/=lib/v3-core/contracts/",
+      "@uniswap-periphery/=lib/v3-periphery/contracts/",
+      "1inch-v2-contracts/=lib/1inch-v2-contracts/contracts/",
+      "@axelar-network/=node_modules/@axelar-network/",
+      "@balancer-labs/v2-interfaces/=lib/nucleus-boring-vault/lib/ion-protocol/lib/balancer-v2-monorepo/pkg/interfaces/",
+      "@balancer-labs/v2-pool-stable/=lib/nucleus-boring-vault/lib/ion-protocol/lib/balancer-v2-monorepo/pkg/pool-stable/",
+      "@chainlink/=node_modules/@chainlink/",
+      "@chainlink/contracts/=lib/nucleus-boring-vault/lib/ion-protocol/lib/chainlink/contracts/",
+      "@eth-optimism/=node_modules/@eth-optimism/",
+      "@openzeppelin/contracts-upgradeable/=lib/nucleus-boring-vault/lib/ion-protocol/lib/openzeppelin-contracts-upgradeable/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@uniswap/v3-core/=lib/nucleus-boring-vault/lib/ion-protocol/lib/v3-core/",
+      "@uniswap/v3-periphery/=lib/nucleus-boring-vault/lib/ion-protocol/lib/v3-periphery/",
+      "balancer-v2-monorepo/=lib/nucleus-boring-vault/lib/ion-protocol/lib/",
+      "chainlink/=lib/nucleus-boring-vault/lib/ion-protocol/lib/chainlink/",
+      "createx/=lib/nucleus-boring-vault/lib/createx/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "executooor/=lib/executooor/contracts/",
+      "forge-safe/=lib/nucleus-boring-vault/lib/ion-protocol/lib/forge-safe/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "hardhat-deploy/=node_modules/hardhat-deploy/",
+      "ion-protocol/=lib/nucleus-boring-vault/lib/ion-protocol/",
+      "nucleus-boring-vault/=lib/nucleus-boring-vault/",
+      "openzeppelin-contracts-upgradeable/=lib/nucleus-boring-vault/lib/ion-protocol/lib/openzeppelin-contracts-upgradeable/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+      "openzeppelin/=lib/nucleus-boring-vault/lib/createx/lib/openzeppelin-contracts/contracts/",
+      "pendle-core-v2-public/=lib/nucleus-boring-vault/lib/ion-protocol/lib/pendle-core-v2-public/contracts/",
+      "solady/=lib/nucleus-boring-vault/lib/ion-protocol/lib/solady/",
+      "solarray/=lib/nucleus-boring-vault/lib/ion-protocol/lib/solarray/src/",
+      "solidity-bytes-utils/=node_modules/solidity-bytes-utils/",
+      "solidity-stringutils/=lib/nucleus-boring-vault/lib/ion-protocol/lib/forge-safe/lib/surl/lib/solidity-stringutils/",
+      "solmate/=lib/solmate/src/",
+      "surl/=lib/nucleus-boring-vault/lib/ion-protocol/lib/forge-safe/lib/surl/",
+      "v3-core/=lib/v3-core/",
+      "v3-periphery/=lib/v3-periphery/contracts/"
+    ],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

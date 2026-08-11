@@ -1,0 +1,41 @@
+[
+  {
+    "file": "contracts/diamond/facets/DiamondLoupeFacet.sol",
+    "original_lines": 28,
+    "ported_lines": 29,
+    "added": [
+      "        uint256 length = ds.facetAddresses.length;",
+      "        facets_ = new Facet[](length);",
+      "        for (uint256 i = 0; i < length; i++) {"
+    ],
+    "removed": [
+      "        facets_ = new Facet[](ds.facetAddresses.length);",
+      "        for (uint256 i = 0; i < ds.facetAddresses.length; i++) {"
+    ]
+  },
+  {
+    "file": "contracts/diamond/interfaces/IDiamondCut.sol",
+    "original_lines": 20,
+    "ported_lines": 20,
+    "added": [
+      "pragma solidity ^0.8.19;"
+    ],
+    "removed": [
+      "pragma solidity 0.8.19;"
+    ]
+  },
+  {
+    "file": "contracts/diamond/interfaces/IDiamondLoupe.sol",
+    "original_lines": 17,
+    "ported_lines": 17,
+    "added": [],
+    "removed": []
+  },
+  {
+    "file": "contracts/diamond/libraries/LibDiamond.sol",
+    "original_lines": 187,
+    "ported_lines": 187,
+    "added": [],
+    "removed": []
+  }
+]

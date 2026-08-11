@@ -1,0 +1,28 @@
+{
+  "address": "0xc0af687db0333c7f69b5bef226d6d47852f52011",
+  "contract_name": "RewardsDistributor",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 13,
+  "source_sha256": "8c247d74106eb0b5f0e3331141b0152d06e5b20019113537f0802d44e4f5e5c6",
+  "fetched_at": "2026-06-01T08:39:39.488043+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

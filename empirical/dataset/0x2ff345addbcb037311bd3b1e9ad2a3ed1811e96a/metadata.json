@@ -1,0 +1,40 @@
+{
+  "address": "0x2ff345addbcb037311bd3b1e9ad2a3ed1811e96a",
+  "contract_name": "TokenSubs",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 17,
+  "source_sha256": "894b3d9d5e4535e468e593341d6fbc971689004b5c3a61c7bf79450894259425",
+  "fetched_at": "2026-06-04T03:39:08.310556+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "@uniswap/=node_modules/@uniswap/",
+      "base64-sol/=node_modules/base64-sol/",
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

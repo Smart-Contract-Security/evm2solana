@@ -1,0 +1,28 @@
+{
+  "address": "0x0992544f6a5fdb52141a4e8840816be638f9c45d",
+  "contract_name": "WrappedEver",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 6,
+  "source_sha256": "2b2343170d955f804df1972a88746e481dbbc0e7eb9e5a3488e91c7656f1cfed",
+  "fetched_at": "2026-06-04T11:35:44.975994+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "libraries": {}
+  }
+}

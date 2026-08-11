@@ -1,0 +1,32 @@
+{
+  "address": "0x348ccf2bb3adae92e70eb0d33106b95ce02d7f81",
+  "contract_name": "PeggedToken",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 33,
+  "source_sha256": "3f8da9ef4036b662f6f545e3a631179d8f5b663a6076a8d9ac3df176661e4c2c",
+  "fetched_at": "2026-06-02T02:10:34.073974+00:00",
+  "solc_settings": {
+    "evmVersion": "cancun",
+    "metadata": {
+      "bytecodeHash": "ipfs",
+      "useLiteralContent": true
+    },
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "remappings": [],
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

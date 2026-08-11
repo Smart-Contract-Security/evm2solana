@@ -1,0 +1,27 @@
+{
+  "address": "0xfbdbd24c3de519ce2ad317a1e3fdf602d2eba332",
+  "contract_name": "Munchie",
+  "compiler_version": "v0.8.25+commit.b61c2a91",
+  "file_count": 1,
+  "source_sha256": "5c24dab8b95954413486d82cd6f1001d457785011f24b3dc237c3197a3d0a00c",
+  "fetched_at": "2026-06-04T04:25:39.094798+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "remappings": []
+  }
+}

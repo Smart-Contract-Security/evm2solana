@@ -1,0 +1,36 @@
+{
+  "address": "0x28fc41a420c3c8c890293ce4df525939427e1b67",
+  "contract_name": "FragmentXRenderer",
+  "compiler_version": "v0.8.35+commit.47b9dedd",
+  "file_count": 1,
+  "source_sha256": "48b56e305f2d7f74819abdc07f9896d4cb340f34cdd324d7765832f68339d9d3",
+  "fetched_at": "2026-06-03T12:34:49.249176+00:00",
+  "solc_settings": {
+    "remappings": [
+      "forge-std/=lib/forge-std/src/"
+    ],
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "osaka",
+    "viaIR": false
+  }
+}

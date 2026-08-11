@@ -1,0 +1,41 @@
+{
+  "address": "0xb8673dd1fac82c149be8a68e09e1a9a5e87c8d1a",
+  "contract_name": "Stems",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 26,
+  "source_sha256": "e1f09c8bdbcb4e10039f571319ec84664402330c80db41d826f1ec4480f75fee",
+  "fetched_at": "2026-06-01T08:41:15.200988+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 1,
+      "details": {
+        "peephole": true,
+        "inliner": true,
+        "jumpdestRemover": true,
+        "orderLiterals": true,
+        "deduplicate": true,
+        "cse": true,
+        "constantOptimizer": true,
+        "yul": true,
+        "yulDetails": {
+          "stackAllocation": true
+        }
+      }
+    },
+    "viaIR": true,
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "paris"
+  }
+}

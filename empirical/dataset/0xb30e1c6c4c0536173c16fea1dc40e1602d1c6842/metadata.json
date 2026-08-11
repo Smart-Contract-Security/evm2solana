@@ -1,0 +1,40 @@
+{
+  "address": "0xb30e1c6c4c0536173c16fea1dc40e1602d1c6842",
+  "contract_name": "EigenfoldsScripts",
+  "compiler_version": "v0.8.27+commit.40a35a09",
+  "file_count": 18,
+  "source_sha256": "a93a1dfdf130557fc3ee28a5c256ab3991d39780911fde0b03fe02c4eb7c4727",
+  "fetched_at": "2026-06-03T04:07:45.484361+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/=lib/openzeppelin-contracts/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "prague",
+    "viaIR": true
+  }
+}

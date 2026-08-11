@@ -1,0 +1,8 @@
+{
+  "address": "0xa4830a211fec5f226de029eadc12b8e5b3be5962",
+  "contract_name": "multicall.sol:Secure_Multicall",
+  "compiler_version": "v0.8.19+commit.7dd6d404",
+  "file_count": 1,
+  "source_sha256": "364382834d6d1082e916960e318d374985528ed699eee9cb8594654560ab081d",
+  "fetched_at": "2026-06-01T03:27:22.970162+00:00"
+}

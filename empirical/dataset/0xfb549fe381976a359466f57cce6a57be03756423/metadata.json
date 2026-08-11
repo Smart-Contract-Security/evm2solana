@@ -1,0 +1,29 @@
+{
+  "address": "0xfb549fe381976a359466f57cce6a57be03756423",
+  "contract_name": "GateLedger",
+  "compiler_version": "v0.8.28+commit.7893614a",
+  "file_count": 2,
+  "source_sha256": "85ed45f1f39b2a92a93ecbdc08fe426744ac11f6f22ced710415c7103f4c6040",
+  "fetched_at": "2026-06-03T11:13:39.142879+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200000
+    },
+    "metadata": {
+      "bytecodeHash": "bzzr1"
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

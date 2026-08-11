@@ -1,0 +1,28 @@
+{
+  "address": "0xeddcd325ddce5897eee4467fe1d26075841561ec",
+  "contract_name": "ArtvybeFactoryV3",
+  "compiler_version": "v0.8.20+commit.a1b79de6",
+  "file_count": 37,
+  "source_sha256": "23f4fb4b5a6d2c62a7d321bd70870df08d2ea7aaa7cf4d82eb9c0395a409265e",
+  "fetched_at": "2026-06-03T08:12:29.214256+00:00",
+  "solc_settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}

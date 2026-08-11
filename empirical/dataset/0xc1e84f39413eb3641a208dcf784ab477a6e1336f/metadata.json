@@ -1,0 +1,43 @@
+{
+  "address": "0xc1e84f39413eb3641a208dcf784ab477a6e1336f",
+  "contract_name": "DualAggregator",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 15,
+  "source_sha256": "f9f633ac6a4477709ac7d0a8b3bf9d51865234b1e7405bd4824b55adea8fe3ae",
+  "fetched_at": "2026-06-03T11:43:18.181778+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@chainlink/=node_modules/@chainlink/contracts/",
+      "@openzeppelin/contracts/=node_modules/@openzeppelin/contracts/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "forge-std/=lib/forge-std/src/",
+      "src/=src/",
+      "test/=test/",
+      "script/=script/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 1000000
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "none",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": false,
+    "libraries": {}
+  }
+}

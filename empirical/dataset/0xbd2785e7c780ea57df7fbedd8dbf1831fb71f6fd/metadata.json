@@ -1,0 +1,41 @@
+{
+  "address": "0xbd2785e7c780ea57df7fbedd8dbf1831fb71f6fd",
+  "contract_name": "Mandalia",
+  "compiler_version": "v0.8.24+commit.e11b9ed9",
+  "file_count": 25,
+  "source_sha256": "81e782e529ea5e97f8698341b7c1f4dfc2cafc8f4aec4d5a7137f20696e058d5",
+  "fetched_at": "2026-06-03T04:41:21.047341+00:00",
+  "solc_settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "forge-std/=lib/forge-std/src/",
+      "solady/=lib/solady/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "halmos-cheatcodes/=lib/openzeppelin-contracts/lib/halmos-cheatcodes/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true
+  }
+}

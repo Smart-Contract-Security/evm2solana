@@ -1,0 +1,27 @@
+{
+  "address": "0xd8cc0a373613386482153c5de5df746527b7fd98",
+  "contract_name": "Nfl",
+  "compiler_version": "v0.8.30+commit.73712a01",
+  "file_count": 6,
+  "source_sha256": "c57cdd0a8003a1414d1535f30b73931264d1bc8922cd0c2574953d1755b7bfb5",
+  "fetched_at": "2026-06-01T03:00:15.109303+00:00",
+  "solc_settings": {
+    "evmVersion": "paris",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "devdoc",
+          "userdoc",
+          "metadata",
+          "abi"
+        ]
+      }
+    }
+  }
+}
