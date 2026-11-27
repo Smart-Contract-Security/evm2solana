@@ -1,4 +1,3 @@
-
 import re
 from scan_pattern import solc_ast
 from scan_pattern.solc_ast import SolcParsedResult
@@ -6,6 +5,8 @@ from scan_pattern.registry import ScanHit
 
 _CURRENCY_UNITS = {"ether", "gwei", "wei"}
 _INT_RE = re.compile(r"^(u?int)(\d*)$")
+_SA = {"11b", "16", "17", "20", "22", "23", "30b", "34", "35", "38"}
+_BP = {"2", "37"}
 
 def int_over_64(name: str | None) -> bool:
     m = _INT_RE.match(name or "")
@@ -70,11 +71,15 @@ def match_node(node: dict, parent: dict | None = None) -> list[int]:
         elif left_name == "abi":
             if right_name == "encodePacked":
                 detect_pattern_list.append(20)
-            elif right_name in ("encodeWithSelector", "encodeWithSignature"):
-                detect_pattern_list.append(30)
+            elif right_name == "encodeWithSelector":
+                detect_pattern_list.append("30a")
+            elif right_name == "encodeWithSignature":
+                detect_pattern_list.append("30b")
     
     elif node_type == "FunctionCall":
         expression = _base_expression(node)
+        if expression.get("nodeType") == "FunctionCallOptions":
+            expression = _base_expression(expression)
         if expression.get("nodeType") == "Identifier":
             name = expression.get("name")
             if name == "ecrecover":
@@ -86,9 +91,9 @@ def match_node(node: dict, parent: dict | None = None) -> list[int]:
             elif name == "blockhash":
                 detect_pattern_list.append(33)
             elif name == "require" and len(node.get("arguments") or []) >= 2:
-                detect_pattern_list.append(11)
+                detect_pattern_list.append("11b")
             elif name == "revert" and node.get("arguments"):
-                detect_pattern_list.append(11)
+                detect_pattern_list.append("11b")
 
         # member function call: contractInstance.foo()
         elif expression.get("nodeType") == "MemberAccess" and node.get("kind") == "functionCall":
@@ -107,10 +112,10 @@ def match_node(node: dict, parent: dict | None = None) -> list[int]:
         
         if "value" in names:
             detect_pattern_list.append(12)
-        if "salt" in names:
+        if "salt" in names or ("gas" in names and is_new):
             detect_pattern_list.append(9)
-        if "gas" in names:
-            detect_pattern_list.append(9 if is_new else 25)
+        if "gas" in names and not is_new:
+            detect_pattern_list.append(25)
 
     elif node_type == "NewExpression":
         if node.get("typeName", {}).get("nodeType") == "UserDefinedTypeName":
@@ -123,10 +128,7 @@ def match_node(node: dict, parent: dict | None = None) -> list[int]:
             detect_pattern_list.append(17)
 
     elif node_type == "UserDefinedTypeName":
-        if ((node.get("typeDescriptions") or {}).get("typeString", "").startswith("contract ")
-            and parent is not None
-            and parent.get("nodeType") == "VariableDeclaration"
-            and not parent.get("stateVariable", False)):
+        if (node.get("typeDescriptions") or {}).get("typeString", "").startswith("contract "):
             detect_pattern_list.append(21)
     
     elif node_type == "FunctionDefinition":
@@ -163,10 +165,10 @@ def match_node(node: dict, parent: dict | None = None) -> list[int]:
     elif node_type == "InlineAssembly":
         detect_pattern_list.append(13)
     elif node_type == "ErrorDefinition":
-        detect_pattern_list.append(11)
+        detect_pattern_list.append("11a")
     elif node_type == "RevertStatement":
         if node.get("errorCall"):
-            detect_pattern_list.append(11 )
+            detect_pattern_list.append("11a")
     
     return detect_pattern_list
 
@@ -199,20 +201,31 @@ def detect_unit(parsed: SolcParsedResult) -> list[ScanHit]:
             line = solc_ast.find_line_in_source(src, source)
             code_snippet = solc_ast.find_snippet_in_source(src, source)
             for pid in ids:
-                hits.append(ScanHit(pattern_id=pid, file=file_name, line=line, code_snippet=code_snippet))
+                hits.append(ScanHit(pattern_id=str(pid), file=file_name, line=line, src=src, code_snippet=code_snippet))
     hits.sort(key=lambda h: (h.file, h.line, h.pattern_id))
     return hits
 
+def _pid_key(pid: str):
+    number = "".join(ch for ch in pid if ch.isdigit())
+    suffix = pid[len(number):]
+    return (int(number), suffix)
+
+def pattern_class(pid: str) -> str:
+    return "SA" if pid in _SA else "BP" if pid in _BP else "R"
+
 def hits_summary(address: str, hits: list[ScanHit], ast_failed: bool = False) -> dict:
     by_pattern: dict[str, int] = {}
+    nodes_by_class: dict[str, set] = {}
     for h in hits:
         key = str(h.pattern_id)
         by_pattern[key] = by_pattern.get(key, 0) + 1
+        nodes_by_class.setdefault(pattern_class(key), set()).add((h.file, h.src))
     return {
         "address": address,
         "ast_failed": ast_failed,
         "total": len(hits),
         "distinct_patterns": len({h.pattern_id for h in hits}),
-        "by_pattern": dict(sorted(by_pattern.items(), key=lambda kv: int(kv[0]))),
+        "by_pattern": dict(sorted(by_pattern.items(), key=lambda kv: _pid_key(kv[0]))),
         "hits": [h.to_dict() for h in hits],
+        "by_class": {c: len(s) for c, s in sorted(nodes_by_class.items())},
     }

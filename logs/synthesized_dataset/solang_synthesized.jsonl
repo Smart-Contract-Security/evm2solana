@@ -19,7 +19,7 @@
 {"file": "18_receive.sol", "pattern": "18", "visibility": "rejected", "errors": ["target Solana does not support receive() functions, see https://solang.readthedocs.io/en/latest/language/functions.html#fallback-and-receive-function"]}
 {"file": "19_solana_builtin_imports.sol", "pattern": "19", "visibility": "silently_accepted", "errors": []}
 {"file": "20_encode_packed.sol", "pattern": "20", "visibility": "silently_accepted", "errors": []}
-{"file": "21_contract_as_type.sol", "pattern": "21", "visibility": "rejected", "errors": ["contracts are not allowed as types on Solana"]}
+{"file": "21_contract_as_type.sol", "pattern": "21", "visibility": "rejected", "errors": ["contracts are not allowed as types on Solana", "contracts are not allowed as types on Solana"]}
 {"file": "22_this_semantics.sol", "pattern": "22", "visibility": "silently_accepted", "errors": []}
 {"file": "23_indexed_events.sol", "pattern": "23", "visibility": "silently_accepted", "errors": []}
 {"file": "24_tx_origin.sol", "pattern": "24", "visibility": "rejected", "errors": ["builtin 'tx.origin' does not exist"]}

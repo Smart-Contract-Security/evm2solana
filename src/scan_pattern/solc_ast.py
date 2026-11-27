@@ -40,16 +40,20 @@ def switch_solc_version(compiler_version: str):
     return {"success": True, "version": version_str}
 
 def build_standard_json(source_files, metadata):
-    remappings = (metadata.get("solc_settings") or {}).get("remappings", [])
+    solc_settings = metadata.get("solc_settings") or {}
+    remappings = solc_settings.get("remappings", [])
     remappings = [r for r in remappings if isinstance(r, str) and r.strip()]
     
+    settings = {
+        "remappings": remappings,
+        "outputSelection": {"*": {"": ["ast"]}},
+    }
+    if solc_settings.get("evmVersion"):
+        settings["evmVersion"] = solc_settings["evmVersion"]
     return {
         "language": "Solidity",
         "sources": {name: {"content": content} for name, content in source_files.items()},
-        "settings": {
-            "remappings": remappings, 
-            "outputSelection": {"*": {"": ["ast"]}},
-        },
+        "settings": settings,
     }
 
 def load_asts(project_dir: Path, timeout: int = COMPILE_TIMEOUT) -> SolcParsedResult:
