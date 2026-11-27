@@ -11,10 +11,11 @@ class PatternDefine:
 
 @dataclass
 class ScanHit:
-    pattern_id: int
+    pattern_id: str
     file: str
     line: int
     code_snippet: str
+    src: str
 
     def to_dict(self) -> dict:
         return {
@@ -22,6 +23,7 @@ class ScanHit:
             "file": self.file,
             "line": self.line,
             "code_snippet": self.code_snippet,
+            "src": self.src,
         }
 
 # Pattern 1-38
